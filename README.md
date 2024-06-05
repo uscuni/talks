@@ -2,18 +2,13 @@
 
 Archive of talks of the US CUNI team.
 
-## List of talks
-
-- [2024-06-07 EuroFab project Kick-Off meeting](https://uscuni.github.io/talks/202406_EuroFab_KO/slides.html)
-
 ## Create a new slide deck
 
-1. Copy the template folder and rename it.
+1. Open the `slides` folder, copy the `template.qmd` and rename it.
 2. Edit the contents.
-3. Navigate to the folder and render slides with `quarto render slides.qmd`
-4. Add to the list of talks.
-5. Commit & Push!
-6. Open https://uscuni.github.io/talks/your_folder/slides.html
+3. Add to the list of talks in `index.qmd`.
+4. Commit & Push!
+5. Open https://uscuni.github.io/talks/slides/slides_name.html
 
 ## See docs for more
 

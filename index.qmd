@@ -1,0 +1,10 @@
+---
+title: "uscuni_talks"
+---
+
+Archive of talks of the US CUNI team. Yay
+
+## List of talks
+
+- [2024-06-07 EuroFab project Kick-Off meeting](slides/202406_EuroFab_KO.qmd)
+
