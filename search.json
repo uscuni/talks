@@ -1,68 +1,5 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
-    "objectID": "slides/template.html#heading-level-2",
-    "href": "slides/template.html#heading-level-2",
-    "title": "Spatial Autocorrelation",
-    "section": "Heading level 2",
-    "text": "Heading level 2\nAnother text\nFragment"
-  },
-  {
-    "objectID": "slides/template.html#this-will-be-vertically-centered",
-    "href": "slides/template.html#this-will-be-vertically-centered",
-    "title": "Spatial Autocorrelation",
-    "section": "This will be vertically centered",
-    "text": "This will be vertically centered\nThis text is moved as well"
-  },
-  {
-    "objectID": "slides/template.html#heading-that-is-a-question",
-    "href": "slides/template.html#heading-that-is-a-question",
-    "title": "Spatial Autocorrelation",
-    "section": "Heading that is a question",
-    "text": "Heading that is a question\nAnother text with footnote1\n\nFragment block\n\nMy footnote."
-  },
-  {
-    "objectID": "slides/template.html#inline-code",
-    "href": "slides/template.html#inline-code",
-    "title": "Spatial Autocorrelation",
-    "section": "Inline code",
-    "text": "Inline code\nText with libpysal.graph.Graph inline."
-  },
-  {
-    "objectID": "slides/template.html#slide-with-an-image",
-    "href": "slides/template.html#slide-with-an-image",
-    "title": "Spatial Autocorrelation",
-    "section": "Slide with an image",
-    "text": "Slide with an image\nSet height"
-  },
-  {
-    "objectID": "slides/template.html#slide-with-an-image-1",
-    "href": "slides/template.html#slide-with-an-image-1",
-    "title": "Spatial Autocorrelation",
-    "section": "Slide with an image",
-    "text": "Slide with an image\n\nAutomatically stretched to fill remaining space"
-  },
-  {
-    "objectID": "slides/template.html#slide-with-image-as-background",
-    "href": "slides/template.html#slide-with-image-as-background",
-    "title": "Spatial Autocorrelation",
-    "section": "Slide with image as background",
-    "text": "Slide with image as background"
-  },
-  {
-    "objectID": "slides/template.html#slide-with-iframe-background",
-    "href": "slides/template.html#slide-with-iframe-background",
-    "title": "Spatial Autocorrelation",
-    "section": "Slide with iframe background",
-    "text": "Slide with iframe background"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "uscuni_talks",
@@ -131,5 +68,61 @@
     "title": "EuroFab",
     "section": "First iteration",
     "text": "First iteration\n\ninput datasets\nenvisaged system\nDevelop a space-time dataset of urban fabric in Great Britain\nDevelop a protocol, tools and models for homogenisation of morphometric classification.\nStakeholder consultation and co-production ensuring applicability and commercialisation of the data products [Claudia]"
+  },
+  {
+    "objectID": "slides/template.html#heading-level-2",
+    "href": "slides/template.html#heading-level-2",
+    "title": "Spatial Autocorrelation",
+    "section": "Heading level 2",
+    "text": "Heading level 2\nAnother text\nFragment"
+  },
+  {
+    "objectID": "slides/template.html#this-will-be-vertically-centered",
+    "href": "slides/template.html#this-will-be-vertically-centered",
+    "title": "Spatial Autocorrelation",
+    "section": "This will be vertically centered",
+    "text": "This will be vertically centered\nThis text is moved as well"
+  },
+  {
+    "objectID": "slides/template.html#heading-that-is-a-question",
+    "href": "slides/template.html#heading-that-is-a-question",
+    "title": "Spatial Autocorrelation",
+    "section": "Heading that is a question",
+    "text": "Heading that is a question\nAnother text with footnote1\n\nFragment block\n\nMy footnote."
+  },
+  {
+    "objectID": "slides/template.html#inline-code",
+    "href": "slides/template.html#inline-code",
+    "title": "Spatial Autocorrelation",
+    "section": "Inline code",
+    "text": "Inline code\nText with libpysal.graph.Graph inline."
+  },
+  {
+    "objectID": "slides/template.html#slide-with-an-image",
+    "href": "slides/template.html#slide-with-an-image",
+    "title": "Spatial Autocorrelation",
+    "section": "Slide with an image",
+    "text": "Slide with an image\nSet height"
+  },
+  {
+    "objectID": "slides/template.html#slide-with-an-image-1",
+    "href": "slides/template.html#slide-with-an-image-1",
+    "title": "Spatial Autocorrelation",
+    "section": "Slide with an image",
+    "text": "Slide with an image\n\nAutomatically stretched to fill remaining space"
+  },
+  {
+    "objectID": "slides/template.html#slide-with-image-as-background",
+    "href": "slides/template.html#slide-with-image-as-background",
+    "title": "Spatial Autocorrelation",
+    "section": "Slide with image as background",
+    "text": "Slide with image as background"
+  },
+  {
+    "objectID": "slides/template.html#slide-with-iframe-background",
+    "href": "slides/template.html#slide-with-iframe-background",
+    "title": "Spatial Autocorrelation",
+    "section": "Slide with iframe background",
+    "text": "Slide with iframe background"
   }
 ]
