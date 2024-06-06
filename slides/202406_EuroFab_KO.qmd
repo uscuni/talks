@@ -283,5 +283,133 @@ Sustain a [consultation process]{.fragment .highlight-red} running along all the
 
 # Work plan and deliverables
 
+## Six Work Packages {.smaller}
+
+::: {.incremental}
+- **WP000** Project Management and Communication
+- **WP100** Collaborative Stakeholder Requirements Consolidation
+- **WP200** Iterative Algorithm Design and Data Collection Sprints
+- **WP300** Incremental Development and Processing Algorithm Implementation
+- **WP400** Verification of Novel Processing Capability in Representative Use Case and Results Dissemination
+- **WP500** Large-scale Inference and Operationalization Strategy Elaboration
+:::
+
+---
+
+### **WP000** Project Management and Communication
+
+Organisation, monitoring, and supervision of all project operations,
+such as evaluations, meetings, reporting, quality assurance, and risk assessment.
+
+---
+
+### Outputs
+
+::: {.incremental}
+- MoM: Minutes of Meetings
+- MA: Meeting Agendas
+- MPR: Monthly Progress Reports
+- FR: Final Report
+- ES: Executive Summary
+- CCD: Contract Closure Document
+:::
+
+---
+
+### WP100 Collaborative Stakeholder Requirements Consolidation
+
+
+[**WP101** Stakeholder mapping and context definition]{.fragment}
+
+[**WP102** Stakeholder requirements specification]{.fragment}
+
+[**WP103** Expert consultation]{.fragment}
+
+---
+
+### Outputs
+
+::: {.incremental}
+- D1: Technical note: Consolidated Stakeholder Requirements Specification
+:::
+
+---
+
+### WP200 Iterative Algorithm Design and Data Collection Sprints
+
+[**WP201** Morphometric Classification Homogenisation Protocol Design]{.fragment}
+
+[**WP202** AI Model Design]{.fragment}
+
+[**WP203** Input Data Collection and Preprocessing]{.fragment}
+
+---
+
+### Outputs
+
+::: {.incremental}
+- D2 Technical Note: Algorithm Design and Theoretical Basis Description
+- D3 Technical Note: Reference Data Selection
+:::
+
+---
+
+### WP300 Incremental Development and Processing Algorithm Implementation
+
+[**WP301** Morphometric Classification Homogenisation Protocol Development]{.fragment}
+
+[**WP302** AI Model Development and Training]{.fragment}
+
+---
+
+### Outputs
+
+::: {.incremental}
+- S1 Software: AI Method for Urban Fabric classification and morphometric characterization
+:::
+
+---
+
+### WP400 Verification of Novel Processing Capability in Representative Use Case and Results Dissemination
+
+[**WP401** Morphometric Classification Verification]{.fragment}
+
+[**WP402** AI Model Inference and Verification]{.fragment}
+
+---
+
+### Outputs
+
+::: {.incremental}
+- D4 Technical Note: Test and Verification Results
+- D5 Stakeholder Impact and Utility Assessment
+- D6 Example datasets generated during Verification Exercises
+- D7 Outreach and Communication Package
+:::
+
+---
+
+### WP500 Large-scale Inference and Operationalization Strategy Elaboration
+
+[**WP501** European Morphometric Classification Strategy]{.fragment}
+
+[**WP502** European Space-Time Urban Fabric Strategy]{.fragment}
+
+[**WP503** Scaled up stakeholder engagement]{.fragment}
+
+---
+
+### Outputs
+
+::: {.incremental}
+- D8 Technical Note: Large scale inference and Operationalisation Roadmap
+:::
+
+## {background-image="../figures/202406_EuroFab_KO/work_logic.drawio.png" background-size="80%" .no-text}
+
+
 # Milestones and timeline
 
+## {background-image="../figures/202406_EuroFab_KO/gantt.pdf" background-size="80%" .no-text}
+
+## {background-image="../assets/full_logo.svg" background-size="50%" .no-text}
