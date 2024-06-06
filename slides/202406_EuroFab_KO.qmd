@@ -15,8 +15,8 @@ format:
         progress: true
         include-in-header: ../assets/font.html
         title-slide-attributes:
-            data-background-image: ../assets/full_logo.svg
-            data-background-size: 20%
+            data-background-image: ../figures/202406_EuroFab_KO/logos.png
+            data-background-size: 60%
             data-background-position: 50% 90%
 ---
 
@@ -43,52 +43,245 @@ temporal dimension
 
 ## Why urban fabric {.question}
 
-There are currently very few instances of detailed, consistent and scalable measurements of urban fabric, and virtually none of them provide insight into its change over time
+Cities take up around 3% of the planet's land but are home to more than half of
+humanity and responsible for 75% of carbon emissions^[United Nations (2020)].
 
+## Why urban fabric {.question}
 
----
+Urban fabric, [the spatial layout of the physical elements that make up a city]{.fragment .highlight-current-red}, mediates most
+[activities]{.fragment .highlight-current-red} their residents undertake, from [heating]{.fragment .highlight-current-red} their homes to accessing [services]{.fragment .highlight-current-red}, [jobs and
+opportunities]{.fragment .highlight-current-red}  through sustainable modes of [transport]{.fragment .highlight-current-red}.
+
+## Why urban fabric {.question}
+
+Easily available, comparable, and dynamic information on urban fabric would unlock new ways
+of understanding how cities are constantly [evolving]{.fragment .highlight-red}, what it means for their [sustainability]{.fragment .highlight-red}, and
+how effective [policies]{.fragment .highlight-red} can be designed to steer development in desirable directions.
+
+## Why now {.question}
+
+In 2023, UN Habitat included urban
+fabric as one of the [key ingredients]{.fragment .highlight-red} required for effective sustainable design^[UN Habitat (2024)]
+
+## Why now {.question}
+
+There are currently very few instances of [detailed]{.fragment .highlight-red}, [consistent]{.fragment .highlight-red}, and [scalable]{.fragment .highlight-red} measurements of urban fabric and virtually none of them provide insight into its change over [time]{.fragment .highlight-red}.
+
+## EuroFab vision
+
 EuroFab paves the road for a world where stakeholders, from local authorities to supranational organisations, are able to track and monitor the pattern of urban development in detail directly relevant for planning and at scale.
 
-## Direct contributions
+::: {.r-fit-text .fragment}
+we're not there yet
+:::
 
-- Data-Driven Decision Making
-- Sustainable Urban Development
-- Climate Change Mitigation
-- Energy Efficiency and Renewable Energy
-- Nature-Based Solutions and Biodiversity
-- Remote sensing for land use
-- Computational and EO capability
+## Objectives
 
-## High-level objectives
+---
 
-Strengthen UK and Czech national capability to exploit leading edge AI methods to integrate EO data and high-performance computing
+### High-level objectives
 
-Expand the integration and uptake of EO-derived information
+::: {.fragment}
+Strengthen Czech and British national capabilities to exploit cutting-edge AI methods to integrate EO data and high-performance computing.
+:::
+::: {.fragment}
+Expand the integration and uptake of EO-derived information.
+:::
 
-## Technical objectives
+---
 
-- Specify, develop and validate innovative methods that can be scaled from laptop to HPC to integrate raster (satellite) and vector data in rich and explainable characterisations of urban fabric
-- Test the comparative performance of transformer-based (foundation) vision models against the baseline of convolution-based neural networks
-- Evaluate the selected vision models on two European regions
-- Develop open-source software, algorithms and open datasets that ensure the sustainability and usability of the project outputs beyond the initial funding period
-- Create the roadmap for a large-scale inference chain (i.e. covering all of Europe or parts of the globe) for the capability being developed
+### Technical objectives
+
+1. Specify, [develop]{.fragment .highlight-current-red}, and validate innovative [methods]{.fragment .highlight-current-red} integrating raster ([satellite]{.fragment .highlight-current-red}) and [vector]{.fragment .highlight-current-red} data in rich and explainable [characterisations of urban fabric]{.fragment .highlight-current-red}.
+---
+
+### Technical objectives
+
+2. Test the comparative performance of [transformer]{.fragment .highlight-current-red}-based (foundation) vision models against the baseline of [convolution]{.fragment .highlight-current-red}-based neural networks.
+
+---
+
+### Technical objectives
+
+3. [Evaluate]{.fragment .highlight-current-red} the selected vision models on two European regions.
+---
+
+### Technical objectives
+
+4. Develop open-source [software]{.fragment .highlight-red}, [algorithms]{.fragment .highlight-red} and open [datasets]{.fragment .highlight-red} that ensure the sustainability and usability of the project outputs beyond the initial funding period.
+---
+
+### Technical objectives
+
+5. Create the [roadmap]{.fragment .highlight-current-red} for a [large-scale inference chain]{.fragment .highlight-current-red} (i.e. covering all of Europe or parts of the globe) for the capability being developed.
 
 ## State of the Art
 
+[Classifications of urban form fall, broadly, into two categories.]{.fragment}
+
+::: {.incremental}
+1. rich, detailed, and **hyper-local** classifications
+2. simpler, coarser, **large-scale** classifications
+:::
+
+---
+
+::: {.r-stack}
+
+![](../figures/202406_EuroFab_KO/conzen_plan_unit.jpg){width="800"}
+
+
+![](../figures/202406_EuroFab_KO/conzen_burgage_cycle.jpg){.fragment}
+
+:::
+
+---
+
+::: {.r-fit-text .absolute top=30%}
+The hyper-local
+approaches still dominate the field, <br>severely restricting any large-scale analysis and <br>even the
+comparability of local classifications.
+:::
+
+---
+
+::: {.r-stack}
+
+![](../figures/202406_EuroFab_KO/wsf_built_up.png){width="800"}
+
+![](../figures/202406_EuroFab_KO/wsf_evolution.png){.fragment width="800"}
+
+![](../figures/202406_EuroFab_KO/wsf_height.png){.fragment width="800"}
+
+:::
+
+::: aside
+World Settlement Footprint
+:::
+
+---
+
+::: {.r-stack}
+
+![](../figures/202406_EuroFab_KO/ghs_smod.png){width="800"}
+
+![](../figures/202406_EuroFab_KO/lcz.png){.fragment width="800"}
+
+![](../figures/202406_EuroFab_KO/ghs-built-c.png){.fragment width="800"}
+
+:::
+
+::: aside
+GHS-SMOD, LCZ, GHS-BUILT-C
+:::
+
+---
+
+::: {.r-fit-text .absolute top=30%}
+The large-scale approaches tend to be coarse in <br>both spatial resolution and classification detail.
+:::
+
+---
+
+### Hyper-local meets scalable
+
+While originating from the primarily qualitative methods, urban morphology has entered the era
+of data science with the development of [urban morphometrics]{.fragment .highlight-red}.
+
 ## Proposed approach
+
+[Urban morphometrics + computer vision.]{.fragment}
+
+[A balance between generalisation and detail.]{.fragment}
+
+[More granularity than existing large-scale classifications.]{.fragment}
+
+[Scalability to much larger regions than traditional hyper-local classifications]{.fragment}
+
+---
 
 ### Morphometrics
 
-### Satellite
+Morphometric characterisation of urban fabric [complements]{.fragment .highlight-red} and substantially
+[extends]{.fragment .highlight-red} the information provided by existing data products that aim to provide similar
+intelligence on urban fabric.
 
-### How does it compare to existing products
+---
 
-## Targeted users
+### Morphometrics
 
-## First iteration
+[Provides a [rich typology]{.fragment .highlight-red} of settlement patterns.]{.fragment}
 
-- input datasets
-- envisaged system
-- Develop a space-time dataset of urban fabric in Great Britain
-- Develop a protocol, tools and models for homogenisation of morphometric classification.
-- Stakeholder consultation and co-production ensuring applicability and commercialisation of the data products [Claudia]
+[Understands what [type of development]{.fragment .highlight-red}^[e.g. compact, sparse, well connected,
+disconnected, resilient] is present.]{.fragment}
+
+[Uncovers the [internal structure]{.fragment .highlight-red} of cities linked to the period of development, planning paradigm and
+cultural evolution.]{.fragment}
+
+## {background-image="../figures/202406_EuroFab_KO/wsf.png" background-size="70%" .no-text}
+
+## {background-image="../figures/202406_EuroFab_KO/lulc.png" background-size="70%" .no-text}
+
+---
+
+### Core component
+
+Develop a protocol, tools, and predictive models for [homogenisation]{.fragment .highlight-red} of morphometric classification.
+
+---
+
+### Computer vision
+
+[Satellite imagery (Sentinel 2 mission) to [predict]{.fragment .highlight-red} morphometric classification allowing identification of its
+[temporal]{.fragment .highlight-red} dimension.]{.fragment}
+
+[Application of [state-of-the-art AI]{.fragment .highlight-red} modelling to overcome the limitations of Sentinel 2 resolution in urban settings.]{.fragment}
+
+---
+
+### Core component
+
+Develop a [predictive model]{.fragment .highlight-red} and a [space-time dataset]{.fragment .highlight-red} of urban fabric in Great Britain.
+
+---
+
+### Stakeholder consultation and <br>co-production
+
+Sustain a [consultation process]{.fragment .highlight-red} running along all the phases of the project, from its inception to the last dissemination steps.
+
+## What {.smaller}
+
+[Ensure and maximise the policy [relevance]{.fragment .highlight-red}, [usability]{.fragment .highlight-red} and further [applications]{.fragment .highlight-red} of the outputs of the project.]{.fragment}
+
+[International [comparability]{.fragment .highlight-red} of the data products and their derived indicators.]{.fragment}
+
+[Comparison of the outputs of the project with other already [existing classifications]{.fragment .highlight-red} endorsed by international organisations and applied by National Statistical Offices (e.g. the classification of human settlements DEGURBA).]{.fragment}
+
+## How {.smaller}
+
+[[OECD Geospatial Lab]{.fragment .highlight-red} and OECD technical expertise]{.fragment}
+
+[[“Producer”]{.fragment .highlight-red} stakeholders, mainly belonging to the [scientific]{.fragment .highlight-red} community (working on the production of data flows and data products close or relevant to the expected deliverable of EuroFab).]{.fragment}
+
+[[“User”]{.fragment .highlight-red} stakeholders, wide range of potential user of the data produced by EuroFab, interested in applying it for the definition of policy-relevant [indicators]{.fragment .highlight-red} and characterised by various degrees of technical competencies.]{.fragment}
+
+---
+
+### Input datasets
+
+::: {.incremental}
+- Optical satellite imagery from Sentinel 2
+- Building Footprints and Linear Features^[Open governmental and crowd-sourced data.]
+- Available Urban Fabric Classification of Great Britain^[Fleischmann and Arribas-Bel (2022)]
+:::
+
+---
+
+### Envisaged system
+
+## {background-image="../figures/202406_EuroFab_KO/envisaged_system.drawio.png" background-size="80%" .no-text}
+
+# Work plan and deliverables
+
+# Milestones and timeline
+
