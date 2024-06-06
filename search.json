@@ -91,6 +91,13 @@
     "text": "How\nOECD Geospatial Lab and OECD technical expertise\n“Producer” stakeholders, mainly belonging to the scientific community (working on the production of data flows and data products close or relevant to the expected deliverable of EuroFab).\n“User” stakeholders, wide range of potential user of the data produced by EuroFab, interested in applying it for the definition of policy-relevant indicators and characterised by various degrees of technical competencies."
   },
   {
+    "objectID": "slides/202406_EuroFab_KO.html#six-work-packages",
+    "href": "slides/202406_EuroFab_KO.html#six-work-packages",
+    "title": "EuroFab",
+    "section": "Six Work Packages",
+    "text": "Six Work Packages\n\n\nWP000 Project Management and Communication\nWP100 Collaborative Stakeholder Requirements Consolidation\nWP200 Iterative Algorithm Design and Data Collection Sprints\nWP300 Incremental Development and Processing Algorithm Implementation\nWP400 Verification of Novel Processing Capability in Representative Use Case and Results Dissemination\nWP500 Large-scale Inference and Operationalization Strategy Elaboration"
+  },
+  {
     "objectID": "slides/template.html#heading-level-2",
     "href": "slides/template.html#heading-level-2",
     "title": "Spatial Autocorrelation",
