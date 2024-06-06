@@ -18,56 +18,77 @@
     "href": "slides/202406_EuroFab_KO.html#why-urban-fabric",
     "title": "EuroFab",
     "section": "Why urban fabric",
-    "text": "Why urban fabric\nThere are currently very few instances of detailed, consistent and scalable measurements of urban fabric, and virtually none of them provide insight into its change over time"
+    "text": "Why urban fabric\nCities take up around 3% of the planet’s land but are home to more than half of humanity and responsible for 75% of carbon emissions1.\nUnited Nations (2020)"
   },
   {
-    "objectID": "slides/202406_EuroFab_KO.html#direct-contributions",
-    "href": "slides/202406_EuroFab_KO.html#direct-contributions",
+    "objectID": "slides/202406_EuroFab_KO.html#why-urban-fabric-1",
+    "href": "slides/202406_EuroFab_KO.html#why-urban-fabric-1",
     "title": "EuroFab",
-    "section": "Direct contributions",
-    "text": "Direct contributions\n\nData-Driven Decision Making\nSustainable Urban Development\nClimate Change Mitigation\nEnergy Efficiency and Renewable Energy\nNature-Based Solutions and Biodiversity\nRemote sensing for land use\nComputational and EO capability"
+    "section": "Why urban fabric",
+    "text": "Why urban fabric\nUrban fabric, the spatial layout of the physical elements that make up a city, mediates most activities their residents undertake, from heating their homes to accessing services, jobs and opportunities through sustainable modes of transport."
   },
   {
-    "objectID": "slides/202406_EuroFab_KO.html#high-level-objectives",
-    "href": "slides/202406_EuroFab_KO.html#high-level-objectives",
+    "objectID": "slides/202406_EuroFab_KO.html#why-urban-fabric-2",
+    "href": "slides/202406_EuroFab_KO.html#why-urban-fabric-2",
     "title": "EuroFab",
-    "section": "High-level objectives",
-    "text": "High-level objectives\nStrengthen UK and Czech national capability to exploit leading edge AI methods to integrate EO data and high-performance computing\nExpand the integration and uptake of EO-derived information"
+    "section": "Why urban fabric",
+    "text": "Why urban fabric\nEasily available, comparable, and dynamic information on urban fabric would unlock new ways of understanding how cities are constantly evolving, what it means for their sustainability, and how effective policies can be designed to steer development in desirable directions."
   },
   {
-    "objectID": "slides/202406_EuroFab_KO.html#technical-objectives",
-    "href": "slides/202406_EuroFab_KO.html#technical-objectives",
+    "objectID": "slides/202406_EuroFab_KO.html#why-now",
+    "href": "slides/202406_EuroFab_KO.html#why-now",
     "title": "EuroFab",
-    "section": "Technical objectives",
-    "text": "Technical objectives\n\nSpecify, develop and validate innovative methods that can be scaled from laptop to HPC to integrate raster (satellite) and vector data in rich and explainable characterisations of urban fabric\nTest the comparative performance of transformer-based (foundation) vision models against the baseline of convolution-based neural networks\nEvaluate the selected vision models on two European regions\nDevelop open-source software, algorithms and open datasets that ensure the sustainability and usability of the project outputs beyond the initial funding period\nCreate the roadmap for a large-scale inference chain (i.e. covering all of Europe or parts of the globe) for the capability being developed"
+    "section": "Why now",
+    "text": "Why now\nIn 2023, UN Habitat included urban fabric as one of the key ingredients required for effective sustainable design1\nUN Habitat (2024)"
+  },
+  {
+    "objectID": "slides/202406_EuroFab_KO.html#why-now-1",
+    "href": "slides/202406_EuroFab_KO.html#why-now-1",
+    "title": "EuroFab",
+    "section": "Why now",
+    "text": "Why now\nThere are currently very few instances of detailed, consistent, and scalable measurements of urban fabric and virtually none of them provide insight into its change over time."
+  },
+  {
+    "objectID": "slides/202406_EuroFab_KO.html#eurofab-vision",
+    "href": "slides/202406_EuroFab_KO.html#eurofab-vision",
+    "title": "EuroFab",
+    "section": "EuroFab vision",
+    "text": "EuroFab vision\nEuroFab paves the road for a world where stakeholders, from local authorities to supranational organisations, are able to track and monitor the pattern of urban development in detail directly relevant for planning and at scale.\n\nwe’re not there yet"
+  },
+  {
+    "objectID": "slides/202406_EuroFab_KO.html#objectives",
+    "href": "slides/202406_EuroFab_KO.html#objectives",
+    "title": "EuroFab",
+    "section": "Objectives",
+    "text": "Objectives"
   },
   {
     "objectID": "slides/202406_EuroFab_KO.html#state-of-the-art",
     "href": "slides/202406_EuroFab_KO.html#state-of-the-art",
     "title": "EuroFab",
     "section": "State of the Art",
-    "text": "State of the Art"
+    "text": "State of the Art\nClassifications of urban form fall, broadly, into two categories.\n\n\nrich, detailed, and hyper-local classifications\nsimpler, coarser, large-scale classifications"
   },
   {
     "objectID": "slides/202406_EuroFab_KO.html#proposed-approach",
     "href": "slides/202406_EuroFab_KO.html#proposed-approach",
     "title": "EuroFab",
     "section": "Proposed approach",
-    "text": "Proposed approach\nMorphometrics\nSatellite\nHow does it compare to existing products"
+    "text": "Proposed approach\nUrban morphometrics + computer vision.\nA balance between generalisation and detail.\nMore granularity than existing large-scale classifications.\nScalability to much larger regions than traditional hyper-local classifications"
   },
   {
-    "objectID": "slides/202406_EuroFab_KO.html#targeted-users",
-    "href": "slides/202406_EuroFab_KO.html#targeted-users",
+    "objectID": "slides/202406_EuroFab_KO.html#what",
+    "href": "slides/202406_EuroFab_KO.html#what",
     "title": "EuroFab",
-    "section": "Targeted users",
-    "text": "Targeted users"
+    "section": "What",
+    "text": "What\nEnsure and maximise the policy relevance, usability and further applications of the outputs of the project.\nInternational comparability of the data products and their derived indicators.\nComparison of the outputs of the project with other already existing classifications endorsed by international organisations and applied by National Statistical Offices (e.g. the classification of human settlements DEGURBA)."
   },
   {
-    "objectID": "slides/202406_EuroFab_KO.html#first-iteration",
-    "href": "slides/202406_EuroFab_KO.html#first-iteration",
+    "objectID": "slides/202406_EuroFab_KO.html#how",
+    "href": "slides/202406_EuroFab_KO.html#how",
     "title": "EuroFab",
-    "section": "First iteration",
-    "text": "First iteration\n\ninput datasets\nenvisaged system\nDevelop a space-time dataset of urban fabric in Great Britain\nDevelop a protocol, tools and models for homogenisation of morphometric classification.\nStakeholder consultation and co-production ensuring applicability and commercialisation of the data products [Claudia]"
+    "section": "How",
+    "text": "How\nOECD Geospatial Lab and OECD technical expertise\n“Producer” stakeholders, mainly belonging to the scientific community (working on the production of data flows and data products close or relevant to the expected deliverable of EuroFab).\n“User” stakeholders, wide range of potential user of the data produced by EuroFab, interested in applying it for the definition of policy-relevant indicators and characterised by various degrees of technical competencies."
   },
   {
     "objectID": "slides/template.html#heading-level-2",
