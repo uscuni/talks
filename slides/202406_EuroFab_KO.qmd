@@ -410,6 +410,27 @@ such as evaluations, meetings, reporting, quality assurance, and risk assessment
 
 # Milestones and timeline
 
-## {background-image="../figures/202406_EuroFab_KO/gantt.pdf" background-size="80%" .no-text}
+## {background-image="../figures/202406_EuroFab_KO/gantt.png" background-size="80%" .no-text}
+
+## Events {.smaller}
+
+::: {.incremental}
+1. **Week 2 of September 2024**:
+    - Stakeholder Workshop I (optionally paired with URBIS24)
+2.	**Week 1 of November 2024**:
+    - Networking event at WUF12 (Cairo, Egypt) – pending selection process
+3.	**Week 4 of January 2025**:
+    - Stakeholder Workshop II
+4.	**Week 4 of April 2025**:
+    - Stakeholder Workshop III
+:::
+
+## Milestones
+
+::: {.incremental}
+1. **Progress (MS 1)**, KO + 6 months
+2. **Final (MS 2)**, KO + 12 months
+:::
+
 
 ## {background-image="../assets/full_logo.svg" background-size="50%" .no-text}
