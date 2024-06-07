@@ -1,10 +1,10 @@
 ---
-title: "uscuni_talks"
+title: "Talks"
 ---
 
-Archive of talks of the US CUNI team. Yay
+Archive of talks of the US CUNI team.
 
 ## List of talks
 
 - [2024-06-07 EuroFab project Kick-Off meeting](slides/202406_EuroFab_KO.qmd)
-
+- [2024-05-16 Open Source Science Meetup Prague](https://martinfleischmann.net/talks/2024_OSSci_meetup/)
