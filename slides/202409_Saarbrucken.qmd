@@ -1,0 +1,574 @@
+---
+title: "The emergent structure of cities"
+author: "Martin Fleischmann"
+institute: "Charles University"
+date: "today"
+format:
+    revealjs:
+        theme: [default, ../assets/reveal.scss]
+        logo: ../assets/icon.svg
+        menu: false
+        transition: slide
+        navigation-mode: linear
+        controls-layout: edges
+        progress: true
+        include-in-header: ../assets/font.html
+        title-slide-attributes:
+            data-background-image: ../assets/full_logo.svg
+            data-background-size: 20%
+            data-background-position: 50% 90%
+---
+
+# A brief introduction into urban morphology
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+What is urban morphology?
+:::
+
+---
+
+> The study of the city as human habitat.
+
+(Moudon, 1997)
+
+::: {.fragment}
+
+> The study of human settlements, their structure and the process of their formation and transformation.
+
+(Kropf, 2017)
+
+:::
+
+::: {.fragment}
+
+> The study of urban form.
+:::
+
+---
+
+## Methods of analysis
+
+[typo-morphological]{.fragment} [(bottom-up)]{.fragment}
+
+[historico-geographical]{.fragment} [(top-down)]{.fragment}
+
+[...]{.fragment}
+
+[urban morphometrics]{.fragment}
+
+## Urban morphometrics
+
+::: {.fragment}
+> A study of urban form through the means of quantitative assessment of constituent elements.
+:::
+
+[Conceptually similar to historico-geographical approach.]{.fragment}
+
+[Methodologically embedded in spatial data science and geography.]{.fragment}
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+How to conceptualise urban form for data science?
+:::
+
+## Fundamental elements of urban form
+
+::: {.fragment}
+buildings
+:::
+
+## {background-image="../figures/202409_Saarbrucken/blg.png" background-size=70% .no-text}
+
+::: aside
+Building layer representing a portion of Prague.
+:::
+
+
+## Fundamental elements of urban form
+
+buildings
+
+streets
+
+---
+
+## {background-image="../figures/202409_Saarbrucken/edges.png" background-size=70% .no-text}
+
+::: aside
+Street layer representing a portion of Prague.
+:::
+
+---
+
+## Fundamental elements of urban form
+
+buildings
+
+streets
+
+plots
+
+---
+
+## {background-image="../figures/202409_Saarbrucken/plots_prg.png" background-size=70% .no-text}
+
+::: aside
+Plot layer representing a portion of Prague.
+:::
+
+# What can morphometrics tell about cities {.question}
+
+## What can we learn about a building {.question}
+
+## {background-image="../figures/202409_Saarbrucken/blg_single.png" background-size=70% .no-text}
+
+::: aside
+What can we learn about a building?
+:::
+
+
+---
+
+### Sizes
+
+## {background-image="../figures/202409_Saarbrucken/area.png" background-size=70% .no-text}
+
+::: aside
+Building area
+:::
+
+---
+
+### Shapes
+
+## {background-image="../figures/202409_Saarbrucken/eri.png" background-size=70% .no-text}
+
+::: aside
+Equivalent rectangular index (a measure of shape complexity)
+:::
+
+
+---
+
+### Spatial distribution
+
+## {background-image="../figures/202409_Saarbrucken/ori.png" background-size=70% .no-text}
+
+::: aside
+Building orientation
+:::
+
+
+## What can we learn about a street {.question}
+
+---
+
+### That a street may not be a street
+
+## {background-image="../figures/202409_Saarbrucken/net.png" background-size=80% .no-text}
+
+::: aside
+Transportation vs morphological representation of a street network
+:::
+
+---
+
+### Spatial distribution
+
+---
+
+## {background-image="../figures/202409_Saarbrucken/profile.png" background-size=70% .no-text}
+
+::: aside
+Street profile width
+:::
+
+
+## {background-image="../figures/202409_Saarbrucken/open.png" background-size=70% .no-text}
+
+::: aside
+Street profile openness
+:::
+
+---
+
+### Shapes
+
+## {background-image="../figures/202409_Saarbrucken/linearity.png" background-size=70% .no-text}
+
+::: aside
+Linearity of street geometry
+:::
+
+---
+
+## What can we learn about street[s]{style="color: #C51D48;"} {.question}
+
+---
+
+### Connectivity
+
+## {background-image="../figures/202409_Saarbrucken/connect.png" background-size=70% .no-text}
+
+::: aside
+Local closeness of street network
+:::
+
+## {background-image="../figures/202409_Saarbrucken/sqclus.png" background-size=70% .no-text}
+
+::: aside
+Square clustering of street network
+:::
+
+---
+
+## What can we learn about a plot {.question}
+
+---
+
+### That it is not available as open data
+### That it does not represent morphology {.fragment}
+
+
+## {background-image="../figures/202409_Saarbrucken/plots.png" background-size=70% .no-text}
+
+
+---
+
+### We can use polygonal tessellation as an analytical unit sharing a subset of information with a plot
+
+---
+
+### Morphological tessellation
+
+## {background-image="../figures/202409_Saarbrucken/mt.png" background-size=70% .no-text}
+
+::: aside
+Morphological tessellation
+:::
+
+---
+
+### Enclosed tessellation
+
+## {background-image="../figures/202409_Saarbrucken/et.png" background-size=70% .no-text}
+
+::: aside
+Enclosed tessellation
+:::
+
+---
+
+## What can we learn about a ~~plot~~ cell {.question}
+
+---
+
+### Sizes & shapes
+
+## {background-image="../figures/202409_Saarbrucken/lal.png" background-size=70% .no-text}
+
+::: aside
+Longest-axis length
+:::
+
+## {background-image="../figures/202409_Saarbrucken/circom.png" background-size=70% .no-text}
+
+::: aside
+Circular compactness
+:::
+
+---
+
+### Contiguity
+
+## {background-image="../figures/202409_Saarbrucken/contig.png" background-size=70% .no-text}
+
+::: aside
+Queen contiguity decoding adjacency of geometries
+:::
+
+## {background-image="../figures/202409_Saarbrucken/contig_blg.png" background-size=70% .no-text}
+
+::: aside
+Queen contiguity decoding adjacency of geometries
+:::
+
+---
+
+## What can we learn about building[s]{style="color: #C51D48;"} {.question}
+
+---
+
+### Spatial distribution
+
+## {background-image="../figures/202409_Saarbrucken/swr.png" background-size=70% .no-text}
+
+::: aside
+Shared walls ratio
+:::
+
+## {background-image="../figures/202409_Saarbrucken/adjac.png" background-size=70% .no-text}
+
+::: aside
+Building adjacency
+:::
+
+## {background-image="../figures/202409_Saarbrucken/ibd.png" background-size=70% .no-text}
+
+::: aside
+Mean interbuilding distance
+:::
+
+
+## What if we combine it all together {.question}
+
+---
+
+### Identification of a type of urban form
+
+---
+
+## {transition="fade" background-image="../figures/202409_Saarbrucken/bcn.png" background-size="contain" .no-text}
+
+::: aside
+Barcelona
+:::
+
+## {background-image="../figures/202409_Saarbrucken/med.png" background-size="contain" .no-text}
+
+::: aside
+Medellin
+:::
+
+## {background-image="../figures/202409_Saarbrucken/med_blg.png" background-size="contain" .no-text}
+
+::: aside
+Medellin
+:::
+
+## {background-image="../figures/202409_Saarbrucken/sin.png" background-size="contain" .no-text}
+
+::: aside
+Singapore
+:::
+
+## {background-image="../figures/202409_Saarbrucken/sin_blg.png" background-size="contain" .no-text}
+
+::: aside
+Singapore
+:::
+
+## {background-image="../figures/202409_Saarbrucken/des.png" background-size="contain" .no-text}
+
+::: aside
+Dar es Salaam
+:::
+
+## {background-image="../figures/202409_Saarbrucken/hou.png" background-size="contain" .no-text}
+
+::: aside
+Houston
+:::
+
+---
+
+### Prediction of urban phenomena
+
+---
+
+#### Prediction of impacts of planned development
+
+## {background-image="../figures/202409_Saarbrucken/tyne_sig.png" background-size="contain" .no-text}
+
+::: aside
+Tyne and Wear (spatial signatures)
+:::
+
+## {background-image="../figures/202409_Saarbrucken/tyne_air.png" background-size="contain" .no-text}
+
+::: aside
+Tyne and Wear (air pollution index)
+:::
+
+## {background-image="../figures/202409_Saarbrucken/tyne_price.png" background-size="contain" .no-text}
+
+::: aside
+Tyne and Wear (house price)
+:::
+
+## {background-image="../figures/202409_Saarbrucken/tyne_comp.png" background-size="contain" .no-text}
+
+::: aside
+Tyne and Wear (projected air pollution change)
+:::
+
+# A case of Great Britain
+
+## The emergent structure of urban form and function
+
+#### A data driven overview of the British landscape {.fragment}
+
+## Spatial Signatures
+
+## {background-image="../figures/202409_Saarbrucken/signatures_london.png" background-size="cover" .no-text}
+
+::: aside
+Spatial signatures in London
+:::
+
+## {background-image="../figures/202409_Saarbrucken/signatures_lpool.png" background-size="cover" .no-text}
+
+::: aside
+Spatial signatures in Liverpool
+:::
+
+## {background-image="../figures/202409_Saarbrucken/signatures_scottish_belt.png" background-size="cover" .no-text}
+
+::: aside
+Spatial signatures in the Scottish Central Belt
+:::
+
+## {background-image="../figures/202409_Saarbrucken/signatures_scottish_belt_rural.png" background-size="cover" .no-text}
+
+::: aside
+Rural signatures
+:::
+
+## {background-image="../figures/202409_Saarbrucken/cov_countryside.png" background-size=70% .no-text}
+
+::: aside
+Rural signatures (covering 94% of land but only 50% of cells)
+:::
+
+## {background-image="../figures/202409_Saarbrucken/signatures_scottish_belt_periphery.png" background-size="cover" .no-text}
+
+::: aside
+Peripheral signatures
+:::
+
+## {background-image="../figures/202409_Saarbrucken/cov_periphery.png" background-size=70% .no-text}
+
+::: aside
+Peripheral signatures (covering 5% of land but 40% of cells)
+:::
+
+## {background-image="../figures/202409_Saarbrucken/signatures_scottish_belt_urban.png" background-size="cover" .no-text}
+
+::: aside
+Urban signatures
+:::
+
+## {background-image="../figures/202409_Saarbrucken/cov_centres.png" background-size=70% .no-text}
+
+::: aside
+Urban signatures (covering 1% of area but 10% of cells)
+:::
+
+
+## Signature hierarchy and distribution
+
+## {background-image="../figures/202409_Saarbrucken/geog_distribution_co_occurence.png" background-size="contain" .no-text}
+
+## Settlement delineation
+
+## {background-image="../figures/202409_Saarbrucken/signatures_scottish_belt_rural.png" background-size="cover" .no-text}
+
+## {background-image="../figures/202409_Saarbrucken/fua.png" background-size="cover" .no-text}
+
+::: aside
+Signature-based settlement delineation compared to FUA
+:::
+
+## Settlement hierarchy
+
+## {background-image="../figures/202409_Saarbrucken/hierarchy.png" background-size=80% .no-text}
+
+::: aside
+Hierarchy of settlements derived from the presence of signatures
+:::
+
+## {background-image="../figures/202409_Saarbrucken/dishes.png" background-size=80% .no-text}
+
+::: aside
+Hierarchy of settlements derived from the presence of signatures
+:::
+
+
+## Open and reproducible
+
+## {background-image="../figures/202409_Saarbrucken/site.png" background-size=80% .no-text}
+
+::: aside
+Project homepage (urbangrammarai.xyz)
+:::
+
+## {background-image="../figures/202409_Saarbrucken/code.png" background-size=80% .no-text}
+
+::: aside
+Work package sites containing code (urbangrammarai.xyz/spatial_signatures)
+:::
+
+## {background-image="../figures/202409_Saarbrucken/github.png" background-size=80% .no-text}
+
+::: aside
+Repositories (http://github.com/urbangrammarai)
+:::
+
+## {background-image="../figures/202409_Saarbrucken/story.png" background-size=80% .no-text}
+
+::: aside
+User-friendly explanations (urbangrammarai.xyz/story)
+:::
+
+## {background-image="../figures/202409_Saarbrucken/data.png" background-size=80% .no-text}
+
+::: aside
+Data products (https://doi.org/10.6084/m9.figshare.16691575.v3)
+:::
+
+# Takeaways
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+
+Urban morphometrics sees urban form as data.
+:::
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+
+We can scale the analysis to entire countries <br>and possibly beyond.
+:::
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+
+The information collected on individual elements <br>
+can explain the structure of neighborhoods, cities <br>
+but also the settlement hierarchy of entire regions.
+:::
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+
+All, within the open and reproducible context.
+:::
+
+---
+
+## Do you want to follow up {.question}
+
+[{{< fa regular envelope >}}](mailto:martin.fleischmann@natur.cuni.cz) martin.fleischmann@natur.cuni.cz
+
+[{{< fa brands x-twitter >}}](https://x.com/martinfleis) @martinfleis
+
+[{{< fa brands mastodon >}}](https://fosstodon.org/@martinfleis) @martinfleis@fosstodon.org
+
+[{{< fa regular user >}}](https://martinfleischmann.net) martinfleischmann.net
