@@ -1,19 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Talks",
-    "section": "",
-    "text": "Archive of talks of the US CUNI team."
-  },
-  {
-    "objectID": "index.html#list-of-talks",
-    "href": "index.html#list-of-talks",
-    "title": "Talks",
-    "section": "List of talks",
-    "text": "List of talks\n\n2024-06-07 EuroFab project Kick-Off meeting\n2024-05-16 Open Source Science Meetup Prague"
-  },
-  {
     "objectID": "slides/202406_EuroFab_KO.html#why-urban-fabric",
     "href": "slides/202406_EuroFab_KO.html#why-urban-fabric",
     "title": "EuroFab",
@@ -166,5 +152,502 @@
     "title": "Spatial Autocorrelation",
     "section": "Slide with iframe background",
     "text": "Slide with iframe background"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Talks",
+    "section": "",
+    "text": "Archive of talks of the US CUNI team."
+  },
+  {
+    "objectID": "index.html#list-of-talks",
+    "href": "index.html#list-of-talks",
+    "title": "Talks",
+    "section": "List of talks",
+    "text": "List of talks\n\n2024-09-12 City Transitions Saarbrücken\n2024-06-07 EuroFab project Kick-Off meeting\n2024-05-16 Open Source Science Meetup Prague"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#methods-of-analysis",
+    "href": "slides/202409_Saarbrucken.html#methods-of-analysis",
+    "title": "The emergent structure of cities",
+    "section": "Methods of analysis",
+    "text": "Methods of analysis\ntypo-morphological (bottom-up)\nhistorico-geographical (top-down)\n…\nurban morphometrics"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#urban-morphometrics",
+    "href": "slides/202409_Saarbrucken.html#urban-morphometrics",
+    "title": "The emergent structure of cities",
+    "section": "Urban morphometrics",
+    "text": "Urban morphometrics\n\n\nA study of urban form through the means of quantitative assessment of constituent elements.\n\n\nConceptually similar to historico-geographical approach.\nMethodologically embedded in spatial data science and geography."
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#fundamental-elements-of-urban-form",
+    "href": "slides/202409_Saarbrucken.html#fundamental-elements-of-urban-form",
+    "title": "The emergent structure of cities",
+    "section": "Fundamental elements of urban form",
+    "text": "Fundamental elements of urban form\n\nbuildings"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#section",
+    "href": "slides/202409_Saarbrucken.html#section",
+    "title": "The emergent structure of cities",
+    "section": "",
+    "text": "Building layer representing a portion of Prague."
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#fundamental-elements-of-urban-form-1",
+    "href": "slides/202409_Saarbrucken.html#fundamental-elements-of-urban-form-1",
+    "title": "The emergent structure of cities",
+    "section": "Fundamental elements of urban form",
+    "text": "Fundamental elements of urban form\nbuildings\nstreets"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#section-1",
+    "href": "slides/202409_Saarbrucken.html#section-1",
+    "title": "The emergent structure of cities",
+    "section": "",
+    "text": "Street layer representing a portion of Prague."
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#fundamental-elements-of-urban-form-2",
+    "href": "slides/202409_Saarbrucken.html#fundamental-elements-of-urban-form-2",
+    "title": "The emergent structure of cities",
+    "section": "Fundamental elements of urban form",
+    "text": "Fundamental elements of urban form\nbuildings\nstreets\nplots"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#section-2",
+    "href": "slides/202409_Saarbrucken.html#section-2",
+    "title": "The emergent structure of cities",
+    "section": "",
+    "text": "Plot layer representing a portion of Prague."
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#what-can-we-learn-about-a-building",
+    "href": "slides/202409_Saarbrucken.html#what-can-we-learn-about-a-building",
+    "title": "The emergent structure of cities",
+    "section": "What can we learn about a building",
+    "text": "What can we learn about a building"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#section-3",
+    "href": "slides/202409_Saarbrucken.html#section-3",
+    "title": "The emergent structure of cities",
+    "section": "",
+    "text": "What can we learn about a building?"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#section-4",
+    "href": "slides/202409_Saarbrucken.html#section-4",
+    "title": "The emergent structure of cities",
+    "section": "",
+    "text": "Building area"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#section-5",
+    "href": "slides/202409_Saarbrucken.html#section-5",
+    "title": "The emergent structure of cities",
+    "section": "",
+    "text": "Equivalent rectangular index (a measure of shape complexity)"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#section-6",
+    "href": "slides/202409_Saarbrucken.html#section-6",
+    "title": "The emergent structure of cities",
+    "section": "",
+    "text": "Building orientation"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#what-can-we-learn-about-a-street",
+    "href": "slides/202409_Saarbrucken.html#what-can-we-learn-about-a-street",
+    "title": "The emergent structure of cities",
+    "section": "What can we learn about a street",
+    "text": "What can we learn about a street"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#section-7",
+    "href": "slides/202409_Saarbrucken.html#section-7",
+    "title": "The emergent structure of cities",
+    "section": "",
+    "text": "Transportation vs morphological representation of a street network"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#section-8",
+    "href": "slides/202409_Saarbrucken.html#section-8",
+    "title": "The emergent structure of cities",
+    "section": "",
+    "text": "Street profile width"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#section-9",
+    "href": "slides/202409_Saarbrucken.html#section-9",
+    "title": "The emergent structure of cities",
+    "section": "",
+    "text": "Street profile openness"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#section-10",
+    "href": "slides/202409_Saarbrucken.html#section-10",
+    "title": "The emergent structure of cities",
+    "section": "",
+    "text": "Linearity of street geometry"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#what-can-we-learn-about-streets",
+    "href": "slides/202409_Saarbrucken.html#what-can-we-learn-about-streets",
+    "title": "The emergent structure of cities",
+    "section": "What can we learn about streets",
+    "text": "What can we learn about streets"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#section-11",
+    "href": "slides/202409_Saarbrucken.html#section-11",
+    "title": "The emergent structure of cities",
+    "section": "",
+    "text": "Local closeness of street network"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#section-12",
+    "href": "slides/202409_Saarbrucken.html#section-12",
+    "title": "The emergent structure of cities",
+    "section": "",
+    "text": "Square clustering of street network"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#what-can-we-learn-about-a-plot",
+    "href": "slides/202409_Saarbrucken.html#what-can-we-learn-about-a-plot",
+    "title": "The emergent structure of cities",
+    "section": "What can we learn about a plot",
+    "text": "What can we learn about a plot"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#section-14",
+    "href": "slides/202409_Saarbrucken.html#section-14",
+    "title": "The emergent structure of cities",
+    "section": "",
+    "text": "Morphological tessellation"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#section-15",
+    "href": "slides/202409_Saarbrucken.html#section-15",
+    "title": "The emergent structure of cities",
+    "section": "",
+    "text": "Enclosed tessellation"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#what-can-we-learn-about-a-plot-cell",
+    "href": "slides/202409_Saarbrucken.html#what-can-we-learn-about-a-plot-cell",
+    "title": "The emergent structure of cities",
+    "section": "What can we learn about a plot cell",
+    "text": "What can we learn about a plot cell"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#section-16",
+    "href": "slides/202409_Saarbrucken.html#section-16",
+    "title": "The emergent structure of cities",
+    "section": "",
+    "text": "Longest-axis length"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#section-17",
+    "href": "slides/202409_Saarbrucken.html#section-17",
+    "title": "The emergent structure of cities",
+    "section": "",
+    "text": "Circular compactness"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#section-18",
+    "href": "slides/202409_Saarbrucken.html#section-18",
+    "title": "The emergent structure of cities",
+    "section": "",
+    "text": "Queen contiguity decoding adjacency of geometries"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#section-19",
+    "href": "slides/202409_Saarbrucken.html#section-19",
+    "title": "The emergent structure of cities",
+    "section": "",
+    "text": "Queen contiguity decoding adjacency of geometries"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#what-can-we-learn-about-buildings",
+    "href": "slides/202409_Saarbrucken.html#what-can-we-learn-about-buildings",
+    "title": "The emergent structure of cities",
+    "section": "What can we learn about buildings",
+    "text": "What can we learn about buildings"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#section-20",
+    "href": "slides/202409_Saarbrucken.html#section-20",
+    "title": "The emergent structure of cities",
+    "section": "",
+    "text": "Shared walls ratio"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#section-21",
+    "href": "slides/202409_Saarbrucken.html#section-21",
+    "title": "The emergent structure of cities",
+    "section": "",
+    "text": "Building adjacency"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#section-22",
+    "href": "slides/202409_Saarbrucken.html#section-22",
+    "title": "The emergent structure of cities",
+    "section": "",
+    "text": "Mean interbuilding distance"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#what-if-we-combine-it-all-together",
+    "href": "slides/202409_Saarbrucken.html#what-if-we-combine-it-all-together",
+    "title": "The emergent structure of cities",
+    "section": "What if we combine it all together",
+    "text": "What if we combine it all together"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#section-23",
+    "href": "slides/202409_Saarbrucken.html#section-23",
+    "title": "The emergent structure of cities",
+    "section": "",
+    "text": "Barcelona"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#section-24",
+    "href": "slides/202409_Saarbrucken.html#section-24",
+    "title": "The emergent structure of cities",
+    "section": "",
+    "text": "Medellin"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#section-25",
+    "href": "slides/202409_Saarbrucken.html#section-25",
+    "title": "The emergent structure of cities",
+    "section": "",
+    "text": "Medellin"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#section-26",
+    "href": "slides/202409_Saarbrucken.html#section-26",
+    "title": "The emergent structure of cities",
+    "section": "",
+    "text": "Singapore"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#section-27",
+    "href": "slides/202409_Saarbrucken.html#section-27",
+    "title": "The emergent structure of cities",
+    "section": "",
+    "text": "Singapore"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#section-28",
+    "href": "slides/202409_Saarbrucken.html#section-28",
+    "title": "The emergent structure of cities",
+    "section": "",
+    "text": "Dar es Salaam"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#section-29",
+    "href": "slides/202409_Saarbrucken.html#section-29",
+    "title": "The emergent structure of cities",
+    "section": "",
+    "text": "Houston"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#section-30",
+    "href": "slides/202409_Saarbrucken.html#section-30",
+    "title": "The emergent structure of cities",
+    "section": "",
+    "text": "Tyne and Wear (spatial signatures)"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#section-31",
+    "href": "slides/202409_Saarbrucken.html#section-31",
+    "title": "The emergent structure of cities",
+    "section": "",
+    "text": "Tyne and Wear (air pollution index)"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#section-32",
+    "href": "slides/202409_Saarbrucken.html#section-32",
+    "title": "The emergent structure of cities",
+    "section": "",
+    "text": "Tyne and Wear (house price)"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#section-33",
+    "href": "slides/202409_Saarbrucken.html#section-33",
+    "title": "The emergent structure of cities",
+    "section": "",
+    "text": "Tyne and Wear (projected air pollution change)"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#the-emergent-structure-of-urban-form-and-function",
+    "href": "slides/202409_Saarbrucken.html#the-emergent-structure-of-urban-form-and-function",
+    "title": "The emergent structure of cities",
+    "section": "The emergent structure of urban form and function",
+    "text": "The emergent structure of urban form and function\nA data driven overview of the British landscape"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#spatial-signatures",
+    "href": "slides/202409_Saarbrucken.html#spatial-signatures",
+    "title": "The emergent structure of cities",
+    "section": "Spatial Signatures",
+    "text": "Spatial Signatures"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#section-34",
+    "href": "slides/202409_Saarbrucken.html#section-34",
+    "title": "The emergent structure of cities",
+    "section": "",
+    "text": "Spatial signatures in London"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#section-35",
+    "href": "slides/202409_Saarbrucken.html#section-35",
+    "title": "The emergent structure of cities",
+    "section": "",
+    "text": "Spatial signatures in Liverpool"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#section-36",
+    "href": "slides/202409_Saarbrucken.html#section-36",
+    "title": "The emergent structure of cities",
+    "section": "",
+    "text": "Spatial signatures in the Scottish Central Belt"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#section-37",
+    "href": "slides/202409_Saarbrucken.html#section-37",
+    "title": "The emergent structure of cities",
+    "section": "",
+    "text": "Rural signatures"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#section-38",
+    "href": "slides/202409_Saarbrucken.html#section-38",
+    "title": "The emergent structure of cities",
+    "section": "",
+    "text": "Rural signatures (covering 94% of land but only 50% of cells)"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#section-39",
+    "href": "slides/202409_Saarbrucken.html#section-39",
+    "title": "The emergent structure of cities",
+    "section": "",
+    "text": "Peripheral signatures"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#section-40",
+    "href": "slides/202409_Saarbrucken.html#section-40",
+    "title": "The emergent structure of cities",
+    "section": "",
+    "text": "Peripheral signatures (covering 5% of land but 40% of cells)"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#section-41",
+    "href": "slides/202409_Saarbrucken.html#section-41",
+    "title": "The emergent structure of cities",
+    "section": "",
+    "text": "Urban signatures"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#section-42",
+    "href": "slides/202409_Saarbrucken.html#section-42",
+    "title": "The emergent structure of cities",
+    "section": "",
+    "text": "Urban signatures (covering 1% of area but 10% of cells)"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#signature-hierarchy-and-distribution",
+    "href": "slides/202409_Saarbrucken.html#signature-hierarchy-and-distribution",
+    "title": "The emergent structure of cities",
+    "section": "Signature hierarchy and distribution",
+    "text": "Signature hierarchy and distribution"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#settlement-delineation",
+    "href": "slides/202409_Saarbrucken.html#settlement-delineation",
+    "title": "The emergent structure of cities",
+    "section": "Settlement delineation",
+    "text": "Settlement delineation"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#section-45",
+    "href": "slides/202409_Saarbrucken.html#section-45",
+    "title": "The emergent structure of cities",
+    "section": "",
+    "text": "Signature-based settlement delineation compared to FUA"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#settlement-hierarchy",
+    "href": "slides/202409_Saarbrucken.html#settlement-hierarchy",
+    "title": "The emergent structure of cities",
+    "section": "Settlement hierarchy",
+    "text": "Settlement hierarchy"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#section-46",
+    "href": "slides/202409_Saarbrucken.html#section-46",
+    "title": "The emergent structure of cities",
+    "section": "",
+    "text": "Hierarchy of settlements derived from the presence of signatures"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#section-47",
+    "href": "slides/202409_Saarbrucken.html#section-47",
+    "title": "The emergent structure of cities",
+    "section": "",
+    "text": "Hierarchy of settlements derived from the presence of signatures"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#open-and-reproducible",
+    "href": "slides/202409_Saarbrucken.html#open-and-reproducible",
+    "title": "The emergent structure of cities",
+    "section": "Open and reproducible",
+    "text": "Open and reproducible"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#section-48",
+    "href": "slides/202409_Saarbrucken.html#section-48",
+    "title": "The emergent structure of cities",
+    "section": "",
+    "text": "Project homepage (urbangrammarai.xyz)"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#section-49",
+    "href": "slides/202409_Saarbrucken.html#section-49",
+    "title": "The emergent structure of cities",
+    "section": "",
+    "text": "Work package sites containing code (urbangrammarai.xyz/spatial_signatures)"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#section-50",
+    "href": "slides/202409_Saarbrucken.html#section-50",
+    "title": "The emergent structure of cities",
+    "section": "",
+    "text": "Repositories (http://github.com/urbangrammarai)"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#section-51",
+    "href": "slides/202409_Saarbrucken.html#section-51",
+    "title": "The emergent structure of cities",
+    "section": "",
+    "text": "User-friendly explanations (urbangrammarai.xyz/story)"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#section-52",
+    "href": "slides/202409_Saarbrucken.html#section-52",
+    "title": "The emergent structure of cities",
+    "section": "",
+    "text": "Data products (https://doi.org/10.6084/m9.figshare.16691575.v3)"
+  },
+  {
+    "objectID": "slides/202409_Saarbrucken.html#do-you-want-to-follow-up",
+    "href": "slides/202409_Saarbrucken.html#do-you-want-to-follow-up",
+    "title": "The emergent structure of cities",
+    "section": "Do you want to follow up",
+    "text": "Do you want to follow up\n martin.fleischmann@natur.cuni.cz\n @martinfleis\n @martinfleis@fosstodon.org\n martinfleischmann.net"
   }
 ]
