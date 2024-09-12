@@ -390,13 +390,13 @@ Tyne and Wear (spatial signatures)
 ## {background-image="../figures/202409_Saarbrucken/tyne_air.png" background-size="contain" .no-text}
 
 ::: aside
-Tyne and Wear (air pollution index)
+Tyne and Wear (house price)
 :::
 
 ## {background-image="../figures/202409_Saarbrucken/tyne_price.png" background-size="contain" .no-text}
 
 ::: aside
-Tyne and Wear (house price)
+Tyne and Wear (air pollution index)
 :::
 
 ## {background-image="../figures/202409_Saarbrucken/tyne_comp.png" background-size="contain" .no-text}
