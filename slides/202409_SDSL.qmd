@@ -1,0 +1,230 @@
+---
+title: "Spatial Data Science across Languages"
+subtitle: "2024"
+# author: "Waldo Tobler"
+# institute: "Charles University"
+# date: "today"
+format:
+    revealjs:
+        theme: [default, ../assets/reveal.scss]
+        logo: ../assets/icon.svg
+        menu: false
+        transition: slide
+        navigation-mode: linear
+        controls-layout: edges
+        progress: true
+        incremental: true
+        include-in-header: ../assets/font.html
+        title-slide-attributes:
+            data-background-image: ../assets/full_logo.svg
+            data-background-size: 20%
+            data-background-position: 50% 90%
+---
+
+# Thank you for being here
+
+---
+
+::: {.r-fit-text}
+Faculty of Science
+
+[Map and Data Centre]{.fragment}
+
+[Program committee]{.fragment}
+
+[Yomna and Edzer]{.fragment}
+
+[Danka and the team]{.fragment}
+:::
+
+---
+
+### Practical info
+
+- Toliets
+- Breaks
+- Dinner
+
+## {background-image="../figures/202409_SDSL/map.png" .no-text}
+
+::: {.aside}
+Vinohrady Brewery
+:::
+
+---
+
+### Hybrid setting
+
+- Zoom
+- Discord
+- Notes
+
+[Ask questions on Discord, where we can have a persistent discussion, rather than on Zoom.]{.fragment}
+
+# Scope, Goals, and Outcomes
+
+---
+
+::: {.r-fit-text}
+Bridge the language barriers
+:::
+::: {.r-fit-text .fragment}
+Bring the communities together
+:::
+::: {.r-fit-text .fragment}
+Discuss the differences and commonalities
+:::
+::: {.r-fit-text .fragment}
+Find ways to discuss, cooperate,<br>
+and synchronise the efforts
+:::
+---
+
+### Primarily developer-oriented audience
+### In-person discussion as the main goal {.fragment}
+
+---
+::: {.r-fit-text}
+Recommendations
+:::
+::: {.r-fit-text .fragment}
+Connections
+:::
+::: {.r-fit-text .fragment}
+Cross-pollination
+:::
+
+# Expectations
+
+- What do you expect from this workshop?
+
+# Program
+
+- Each session to be kickstarted by a short talk.
+
+---
+
+![](../figures/202409_SDSL/day1.png)
+
+---
+
+![](../figures/202409_SDSL/day2.png)
+
+# Looking back at 2023
+
+## Personal reflections
+
+---
+
+### Different maturity of ecosystems
+
+---
+
+### Omnipresence of Arrow
+
+---
+
+### Freedom vs. security mindset
+
+
+## Working paper
+
+---
+
+![](../figures/202409_SDSL/paper.png)
+
+---
+
+### Point vs block support
+
+---
+
+![](../figures/202409_SDSL/support.png)
+
+
+---
+
+![](../figures/202409_SDSL/split-merge.png)
+
+---
+
+### Geodetic coordinates
+
+---
+
+![](../figures/202409_SDSL/geodetic.png)
+
+---
+
+### Data cubes
+
+---
+
+![](https://raw.githubusercontent.com/r-spatial/stars/main/images/cube1.png){width=80%}
+
+::: {.aside}
+Data Cube (image taken from `{stars}` documentation)
+:::
+
+---
+
+![](https://raw.githubusercontent.com/r-spatial/stars/main/images/cube3.png){width=80%}
+
+::: {.aside}
+Vector Data Cube (image taken from `{stars}` documentation)
+:::
+
+---
+
+### File formats, data connectivity, and in-memory representation
+
+- GeoParquet
+- GeoArrow
+- Zarr, GeoTIFF
+
+---
+
+### Inter-package dependencies and shared upstream libraries
+---
+
+![](../figures/202409_SDSL/deps.png)
+
+---
+
+### Recommendations
+
+---
+
+#### Open Standards
+
+> It is encouraging to see that involvement in the development of open geospatial is no longer restricted to members of the Open Geospatial Consortium (OGC), and takes place in issues of public OGC GitHub repositories (for instance for GeoZarr and GeoParquet), or even completely outside OGC communication channels (e.g. STAC, GDAL, and openEO).
+
+---
+
+> It would be convenient to have routines to verify polygons form a coverage (i.e. are not overlapping), or to create non-overlapping polygons from overlap- ping ones polygons, in a way that all spatial data science languages can profit from.
+
+---
+
+> Wider adoption of GeoParquet as a more efficient file format for whole-file read/write and wider adoption of GeoAr- row as a common metadata standard and memory model may help address [...] challenges.
+
+---
+
+#### Field domains
+
+> Splitting spatially extensive block support variables to point geometries should at all times be avoided.
+
+> [...] split and merge policies follow from a variable being spatially extensive or intensive, and hence one of them is obsolete.
+
+> A less ambiguous approach would be to have a single field domain called `is_spatially_extensive` with a boolean value.
+
+---
+
+#### Geodetic coordinates, spherical geometry
+
+![](../figures/202409_SDSL/s2.png)
+
+---
+
+::: {.r-fit-text .absolute top=25%}
+`#sdsl2024`
+:::
