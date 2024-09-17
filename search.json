@@ -1,171 +1,24 @@
 [
   {
-    "objectID": "slides/202406_EuroFab_KO.html#why-urban-fabric",
-    "href": "slides/202406_EuroFab_KO.html#why-urban-fabric",
-    "title": "EuroFab",
-    "section": "Why urban fabric",
-    "text": "Why urban fabric\nCities take up around 3% of the planet’s land but are home to more than half of humanity and responsible for 75% of carbon emissions1.\nUnited Nations (2020)"
-  },
-  {
-    "objectID": "slides/202406_EuroFab_KO.html#why-urban-fabric-1",
-    "href": "slides/202406_EuroFab_KO.html#why-urban-fabric-1",
-    "title": "EuroFab",
-    "section": "Why urban fabric",
-    "text": "Why urban fabric\nUrban fabric, the spatial layout of the physical elements that make up a city, mediates most activities their residents undertake, from heating their homes to accessing services, jobs and opportunities through sustainable modes of transport."
-  },
-  {
-    "objectID": "slides/202406_EuroFab_KO.html#why-urban-fabric-2",
-    "href": "slides/202406_EuroFab_KO.html#why-urban-fabric-2",
-    "title": "EuroFab",
-    "section": "Why urban fabric",
-    "text": "Why urban fabric\nEasily available, comparable, and dynamic information on urban fabric would unlock new ways of understanding how cities are constantly evolving, what it means for their sustainability, and how effective policies can be designed to steer development in desirable directions."
-  },
-  {
-    "objectID": "slides/202406_EuroFab_KO.html#why-now",
-    "href": "slides/202406_EuroFab_KO.html#why-now",
-    "title": "EuroFab",
-    "section": "Why now",
-    "text": "Why now\nIn 2023, UN Habitat included urban fabric as one of the key ingredients required for effective sustainable design1\nUN Habitat (2024)"
-  },
-  {
-    "objectID": "slides/202406_EuroFab_KO.html#why-now-1",
-    "href": "slides/202406_EuroFab_KO.html#why-now-1",
-    "title": "EuroFab",
-    "section": "Why now",
-    "text": "Why now\nThere are currently very few instances of detailed, consistent, and scalable measurements of urban fabric and virtually none of them provide insight into its change over time."
-  },
-  {
-    "objectID": "slides/202406_EuroFab_KO.html#eurofab-vision",
-    "href": "slides/202406_EuroFab_KO.html#eurofab-vision",
-    "title": "EuroFab",
-    "section": "EuroFab vision",
-    "text": "EuroFab vision\nEuroFab paves the road for a world where stakeholders, from local authorities to supranational organisations, are able to track and monitor the pattern of urban development in detail directly relevant for planning and at scale.\n\nwe’re not there yet"
-  },
-  {
-    "objectID": "slides/202406_EuroFab_KO.html#objectives",
-    "href": "slides/202406_EuroFab_KO.html#objectives",
-    "title": "EuroFab",
-    "section": "Objectives",
-    "text": "Objectives"
-  },
-  {
-    "objectID": "slides/202406_EuroFab_KO.html#state-of-the-art",
-    "href": "slides/202406_EuroFab_KO.html#state-of-the-art",
-    "title": "EuroFab",
-    "section": "State of the Art",
-    "text": "State of the Art\nClassifications of urban form fall, broadly, into two categories.\n\n\nrich, detailed, and hyper-local classifications\nsimpler, coarser, large-scale classifications"
-  },
-  {
-    "objectID": "slides/202406_EuroFab_KO.html#proposed-approach",
-    "href": "slides/202406_EuroFab_KO.html#proposed-approach",
-    "title": "EuroFab",
-    "section": "Proposed approach",
-    "text": "Proposed approach\nUrban morphometrics + computer vision.\nA balance between generalisation and detail.\nMore granularity than existing large-scale classifications.\nScalability to much larger regions than traditional hyper-local classifications"
-  },
-  {
-    "objectID": "slides/202406_EuroFab_KO.html#what",
-    "href": "slides/202406_EuroFab_KO.html#what",
-    "title": "EuroFab",
-    "section": "What",
-    "text": "What\nEnsure and maximise the policy relevance, usability and further applications of the outputs of the project.\nInternational comparability of the data products and their derived indicators.\nComparison of the outputs of the project with other already existing classifications endorsed by international organisations and applied by National Statistical Offices (e.g. the classification of human settlements DEGURBA)."
-  },
-  {
-    "objectID": "slides/202406_EuroFab_KO.html#how",
-    "href": "slides/202406_EuroFab_KO.html#how",
-    "title": "EuroFab",
-    "section": "How",
-    "text": "How\nOECD Geospatial Lab and OECD technical expertise\n“Producer” stakeholders, mainly belonging to the scientific community (working on the production of data flows and data products close or relevant to the expected deliverable of EuroFab).\n“User” stakeholders, wide range of potential user of the data produced by EuroFab, interested in applying it for the definition of policy-relevant indicators and characterised by various degrees of technical competencies."
-  },
-  {
-    "objectID": "slides/202406_EuroFab_KO.html#six-work-packages",
-    "href": "slides/202406_EuroFab_KO.html#six-work-packages",
-    "title": "EuroFab",
-    "section": "Six Work Packages",
-    "text": "Six Work Packages\n\n\nWP000 Project Management and Communication\nWP100 Collaborative Stakeholder Requirements Consolidation\nWP200 Iterative Algorithm Design and Data Collection Sprints\nWP300 Incremental Development and Processing Algorithm Implementation\nWP400 Verification of Novel Processing Capability in Representative Use Case and Results Dissemination\nWP500 Large-scale Inference and Operationalization Strategy Elaboration"
-  },
-  {
-    "objectID": "slides/202406_EuroFab_KO.html#events",
-    "href": "slides/202406_EuroFab_KO.html#events",
-    "title": "EuroFab",
-    "section": "Events",
-    "text": "Events\n\n\nWeek 2 of September 2024:\n\nStakeholder Workshop I (optionally paired with URBIS24)\n\nWeek 1 of November 2024:\n\nNetworking event at WUF12 (Cairo, Egypt) – pending selection process\n\nWeek 4 of January 2025:\n\nStakeholder Workshop II\n\nWeek 4 of April 2025:\n\nStakeholder Workshop III"
-  },
-  {
-    "objectID": "slides/202406_EuroFab_KO.html#milestones",
-    "href": "slides/202406_EuroFab_KO.html#milestones",
-    "title": "EuroFab",
-    "section": "Milestones",
-    "text": "Milestones\n\n\nProgress (MS 1), KO + 6 months\nFinal (MS 2), KO + 12 months"
-  },
-  {
-    "objectID": "slides/template.html#heading-level-2",
-    "href": "slides/template.html#heading-level-2",
-    "title": "Spatial Autocorrelation",
-    "section": "Heading level 2",
-    "text": "Heading level 2\nAnother text\nFragment"
-  },
-  {
-    "objectID": "slides/template.html#this-will-be-vertically-centered",
-    "href": "slides/template.html#this-will-be-vertically-centered",
-    "title": "Spatial Autocorrelation",
-    "section": "This will be vertically centered",
-    "text": "This will be vertically centered\nThis text is moved as well"
-  },
-  {
-    "objectID": "slides/template.html#heading-that-is-a-question",
-    "href": "slides/template.html#heading-that-is-a-question",
-    "title": "Spatial Autocorrelation",
-    "section": "Heading that is a question",
-    "text": "Heading that is a question\nAnother text with footnote1\n\nFragment block\n\nMy footnote."
-  },
-  {
-    "objectID": "slides/template.html#inline-code",
-    "href": "slides/template.html#inline-code",
-    "title": "Spatial Autocorrelation",
-    "section": "Inline code",
-    "text": "Inline code\nText with libpysal.graph.Graph inline."
-  },
-  {
-    "objectID": "slides/template.html#slide-with-an-image",
-    "href": "slides/template.html#slide-with-an-image",
-    "title": "Spatial Autocorrelation",
-    "section": "Slide with an image",
-    "text": "Slide with an image\nSet height"
-  },
-  {
-    "objectID": "slides/template.html#slide-with-an-image-1",
-    "href": "slides/template.html#slide-with-an-image-1",
-    "title": "Spatial Autocorrelation",
-    "section": "Slide with an image",
-    "text": "Slide with an image\n\nAutomatically stretched to fill remaining space"
-  },
-  {
-    "objectID": "slides/template.html#slide-with-image-as-background",
-    "href": "slides/template.html#slide-with-image-as-background",
-    "title": "Spatial Autocorrelation",
-    "section": "Slide with image as background",
-    "text": "Slide with image as background"
-  },
-  {
-    "objectID": "slides/template.html#slide-with-iframe-background",
-    "href": "slides/template.html#slide-with-iframe-background",
-    "title": "Spatial Autocorrelation",
-    "section": "Slide with iframe background",
-    "text": "Slide with iframe background"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Talks",
+    "objectID": "slides/202409_SDSL.html#section",
+    "href": "slides/202409_SDSL.html#section",
+    "title": "Spatial Data Science across Languages",
     "section": "",
-    "text": "Archive of talks of the US CUNI team."
+    "text": "Vinohrady Brewery"
   },
   {
-    "objectID": "index.html#list-of-talks",
-    "href": "index.html#list-of-talks",
-    "title": "Talks",
-    "section": "List of talks",
-    "text": "List of talks\n\n2024-09-12 City Transitions Saarbrücken\n2024-06-07 EuroFab project Kick-Off meeting\n2024-05-16 Open Source Science Meetup Prague"
+    "objectID": "slides/202409_SDSL.html#personal-reflections",
+    "href": "slides/202409_SDSL.html#personal-reflections",
+    "title": "Spatial Data Science across Languages",
+    "section": "Personal reflections",
+    "text": "Personal reflections"
+  },
+  {
+    "objectID": "slides/202409_SDSL.html#working-paper",
+    "href": "slides/202409_SDSL.html#working-paper",
+    "title": "Spatial Data Science across Languages",
+    "section": "Working paper",
+    "text": "Working paper"
   },
   {
     "objectID": "slides/202409_Saarbrucken.html#methods-of-analysis",
@@ -649,5 +502,173 @@
     "title": "The emergent structure of cities",
     "section": "Do you want to follow up",
     "text": "Do you want to follow up\n martin.fleischmann@natur.cuni.cz\n @martinfleis\n @martinfleis@fosstodon.org\n martinfleischmann.net"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Talks",
+    "section": "",
+    "text": "Archive of talks of the US CUNI team."
+  },
+  {
+    "objectID": "index.html#list-of-talks",
+    "href": "index.html#list-of-talks",
+    "title": "Talks",
+    "section": "List of talks",
+    "text": "List of talks\n\n2024-09-18 Spatial Data Science across Languages\n2024-09-12 City Transitions Saarbrücken\n2024-06-07 EuroFab project Kick-Off meeting\n2024-05-16 Open Source Science Meetup Prague"
+  },
+  {
+    "objectID": "slides/template.html#heading-level-2",
+    "href": "slides/template.html#heading-level-2",
+    "title": "Spatial Autocorrelation",
+    "section": "Heading level 2",
+    "text": "Heading level 2\nAnother text\nFragment"
+  },
+  {
+    "objectID": "slides/template.html#this-will-be-vertically-centered",
+    "href": "slides/template.html#this-will-be-vertically-centered",
+    "title": "Spatial Autocorrelation",
+    "section": "This will be vertically centered",
+    "text": "This will be vertically centered\nThis text is moved as well"
+  },
+  {
+    "objectID": "slides/template.html#heading-that-is-a-question",
+    "href": "slides/template.html#heading-that-is-a-question",
+    "title": "Spatial Autocorrelation",
+    "section": "Heading that is a question",
+    "text": "Heading that is a question\nAnother text with footnote1\n\nFragment block\n\nMy footnote."
+  },
+  {
+    "objectID": "slides/template.html#inline-code",
+    "href": "slides/template.html#inline-code",
+    "title": "Spatial Autocorrelation",
+    "section": "Inline code",
+    "text": "Inline code\nText with libpysal.graph.Graph inline."
+  },
+  {
+    "objectID": "slides/template.html#slide-with-an-image",
+    "href": "slides/template.html#slide-with-an-image",
+    "title": "Spatial Autocorrelation",
+    "section": "Slide with an image",
+    "text": "Slide with an image\nSet height"
+  },
+  {
+    "objectID": "slides/template.html#slide-with-an-image-1",
+    "href": "slides/template.html#slide-with-an-image-1",
+    "title": "Spatial Autocorrelation",
+    "section": "Slide with an image",
+    "text": "Slide with an image\n\nAutomatically stretched to fill remaining space"
+  },
+  {
+    "objectID": "slides/template.html#slide-with-image-as-background",
+    "href": "slides/template.html#slide-with-image-as-background",
+    "title": "Spatial Autocorrelation",
+    "section": "Slide with image as background",
+    "text": "Slide with image as background"
+  },
+  {
+    "objectID": "slides/template.html#slide-with-iframe-background",
+    "href": "slides/template.html#slide-with-iframe-background",
+    "title": "Spatial Autocorrelation",
+    "section": "Slide with iframe background",
+    "text": "Slide with iframe background"
+  },
+  {
+    "objectID": "slides/202406_EuroFab_KO.html#why-urban-fabric",
+    "href": "slides/202406_EuroFab_KO.html#why-urban-fabric",
+    "title": "EuroFab",
+    "section": "Why urban fabric",
+    "text": "Why urban fabric\nCities take up around 3% of the planet’s land but are home to more than half of humanity and responsible for 75% of carbon emissions1.\nUnited Nations (2020)"
+  },
+  {
+    "objectID": "slides/202406_EuroFab_KO.html#why-urban-fabric-1",
+    "href": "slides/202406_EuroFab_KO.html#why-urban-fabric-1",
+    "title": "EuroFab",
+    "section": "Why urban fabric",
+    "text": "Why urban fabric\nUrban fabric, the spatial layout of the physical elements that make up a city, mediates most activities their residents undertake, from heating their homes to accessing services, jobs and opportunities through sustainable modes of transport."
+  },
+  {
+    "objectID": "slides/202406_EuroFab_KO.html#why-urban-fabric-2",
+    "href": "slides/202406_EuroFab_KO.html#why-urban-fabric-2",
+    "title": "EuroFab",
+    "section": "Why urban fabric",
+    "text": "Why urban fabric\nEasily available, comparable, and dynamic information on urban fabric would unlock new ways of understanding how cities are constantly evolving, what it means for their sustainability, and how effective policies can be designed to steer development in desirable directions."
+  },
+  {
+    "objectID": "slides/202406_EuroFab_KO.html#why-now",
+    "href": "slides/202406_EuroFab_KO.html#why-now",
+    "title": "EuroFab",
+    "section": "Why now",
+    "text": "Why now\nIn 2023, UN Habitat included urban fabric as one of the key ingredients required for effective sustainable design1\nUN Habitat (2024)"
+  },
+  {
+    "objectID": "slides/202406_EuroFab_KO.html#why-now-1",
+    "href": "slides/202406_EuroFab_KO.html#why-now-1",
+    "title": "EuroFab",
+    "section": "Why now",
+    "text": "Why now\nThere are currently very few instances of detailed, consistent, and scalable measurements of urban fabric and virtually none of them provide insight into its change over time."
+  },
+  {
+    "objectID": "slides/202406_EuroFab_KO.html#eurofab-vision",
+    "href": "slides/202406_EuroFab_KO.html#eurofab-vision",
+    "title": "EuroFab",
+    "section": "EuroFab vision",
+    "text": "EuroFab vision\nEuroFab paves the road for a world where stakeholders, from local authorities to supranational organisations, are able to track and monitor the pattern of urban development in detail directly relevant for planning and at scale.\n\nwe’re not there yet"
+  },
+  {
+    "objectID": "slides/202406_EuroFab_KO.html#objectives",
+    "href": "slides/202406_EuroFab_KO.html#objectives",
+    "title": "EuroFab",
+    "section": "Objectives",
+    "text": "Objectives"
+  },
+  {
+    "objectID": "slides/202406_EuroFab_KO.html#state-of-the-art",
+    "href": "slides/202406_EuroFab_KO.html#state-of-the-art",
+    "title": "EuroFab",
+    "section": "State of the Art",
+    "text": "State of the Art\nClassifications of urban form fall, broadly, into two categories.\n\n\nrich, detailed, and hyper-local classifications\nsimpler, coarser, large-scale classifications"
+  },
+  {
+    "objectID": "slides/202406_EuroFab_KO.html#proposed-approach",
+    "href": "slides/202406_EuroFab_KO.html#proposed-approach",
+    "title": "EuroFab",
+    "section": "Proposed approach",
+    "text": "Proposed approach\nUrban morphometrics + computer vision.\nA balance between generalisation and detail.\nMore granularity than existing large-scale classifications.\nScalability to much larger regions than traditional hyper-local classifications"
+  },
+  {
+    "objectID": "slides/202406_EuroFab_KO.html#what",
+    "href": "slides/202406_EuroFab_KO.html#what",
+    "title": "EuroFab",
+    "section": "What",
+    "text": "What\nEnsure and maximise the policy relevance, usability and further applications of the outputs of the project.\nInternational comparability of the data products and their derived indicators.\nComparison of the outputs of the project with other already existing classifications endorsed by international organisations and applied by National Statistical Offices (e.g. the classification of human settlements DEGURBA)."
+  },
+  {
+    "objectID": "slides/202406_EuroFab_KO.html#how",
+    "href": "slides/202406_EuroFab_KO.html#how",
+    "title": "EuroFab",
+    "section": "How",
+    "text": "How\nOECD Geospatial Lab and OECD technical expertise\n“Producer” stakeholders, mainly belonging to the scientific community (working on the production of data flows and data products close or relevant to the expected deliverable of EuroFab).\n“User” stakeholders, wide range of potential user of the data produced by EuroFab, interested in applying it for the definition of policy-relevant indicators and characterised by various degrees of technical competencies."
+  },
+  {
+    "objectID": "slides/202406_EuroFab_KO.html#six-work-packages",
+    "href": "slides/202406_EuroFab_KO.html#six-work-packages",
+    "title": "EuroFab",
+    "section": "Six Work Packages",
+    "text": "Six Work Packages\n\n\nWP000 Project Management and Communication\nWP100 Collaborative Stakeholder Requirements Consolidation\nWP200 Iterative Algorithm Design and Data Collection Sprints\nWP300 Incremental Development and Processing Algorithm Implementation\nWP400 Verification of Novel Processing Capability in Representative Use Case and Results Dissemination\nWP500 Large-scale Inference and Operationalization Strategy Elaboration"
+  },
+  {
+    "objectID": "slides/202406_EuroFab_KO.html#events",
+    "href": "slides/202406_EuroFab_KO.html#events",
+    "title": "EuroFab",
+    "section": "Events",
+    "text": "Events\n\n\nWeek 2 of September 2024:\n\nStakeholder Workshop I (optionally paired with URBIS24)\n\nWeek 1 of November 2024:\n\nNetworking event at WUF12 (Cairo, Egypt) – pending selection process\n\nWeek 4 of January 2025:\n\nStakeholder Workshop II\n\nWeek 4 of April 2025:\n\nStakeholder Workshop III"
+  },
+  {
+    "objectID": "slides/202406_EuroFab_KO.html#milestones",
+    "href": "slides/202406_EuroFab_KO.html#milestones",
+    "title": "EuroFab",
+    "section": "Milestones",
+    "text": "Milestones\n\n\nProgress (MS 1), KO + 6 months\nFinal (MS 2), KO + 12 months"
   }
 ]
