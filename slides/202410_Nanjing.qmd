@@ -1,0 +1,139 @@
+---
+title: "From a building to a region"
+subtitle: "Scalable morphology with urban morphometrics"
+author: "Martin Fleischmann"
+institute: "Charles University"
+# date: 2024-10-29
+format:
+    revealjs:
+        theme: [default, ../assets/reveal.scss]
+        logo: ../assets/icon.svg
+        menu: false
+        transition: slide
+        navigation-mode: linear
+        controls-layout: edges
+        progress: true
+        include-in-header: ../assets/font.html
+        title-slide-attributes:
+            data-background-image: ../assets/full_logo.svg
+            data-background-size: 20%
+            data-background-position: 50% 90%
+        max-scale: 10
+---
+
+## 2019
+
+---
+
+![](../figures/202410_Nanjing/momepy_01.png)
+
+::: aside
+momepy: Urban Morphology Measuring Toolkit (Fleischmann, 2019)
+:::
+
+<!-- 5 years ago, I wrote a software and did analysis of individual cities -->
+
+
+## {background-iframe="http://martinfleischmann.net/numerical-taxonomy-maps/prg.html" .no-text}
+
+::: aside
+Methodological Foundation of a Numerical Taxonomy of Urban Form (Fleischmann et al., 2021)
+:::
+
+<!-- it had issues but it proved that spatial data science can play a significant role in urban morphology -->
+
+## 2022
+
+## {background-iframe="http://urbangrammarai.xyz/great-britain/index.html" .no-text}
+
+::: aside
+Geographical characterisation of British urban form and function using the spatial signatures framework<br>(Fleischmann and Arribas-Bel, 2022)
+:::
+
+<!-- when we later managed to scale the analysis of this sort to the whole of Great Britain, it was thanks to some optimisation on a code level but primarily thanks to complicated distributed processing. which severely hinders reproducibility and replicability. the work also focused on form & function, delineating not fully morphological areas -->
+
+## 2024
+
+<!-- - but the year is 2024 and we are further today
+	- momepy and a lot of its dependencies have been rewritten
+	- more and more data is available
+	- we have developed street network simplification algo
+	- we can scale potentially indefinitely - on a single computer
+	- this talk outlines the principles of urban morphometrics and ways of scaling the analysis from neighbourhoods to continents -->
+
+
+## What is urban morphometrics {.question}
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+Not anything new!
+:::
+
+## What is urban morphometrics {.question}
+
+![](../figures/202410_Nanjing/morphometrics_conzen.png)
+
+::: aside
+excerpt from Larkham and Jones, 1991
+:::
+
+## What is urban morphometrics {.question}
+
+::: {.fragment}
+> A study of urban form through the means of quantitative assessment of its constituent elements.
+:::
+
+[Conceptually similar to historico-geographical approach.]{.fragment}
+
+[Methodologically embedded in spatial data science and geography.]{.fragment}
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+Not anything new!
+:::
+
+::: {.r-fit-text .absolute top=65% .fragment}
+But things have changed over time.
+:::
+
+---
+
+### We can measure potentially hundreds of morphometric characters
+
+::: {.column width="50%" .incremental}
+- dimension
+- shape
+- spatial distribution
+:::
+
+::: {.column width="50%" .incremental}
+- intensity
+- diversity
+- connectivity
+:::
+
+::: aside
+based on Fleischmann, Romice and Porta (2020)
+:::
+
+---
+
+### We can measure them at scale
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+More slides to be added
+:::
+
+---
+
+## Do you want to follow up {.question}
+
+[{{< fa regular envelope >}}](mailto:martin.fleischmann@natur.cuni.cz) martin.fleischmann@natur.cuni.cz
+
+[{{< fa brands mastodon >}}](https://fosstodon.org/@martinfleis) @martinfleis@fosstodon.org
+
+[{{< fa regular user >}}](https://martinfleischmann.net) martinfleischmann.net

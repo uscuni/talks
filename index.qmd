@@ -6,6 +6,7 @@ Archive of talks of the US CUNI team.
 
 ## List of talks
 
+- [2024-10-29 International Seminar on Urban Morpho-Science](slides/202410_Nanjing.qmd)
 - [2024-09-18 Spatial Data Science across Languages](slides/202409_SDSL.qmd)
 - [2024-09-12 City Transitions Saarbrücken](slides/202409_Saarbrucken.qmd)
 - [2024-06-07 EuroFab project Kick-Off meeting](slides/202406_EuroFab_KO.qmd)
