@@ -1,38 +1,24 @@
 [
   {
-    "objectID": "slides/202410_Nanjing.html#section",
-    "href": "slides/202410_Nanjing.html#section",
+    "objectID": "slides/202410_Nanjing.html#looking-back-to-2019",
+    "href": "slides/202410_Nanjing.html#looking-back-to-2019",
     "title": "From a building to a region",
-    "section": "2019",
-    "text": "2019"
+    "section": "Looking back to 2019",
+    "text": "Looking back to 2019"
   },
   {
-    "objectID": "slides/202410_Nanjing.html#section-1",
-    "href": "slides/202410_Nanjing.html#section-1",
+    "objectID": "slides/202410_Nanjing.html#looking-back-to-2022",
+    "href": "slides/202410_Nanjing.html#looking-back-to-2022",
     "title": "From a building to a region",
-    "section": "",
-    "text": "Methodological Foundation of a Numerical Taxonomy of Urban Form (Fleischmann et al., 2021)"
+    "section": "Looking back to 2022",
+    "text": "Looking back to 2022"
   },
   {
-    "objectID": "slides/202410_Nanjing.html#section-2",
-    "href": "slides/202410_Nanjing.html#section-2",
+    "objectID": "slides/202410_Nanjing.html#today",
+    "href": "slides/202410_Nanjing.html#today",
     "title": "From a building to a region",
-    "section": "2022",
-    "text": "2022"
-  },
-  {
-    "objectID": "slides/202410_Nanjing.html#section-3",
-    "href": "slides/202410_Nanjing.html#section-3",
-    "title": "From a building to a region",
-    "section": "",
-    "text": "Geographical characterisation of British urban form and function using the spatial signatures framework(Fleischmann and Arribas-Bel, 2022)"
-  },
-  {
-    "objectID": "slides/202410_Nanjing.html#section-4",
-    "href": "slides/202410_Nanjing.html#section-4",
-    "title": "From a building to a region",
-    "section": "2024",
-    "text": "2024"
+    "section": "Today",
+    "text": "Today"
   },
   {
     "objectID": "slides/202410_Nanjing.html#what-is-urban-morphometrics",
@@ -54,6 +40,104 @@
     "title": "From a building to a region",
     "section": "What is urban morphometrics",
     "text": "What is urban morphometrics\n\n\nA study of urban form through the means of quantitative assessment of its constituent elements.\n\n\nConceptually similar to historico-geographical approach.\nMethodologically embedded in spatial data science and geography."
+  },
+  {
+    "objectID": "slides/202410_Nanjing.html#how-to-scale-urban-morphometrics",
+    "href": "slides/202410_Nanjing.html#how-to-scale-urban-morphometrics",
+    "title": "From a building to a region",
+    "section": "How to scale urban morphometrics",
+    "text": "How to scale urban morphometrics"
+  },
+  {
+    "objectID": "slides/202410_Nanjing.html#step-01",
+    "href": "slides/202410_Nanjing.html#step-01",
+    "title": "From a building to a region",
+    "section": "Step 01",
+    "text": "Step 01\nSplit the data without breaking spatial dependency"
+  },
+  {
+    "objectID": "slides/202410_Nanjing.html#step-02",
+    "href": "slides/202410_Nanjing.html#step-02",
+    "title": "From a building to a region",
+    "section": "Step 02",
+    "text": "Step 02\nAvoid methodological bottlenecks\nExample - morphological tessellation"
+  },
+  {
+    "objectID": "slides/202410_Nanjing.html#step-03",
+    "href": "slides/202410_Nanjing.html#step-03",
+    "title": "From a building to a region",
+    "section": "Step 03",
+    "text": "Step 03\nAvoid implementation bottlenecks"
+  },
+  {
+    "objectID": "slides/202410_Nanjing.html#step-04",
+    "href": "slides/202410_Nanjing.html#step-04",
+    "title": "From a building to a region",
+    "section": "Step 04",
+    "text": "Step 04\nMeasure!"
+  },
+  {
+    "objectID": "slides/202410_Nanjing.html#what-is-next",
+    "href": "slides/202410_Nanjing.html#what-is-next",
+    "title": "From a building to a region",
+    "section": "What is next",
+    "text": "What is next\n\nIt depends…"
+  },
+  {
+    "objectID": "slides/202410_Nanjing.html#our-step-05",
+    "href": "slides/202410_Nanjing.html#our-step-05",
+    "title": "From a building to a region",
+    "section": "Our step 05",
+    "text": "Our step 05\nMorphotope delineation"
+  },
+  {
+    "objectID": "slides/202410_Nanjing.html#morphotope",
+    "href": "slides/202410_Nanjing.html#morphotope",
+    "title": "From a building to a region",
+    "section": "Morphotope",
+    "text": "Morphotope\n\n\n\nexcerpt from Larkham and Jones, 1991"
+  },
+  {
+    "objectID": "slides/202410_Nanjing.html#our-step-06",
+    "href": "slides/202410_Nanjing.html#our-step-06",
+    "title": "From a building to a region",
+    "section": "Our step 06",
+    "text": "Our step 06\nBaseline morphotope types"
+  },
+  {
+    "objectID": "slides/202410_Nanjing.html#our-step-07",
+    "href": "slides/202410_Nanjing.html#our-step-07",
+    "title": "From a building to a region",
+    "section": "Our step 07",
+    "text": "Our step 07\nExtensible taxonomy of urban form"
+  },
+  {
+    "objectID": "slides/202410_Nanjing.html#times-have-changed.-methods-have-changed.-concepts-those-only-evolved",
+    "href": "slides/202410_Nanjing.html#times-have-changed.-methods-have-changed.-concepts-those-only-evolved",
+    "title": "From a building to a region",
+    "section": "Times have changed. Methods have changed. Concepts? Those only evolved",
+    "text": "Times have changed. Methods have changed. Concepts? Those only evolved"
+  },
+  {
+    "objectID": "slides/202410_Nanjing.html#urban-morphology-can-be-deeply-embedded-in-spatial-data-science",
+    "href": "slides/202410_Nanjing.html#urban-morphology-can-be-deeply-embedded-in-spatial-data-science",
+    "title": "From a building to a region",
+    "section": "Urban morphology can be deeply embedded in spatial data science",
+    "text": "Urban morphology can be deeply embedded in spatial data science"
+  },
+  {
+    "objectID": "slides/202410_Nanjing.html#urban-morphometrics-can-support-quantitative-studies-done-at-scale",
+    "href": "slides/202410_Nanjing.html#urban-morphometrics-can-support-quantitative-studies-done-at-scale",
+    "title": "From a building to a region",
+    "section": "Urban morphometrics can support quantitative studies done at scale",
+    "text": "Urban morphometrics can support quantitative studies done at scale"
+  },
+  {
+    "objectID": "slides/202410_Nanjing.html#all-within-fully-interpretable-framework",
+    "href": "slides/202410_Nanjing.html#all-within-fully-interpretable-framework",
+    "title": "From a building to a region",
+    "section": "All within fully interpretable framework",
+    "text": "All within fully interpretable framework"
   },
   {
     "objectID": "slides/202410_Nanjing.html#do-you-want-to-follow-up",
