@@ -88,7 +88,7 @@ I knew what needs to be done but there were no tools to do it. [So, I created my
 ![](../figures/202504_Berkeley/momepy.png){fig-align="center"}
 
 ::: aside
-[docs.momepy.org](https:/docs.momepy.org/)
+[docs.momepy.org](https://docs.momepy.org/)
 :::
 
 ---
