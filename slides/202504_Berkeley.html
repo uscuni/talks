@@ -9,7 +9,9 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-d4d76bf8491c20bad77d141916dc28e1.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.6.43">
 
-  <title>Talks – Spatial Data Science across Languages</title>
+  <meta name="author" content="Martin Fleischmann">
+  <meta name="dcterms.date" content="2025-04-15">
+  <title>Talks – Urban science as a software</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -130,243 +132,385 @@
     <div class="slides">
 
 <section id="title-slide" data-background-image="../assets/full_logo.svg" data-background-position="50% 90%" data-background-size="20%" class="quarto-title-block center">
-  <h1 class="title">Spatial Data Science across Languages</h1>
-  <p class="subtitle">2024</p>
+  <h1 class="title">Urban science as a software</h1>
 
 <div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Martin Fleischmann 
+</div>
+</div>
 </div>
 
+  <p class="date">2025-04-15</p>
 </section>
 <section>
-<section id="thank-you-for-being-here" class="title-slide slide level1 center">
-<h1>Thank you for being here</h1>
+<section id="whos-this-guy" class="title-slide slide level1 question center">
+<h1>Who’s this guy</h1>
 
 </section>
 <section class="slide level2">
 
-<div class="r-fit-text">
-<p>Faculty of Science</p>
-<p><span class="fragment">Map and Data Centre</span></p>
-<p><span class="fragment">Program committee</span></p>
-<p><span class="fragment">Yomna and Edzer</span></p>
-<p><span class="fragment">Danka and the team</span></p>
+<div class="r-fit-text absolute" style="top: 10%; ">
+<p>researcher</p>
 </div>
-</section>
-<section class="slide level2">
+<div class="r-fit-text absolute fragment" style="top: 50%; ">
+<p>developer</p>
+</div>
+</section></section>
+<section>
+<section id="developing-reproducible-computational-urban-science" class="title-slide slide level1 center">
+<h1>Developing reproducible, computational urban science</h1>
 
-<h3 id="practical-info">Practical info</h3>
-<ul>
-<li class="fragment">Toliets</li>
-<li class="fragment">Breaks</li>
-<li class="fragment">Dinner</li>
-</ul>
 </section>
-<section id="section" class="slide level2 no-text" data-background-image="../figures/202409_SDSL/map.png">
-<h2></h2>
+<section id="open-by-default" class="slide level2">
+<h2>Open by default</h2>
+<p><span class="fragment">Use (and nurture) the existing OSS infrastructure</span></p>
+<p><span class="fragment">Treat research artifacts as OSS from Day 1</span></p>
+<p><span class="fragment">Only “stay closed” when there is a good reason</span></p>
+</section>
+<section id="reproducible-research" class="slide level2">
+<h2>Reproducible research</h2>
+<ol type="1">
+<li class="fragment">Transparent</li>
+<li class="fragment">Accessible</li>
+<li class="fragment">Transferrable</li>
+</ol>
+</section></section>
+<section>
+<section id="show-me" class="title-slide slide level1 exclamation center">
+<h1>Show me</h1>
+
+</section>
+<section id="methodological-foundation-of-a-numerical-taxonomy-of-urban-form" class="slide level2">
+<h2>Methodological foundation of a numerical taxonomy of urban form</h2>
 
 <aside><div>
-<p>Vinohrady Brewery</p>
+<p>Fleischmann, M., Feliciotti, A., Romice, O., Porta, S., 2022. Methodological foundation of a numerical taxonomy of urban form. Environment and Planning B: Urban Analytics and City Science 49, 1283–1299. https://doi.org/10/gnth7q</p>
 </div></aside></section>
 <section class="slide level2">
 
-<h3 id="hybrid-setting">Hybrid setting</h3>
-<ul>
-<li class="fragment">Zoom</li>
-<li class="fragment">Discord</li>
-<li class="fragment">Notes</li>
-</ul>
-<p><span class="fragment">Ask questions on Discord, where we can have a persistent discussion, rather than on Zoom.</span></p>
-</section></section>
-<section>
-<section id="scope-goals-and-outcomes" class="title-slide slide level1 center">
-<h1>Scope, Goals, and Outcomes</h1>
-
-</section>
-<section class="slide level2">
-
-<div class="r-fit-text">
-<p>Bridge the language barriers</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../figures/202504_Berkeley/taxonomy_paper.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
 </div>
-<div class="r-fit-text fragment">
-<p>Bring the communities together</p>
-</div>
-<div class="r-fit-text fragment">
-<p>Discuss the differences and commonalities</p>
-</div>
-<div class="r-fit-text fragment">
-<p>Find ways to discuss, cooperate,<br> and synchronise the efforts</p>
-</div>
-</section>
-<section class="slide level2">
-
-<h3 id="primarily-developer-oriented-audience">Primarily developer-oriented audience</h3>
-<h3 class="fragment" id="in-person-discussion-as-the-main-goal">In-person discussion as the main goal</h3>
-</section>
-<section class="slide level2">
-
-<div class="r-fit-text">
-<p>Recommendations</p>
-</div>
-<div class="r-fit-text fragment">
-<p>Connections</p>
-</div>
-<div class="r-fit-text fragment">
-<p>Cross-pollination</p>
-</div>
-</section></section>
-<section id="expectations" class="title-slide slide level1 center">
-<h1>Expectations</h1>
-<ul>
-<li class="fragment">What do you expect from this workshop?</li>
-</ul>
-</section>
-
-<section>
-<section id="program" class="title-slide slide level1 center">
-<h1>Program</h1>
-<ul>
-<li class="fragment">Each session to be kickstarted by a short talk.</li>
-</ul>
-</section>
-<section class="slide level2">
-
-
-<img data-src="../figures/202409_SDSL/day1.png" class="r-stretch"></section>
-<section class="slide level2">
-
-
-<img data-src="../figures/202409_SDSL/day2.png" class="r-stretch"></section></section>
-<section>
-<section id="looking-back-at-2023" class="title-slide slide level1 center">
-<h1>Looking back at 2023</h1>
-
-</section>
-<section id="personal-reflections" class="slide level2">
-<h2>Personal reflections</h2>
-</section>
-<section class="slide level2">
-
-<h3 id="different-maturity-of-ecosystems">Different maturity of ecosystems</h3>
-</section>
-<section class="slide level2">
-
-<h3 id="omnipresence-of-arrow">Omnipresence of Arrow</h3>
-</section>
-<section class="slide level2">
-
-<h3 id="freedom-vs.-security-mindset">Freedom vs.&nbsp;security mindset</h3>
-</section>
-<section id="working-paper" class="slide level2">
-<h2>Working paper</h2>
-</section>
-<section class="slide level2">
-
-
-<img data-src="../figures/202409_SDSL/paper.png" class="r-stretch"></section>
-<section class="slide level2">
-
-<h3 id="point-vs-block-support">Point vs block support</h3>
-</section>
-<section class="slide level2">
-
-
-<img data-src="../figures/202409_SDSL/support.png" class="r-stretch"></section>
-<section class="slide level2">
-
-
-<img data-src="../figures/202409_SDSL/split-merge.png" class="r-stretch"></section>
-<section class="slide level2">
-
-<h3 id="geodetic-coordinates">Geodetic coordinates</h3>
-</section>
-<section class="slide level2">
-
-
-<img data-src="../figures/202409_SDSL/geodetic.png" class="r-stretch"></section>
-<section class="slide level2">
-
-<h3 id="data-cubes">Data cubes</h3>
-</section>
-<section class="slide level2">
-
-<p><img data-src="https://raw.githubusercontent.com/r-spatial/stars/main/images/cube1.png" style="width:80.0%"></p>
 
 <aside><div>
-<p>Data Cube (image taken from <code>{stars}</code> documentation)</p>
+<p><a href="https://doi.org/10.1177/23998083211059835">10.1177/23998083211059835</a></p>
 </div></aside></section>
 <section class="slide level2">
 
-<p><img data-src="https://raw.githubusercontent.com/r-spatial/stars/main/images/cube3.png" style="width:80.0%"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../figures/202504_Berkeley/taxononmy.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
 
 <aside><div>
-<p>Vector Data Cube (image taken from <code>{stars}</code> documentation)</p>
+<p><a href="https://martinfleischmann.net/numerical-taxonomy-maps/">martinfleischmann.net/numerical-taxonomy-maps/</a></p>
 </div></aside></section>
 <section class="slide level2">
 
-<h3 id="file-formats-data-connectivity-and-in-memory-representation">File formats, data connectivity, and in-memory representation</h3>
-<ul>
-<li class="fragment">GeoParquet</li>
-<li class="fragment">GeoArrow</li>
-<li class="fragment">Zarr, GeoTIFF</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<h3 id="inter-package-dependencies-and-shared-upstream-libraries">Inter-package dependencies and shared upstream libraries</h3>
-</section>
-<section class="slide level2">
-
-
-<img data-src="../figures/202409_SDSL/deps.png" class="r-stretch"></section>
-<section class="slide level2">
-
-<h3 id="recommendations">Recommendations</h3>
-</section>
-<section class="slide level2">
-
-<h4 id="open-standards">Open Standards</h4>
-<blockquote>
-<p>It is encouraging to see that involvement in the development of open geospatial is no longer restricted to members of the Open Geospatial Consortium (OGC), and takes place in issues of public OGC GitHub repositories (for instance for GeoZarr and GeoParquet), or even completely outside OGC communication channels (e.g.&nbsp;STAC, GDAL, and openEO).</p>
-</blockquote>
-</section>
-<section class="slide level2">
-
-<blockquote>
-<p>It would be convenient to have routines to verify polygons form a coverage (i.e.&nbsp;are not overlapping), or to create non-overlapping polygons from overlap- ping ones polygons, in a way that all spatial data science languages can profit from.</p>
-</blockquote>
-</section>
-<section class="slide level2">
-
-<blockquote>
-<p>Wider adoption of GeoParquet as a more efficient file format for whole-file read/write and wider adoption of GeoAr- row as a common metadata standard and memory model may help address […] challenges.</p>
-</blockquote>
-</section>
-<section class="slide level2">
-
-<h4 id="field-domains">Field domains</h4>
-<blockquote>
-<p>Splitting spatially extensive block support variables to point geometries should at all times be avoided.</p>
-</blockquote>
-<blockquote>
-<p>[…] split and merge policies follow from a variable being spatially extensive or intensive, and hence one of them is obsolete.</p>
-</blockquote>
-<blockquote>
-<p>A less ambiguous approach would be to have a single field domain called <code>is_spatially_extensive</code> with a boolean value.</p>
-</blockquote>
-</section>
-<section class="slide level2">
-
-<h4 id="geodetic-coordinates-spherical-geometry">Geodetic coordinates, spherical geometry</h4>
-
-<img data-src="../figures/202409_SDSL/s2.png" class="r-stretch"></section>
-<section class="slide level2">
-
-<div class="r-fit-text absolute" style="top: 25%; ">
-<p><code>#sdsl2024</code></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../figures/202504_Berkeley/taxonomy_dp.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
 </div>
 
+<aside><div>
+<p><a href="https://doi.org/10.6084/m9.figshare.16897102.v1">10.6084/m9.figshare.16897102.v1</a></p>
+</div></aside></section>
+<section class="slide level2">
 
+<p>I knew what needs to be done but there were no tools to do it. <span class="fragment">So, I created my own.</span></p>
+</section>
+<section class="slide level2">
+
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../figures/202504_Berkeley/momepy.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+
+<aside><div>
+<p><a href="https:/docs.momepy.org/">docs.momepy.org</a></p>
+</div></aside></section>
+<section class="slide level2">
+
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../figures/202504_Berkeley/taxonomy_code.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+
+<aside><div>
+<p><a href="https://github.com/martinfleis/numerical-taxonomy-paper/">github.com/martinfleis/numerical-taxonomy-paper</a></p>
+</div></aside></section>
+<section class="slide level2">
+
+<p>In 2019, I have joined the development team of the GeoPandas project.</p>
+<p><span class="fragment">GeoPandas is the core package in the Python ecosystem for spatial data science.</span></p>
+<p><span class="fragment"><a href="https://geopandas.org">geopandas.org</a></span></p>
+</section>
+<section id="geographical-characterisation-of-british-urban-form-and-function-using-the-spatial-signatures-framework" class="slide level2">
+<h2>Geographical characterisation of British urban form and function using the spatial signatures framework</h2>
+
+<aside><div>
+<p>Fleischmann, M., Arribas-Bel, D., 2022. Geographical characterisation of British urban form and function using the spatial signatures framework. Sci Data 9, 546. https://doi.org/10.1038/s41597-022-01640-8</p>
+</div></aside></section>
+<section class="slide level2">
+
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../figures/202504_Berkeley/ug.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+
+<aside><div>
+<p><a href="https://www.turing.ac.uk/research/research-projects/urban-grammar">turing.ac.uk/research/research-projects/urban-grammar</a></p>
+</div></aside></section>
+<section class="slide level2">
+
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../figures/202504_Berkeley/ug_sigs.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+
+<aside><div>
+<p><a href="https://urbangrammarai.xyz/great-britain/#">urbangrammarai.xyz/great-britain</a></p>
+</div></aside></section>
+<section class="slide level2">
+
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../figures/202504_Berkeley/ug_story.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+
+<aside><div>
+<p><a href="https://urbangrammarai.xyz/story">urbangrammarai.xyz/story</a></p>
+</div></aside></section>
+<section class="slide level2">
+
+<p>We had to scale up the analysis but tools were not ready. <span class="fragment">So, we improved the tools.</span></p>
+</section>
+<section class="slide level2">
+
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../figures/202504_Berkeley/ug_tobler.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+
+<aside><div>
+<p><a href="https://urbangrammarai.xyz/blog/post6_tobler.html">urbangrammarai.xyz/blog/post6_tobler.html</a></p>
+</div></aside></section>
+<section class="slide level2">
+
+<p>And created some new.</p>
+</section>
+<section class="slide level2">
+
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../figures/202504_Berkeley/ug_cgram.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+
+<aside><div>
+<p><a href="https://clustergram.readthedocs.io/en/stable/index.html">clustergram.readthedocs.io</a></p>
+</div></aside></section>
+<section class="slide level2">
+
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../figures/202504_Berkeley/ug_code.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+
+<aside><div>
+<p><a href="https://github.com/urbangrammarai/data_processing">github.com/urbangrammarai/data_processing</a></p>
+</div></aside></section>
+<section class="slide level2">
+
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../figures/202504_Berkeley/ug_code_site.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+
+<aside><div>
+<p><a href="https://urbangrammarai.xyz/data_processing">urbangrammarai.xyz/data_processing</a></p>
+</div></aside></section>
+<section id="understanding-urban-form---hierarchical-morphotope-classification-based-on-gradually-loosening-spatial-restrictions" class="slide level2">
+<h2>Understanding Urban Form - Hierarchical Morphotope Classification based on Gradually Loosening Spatial Restrictions</h2>
+
+<aside><div>
+<p>Fleischmann, M., Samardzhiev, K., upcoming. Understanding Urban Form - Hierarchical Morphotope Classification based on Gradually Loosening Spatial Restrictions</p>
+</div></aside></section>
+<section class="slide level2">
+
+<div class="r-fit-text absolute" style="top: 39%; ">
+<p>entering WIP zone</p>
+</div>
+</section>
+<section class="slide level2">
+
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../figures/202504_Berkeley/himoc_map.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+
+<aside><div>
+<p><a href="https://uscuni.org/himoc">uscuni.org/himoc</a></p>
+</div></aside></section>
+<section class="slide level2">
+
+<p>Some unresolved needs were left out in previous research. <span class="fragment">So we fixed them in existing and new tools</span></p>
+</section>
+<section class="slide level2">
+
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../figures/202504_Berkeley/geoplanar.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+
+<aside><div>
+<p><a href="https://geoplanar.readthedocs.io/en/latest/">geoplanar.readthedocs.io</a></p>
+</div></aside></section>
+<section class="slide level2">
+
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../figures/202504_Berkeley/momepy08.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+
+<aside><div>
+<p><a href="https://github.com/pysal/momepy/releases/tag/v0.8.0">github.com/pysal/momepy</a></p>
+</div></aside></section>
+<section class="slide level2">
+
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../figures/202504_Berkeley/shapely.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+
+<aside><div>
+<p><a href="https://github.com/shapely/shapely/pull/1969">github.com/shapely/shapely</a></p>
+</div></aside></section>
+<section class="slide level2">
+
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../figures/202504_Berkeley/graph.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+
+<aside><div>
+<p><a href="https://pysal.org/libpysal/generated/libpysal.graph.Graph.html">pysal.org/libpysal</a></p>
+</div></aside></section>
+<section class="slide level2">
+
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../figures/202504_Berkeley/neatnet.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+
+<aside><div>
+<p><a href="https://uscuni.org/neatnet">uscuni.org/neatnet</a></p>
+</div></aside></section>
+<section id="generic-framework-for-geographically-weighted-modelling" class="slide level2">
+<h2>Generic framework for geographically-weighted modelling</h2>
+
+<aside><div>
+<p>Fleischmann, M., Brazdova, A., Winkler, L., upcoming. Generic framework for geographically-weighted modelling</p>
+</div></aside></section>
+<section class="slide level2">
+
+<p>What about openness and transparency when using restricted data?</p>
+</section>
+<section class="slide level2">
+
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../figures/202504_Berkeley/notebook.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+
+<aside><div>
+<p><a href="https://github.com/uscuni/people_places/blob/main/notebooks/gw_modelling/pca.ipynb">github.com/uscuni/people_places</a></p>
+</div></aside></section>
+<section class="slide level2">
+
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../figures/202504_Berkeley/gwlearn.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+
+<aside><div>
+<p><a href="https://uscuni.org/gwlearn/generated/gwlearn.base.BaseClassifier.html">uscuni.org/gwlearn</a></p>
+</div></aside></section></section>
+<section>
+<section id="infrastructure" class="title-slide slide level1 center">
+<h1>Infrastructure</h1>
+
+</section>
+<section class="slide level2">
+
+<h3 id="ensure-others-can-use-the-same">Ensure others can use the same</h3>
+<div class="fragment">
+<h3 id="reproducible-environments">Reproducible environments</h3>
+</div>
+<div class="fragment">
+<h3 id="containers-lock-files">Containers / lock-files</h3>
+</div>
 </section></section>
+<section>
+<section id="data" class="title-slide slide level1 center">
+<h1>Data</h1>
+
+</section>
+<section class="slide level2">
+
+<h3 id="standard-formats-better-than-niche">Standard (formats) better than niche</h3>
+<div class="fragment">
+<h3 id="open-better-than-proprietary">Open better than proprietary</h3>
+</div>
+<div class="fragment">
+<h3 id="static-better-than-database">Static better than database</h3>
+</div>
+</section></section>
+<section>
+<section id="the-takeaway" class="title-slide slide level1 center">
+<h1>The takeaway</h1>
+
+</section>
+<section id="release-early-release-often" class="slide level2">
+<h2><em>Release early, release often</em></h2>
+</section>
+<section id="make-open-a-feature-not-a-bug" class="slide level2">
+<h2><em>Make open a feature, not a bug</em></h2>
+</section>
+<section id="do-what-is-best-not-what-system-wants" class="slide level2">
+<h2><em>Do what is best, not what system wants</em></h2>
+</section>
+<section id="share-your-knowledge-it-is-a-way-to-achieve-immortality" class="slide level2">
+<h2><em>Share your knowledge, it is a way to achieve immortality</em></h2>
+<h4 id="dalai-lama">(Dalai Lama)</h4>
+
+
+
+<aside><div>
+<p><span class="fragment">Thank you! Contacts at <a href="https://martinfleischmann.net">martinfleischmann.net</a>.</span></p>
+</div></aside></section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <p><img src="../assets/icon.svg" class="slide-logo"></p>
