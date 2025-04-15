@@ -59,6 +59,10 @@ $presentation-slide-text-align: left;
     color: #C51D48;
 }
 
+.reveal .exclamation h1::after, .reveal .exclamation h2::after, .reveal .exclamation h3::after {
+    content: "!";
+    color: #C51D48;
+}
 .reveal .no-text h1::after, .reveal .no-text h2::after, .reveal .no-text h3::after {
     content: "";
 }

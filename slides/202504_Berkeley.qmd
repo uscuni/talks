@@ -1,0 +1,321 @@
+---
+title: "Urban science as a software"
+author: "Martin Fleischmann"
+date: 2025-04-15
+format:
+    revealjs:
+        theme: [default, ../assets/reveal.scss]
+        logo: ../assets/icon.svg
+        menu: false
+        transition: slide
+        navigation-mode: linear
+        controls-layout: edges
+        progress: true
+        incremental: true
+        include-in-header: ../assets/font.html
+        title-slide-attributes:
+            data-background-image: ../assets/full_logo.svg
+            data-background-size: 20%
+            data-background-position: 50% 90%
+---
+
+# Who's this guy {.question}
+
+---
+
+::: {.r-fit-text .absolute top=10%}
+researcher
+:::
+
+::: {.r-fit-text .absolute top=50% .fragment}
+developer
+:::
+
+# Developing reproducible, computational urban science
+
+## Open by default
+
+[Use (and nurture) the existing OSS infrastructure]{.fragment}
+
+[Treat research artifacts as OSS from Day 1]{.fragment}
+
+[Only "stay closed" when there is a good reason]{.fragment}
+
+## Reproducible research
+
+1. Transparent
+2. Accessible
+3. Transferrable
+
+# Show me {.exclamation}
+
+## Methodological foundation of a numerical taxonomy of urban form
+
+::: aside
+Fleischmann, M., Feliciotti, A., Romice, O., Porta, S., 2022. Methodological foundation of a numerical taxonomy of urban form. Environment and Planning B: Urban Analytics and City Science 49, 1283–1299. https://doi.org/10/gnth7q
+:::
+
+---
+
+![](../figures/202504_Berkeley/taxonomy_paper.png){fig-align="center"}
+
+::: aside
+[10.1177/23998083211059835](https://doi.org/10.1177/23998083211059835)
+:::
+
+---
+
+![](../figures/202504_Berkeley/taxononmy.png){fig-align="center"}
+
+::: aside
+[martinfleischmann.net/numerical-taxonomy-maps/](https://martinfleischmann.net/numerical-taxonomy-maps/)
+:::
+
+---
+
+![](../figures/202504_Berkeley/taxonomy_dp.png){fig-align="center"}
+
+::: aside
+[10.6084/m9.figshare.16897102.v1](https://doi.org/10.6084/m9.figshare.16897102.v1)
+:::
+
+---
+
+I knew what needs to be done but there were no tools to do it. [So, I created my own.]{.fragment}
+
+---
+
+![](../figures/202504_Berkeley/momepy.png){fig-align="center"}
+
+::: aside
+[docs.momepy.org](https:/docs.momepy.org/)
+:::
+
+---
+
+![](../figures/202504_Berkeley/taxonomy_code.png){fig-align="center"}
+
+::: aside
+[github.com/martinfleis/numerical-taxonomy-paper](https://github.com/martinfleis/numerical-taxonomy-paper/)
+:::
+
+---
+
+In 2019, I have joined the development team of the GeoPandas project.
+
+[GeoPandas is the core package in the Python ecosystem for spatial data science.]{.fragment}
+
+[[geopandas.org](https://geopandas.org)]{.fragment}
+
+
+## Geographical characterisation of British urban form and function using the spatial signatures framework
+
+::: aside
+Fleischmann, M., Arribas-Bel, D., 2022. Geographical characterisation of British urban form and function using the spatial signatures framework. Sci Data 9, 546. https://doi.org/10.1038/s41597-022-01640-8
+:::
+
+---
+
+
+![](../figures/202504_Berkeley/ug.png){fig-align="center"}
+
+::: aside
+[turing.ac.uk/research/research-projects/urban-grammar](https://www.turing.ac.uk/research/research-projects/urban-grammar)
+:::
+
+---
+
+![](../figures/202504_Berkeley/ug_sigs.png){fig-align="center"}
+
+::: aside
+[urbangrammarai.xyz/great-britain](https://urbangrammarai.xyz/great-britain/#)
+:::
+
+---
+
+![](../figures/202504_Berkeley/ug_story.png){fig-align="center"}
+
+::: aside
+[urbangrammarai.xyz/story](https://urbangrammarai.xyz/story)
+:::
+
+---
+
+We had to scale up the analysis but tools were not ready. [So, we improved the tools.]{.fragment}
+
+---
+
+![](../figures/202504_Berkeley/ug_tobler.png){fig-align="center"}
+
+::: aside
+[urbangrammarai.xyz/blog/post6_tobler.html](https://urbangrammarai.xyz/blog/post6_tobler.html)
+:::
+
+---
+
+And created some new.
+
+---
+
+![](../figures/202504_Berkeley/ug_cgram.png){fig-align="center"}
+
+::: aside
+[clustergram.readthedocs.io](https://clustergram.readthedocs.io/en/stable/index.html)
+:::
+
+---
+
+![](../figures/202504_Berkeley/ug_code.png){fig-align="center"}
+
+::: aside
+[github.com/urbangrammarai/data_processing](https://github.com/urbangrammarai/data_processing)
+:::
+
+---
+
+![](../figures/202504_Berkeley/ug_code_site.png){fig-align="center"}
+
+::: aside
+[urbangrammarai.xyz/data_processing](https://urbangrammarai.xyz/data_processing)
+:::
+
+
+## Understanding Urban Form - Hierarchical Morphotope Classification based on Gradually Loosening Spatial Restrictions
+
+::: aside
+Fleischmann, M., Samardzhiev, K., upcoming. Understanding Urban Form - Hierarchical Morphotope Classification based on Gradually Loosening Spatial Restrictions
+:::
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+entering WIP zone
+:::
+
+---
+
+![](../figures/202504_Berkeley/himoc_map.png){fig-align="center"}
+
+::: aside
+[uscuni.org/himoc](https://uscuni.org/himoc)
+:::
+
+---
+
+Some unresolved needs were left out in previous research. [So we fixed them in existing and new tools]{.fragment}
+
+---
+
+![](../figures/202504_Berkeley/geoplanar.png){fig-align="center"}
+
+::: aside
+[geoplanar.readthedocs.io](https://geoplanar.readthedocs.io/en/latest/)
+:::
+
+---
+
+![](../figures/202504_Berkeley/momepy08.png){fig-align="center"}
+
+::: aside
+[github.com/pysal/momepy](https://github.com/pysal/momepy/releases/tag/v0.8.0)
+:::
+
+---
+
+![](../figures/202504_Berkeley/shapely.png){fig-align="center"}
+
+::: aside
+[github.com/shapely/shapely](https://github.com/shapely/shapely/pull/1969)
+:::
+
+---
+
+![](../figures/202504_Berkeley/graph.png){fig-align="center"}
+
+::: aside
+[pysal.org/libpysal](https://pysal.org/libpysal/generated/libpysal.graph.Graph.html)
+:::
+
+---
+
+![](../figures/202504_Berkeley/neatnet.png){fig-align="center"}
+
+::: aside
+[uscuni.org/neatnet](https://uscuni.org/neatnet)
+:::
+
+---
+
+
+## Generic framework for geographically-weighted modelling
+
+::: aside
+Fleischmann, M., Brazdova, A., Winkler, L., upcoming. Generic framework for geographically-weighted modelling
+:::
+
+---
+
+What about openness and transparency when using restricted data?
+
+---
+
+![](../figures/202504_Berkeley/notebook.png){fig-align="center"}
+
+::: aside
+[github.com/uscuni/people_places](https://github.com/uscuni/people_places/blob/main/notebooks/gw_modelling/pca.ipynb)
+:::
+
+---
+
+![](../figures/202504_Berkeley/gwlearn.png){fig-align="center"}
+
+::: aside
+[uscuni.org/gwlearn](https://uscuni.org/gwlearn/generated/gwlearn.base.BaseClassifier.html)
+:::
+
+
+# Infrastructure
+
+---
+
+### Ensure others can use the same
+
+::: fragment
+### Reproducible environments
+:::
+
+::: fragment
+### Containers / lock-files
+:::
+
+# Data
+
+---
+
+### Standard (formats) better than niche
+
+::: fragment
+### Open better than proprietary
+:::
+
+::: fragment
+### Static better than database
+:::
+
+
+# The takeaway
+
+## *Release early, release often*
+
+## *Make open a feature, not a bug*
+
+## *Do what is best, not what system wants*
+
+## *Share your knowledge, it is a way to achieve immortality*
+#### (Dalai Lama)
+
+::: aside
+
+[Thank you! Contacts at [martinfleischmann.net](https://martinfleischmann.net).]{.fragment}
+
+:::
