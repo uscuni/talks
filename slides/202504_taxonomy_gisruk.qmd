@@ -1,0 +1,222 @@
+---
+title: "Understanding Urban Form"
+subtitle: "Hierarchical Morphotope Classification based on Gradually Loosening Spatial Restrictions"
+author: "Martin Fleischmann and Krasen Samardzhiev"
+institute: "Charles University"
+# date: "today"
+format:
+    revealjs:
+        theme: [default, ../assets/reveal.scss]
+        logo: ../assets/icon.svg
+        menu: false
+        transition: slide
+        navigation-mode: linear
+        controls-layout: edges
+        progress: true
+        include-in-header: ../assets/font.html
+        title-slide-attributes:
+            data-background-image: ../assets/full_logo.svg
+            data-background-size: 15%
+            data-background-position: 50% 90%
+---
+
+
+## {background-image="../figures/202504_taxonomy_gisruk/paris_george_kantarzis.jpg" .no-text}
+
+::: aside
+Paris by George Kantarzis
+:::
+
+## {background-image="../figures/202504_taxonomy_gisruk/prague_jay_danntine.jpg" .no-text}
+
+::: aside
+Prague by Jay Dantine
+:::
+
+## {background-image="../figures/202504_taxonomy_gisruk/barcelona.jpg" .no-text}
+
+::: aside
+Barcelona
+:::
+
+
+## {background-image="../figures/202504_taxonomy_gisruk/brasilia.jpg" .no-text}
+
+::: aside
+Brasilia
+:::
+
+## {background-image="../figures/202504_taxonomy_gisruk/atlanta.jpg" .no-text}
+
+::: aside
+Atlanta
+:::
+
+
+
+# Morphometrics
+
+## Classification as a way to reduce complexity
+
+
+<!-- ![Caniggia and Maffei](../figures/202504_taxonomy_gisruk/caniggia-maffei-analisi-tessuti-storici.jpg)
+
+--- -->
+
+![Conzen M (1960) Alnwick, Northumberland: A Study in Town-Plan Analysis. London: George Philip & Son.](../figures/202504_taxonomy_gisruk/conzen.png)
+
+---
+
+- Morphotope -  Buildings, streets and lots with a distinct physical configuration
+- Morpho-subtypes - Simple combinations of morphotopes
+- Morphotypes -  Combinations of Morpho-subtypes and morphotypes
+
+## Computational morphometrics
+
+## {background-image="../figures/202504_taxonomy_gisruk/arinaldi.jpg" .no-text}
+
+::: aside
+Araldi, A. and Fusco, G. (2025), Multi-Level Street-Based Analysis of the Urban Fabric: Developments for a Nationwide Taxonomy. Geographical Analysis, 57: 270-301.
+:::
+
+## {background-image="../figures/202504_taxonomy_gisruk/prague.jpg" .no-text}
+::: aside
+Fleischmann, M., Feliciotti, A., Romice, O., & Porta, S. (2021). Methodological foundation of a numerical taxonomy of urban form. Environment and Planning B, 49(4), 1283-1299.
+:::
+
+# HiMoC Aims
+
+- Results align with theory and qualitative work
+- Detailed elements as fundamental units - buildings, streets, plots
+- Scale - applicable to numerous countries
+
+# Methodology 
+
+## Enclosed Tessellation Cells
+![](../figures/202504_taxonomy_gisruk/etc.jpg)
+
+::: aside
+Fleischmann, M., Feliciotti, A., Romice, O., & Porta, S. (2021). Methodological foundation of a numerical taxonomy of urban form. Environment and Planning B, 49(4), 1283-1299.
+:::
+
+---
+
+## Measured characteristics
+![](../figures/202504_taxonomy_gisruk/taxonomy_chars.png)
+
+---
+
+## Gradually Loosening Spatial Restrictions
+
+- Framework for hierarchical spatial clustering relying on:
+    1. Intermediate aggregations
+    2. Relaxing spatial restrictions as the size of the intermediate aggregations increases.
+- Results in a taxonomy starting from individual ETCs to two morphotypes
+
+
+## Three levels of aggregations
+1. ETCs to morphotopes
+2. Morphotopes to regional subtypes
+3. Regional subtypes to morphotypes
+
+
+## Three levels of spatial restrictions
+1. Immediate - only immediate neighbors can be part of the same cluster.
+2. Regional - only neighbours within the same region can be combined. A region is any group of buildings and their neighbouring buildings within 500m. 
+3. Global - no spatial restrictions
+
+
+## Three algorithms
+
+## 1. Spatial Adaptive Agglomerative Clustering ($SA^3$)
+1. Compute a full regionalisation tree with any `sklearn.hierarchy.AgglomerativeClustering` algorithm and spatial restrictions imposed by a `libpysal.graph.Graph` or `libpysal.weights.W`.
+
+---
+
+2. Extraction of contiguous regions with noise ( i.e. some observations will not belong to any of the extracted regions) using hierarchical density-based clustering schemas - `ExcessOfMass` or `leaf`.
+
+<!-- ## Properties
+1. Contiguous - observations in the same cluster should be spatially contiguos.
+2. Conservative - observations are assigned to a noise cluster if they are not similar in feature space, to any of their geographical neighbours.
+3. Multiscale - It is possible to have clusters with internal dissimilarity higher than the external dissimilarity between a pair of other clusters.
+4. Dynamic - The final number of clusters is inferred from the data based on a `min_cluster_size` parameter and not predefined.
+
+
+## Justication
+1. By definition morphotopes are spatially contiguous
+2. There are multiple types of urban fabric interspersed within a city which should be kept seperate - single family houses around apartment blocks, for example.
+
+---
+
+3. The internal dissimilarity within an industrial area is higher, than the external similarity between a single family housing and a multi-family housing area. Nevertheless, we are interested in getting the three types of coherent units deliniated using one algorithm.
+
+4. We dont know how many morphotopes to look for beforehand. -->
+
+## Morphotope operational definition
+
+a group of 75 or more spacially contiguous ETCs that are closer to eachother morphologically than to any other group of 75 or more spacially contiguous ETCs.
+
+## 2. Regional subtypes
+- Complete linkage applied to all the morphotopes in a single region.
+
+
+## 3. Recursive K-Means
+
+1. Step 1. - the whole dataset is split into two clusters by performing a kmeans clustering with K=2. 
+2. Step $N$. - the algorithm splits each of the clusters from the $N-1$ iteration into two further clusters, again using a kmeans clustering with K=2.
+3. The algorithm stops when each cluster has at most 2 members, and the taxonomy is built based on the splits.
+
+
+
+# Study area - Central Europe*
+
+![Germany, Czechia, Austria, Slovakia, Poland, Lithuania](../figures/202504_taxonomy_gisruk/studyarea.png)
+
+# Results
+## {background-image="../figures/202504_Berkeley/himoc_map.png" .no-text}
+
+::: aside
+[https://uscuni.org/himoc/](https://uscuni.org/himoc/)
+:::
+
+## Clusters and Spatial Distribution
+![Distribution of clusters in the thousands](../figures/202504_taxonomy_gisruk/distribution.png)
+
+## Comparisons
+
+---
+
+![Corrine Landcover](../figures/202504_taxonomy_gisruk/corrine.png)
+
+
+---
+
+![Urban Atlas](../figures/202504_taxonomy_gisruk/urban_atlas.png)
+
+
+---
+
+![Local climate zones](../figures/202504_taxonomy_gisruk/lcz.png)
+
+
+# Conclusion
+
+- There are multiple types of urban form in different countries that are closer to each other, than to other forms within the same country.
+- The heterogeneity of urban form is present even at high levels of aggregation in the taxonomy.
+- The comparisons against the other datasets  suggest that that the taxonomy extends existing regional and global classifications.
+
+---
+- In effect we are using the first law of geography ( spatial autocorrelation ) to turn a computationally intractable problem into a solvable one
+- Lastly, the results show that large multi-scale quantative analysis of urban form, while preserving detail is possible. 
+
+
+# Limitations
+- Even cadastral data is of very different quality, there is no consistent definition of what is a building across neighbouring countries, regions or even cities within the same country.
+- The morphometric characters are limited to 2d variables, since there is only aggregte height data available that is derived and not recorded. 
+- Adding a temporal dimension to the analysis is difficult due to data unavailability.
+
+
+
+# OSS
+- Main repository: https://github.com/uscuni/urban_taxonomy
+- Upstream packages : libpysal, neatnet, momepy, geoplanar, shapely, geopandas, spopt
