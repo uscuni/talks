@@ -1,0 +1,160 @@
+---
+title: "Spatial modelling of the relationship between the urban form and population data"
+subtitle: ""
+author: "Anna Brazdova, Martin Fleischmann, Lisa Winkler"
+institute: "Charles University"
+# date: "today"
+format:
+    revealjs:
+        theme: [default, ../assets/reveal.scss]
+        logo: ../assets/icon.svg
+        menu: false
+        transition: slide
+        navigation-mode: linear
+        controls-layout: edges
+        progress: true
+        include-in-header: ../assets/font.html
+        title-slide-attributes:
+            data-background-image: ../assets/full_logo.svg
+            data-background-size: 15%
+            data-background-position: 50% 90%
+---
+
+# About me
+
+[1st year Ph.D student at the department of Social geography and Regional Development]{.fragment}
+
+
+## Dissertation project
+
+[Inequality of neighborhood choice in regions of Central Europe]{.fragment}
+
+[M.Sc Martin Fleischmann Ph.D]{.fragment}
+
+[Research team on Urban Structure]{.fragment}
+
+---
+
+### Interplay between population and urban form
+
+
+[Understand built-up patterns of housing types and the ability of different population groups to inhabit them]{.fragment}
+
+[Assess the regional and local differences]{.fragment}
+
+
+# Spatial modelling of the relationship between the urban form and population data
+
+---
+
+[**Methods** for modelling the relationship]{.fragment}
+
+[Comparing linear and non-linear dimensionality reduction techniques]{.fragment}
+
+[Geographicaly weighted prediction models]{.fragment}
+
+[Which model is best at assessing this type of relationship and how does it perform across different regions]{.fragment}
+---
+
+## Case Study of Czechia{background-image="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/EU-Czech_Republic.svg/1920px-EU-Czech_Republic.svg.png" background-size="contain" .no-text}
+
+
+---
+
+## {background-iframe="https://uscuni.org/himoc/" background-size="contain" .no-text}
+
+::: aside
+[https://uscuni.org/himoc/](https://uscuni.org/himoc/)
+:::
+
+---
+
+## {background-image="../figures/202504_GISRUK/unemp.png".no-text}
+
+::: aside
+Proportion of unemployed people 
+:::
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+Census variables preprocessing
+:::
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+Dimensionality reduction
+:::
+
+::: aside
+[Principal Component Analysis]{.fragment}
+
+[Factor Analysis]{.fragment}
+
+[Uniform Manifold Approximation and Projection]{.fragment}
+:::
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+Geographicaly weighted modelling
+:::
+
+::: aside
+[Binary classification]{.fragment}
+
+[Bandwidth search]{.fragment}
+
+[Logistic Regression & Random Forest Classification]{.fragment}
+
+:::
+---
+
+## {background-image="../figures/202504_GISRUK/binary.png".no-text}
+
+---
+
+## Results
+
+
+
+[mean and std... diffferent results for each urban form, with high deviation for each local model]{.fragment}
+
+
+---
+
+## F1-macro score
+
+![](../figures/202504_GISRUK/macro.png){.r-stretch}
+
+---
+
+
+![](../figures/202504_GISRUK/std.png){fig-align="center" width="100%"}
+
+::: aside
+Mean feature importance of factors 
+:::
+
+---
+
+
+![](../figures/202504_GISRUK/mean.png){fig-align="center" width="100%"}
+
+::: aside
+Standard deviation of factor feature importance
+:::
+
+---
+
+## Conclusion
+
+..
+
+---
+
+
+# Thank you
+
+[https://quarto.org/docs/presentations/revealjs/](https://quarto.org/docs/presentations/revealjs/)
