@@ -21,12 +21,6 @@ format:
 ---
 
 
-## {background-image="../figures/202504_taxonomy_gisruk/paris_george_kantarzis.jpg" .no-text}
-
-::: aside
-Paris by George Kantarzis
-:::
-
 ## {background-image="../figures/202504_taxonomy_gisruk/prague_jay_danntine.jpg" .no-text}
 
 ::: aside
@@ -39,47 +33,32 @@ Prague by Jay Dantine
 Barcelona
 :::
 
-
-## {background-image="../figures/202504_taxonomy_gisruk/brasilia.jpg" .no-text}
-
-::: aside
-Brasilia
-:::
-
-## {background-image="../figures/202504_taxonomy_gisruk/atlanta.jpg" .no-text}
-
-::: aside
-Atlanta
-:::
-
-
-
-# Morphometrics
-
-## Classification as a way to reduce complexity
-
+# Urban Morphometrics
 
 <!-- ![Caniggia and Maffei](../figures/202504_taxonomy_gisruk/caniggia-maffei-analisi-tessuti-storici.jpg)
 
 --- -->
 
-![Conzen M (1960) Alnwick, Northumberland: A Study in Town-Plan Analysis. London: George Philip & Son.](../figures/202504_taxonomy_gisruk/conzen.png)
+::: {.fragment}
+> A study of urban form through the means of quantitative assessment of its constituent elements.
+:::
 
 ---
 
-- Morphotope -  Buildings, streets and lots with a distinct physical configuration
-- Morpho-subtypes - Simple combinations of morphotopes
-- Morphotypes -  Combinations of Morpho-subtypes and morphotypes
+![](../figures/202504_taxonomy_gisruk/conzen.png)
 
-## Computational morphometrics
+::: aside
+Conzen M (1960) Alnwick, Northumberland: A Study in Town-Plan Analysis. London: George Philip & Son.
+:::
 
-## {background-image="../figures/202504_taxonomy_gisruk/arinaldi.jpg" .no-text}
+## {background-image="../figures/202504_taxonomy_gisruk/arinaldi.jpg" .no-text background-size=contain}
 
 ::: aside
 Araldi, A. and Fusco, G. (2025), Multi-Level Street-Based Analysis of the Urban Fabric: Developments for a Nationwide Taxonomy. Geographical Analysis, 57: 270-301.
 :::
 
-## {background-image="../figures/202504_taxonomy_gisruk/prague.jpg" .no-text}
+
+## {background-image="../figures/202504_taxonomy_gisruk/prague.jpg" .no-text background-size=contain}
 ::: aside
 Fleischmann, M., Feliciotti, A., Romice, O., & Porta, S. (2021). Methodological foundation of a numerical taxonomy of urban form. Environment and Planning B, 49(4), 1283-1299.
 :::
@@ -87,43 +66,96 @@ Fleischmann, M., Feliciotti, A., Romice, O., & Porta, S. (2021). Methodological 
 # HiMoC Aims
 
 - Results align with theory and qualitative work
-- Detailed elements as fundamental units - buildings, streets, plots
+- Detailed elements as fundamental units - buildings, streets and their configurations
 - Scale - applicable to numerous countries
 
-# Methodology 
+# Study area - Central Europe*
+
+![Germany, Czechia, Austria, Slovakia, Poland, Lithuania](../figures/202504_taxonomy_gisruk/studyarea.png)
+
 
 ## Enclosed Tessellation Cells
-![](../figures/202504_taxonomy_gisruk/etc.jpg)
-
-::: aside
-Fleischmann, M., Feliciotti, A., Romice, O., & Porta, S. (2021). Methodological foundation of a numerical taxonomy of urban form. Environment and Planning B, 49(4), 1283-1299.
-:::
+![](../figures/202504_taxonomy_gisruk/tess_cell.jpg)
 
 ---
 
 ## Measured characteristics
-![](../figures/202504_taxonomy_gisruk/taxonomy_chars.png)
 
 ---
+
+![](../figures/202410_Nanjing/sdcare.png)
+
+::: aside
+Area of tessellation cells in Kraków, Poland
+:::
+
+---
+
+![](../figures/202410_Nanjing/swr.png)
+
+::: aside
+Shared walls ratio of buildings in Kraków, Poland
+:::
+
+---
+
+![](../figures/202410_Nanjing/spw.png)
+
+::: aside
+Width of street profile in Kraków, Poland
+:::
+
+---
+
+![](../figures/202410_Nanjing/lsdmes.png)
+
+::: aside
+Street network meshedness in Kraków, Poland
+:::
+
+---
+
+![](../figures/202410_Nanjing/lcdMes_bulidings.png)
+
+::: aside
+Street network meshedness in Kraków, Poland
+:::
+
 
 ## Gradually Loosening Spatial Restrictions
 
 - Framework for hierarchical spatial clustering relying on:
     1. Intermediate aggregations
     2. Relaxing spatial restrictions as the size of the intermediate aggregations increases.
-- Results in a taxonomy starting from individual ETCs to two morphotypes
+- Results in a taxonomy starting from individual ETCs
 
 
 ## Three levels of aggregations
 1. ETCs to morphotopes
-2. Morphotopes to regional subtypes
-3. Regional subtypes to morphotypes
+2. Morphotopes to Regional Morphotope Types
+3. Regional Morphotope Types clusters to Morphotope Types (taxa)
+
+
+## Morphotope
+::: {.fragment}
+> “the smallest urban locality obtaining distinctive character among their neighbours from their particular combination of constituent morphological elements.”
+:::
+
 
 
 ## Three levels of spatial restrictions
 1. Immediate - only immediate neighbors can be part of the same cluster.
-2. Regional - only neighbours within the same region can be combined. A region is any group of buildings and their neighbouring buildings within 500m. 
+2. Regional - only neighbours within the same region can be combined. A region is contiguous land around buildings where the nearest neighbour is at maximum 500 meters away.
 3. Global - no spatial restrictions
+
+## Regions
+
+![Region around Prague](../figures/202504_taxonomy_gisruk/prague_region.png)
+
+---
+
+![Region around Krakow](../figures/202504_taxonomy_gisruk/krakow_region.png)
+
 
 
 ## Three algorithms
@@ -152,12 +184,25 @@ Fleischmann, M., Feliciotti, A., Romice, O., & Porta, S. (2021). Methodological 
 
 4. We dont know how many morphotopes to look for beforehand. -->
 
-## Morphotope operational definition
+---
 
-a group of 75 or more spacially contiguous ETCs that are closer to eachother morphologically than to any other group of 75 or more spacially contiguous ETCs.
+![](../figures/202410_Nanjing/morphotopes.png)
 
-## 2. Regional subtypes
-- Complete linkage applied to all the morphotopes in a single region.
+::: aside
+Morphotope delineation in Kraków, Poland
+:::
+
+
+## 2. Regional clusters
+- Complete linkage applied to all the morphotopes within a single region.
+
+---
+
+![](../figures/202410_Nanjing/cut0.png){.r-stretch}
+
+::: aside
+Baseline morphotope types in Kraków, Poland
+:::
 
 
 ## 3. Recursive K-Means
@@ -166,11 +211,15 @@ a group of 75 or more spacially contiguous ETCs that are closer to eachother mor
 2. Step $N$. - the algorithm splits each of the clusters from the $N-1$ iteration into two further clusters, again using a kmeans clustering with K=2.
 3. The algorithm stops when each cluster has at most 2 members, and the taxonomy is built based on the splits.
 
+---
+
+![](../figures/202504_taxonomy_gisruk/full_dendro.png){.r-stretch}
+
+::: aside
+Full dendrogram
+:::
 
 
-# Study area - Central Europe*
-
-![Germany, Czechia, Austria, Slovakia, Poland, Lithuania](../figures/202504_taxonomy_gisruk/studyarea.png)
 
 # Results
 ## {background-image="../figures/202504_Berkeley/himoc_map.png" .no-text}
@@ -179,44 +228,54 @@ a group of 75 or more spacially contiguous ETCs that are closer to eachother mor
 [https://uscuni.org/himoc/](https://uscuni.org/himoc/)
 :::
 
-## Clusters and Spatial Distribution
-![Distribution of clusters in the thousands](../figures/202504_taxonomy_gisruk/distribution.png)
 
-## Comparisons
+
+
+# Limitations
+
+- Even cadastral data is of very different quality, there is no consistent definition of what is a building across neighbouring countries, regions or even cities within the same country.
+
+- The morphometric characters are limited to 2d variables, since there is only aggregte height data available that is derived and not recorded.
+
+--- 
+
+- The Kmeans can split classes into sub-classes when its not desirable. For example, Dispersed Linear Development and Linear Development.
+
+- Adding a temporal dimension to the analysis is difficult due to data unavailability.
+
+
+# Conclusions
+
+Multiple types of urban form in different countries and across the setttlement hierarchy are morphologically close to eachother. 
 
 ---
 
-![Corrine Landcover](../figures/202504_taxonomy_gisruk/corrine.png)
-
+![](../figures/202504_taxonomy_gisruk/examples.png)
 
 ---
 
-![Urban Atlas](../figures/202504_taxonomy_gisruk/urban_atlas.png)
+Nevertheless the heterogeneity of urban form is present even at high levels of aggregation.
 
+---
+
+![Linear development concentration](../figures/202504_taxonomy_gisruk/poland_linear.png)
+
+---
+
+The taxonomy extends existing regional and global classifications.
 
 ---
 
 ![Local climate zones](../figures/202504_taxonomy_gisruk/lcz.png)
 
-
-# Conclusion
-
-- There are multiple types of urban form in different countries that are closer to each other, than to other forms within the same country.
-- The heterogeneity of urban form is present even at high levels of aggregation in the taxonomy.
-- The comparisons against the other datasets  suggest that that the taxonomy extends existing regional and global classifications.
-
 ---
-- In effect we are using the first law of geography ( spatial autocorrelation ) to turn a computationally intractable problem into a solvable one
-- Lastly, the results show that large multi-scale quantative analysis of urban form, while preserving detail is possible. 
+
+- The importance of elements and variables changes as we move through the taxonomy.
+
+- We are using the first law of geography ( spatial autocorrelation ) to turn a computationally intractable problem into a solvable one.
 
 
-# Limitations
-- Even cadastral data is of very different quality, there is no consistent definition of what is a building across neighbouring countries, regions or even cities within the same country.
-- The morphometric characters are limited to 2d variables, since there is only aggregte height data available that is derived and not recorded. 
-- Adding a temporal dimension to the analysis is difficult due to data unavailability.
-
-
-
-# OSS
+# Open Source Software
 - Main repository: https://github.com/uscuni/urban_taxonomy
+- Slides: https://uscuni.org/talks/202504_taxonomy_gisruk.html
 - Upstream packages : libpysal, neatnet, momepy, geoplanar, shapely, geopandas, spopt
