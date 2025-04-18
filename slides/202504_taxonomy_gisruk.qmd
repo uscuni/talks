@@ -270,9 +270,9 @@ The taxonomy extends existing regional and global classifications.
 
 ---
 
-- The importance of elements and variables changes as we move through the taxonomy.
+- The importance of elements and variables changes as we move through the taxonomy. Capturing and combining aspects of other urban form classifications.
 
-- We are using the first law of geography ( spatial autocorrelation ) to turn a computationally intractable problem into a solvable one.
+- The GLSR is generalisable. We are using the first law of geography ( spatial autocorrelation ) to turn a computationally intractable problem into a solvable one.
 
 
 # Open Source Software
