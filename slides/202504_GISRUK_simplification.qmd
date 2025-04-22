@@ -331,7 +331,7 @@ all tested methods, together with the comparison to the manual simplification co
 ![](../figures/202504_GISRUK_simplification/fig_allmethods.png){.r-stretch}
 
 ::: aside
-Output of different simplification methods for a street network fragment in Seraing, Li`ege (Belgium).
+Output of different simplification methods for a street network fragment in Seraing, Liège (Belgium).
 :::
 
 ---
