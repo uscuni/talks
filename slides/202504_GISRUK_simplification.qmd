@@ -28,7 +28,9 @@ format:
 
 ---
 
+::: {layout="[[-1], [1], [-1]]"}
 ![](../figures/202504_GISRUK_simplification/authors.png){fig-align="center"}
+:::
 
 # Streets, roads, networks, graphs
 
