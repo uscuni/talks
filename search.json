@@ -1,5 +1,383 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Talks",
+    "section": "",
+    "text": "Archive of talks of the US CUNI team."
+  },
+  {
+    "objectID": "index.html#list-of-talks",
+    "href": "index.html#list-of-talks",
+    "title": "Talks",
+    "section": "List of talks",
+    "text": "List of talks\n\n2025-04-14 GISRUK 2025 (Simplification), Bristol\n2025-04-14 University of California, Berkeley\n2024-10-29 International Seminar on Urban Morpho-Science\n2024-09-18 Spatial Data Science across Languages\n2024-09-12 City Transitions Saarbrücken\n2024-06-07 EuroFab project Kick-Off meeting\n2024-05-16 Open Source Science Meetup Prague"
+  },
+  {
+    "objectID": "slides/202504_GISRUK_simplification.html#manual-simplification",
+    "href": "slides/202504_GISRUK_simplification.html#manual-simplification",
+    "title": "Adaptive continuity-preserving simplification of street networks",
+    "section": "Manual simplification",
+    "text": "Manual simplification"
+  },
+  {
+    "objectID": "slides/202504_GISRUK_simplification.html#five-requirements",
+    "href": "slides/202504_GISRUK_simplification.html#five-requirements",
+    "title": "Adaptive continuity-preserving simplification of street networks",
+    "section": "Five requirements",
+    "text": "Five requirements\n\nopen-source\nfully automated\nattribute-agnostic\ncase-agnostic\nfully packaged"
+  },
+  {
+    "objectID": "slides/202504_GISRUK_simplification.html#what-do-you-mean-by-continuity-preserving",
+    "href": "slides/202504_GISRUK_simplification.html#what-do-you-mean-by-continuity-preserving",
+    "title": "Adaptive continuity-preserving simplification of street networks",
+    "section": "What do you mean by “continuity-preserving”",
+    "text": "What do you mean by “continuity-preserving”"
+  },
+  {
+    "objectID": "slides/202504_GISRUK_simplification.html#face-artifact-detection",
+    "href": "slides/202504_GISRUK_simplification.html#face-artifact-detection",
+    "title": "Adaptive continuity-preserving simplification of street networks",
+    "section": "Face artifact detection",
+    "text": "Face artifact detection"
+  },
+  {
+    "objectID": "slides/202504_GISRUK_simplification.html#artifact-classification",
+    "href": "slides/202504_GISRUK_simplification.html#artifact-classification",
+    "title": "Adaptive continuity-preserving simplification of street networks",
+    "section": "Artifact classification",
+    "text": "Artifact classification\n\nartifact polygon contiguity\n\nisolates\npairs\nclusters\n\nnetwork continuity"
+  },
+  {
+    "objectID": "slides/202504_GISRUK_simplification.html#how-close-are-we-to-the-manually-simplified-network",
+    "href": "slides/202504_GISRUK_simplification.html#how-close-are-we-to-the-manually-simplified-network",
+    "title": "Adaptive continuity-preserving simplification of street networks",
+    "section": "How close are we to the manually simplified network",
+    "text": "How close are we to the manually simplified network"
+  },
+  {
+    "objectID": "slides/202406_EuroFab_KO.html#why-urban-fabric",
+    "href": "slides/202406_EuroFab_KO.html#why-urban-fabric",
+    "title": "EuroFab",
+    "section": "Why urban fabric",
+    "text": "Why urban fabric\nCities take up around 3% of the planet’s land but are home to more than half of humanity and responsible for 75% of carbon emissions1.\nUnited Nations (2020)"
+  },
+  {
+    "objectID": "slides/202406_EuroFab_KO.html#why-urban-fabric-1",
+    "href": "slides/202406_EuroFab_KO.html#why-urban-fabric-1",
+    "title": "EuroFab",
+    "section": "Why urban fabric",
+    "text": "Why urban fabric\nUrban fabric, the spatial layout of the physical elements that make up a city, mediates most activities their residents undertake, from heating their homes to accessing services, jobs and opportunities through sustainable modes of transport."
+  },
+  {
+    "objectID": "slides/202406_EuroFab_KO.html#why-urban-fabric-2",
+    "href": "slides/202406_EuroFab_KO.html#why-urban-fabric-2",
+    "title": "EuroFab",
+    "section": "Why urban fabric",
+    "text": "Why urban fabric\nEasily available, comparable, and dynamic information on urban fabric would unlock new ways of understanding how cities are constantly evolving, what it means for their sustainability, and how effective policies can be designed to steer development in desirable directions."
+  },
+  {
+    "objectID": "slides/202406_EuroFab_KO.html#why-now",
+    "href": "slides/202406_EuroFab_KO.html#why-now",
+    "title": "EuroFab",
+    "section": "Why now",
+    "text": "Why now\nIn 2023, UN Habitat included urban fabric as one of the key ingredients required for effective sustainable design1\nUN Habitat (2024)"
+  },
+  {
+    "objectID": "slides/202406_EuroFab_KO.html#why-now-1",
+    "href": "slides/202406_EuroFab_KO.html#why-now-1",
+    "title": "EuroFab",
+    "section": "Why now",
+    "text": "Why now\nThere are currently very few instances of detailed, consistent, and scalable measurements of urban fabric and virtually none of them provide insight into its change over time."
+  },
+  {
+    "objectID": "slides/202406_EuroFab_KO.html#eurofab-vision",
+    "href": "slides/202406_EuroFab_KO.html#eurofab-vision",
+    "title": "EuroFab",
+    "section": "EuroFab vision",
+    "text": "EuroFab vision\nEuroFab paves the road for a world where stakeholders, from local authorities to supranational organisations, are able to track and monitor the pattern of urban development in detail directly relevant for planning and at scale.\n\nwe’re not there yet"
+  },
+  {
+    "objectID": "slides/202406_EuroFab_KO.html#objectives",
+    "href": "slides/202406_EuroFab_KO.html#objectives",
+    "title": "EuroFab",
+    "section": "Objectives",
+    "text": "Objectives"
+  },
+  {
+    "objectID": "slides/202406_EuroFab_KO.html#state-of-the-art",
+    "href": "slides/202406_EuroFab_KO.html#state-of-the-art",
+    "title": "EuroFab",
+    "section": "State of the Art",
+    "text": "State of the Art\nClassifications of urban form fall, broadly, into two categories.\n\n\nrich, detailed, and hyper-local classifications\nsimpler, coarser, large-scale classifications"
+  },
+  {
+    "objectID": "slides/202406_EuroFab_KO.html#proposed-approach",
+    "href": "slides/202406_EuroFab_KO.html#proposed-approach",
+    "title": "EuroFab",
+    "section": "Proposed approach",
+    "text": "Proposed approach\nUrban morphometrics + computer vision.\nA balance between generalisation and detail.\nMore granularity than existing large-scale classifications.\nScalability to much larger regions than traditional hyper-local classifications"
+  },
+  {
+    "objectID": "slides/202406_EuroFab_KO.html#what",
+    "href": "slides/202406_EuroFab_KO.html#what",
+    "title": "EuroFab",
+    "section": "What",
+    "text": "What\nEnsure and maximise the policy relevance, usability and further applications of the outputs of the project.\nInternational comparability of the data products and their derived indicators.\nComparison of the outputs of the project with other already existing classifications endorsed by international organisations and applied by National Statistical Offices (e.g. the classification of human settlements DEGURBA)."
+  },
+  {
+    "objectID": "slides/202406_EuroFab_KO.html#how",
+    "href": "slides/202406_EuroFab_KO.html#how",
+    "title": "EuroFab",
+    "section": "How",
+    "text": "How\nOECD Geospatial Lab and OECD technical expertise\n“Producer” stakeholders, mainly belonging to the scientific community (working on the production of data flows and data products close or relevant to the expected deliverable of EuroFab).\n“User” stakeholders, wide range of potential user of the data produced by EuroFab, interested in applying it for the definition of policy-relevant indicators and characterised by various degrees of technical competencies."
+  },
+  {
+    "objectID": "slides/202406_EuroFab_KO.html#six-work-packages",
+    "href": "slides/202406_EuroFab_KO.html#six-work-packages",
+    "title": "EuroFab",
+    "section": "Six Work Packages",
+    "text": "Six Work Packages\n\n\nWP000 Project Management and Communication\nWP100 Collaborative Stakeholder Requirements Consolidation\nWP200 Iterative Algorithm Design and Data Collection Sprints\nWP300 Incremental Development and Processing Algorithm Implementation\nWP400 Verification of Novel Processing Capability in Representative Use Case and Results Dissemination\nWP500 Large-scale Inference and Operationalization Strategy Elaboration"
+  },
+  {
+    "objectID": "slides/202406_EuroFab_KO.html#events",
+    "href": "slides/202406_EuroFab_KO.html#events",
+    "title": "EuroFab",
+    "section": "Events",
+    "text": "Events\n\n\nWeek 2 of September 2024:\n\nStakeholder Workshop I (optionally paired with URBIS24)\n\nWeek 1 of November 2024:\n\nNetworking event at WUF12 (Cairo, Egypt) – pending selection process\n\nWeek 4 of January 2025:\n\nStakeholder Workshop II\n\nWeek 4 of April 2025:\n\nStakeholder Workshop III"
+  },
+  {
+    "objectID": "slides/202406_EuroFab_KO.html#milestones",
+    "href": "slides/202406_EuroFab_KO.html#milestones",
+    "title": "EuroFab",
+    "section": "Milestones",
+    "text": "Milestones\n\n\nProgress (MS 1), KO + 6 months\nFinal (MS 2), KO + 12 months"
+  },
+  {
+    "objectID": "slides/202410_Nanjing.html#looking-back-to-2019",
+    "href": "slides/202410_Nanjing.html#looking-back-to-2019",
+    "title": "From a building to a region",
+    "section": "Looking back to 2019",
+    "text": "Looking back to 2019"
+  },
+  {
+    "objectID": "slides/202410_Nanjing.html#looking-back-to-2022",
+    "href": "slides/202410_Nanjing.html#looking-back-to-2022",
+    "title": "From a building to a region",
+    "section": "Looking back to 2022",
+    "text": "Looking back to 2022"
+  },
+  {
+    "objectID": "slides/202410_Nanjing.html#today",
+    "href": "slides/202410_Nanjing.html#today",
+    "title": "From a building to a region",
+    "section": "Today",
+    "text": "Today"
+  },
+  {
+    "objectID": "slides/202410_Nanjing.html#what-is-urban-morphometrics",
+    "href": "slides/202410_Nanjing.html#what-is-urban-morphometrics",
+    "title": "From a building to a region",
+    "section": "What is urban morphometrics",
+    "text": "What is urban morphometrics"
+  },
+  {
+    "objectID": "slides/202410_Nanjing.html#what-is-urban-morphometrics-1",
+    "href": "slides/202410_Nanjing.html#what-is-urban-morphometrics-1",
+    "title": "From a building to a region",
+    "section": "What is urban morphometrics",
+    "text": "What is urban morphometrics\n\n\n\nexcerpt from Larkham and Jones, 1991"
+  },
+  {
+    "objectID": "slides/202410_Nanjing.html#what-is-urban-morphometrics-2",
+    "href": "slides/202410_Nanjing.html#what-is-urban-morphometrics-2",
+    "title": "From a building to a region",
+    "section": "What is urban morphometrics",
+    "text": "What is urban morphometrics\n\n\nA study of urban form through the means of quantitative assessment of its constituent elements.\n\n\nConceptually similar to historico-geographical approach.\nMethodologically embedded in spatial data science and geography."
+  },
+  {
+    "objectID": "slides/202410_Nanjing.html#how-to-scale-urban-morphometrics",
+    "href": "slides/202410_Nanjing.html#how-to-scale-urban-morphometrics",
+    "title": "From a building to a region",
+    "section": "How to scale urban morphometrics",
+    "text": "How to scale urban morphometrics"
+  },
+  {
+    "objectID": "slides/202410_Nanjing.html#step-01",
+    "href": "slides/202410_Nanjing.html#step-01",
+    "title": "From a building to a region",
+    "section": "Step 01",
+    "text": "Step 01\nSplit the data without breaking spatial dependency"
+  },
+  {
+    "objectID": "slides/202410_Nanjing.html#step-02",
+    "href": "slides/202410_Nanjing.html#step-02",
+    "title": "From a building to a region",
+    "section": "Step 02",
+    "text": "Step 02\nAvoid methodological bottlenecks\nExample - morphological tessellation"
+  },
+  {
+    "objectID": "slides/202410_Nanjing.html#step-03",
+    "href": "slides/202410_Nanjing.html#step-03",
+    "title": "From a building to a region",
+    "section": "Step 03",
+    "text": "Step 03\nAvoid implementation bottlenecks"
+  },
+  {
+    "objectID": "slides/202410_Nanjing.html#step-04",
+    "href": "slides/202410_Nanjing.html#step-04",
+    "title": "From a building to a region",
+    "section": "Step 04",
+    "text": "Step 04\nMeasure!"
+  },
+  {
+    "objectID": "slides/202410_Nanjing.html#what-is-next",
+    "href": "slides/202410_Nanjing.html#what-is-next",
+    "title": "From a building to a region",
+    "section": "What is next",
+    "text": "What is next\n\nIt depends…"
+  },
+  {
+    "objectID": "slides/202410_Nanjing.html#our-step-05",
+    "href": "slides/202410_Nanjing.html#our-step-05",
+    "title": "From a building to a region",
+    "section": "Our step 05",
+    "text": "Our step 05\nMorphotope delineation"
+  },
+  {
+    "objectID": "slides/202410_Nanjing.html#morphotope",
+    "href": "slides/202410_Nanjing.html#morphotope",
+    "title": "From a building to a region",
+    "section": "Morphotope",
+    "text": "Morphotope\n\n\n\nexcerpt from Larkham and Jones, 1991"
+  },
+  {
+    "objectID": "slides/202410_Nanjing.html#our-step-06",
+    "href": "slides/202410_Nanjing.html#our-step-06",
+    "title": "From a building to a region",
+    "section": "Our step 06",
+    "text": "Our step 06\nBaseline morphotope types"
+  },
+  {
+    "objectID": "slides/202410_Nanjing.html#our-step-07",
+    "href": "slides/202410_Nanjing.html#our-step-07",
+    "title": "From a building to a region",
+    "section": "Our step 07",
+    "text": "Our step 07\nExtensible taxonomy of urban form"
+  },
+  {
+    "objectID": "slides/202410_Nanjing.html#times-have-changed.-methods-have-changed.-concepts-those-only-evolved",
+    "href": "slides/202410_Nanjing.html#times-have-changed.-methods-have-changed.-concepts-those-only-evolved",
+    "title": "From a building to a region",
+    "section": "Times have changed. Methods have changed. Concepts? Those only evolved",
+    "text": "Times have changed. Methods have changed. Concepts? Those only evolved"
+  },
+  {
+    "objectID": "slides/202410_Nanjing.html#urban-morphology-can-be-deeply-embedded-in-spatial-data-science",
+    "href": "slides/202410_Nanjing.html#urban-morphology-can-be-deeply-embedded-in-spatial-data-science",
+    "title": "From a building to a region",
+    "section": "Urban morphology can be deeply embedded in spatial data science",
+    "text": "Urban morphology can be deeply embedded in spatial data science"
+  },
+  {
+    "objectID": "slides/202410_Nanjing.html#urban-morphometrics-can-support-quantitative-studies-done-at-scale",
+    "href": "slides/202410_Nanjing.html#urban-morphometrics-can-support-quantitative-studies-done-at-scale",
+    "title": "From a building to a region",
+    "section": "Urban morphometrics can support quantitative studies done at scale",
+    "text": "Urban morphometrics can support quantitative studies done at scale"
+  },
+  {
+    "objectID": "slides/202410_Nanjing.html#all-within-fully-interpretable-framework",
+    "href": "slides/202410_Nanjing.html#all-within-fully-interpretable-framework",
+    "title": "From a building to a region",
+    "section": "All within fully interpretable framework",
+    "text": "All within fully interpretable framework"
+  },
+  {
+    "objectID": "slides/202410_Nanjing.html#do-you-want-to-follow-up",
+    "href": "slides/202410_Nanjing.html#do-you-want-to-follow-up",
+    "title": "From a building to a region",
+    "section": "Do you want to follow up",
+    "text": "Do you want to follow up\n martin.fleischmann@natur.cuni.cz\n @martinfleis@fosstodon.org\n martinfleischmann.net"
+  },
+  {
+    "objectID": "slides/202409_SDSL.html#section",
+    "href": "slides/202409_SDSL.html#section",
+    "title": "Spatial Data Science across Languages",
+    "section": "",
+    "text": "Vinohrady Brewery"
+  },
+  {
+    "objectID": "slides/202409_SDSL.html#personal-reflections",
+    "href": "slides/202409_SDSL.html#personal-reflections",
+    "title": "Spatial Data Science across Languages",
+    "section": "Personal reflections",
+    "text": "Personal reflections"
+  },
+  {
+    "objectID": "slides/202409_SDSL.html#working-paper",
+    "href": "slides/202409_SDSL.html#working-paper",
+    "title": "Spatial Data Science across Languages",
+    "section": "Working paper",
+    "text": "Working paper"
+  },
+  {
+    "objectID": "slides/template.html#heading-level-2",
+    "href": "slides/template.html#heading-level-2",
+    "title": "Spatial Autocorrelation",
+    "section": "Heading level 2",
+    "text": "Heading level 2\nAnother text\nFragment"
+  },
+  {
+    "objectID": "slides/template.html#this-will-be-vertically-centered",
+    "href": "slides/template.html#this-will-be-vertically-centered",
+    "title": "Spatial Autocorrelation",
+    "section": "This will be vertically centered",
+    "text": "This will be vertically centered\nThis text is moved as well"
+  },
+  {
+    "objectID": "slides/template.html#heading-that-is-a-question",
+    "href": "slides/template.html#heading-that-is-a-question",
+    "title": "Spatial Autocorrelation",
+    "section": "Heading that is a question",
+    "text": "Heading that is a question\nAnother text with footnote1\n\nFragment block\n\nMy footnote."
+  },
+  {
+    "objectID": "slides/template.html#inline-code",
+    "href": "slides/template.html#inline-code",
+    "title": "Spatial Autocorrelation",
+    "section": "Inline code",
+    "text": "Inline code\nText with libpysal.graph.Graph inline."
+  },
+  {
+    "objectID": "slides/template.html#slide-with-an-image",
+    "href": "slides/template.html#slide-with-an-image",
+    "title": "Spatial Autocorrelation",
+    "section": "Slide with an image",
+    "text": "Slide with an image\nSet height"
+  },
+  {
+    "objectID": "slides/template.html#slide-with-an-image-1",
+    "href": "slides/template.html#slide-with-an-image-1",
+    "title": "Spatial Autocorrelation",
+    "section": "Slide with an image",
+    "text": "Slide with an image\n\nAutomatically stretched to fill remaining space"
+  },
+  {
+    "objectID": "slides/template.html#slide-with-image-as-background",
+    "href": "slides/template.html#slide-with-image-as-background",
+    "title": "Spatial Autocorrelation",
+    "section": "Slide with image as background",
+    "text": "Slide with image as background"
+  },
+  {
+    "objectID": "slides/template.html#slide-with-iframe-background",
+    "href": "slides/template.html#slide-with-iframe-background",
+    "title": "Spatial Autocorrelation",
+    "section": "Slide with iframe background",
+    "text": "Slide with iframe background"
+  },
+  {
     "objectID": "slides/202409_Saarbrucken.html#methods-of-analysis",
     "href": "slides/202409_Saarbrucken.html#methods-of-analysis",
     "title": "The emergent structure of cities",
@@ -551,383 +929,5 @@
     "title": "Urban science as a software",
     "section": "Share your knowledge, it is a way to achieve immortality",
     "text": "Share your knowledge, it is a way to achieve immortality\n(Dalai Lama)\n\n\n\n\nThank you! Contacts at martinfleischmann.net."
-  },
-  {
-    "objectID": "slides/202504_GISRUK_simplification.html#manual-simplification",
-    "href": "slides/202504_GISRUK_simplification.html#manual-simplification",
-    "title": "Adaptive continuity-preserving simplification of street networks",
-    "section": "Manual simplification",
-    "text": "Manual simplification"
-  },
-  {
-    "objectID": "slides/202504_GISRUK_simplification.html#five-requirements",
-    "href": "slides/202504_GISRUK_simplification.html#five-requirements",
-    "title": "Adaptive continuity-preserving simplification of street networks",
-    "section": "Five requirements",
-    "text": "Five requirements\n\nopen-source\nfully automated\nattribute-agnostic\ncase-agnostic\nfully packaged"
-  },
-  {
-    "objectID": "slides/202504_GISRUK_simplification.html#what-do-you-mean-by-continuity-preserving",
-    "href": "slides/202504_GISRUK_simplification.html#what-do-you-mean-by-continuity-preserving",
-    "title": "Adaptive continuity-preserving simplification of street networks",
-    "section": "What do you mean by “continuity-preserving”",
-    "text": "What do you mean by “continuity-preserving”"
-  },
-  {
-    "objectID": "slides/202504_GISRUK_simplification.html#face-artifact-detection",
-    "href": "slides/202504_GISRUK_simplification.html#face-artifact-detection",
-    "title": "Adaptive continuity-preserving simplification of street networks",
-    "section": "Face artifact detection",
-    "text": "Face artifact detection"
-  },
-  {
-    "objectID": "slides/202504_GISRUK_simplification.html#artifact-classification",
-    "href": "slides/202504_GISRUK_simplification.html#artifact-classification",
-    "title": "Adaptive continuity-preserving simplification of street networks",
-    "section": "Artifact classification",
-    "text": "Artifact classification\n\nartifact polygon contiguity\n\nisolates\npairs\nclusters\n\nnetwork continuity"
-  },
-  {
-    "objectID": "slides/202504_GISRUK_simplification.html#how-close-are-we-to-the-manually-simplified-network",
-    "href": "slides/202504_GISRUK_simplification.html#how-close-are-we-to-the-manually-simplified-network",
-    "title": "Adaptive continuity-preserving simplification of street networks",
-    "section": "How close are we to the manually simplified network",
-    "text": "How close are we to the manually simplified network"
-  },
-  {
-    "objectID": "slides/202410_Nanjing.html#looking-back-to-2019",
-    "href": "slides/202410_Nanjing.html#looking-back-to-2019",
-    "title": "From a building to a region",
-    "section": "Looking back to 2019",
-    "text": "Looking back to 2019"
-  },
-  {
-    "objectID": "slides/202410_Nanjing.html#looking-back-to-2022",
-    "href": "slides/202410_Nanjing.html#looking-back-to-2022",
-    "title": "From a building to a region",
-    "section": "Looking back to 2022",
-    "text": "Looking back to 2022"
-  },
-  {
-    "objectID": "slides/202410_Nanjing.html#today",
-    "href": "slides/202410_Nanjing.html#today",
-    "title": "From a building to a region",
-    "section": "Today",
-    "text": "Today"
-  },
-  {
-    "objectID": "slides/202410_Nanjing.html#what-is-urban-morphometrics",
-    "href": "slides/202410_Nanjing.html#what-is-urban-morphometrics",
-    "title": "From a building to a region",
-    "section": "What is urban morphometrics",
-    "text": "What is urban morphometrics"
-  },
-  {
-    "objectID": "slides/202410_Nanjing.html#what-is-urban-morphometrics-1",
-    "href": "slides/202410_Nanjing.html#what-is-urban-morphometrics-1",
-    "title": "From a building to a region",
-    "section": "What is urban morphometrics",
-    "text": "What is urban morphometrics\n\n\n\nexcerpt from Larkham and Jones, 1991"
-  },
-  {
-    "objectID": "slides/202410_Nanjing.html#what-is-urban-morphometrics-2",
-    "href": "slides/202410_Nanjing.html#what-is-urban-morphometrics-2",
-    "title": "From a building to a region",
-    "section": "What is urban morphometrics",
-    "text": "What is urban morphometrics\n\n\nA study of urban form through the means of quantitative assessment of its constituent elements.\n\n\nConceptually similar to historico-geographical approach.\nMethodologically embedded in spatial data science and geography."
-  },
-  {
-    "objectID": "slides/202410_Nanjing.html#how-to-scale-urban-morphometrics",
-    "href": "slides/202410_Nanjing.html#how-to-scale-urban-morphometrics",
-    "title": "From a building to a region",
-    "section": "How to scale urban morphometrics",
-    "text": "How to scale urban morphometrics"
-  },
-  {
-    "objectID": "slides/202410_Nanjing.html#step-01",
-    "href": "slides/202410_Nanjing.html#step-01",
-    "title": "From a building to a region",
-    "section": "Step 01",
-    "text": "Step 01\nSplit the data without breaking spatial dependency"
-  },
-  {
-    "objectID": "slides/202410_Nanjing.html#step-02",
-    "href": "slides/202410_Nanjing.html#step-02",
-    "title": "From a building to a region",
-    "section": "Step 02",
-    "text": "Step 02\nAvoid methodological bottlenecks\nExample - morphological tessellation"
-  },
-  {
-    "objectID": "slides/202410_Nanjing.html#step-03",
-    "href": "slides/202410_Nanjing.html#step-03",
-    "title": "From a building to a region",
-    "section": "Step 03",
-    "text": "Step 03\nAvoid implementation bottlenecks"
-  },
-  {
-    "objectID": "slides/202410_Nanjing.html#step-04",
-    "href": "slides/202410_Nanjing.html#step-04",
-    "title": "From a building to a region",
-    "section": "Step 04",
-    "text": "Step 04\nMeasure!"
-  },
-  {
-    "objectID": "slides/202410_Nanjing.html#what-is-next",
-    "href": "slides/202410_Nanjing.html#what-is-next",
-    "title": "From a building to a region",
-    "section": "What is next",
-    "text": "What is next\n\nIt depends…"
-  },
-  {
-    "objectID": "slides/202410_Nanjing.html#our-step-05",
-    "href": "slides/202410_Nanjing.html#our-step-05",
-    "title": "From a building to a region",
-    "section": "Our step 05",
-    "text": "Our step 05\nMorphotope delineation"
-  },
-  {
-    "objectID": "slides/202410_Nanjing.html#morphotope",
-    "href": "slides/202410_Nanjing.html#morphotope",
-    "title": "From a building to a region",
-    "section": "Morphotope",
-    "text": "Morphotope\n\n\n\nexcerpt from Larkham and Jones, 1991"
-  },
-  {
-    "objectID": "slides/202410_Nanjing.html#our-step-06",
-    "href": "slides/202410_Nanjing.html#our-step-06",
-    "title": "From a building to a region",
-    "section": "Our step 06",
-    "text": "Our step 06\nBaseline morphotope types"
-  },
-  {
-    "objectID": "slides/202410_Nanjing.html#our-step-07",
-    "href": "slides/202410_Nanjing.html#our-step-07",
-    "title": "From a building to a region",
-    "section": "Our step 07",
-    "text": "Our step 07\nExtensible taxonomy of urban form"
-  },
-  {
-    "objectID": "slides/202410_Nanjing.html#times-have-changed.-methods-have-changed.-concepts-those-only-evolved",
-    "href": "slides/202410_Nanjing.html#times-have-changed.-methods-have-changed.-concepts-those-only-evolved",
-    "title": "From a building to a region",
-    "section": "Times have changed. Methods have changed. Concepts? Those only evolved",
-    "text": "Times have changed. Methods have changed. Concepts? Those only evolved"
-  },
-  {
-    "objectID": "slides/202410_Nanjing.html#urban-morphology-can-be-deeply-embedded-in-spatial-data-science",
-    "href": "slides/202410_Nanjing.html#urban-morphology-can-be-deeply-embedded-in-spatial-data-science",
-    "title": "From a building to a region",
-    "section": "Urban morphology can be deeply embedded in spatial data science",
-    "text": "Urban morphology can be deeply embedded in spatial data science"
-  },
-  {
-    "objectID": "slides/202410_Nanjing.html#urban-morphometrics-can-support-quantitative-studies-done-at-scale",
-    "href": "slides/202410_Nanjing.html#urban-morphometrics-can-support-quantitative-studies-done-at-scale",
-    "title": "From a building to a region",
-    "section": "Urban morphometrics can support quantitative studies done at scale",
-    "text": "Urban morphometrics can support quantitative studies done at scale"
-  },
-  {
-    "objectID": "slides/202410_Nanjing.html#all-within-fully-interpretable-framework",
-    "href": "slides/202410_Nanjing.html#all-within-fully-interpretable-framework",
-    "title": "From a building to a region",
-    "section": "All within fully interpretable framework",
-    "text": "All within fully interpretable framework"
-  },
-  {
-    "objectID": "slides/202410_Nanjing.html#do-you-want-to-follow-up",
-    "href": "slides/202410_Nanjing.html#do-you-want-to-follow-up",
-    "title": "From a building to a region",
-    "section": "Do you want to follow up",
-    "text": "Do you want to follow up\n martin.fleischmann@natur.cuni.cz\n @martinfleis@fosstodon.org\n martinfleischmann.net"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Talks",
-    "section": "",
-    "text": "Archive of talks of the US CUNI team."
-  },
-  {
-    "objectID": "index.html#list-of-talks",
-    "href": "index.html#list-of-talks",
-    "title": "Talks",
-    "section": "List of talks",
-    "text": "List of talks\n\n2025-04-14 University of California, Berkeley\n2024-10-29 International Seminar on Urban Morpho-Science\n2024-09-18 Spatial Data Science across Languages\n2024-09-12 City Transitions Saarbrücken\n2024-06-07 EuroFab project Kick-Off meeting\n2024-05-16 Open Source Science Meetup Prague"
-  },
-  {
-    "objectID": "slides/202409_SDSL.html#section",
-    "href": "slides/202409_SDSL.html#section",
-    "title": "Spatial Data Science across Languages",
-    "section": "",
-    "text": "Vinohrady Brewery"
-  },
-  {
-    "objectID": "slides/202409_SDSL.html#personal-reflections",
-    "href": "slides/202409_SDSL.html#personal-reflections",
-    "title": "Spatial Data Science across Languages",
-    "section": "Personal reflections",
-    "text": "Personal reflections"
-  },
-  {
-    "objectID": "slides/202409_SDSL.html#working-paper",
-    "href": "slides/202409_SDSL.html#working-paper",
-    "title": "Spatial Data Science across Languages",
-    "section": "Working paper",
-    "text": "Working paper"
-  },
-  {
-    "objectID": "slides/202406_EuroFab_KO.html#why-urban-fabric",
-    "href": "slides/202406_EuroFab_KO.html#why-urban-fabric",
-    "title": "EuroFab",
-    "section": "Why urban fabric",
-    "text": "Why urban fabric\nCities take up around 3% of the planet’s land but are home to more than half of humanity and responsible for 75% of carbon emissions1.\nUnited Nations (2020)"
-  },
-  {
-    "objectID": "slides/202406_EuroFab_KO.html#why-urban-fabric-1",
-    "href": "slides/202406_EuroFab_KO.html#why-urban-fabric-1",
-    "title": "EuroFab",
-    "section": "Why urban fabric",
-    "text": "Why urban fabric\nUrban fabric, the spatial layout of the physical elements that make up a city, mediates most activities their residents undertake, from heating their homes to accessing services, jobs and opportunities through sustainable modes of transport."
-  },
-  {
-    "objectID": "slides/202406_EuroFab_KO.html#why-urban-fabric-2",
-    "href": "slides/202406_EuroFab_KO.html#why-urban-fabric-2",
-    "title": "EuroFab",
-    "section": "Why urban fabric",
-    "text": "Why urban fabric\nEasily available, comparable, and dynamic information on urban fabric would unlock new ways of understanding how cities are constantly evolving, what it means for their sustainability, and how effective policies can be designed to steer development in desirable directions."
-  },
-  {
-    "objectID": "slides/202406_EuroFab_KO.html#why-now",
-    "href": "slides/202406_EuroFab_KO.html#why-now",
-    "title": "EuroFab",
-    "section": "Why now",
-    "text": "Why now\nIn 2023, UN Habitat included urban fabric as one of the key ingredients required for effective sustainable design1\nUN Habitat (2024)"
-  },
-  {
-    "objectID": "slides/202406_EuroFab_KO.html#why-now-1",
-    "href": "slides/202406_EuroFab_KO.html#why-now-1",
-    "title": "EuroFab",
-    "section": "Why now",
-    "text": "Why now\nThere are currently very few instances of detailed, consistent, and scalable measurements of urban fabric and virtually none of them provide insight into its change over time."
-  },
-  {
-    "objectID": "slides/202406_EuroFab_KO.html#eurofab-vision",
-    "href": "slides/202406_EuroFab_KO.html#eurofab-vision",
-    "title": "EuroFab",
-    "section": "EuroFab vision",
-    "text": "EuroFab vision\nEuroFab paves the road for a world where stakeholders, from local authorities to supranational organisations, are able to track and monitor the pattern of urban development in detail directly relevant for planning and at scale.\n\nwe’re not there yet"
-  },
-  {
-    "objectID": "slides/202406_EuroFab_KO.html#objectives",
-    "href": "slides/202406_EuroFab_KO.html#objectives",
-    "title": "EuroFab",
-    "section": "Objectives",
-    "text": "Objectives"
-  },
-  {
-    "objectID": "slides/202406_EuroFab_KO.html#state-of-the-art",
-    "href": "slides/202406_EuroFab_KO.html#state-of-the-art",
-    "title": "EuroFab",
-    "section": "State of the Art",
-    "text": "State of the Art\nClassifications of urban form fall, broadly, into two categories.\n\n\nrich, detailed, and hyper-local classifications\nsimpler, coarser, large-scale classifications"
-  },
-  {
-    "objectID": "slides/202406_EuroFab_KO.html#proposed-approach",
-    "href": "slides/202406_EuroFab_KO.html#proposed-approach",
-    "title": "EuroFab",
-    "section": "Proposed approach",
-    "text": "Proposed approach\nUrban morphometrics + computer vision.\nA balance between generalisation and detail.\nMore granularity than existing large-scale classifications.\nScalability to much larger regions than traditional hyper-local classifications"
-  },
-  {
-    "objectID": "slides/202406_EuroFab_KO.html#what",
-    "href": "slides/202406_EuroFab_KO.html#what",
-    "title": "EuroFab",
-    "section": "What",
-    "text": "What\nEnsure and maximise the policy relevance, usability and further applications of the outputs of the project.\nInternational comparability of the data products and their derived indicators.\nComparison of the outputs of the project with other already existing classifications endorsed by international organisations and applied by National Statistical Offices (e.g. the classification of human settlements DEGURBA)."
-  },
-  {
-    "objectID": "slides/202406_EuroFab_KO.html#how",
-    "href": "slides/202406_EuroFab_KO.html#how",
-    "title": "EuroFab",
-    "section": "How",
-    "text": "How\nOECD Geospatial Lab and OECD technical expertise\n“Producer” stakeholders, mainly belonging to the scientific community (working on the production of data flows and data products close or relevant to the expected deliverable of EuroFab).\n“User” stakeholders, wide range of potential user of the data produced by EuroFab, interested in applying it for the definition of policy-relevant indicators and characterised by various degrees of technical competencies."
-  },
-  {
-    "objectID": "slides/202406_EuroFab_KO.html#six-work-packages",
-    "href": "slides/202406_EuroFab_KO.html#six-work-packages",
-    "title": "EuroFab",
-    "section": "Six Work Packages",
-    "text": "Six Work Packages\n\n\nWP000 Project Management and Communication\nWP100 Collaborative Stakeholder Requirements Consolidation\nWP200 Iterative Algorithm Design and Data Collection Sprints\nWP300 Incremental Development and Processing Algorithm Implementation\nWP400 Verification of Novel Processing Capability in Representative Use Case and Results Dissemination\nWP500 Large-scale Inference and Operationalization Strategy Elaboration"
-  },
-  {
-    "objectID": "slides/202406_EuroFab_KO.html#events",
-    "href": "slides/202406_EuroFab_KO.html#events",
-    "title": "EuroFab",
-    "section": "Events",
-    "text": "Events\n\n\nWeek 2 of September 2024:\n\nStakeholder Workshop I (optionally paired with URBIS24)\n\nWeek 1 of November 2024:\n\nNetworking event at WUF12 (Cairo, Egypt) – pending selection process\n\nWeek 4 of January 2025:\n\nStakeholder Workshop II\n\nWeek 4 of April 2025:\n\nStakeholder Workshop III"
-  },
-  {
-    "objectID": "slides/202406_EuroFab_KO.html#milestones",
-    "href": "slides/202406_EuroFab_KO.html#milestones",
-    "title": "EuroFab",
-    "section": "Milestones",
-    "text": "Milestones\n\n\nProgress (MS 1), KO + 6 months\nFinal (MS 2), KO + 12 months"
-  },
-  {
-    "objectID": "slides/template.html#heading-level-2",
-    "href": "slides/template.html#heading-level-2",
-    "title": "Spatial Autocorrelation",
-    "section": "Heading level 2",
-    "text": "Heading level 2\nAnother text\nFragment"
-  },
-  {
-    "objectID": "slides/template.html#this-will-be-vertically-centered",
-    "href": "slides/template.html#this-will-be-vertically-centered",
-    "title": "Spatial Autocorrelation",
-    "section": "This will be vertically centered",
-    "text": "This will be vertically centered\nThis text is moved as well"
-  },
-  {
-    "objectID": "slides/template.html#heading-that-is-a-question",
-    "href": "slides/template.html#heading-that-is-a-question",
-    "title": "Spatial Autocorrelation",
-    "section": "Heading that is a question",
-    "text": "Heading that is a question\nAnother text with footnote1\n\nFragment block\n\nMy footnote."
-  },
-  {
-    "objectID": "slides/template.html#inline-code",
-    "href": "slides/template.html#inline-code",
-    "title": "Spatial Autocorrelation",
-    "section": "Inline code",
-    "text": "Inline code\nText with libpysal.graph.Graph inline."
-  },
-  {
-    "objectID": "slides/template.html#slide-with-an-image",
-    "href": "slides/template.html#slide-with-an-image",
-    "title": "Spatial Autocorrelation",
-    "section": "Slide with an image",
-    "text": "Slide with an image\nSet height"
-  },
-  {
-    "objectID": "slides/template.html#slide-with-an-image-1",
-    "href": "slides/template.html#slide-with-an-image-1",
-    "title": "Spatial Autocorrelation",
-    "section": "Slide with an image",
-    "text": "Slide with an image\n\nAutomatically stretched to fill remaining space"
-  },
-  {
-    "objectID": "slides/template.html#slide-with-image-as-background",
-    "href": "slides/template.html#slide-with-image-as-background",
-    "title": "Spatial Autocorrelation",
-    "section": "Slide with image as background",
-    "text": "Slide with image as background"
-  },
-  {
-    "objectID": "slides/template.html#slide-with-iframe-background",
-    "href": "slides/template.html#slide-with-iframe-background",
-    "title": "Spatial Autocorrelation",
-    "section": "Slide with iframe background",
-    "text": "Slide with iframe background"
   }
 ]
