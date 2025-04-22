@@ -1,0 +1,392 @@
+---
+title: "Adaptive continuity-preserving simplification of street networks"
+author: "Martin Fleischmann"
+institute: "Charles University"
+date: 2025-04-24
+format:
+    revealjs:
+        theme: [default, ../assets/reveal.scss]
+        logo: ../assets/icon.svg
+        menu: false
+        transition: slide
+        navigation-mode: linear
+        controls-layout: edges
+        progress: true
+        incremental: true
+        include-in-header:
+            - ../assets/font.html
+            - text: |
+                <style>
+                #title-slide .title {
+                    font-size: 50px;
+                }
+                </style>
+        title-slide-attributes:
+            data-background-image: ../assets/full_logo.svg
+            data-background-size: 15%
+            data-background-position: 50% 90%
+
+---
+
+![](../figures/202504_GISRUK_simplification/authors.png){fig-align="center"}
+
+# Streets, roads, networks, graphs
+
+---
+
+### Who needs them {.question}
+<!-- fields using street networks -->
+
+::: {.columns .center}
+::: {.column}
+[geography]{.fragment}
+
+[urban morphology]{.fragment}
+
+[cartography]{.fragment}
+
+[urban economics]{.fragment}
+:::
+::: {.column}
+[transportation planning]{.fragment}
+
+[spatial demography]{.fragment}
+
+[segregation]{.fragment}
+
+[...]{.fragment}
+:::
+:::
+<!-- end columns -->
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+representation matters
+:::
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+OpenStreetMap is transport
+:::
+
+---
+
+<!-- consequences of incorrect representation -->
+![](../figures/202504_GISRUK_simplification/araldi.png)
+
+::: aside
+Araldi and Fusco (2024)
+:::
+
+# What to do {.question}
+
+## Manual simplification
+
+---
+
+<!-- manual simplification is cumbersome -->
+_click click click click click click click click click click click click click click click click sigh click click click click click click click click click click click click click click click click fml click click click click click click click click click click click click I hate it here click click click click click click click click click click click click click click click click click click click click click click click click click click click click click click click click click click click click click click click click sigh click click click click click click click click click click click click click click click click click help click click click click click click click ..._
+
+::: aside
+live transcription of the manual simplification process
+:::
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+we need an algorithm
+:::
+
+# What even is simplification {.question}
+
+---
+
+![](../figures/202504_GISRUK_simplification/fig_original-manual.png)
+
+::: aside
+Illustration of the simplification by the example of a street network fragment in Seraing, Liège (Belgium).
+:::
+
+# Someone surely has done this {.exclamation}
+
+## Five requirements
+
+1.  open-source
+2. fully automated
+3. attribute-agnostic
+4. case-agnostic
+5. fully packaged
+
+---
+
+![](../figures/202504_GISRUK_simplification/tab2.png){.center}
+
+
+::: aside
+Overview of previous studies working towards an automated street network simplification method.
+:::
+
+---
+
+![](../figures/202504_GISRUK_simplification/osmnx.png){.r-stretch}
+
+::: aside
+`OSMnx` node consolidation (Boeing 2025)
+:::
+
+---
+
+![](../figures/202504_GISRUK_simplification/cityseer.png){.r-stretch}
+
+::: aside
+`cityseer`'s simplification workflow (Simmons 2024)
+:::
+
+---
+
+![](../figures/202504_GISRUK_simplification/parenx.png){.r-stretch}
+
+::: aside
+`parenx` (Voronoi-based) algorithm (Lovelace et al. 2024)
+:::
+---
+
+![](../figures/202504_GISRUK_simplification/parenx2.png){.r-stretch}
+
+::: aside
+`parenx` (Voronoi-based) algorithm (Lovelace et al. 2024)
+:::
+
+# Adaptive continuity-preserving simplification of street networks
+
+## What do you mean by "continuity-preserving" {.question}
+
+---
+
+::: {.columns}
+::: {.column}
+![](../figures/202504_GISRUK_simplification/bubenec.webp)
+
+:::
+::: {.column}
+![](../figures/202504_GISRUK_simplification/bubenec2.webp)
+
+:::
+:::
+
+::: aside
+detection of natural continuity of street networks by Tripathy et al. (2020).
+:::
+
+# Adaptive continuity-preserving simplification of street networks
+
+---
+
+![](../figures/202504_GISRUK_simplification/neatnet.png){.r-stretch}
+
+::: aside
+Conceptual diagram of the proposed simplification algorithm.
+:::
+
+---
+
+## Face artifact detection
+
+---
+
+![](../figures/202504_GISRUK_simplification/banana.png){.r-stretch}
+
+::: aside
+Fleischmann and Vybornova (2024)
+:::
+
+---
+
+![](../figures/202504_GISRUK_simplification/face_artifacts.png){.r-stretch}
+
+::: aside
+Fleischmann and Vybornova (2024)
+:::
+
+---
+
+![](../figures/202504_GISRUK_simplification/birdviews.png){.r-stretch}
+
+::: aside
+Fleischmann and Vybornova (2024)
+:::
+
+---
+
+![](../figures/202504_GISRUK_simplification/neatnet.png){.r-stretch}
+
+::: aside
+Conceptual diagram of the proposed simplification algorithm.
+:::
+
+## Artifact classification
+
+1. artifact polygon contiguity
+    1. isolates
+    2. pairs
+    3. clusters
+2. network continuity
+
+---
+
+### Isolates
+
+---
+
+![](../figures/202504_GISRUK_simplification/ces_liege_subset_post.png){.r-stretch}
+
+::: aside
+A subset of the CES typology derived from the Liège street network.
+:::
+
+---
+
+![](../figures/202504_GISRUK_simplification/ces_liege_post.png){.r-stretch}
+
+::: aside
+Complete CES typology derived from the Liège street network.
+:::
+
+---
+
+### Clusters
+
+![](../figures/202504_GISRUK_simplification/skeletonize.png){.r-stretch}
+
+::: aside
+merge & skeletonize
+:::
+
+---
+
+### Pairs
+
+[solve together as a single isolate]{.fragment}
+
+[solve together as a cluster]{.fragment}
+
+# Evaluation
+
+---
+
+numerical assessment
+
+[visual assessment ]{.fragment}
+
+[computational performance ]{.fragment}
+
+---
+
+![](../figures/202504_GISRUK_simplification/cities.png){.r-stretch}
+
+::: aside
+selection of case study areas
+:::
+---
+
+## How close are we to the manually simplified network {.question}
+
+---
+
+![](../figures/202504_GISRUK_simplification/chi.png)
+
+::: aside
+
+Chatterjee’s $\xi$ correlation coefficient between properties of manually simplified networks and networks
+based on each of the tested algorithms vs. the original network as a baseline.
+
+:::
+
+---
+
+![](../figures/202504_GISRUK_simplification/delta.png)
+
+::: aside
+Euclidean distance between properties of manually simplified networks and networks based on each of
+the tested algorithms vs. the original network as a baseline.
+:::
+
+
+
+---
+
+![](../figures/202504_GISRUK_simplification/fig_situations-selection.png){.r-stretch}
+
+::: aside
+A small set of example situations that ought to be simplified and the resutling simplified networks from
+all tested methods, together with the comparison to the manual simplification considered ground truth.
+:::
+
+---
+
+![](../figures/202504_GISRUK_simplification/fig_allmethods.png){.r-stretch}
+
+::: aside
+Output of different simplification methods for a street network fragment in Seraing, Li`ege (Belgium).
+:::
+
+---
+
+![](../figures/202504_GISRUK_simplification/comp.png){.r-stretch}
+
+::: aside
+Computational efficiency of different methods.
+:::
+
+
+# What works and what does not {.question}
+
+# Where do I get it {.question}
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+`pip install neatnet`
+:::
+
+---
+
+
+
+::: {.columns}
+::: {.column}
+### Preprint {.smaller}
+
+![](../figures/202504_GISRUK_simplification/qr_repo.svg)
+
+::: {style="font-size: 50%;"}
+doi.org/XXXXXXX
+:::
+### Slides
+
+![](../figures/202504_GISRUK_simplification/qr_slides.svg)
+
+::: {style="font-size: 50%;"}
+uscuni.org/talks
+:::
+:::
+::: {.column}
+### Code & data
+
+![](../figures/202504_GISRUK_simplification/qr_repo.svg)
+
+::: {style="font-size: 50%;"}
+github.com/uscuni/simplification
+:::
+
+### Martin
+
+![](../figures/202504_GISRUK_simplification/qr_martin.svg)
+
+::: {style="font-size: 50%;"}
+martinfleischmann.net
+:::
+:::
+:::
