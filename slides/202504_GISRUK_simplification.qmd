@@ -383,12 +383,12 @@ uscuni.org/talks
 github.com/uscuni/simplification
 :::
 
-### Martin
+### neatnet
 
-![](../figures/202504_GISRUK_simplification/qr_martin.svg)
+![](../figures/202504_GISRUK_simplification/qr_neatnet.svg)
 
 ::: {style="font-size: 50%;"}
-martinfleischmann.net
+uscuni.org/neatnet
 :::
 :::
 :::
