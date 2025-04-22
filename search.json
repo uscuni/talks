@@ -553,39 +553,46 @@
     "text": "Share your knowledge, it is a way to achieve immortality\n(Dalai Lama)\n\n\n\n\nThank you! Contacts at martinfleischmann.net."
   },
   {
-    "objectID": "slides/202409_SDSL.html#section",
-    "href": "slides/202409_SDSL.html#section",
-    "title": "Spatial Data Science across Languages",
-    "section": "",
-    "text": "Vinohrady Brewery"
+    "objectID": "slides/202504_GISRUK_simplification.html#manual-simplification",
+    "href": "slides/202504_GISRUK_simplification.html#manual-simplification",
+    "title": "Adaptive continuity-preserving simplification of street networks",
+    "section": "Manual simplification",
+    "text": "Manual simplification"
   },
   {
-    "objectID": "slides/202409_SDSL.html#personal-reflections",
-    "href": "slides/202409_SDSL.html#personal-reflections",
-    "title": "Spatial Data Science across Languages",
-    "section": "Personal reflections",
-    "text": "Personal reflections"
+    "objectID": "slides/202504_GISRUK_simplification.html#five-requirements",
+    "href": "slides/202504_GISRUK_simplification.html#five-requirements",
+    "title": "Adaptive continuity-preserving simplification of street networks",
+    "section": "Five requirements",
+    "text": "Five requirements\n\nopen-source\nfully automated\nattribute-agnostic\ncase-agnostic\nfully packaged"
   },
   {
-    "objectID": "slides/202409_SDSL.html#working-paper",
-    "href": "slides/202409_SDSL.html#working-paper",
-    "title": "Spatial Data Science across Languages",
-    "section": "Working paper",
-    "text": "Working paper"
+    "objectID": "slides/202504_GISRUK_simplification.html#what-do-you-mean-by-continuity-preserving",
+    "href": "slides/202504_GISRUK_simplification.html#what-do-you-mean-by-continuity-preserving",
+    "title": "Adaptive continuity-preserving simplification of street networks",
+    "section": "What do you mean by “continuity-preserving”",
+    "text": "What do you mean by “continuity-preserving”"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Talks",
-    "section": "",
-    "text": "Archive of talks of the US CUNI team."
+    "objectID": "slides/202504_GISRUK_simplification.html#face-artifact-detection",
+    "href": "slides/202504_GISRUK_simplification.html#face-artifact-detection",
+    "title": "Adaptive continuity-preserving simplification of street networks",
+    "section": "Face artifact detection",
+    "text": "Face artifact detection"
   },
   {
-    "objectID": "index.html#list-of-talks",
-    "href": "index.html#list-of-talks",
-    "title": "Talks",
-    "section": "List of talks",
-    "text": "List of talks\n\n2025-04-14 University of California, Berkeley\n2024-10-29 International Seminar on Urban Morpho-Science\n2024-09-18 Spatial Data Science across Languages\n2024-09-12 City Transitions Saarbrücken\n2024-06-07 EuroFab project Kick-Off meeting\n2024-05-16 Open Source Science Meetup Prague"
+    "objectID": "slides/202504_GISRUK_simplification.html#artifact-classification",
+    "href": "slides/202504_GISRUK_simplification.html#artifact-classification",
+    "title": "Adaptive continuity-preserving simplification of street networks",
+    "section": "Artifact classification",
+    "text": "Artifact classification\n\nartifact polygon contiguity\n\nisolates\npairs\nclusters\n\nnetwork continuity"
+  },
+  {
+    "objectID": "slides/202504_GISRUK_simplification.html#how-close-are-we-to-the-manually-simplified-network",
+    "href": "slides/202504_GISRUK_simplification.html#how-close-are-we-to-the-manually-simplified-network",
+    "title": "Adaptive continuity-preserving simplification of street networks",
+    "section": "How close are we to the manually simplified network",
+    "text": "How close are we to the manually simplified network"
   },
   {
     "objectID": "slides/202410_Nanjing.html#looking-back-to-2019",
@@ -733,6 +740,41 @@
     "title": "From a building to a region",
     "section": "Do you want to follow up",
     "text": "Do you want to follow up\n martin.fleischmann@natur.cuni.cz\n @martinfleis@fosstodon.org\n martinfleischmann.net"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Talks",
+    "section": "",
+    "text": "Archive of talks of the US CUNI team."
+  },
+  {
+    "objectID": "index.html#list-of-talks",
+    "href": "index.html#list-of-talks",
+    "title": "Talks",
+    "section": "List of talks",
+    "text": "List of talks\n\n2025-04-14 University of California, Berkeley\n2024-10-29 International Seminar on Urban Morpho-Science\n2024-09-18 Spatial Data Science across Languages\n2024-09-12 City Transitions Saarbrücken\n2024-06-07 EuroFab project Kick-Off meeting\n2024-05-16 Open Source Science Meetup Prague"
+  },
+  {
+    "objectID": "slides/202409_SDSL.html#section",
+    "href": "slides/202409_SDSL.html#section",
+    "title": "Spatial Data Science across Languages",
+    "section": "",
+    "text": "Vinohrady Brewery"
+  },
+  {
+    "objectID": "slides/202409_SDSL.html#personal-reflections",
+    "href": "slides/202409_SDSL.html#personal-reflections",
+    "title": "Spatial Data Science across Languages",
+    "section": "Personal reflections",
+    "text": "Personal reflections"
+  },
+  {
+    "objectID": "slides/202409_SDSL.html#working-paper",
+    "href": "slides/202409_SDSL.html#working-paper",
+    "title": "Spatial Data Science across Languages",
+    "section": "Working paper",
+    "text": "Working paper"
   },
   {
     "objectID": "slides/202406_EuroFab_KO.html#why-urban-fabric",
