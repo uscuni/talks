@@ -35,10 +35,6 @@ Barcelona
 
 # Urban Morphometrics
 
-<!-- ![Caniggia and Maffei](../figures/202504_taxonomy_gisruk/caniggia-maffei-analisi-tessuti-storici.jpg)
-
---- -->
-
 ::: {.fragment}
 > A study of urban form through the means of quantitative assessment of its constituent elements.
 :::
@@ -124,10 +120,11 @@ Street network meshedness in Kraków, Poland
 
 ## Gradually Loosening Spatial Restrictions
 
-- Framework for hierarchical spatial clustering relying on:
-    1. Intermediate aggregations
-    2. Relaxing spatial restrictions as the size of the intermediate aggregations increases.
-- Results in a taxonomy starting from individual ETCs
+Framework for hierarchical spatial clustering relying on:
+
+1. Nested intermediate aggregations
+2. Nested spatial restrictions for each aggregation
+3. Hierarchical operationalisations to create the aggregations, given the restrictions
 
 
 ## Three levels of aggregations
@@ -205,7 +202,7 @@ Baseline morphotope types in Kraków, Poland
 :::
 
 
-## 3. Recursive K-Means
+## 3. Bisecting K-Means
 
 1. Step 1. - the whole dataset is split into two clusters by performing a kmeans clustering with K=2. 
 2. Step $N$. - the algorithm splits each of the clusters from the $N-1$ iteration into two further clusters, again using a kmeans clustering with K=2.
