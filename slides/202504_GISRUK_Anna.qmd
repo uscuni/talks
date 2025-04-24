@@ -29,9 +29,9 @@ format:
 
 # About me
 
-[1st year Ph.D student at the department of Social geography and Regional Development]{.fragment}
+1st year Ph.D student at the department of Social geography and Regional Development
 
-[Faculty of Science at Charles University in Prague]{.fragment}
+Faculty of Science at Charles University in Prague
 
 ---
 
@@ -43,11 +43,13 @@ format:
 
 ---
 
-[Who lives in different types of the urban form and how does it differ across the country?]{.fragment}
+Who lives in different types of the urban form?
 
-[Is there a specific relationship between a group of people and an urban form type? How does it differ regionally?]{.fragment}
+[Is there a specific relationship between a group of people and an urban form type?]{.fragment}
 
-[Which model is best at assessing this type of relationship and how does it perform across different regions?]{.fragment}
+[Does it differ across the country?]{.fragment}
+
+[How to asses this relationship?]{.fragment}
 
 
 ---
@@ -98,16 +100,16 @@ Census characterstics as the predictors
 
 ---
 
-### Hierarchical morphotope classification
-
-[Level 3: 6 urban form types in Czechia.]{.fragment}
+::: {.r-fit-text .absolute top=39%}
+Level 3 of the classification - 6 main types in Czechia
+:::
 
 
 ---
 
 ### Central Urban Developments
 
-![](../figures/202504_GISRUK/grid.png){height="600"}
+![](../figures/202504_GISRUK/grid.png){height="500"}
 
 ::: footer
 [<span style="font-size:0.4em">Source](https://feelhome.cz/prodej/byty/detail/104254-u-havlickovych-sadu)</span>
@@ -117,7 +119,7 @@ Census characterstics as the predictors
 
 ### Dense Urban Developments
 
-![](../figures/202504_GISRUK/dense.jpeg){height="600"}
+![](../figures/202504_GISRUK/dense.jpeg){height="500"}
 
 ::: footer
 <span style="font-size:0.4em">[Source](https://www.geo5.cz/reference_reality_praha-4-hodkovicky-vila-v-ulici-korandova)</span>
@@ -126,7 +128,7 @@ Census characterstics as the predictors
 
 ### Street-aligned Developments
 
-![](../figures/202504_GISRUK/krupka.jpg){height="600"}
+![](../figures/202504_GISRUK/krupka.jpg){height="500"}
 
 ::: footer
 <span style="font-size:0.4em">[Source](https://teplicky.denik.cz/zpravy_region/krupka-obvineni-zastupitele-20210701.html)</span>
@@ -135,7 +137,7 @@ Census characterstics as the predictors
 
 ### Sparse Rural Developments
 
-![](../figures/202504_GISRUK/rural.png){height="600"}
+![](../figures/202504_GISRUK/rural.png){height="500"}
 
 ::: footer
 <span style="font-size:0.4em">[Source](https://svoboda-williams.com/prodej/rodinne-domy/detail/22750-horni-rokytnice)</span>
@@ -145,7 +147,7 @@ Census characterstics as the predictors
 
 ### Sparse Road Network Developments
 
-![](../figures/202504_GISRUK/sparse.png){height="600"}
+![](../figures/202504_GISRUK/sparse.png){height="500"}
 
 ::: footer
 <span style="font-size:0.4em">[Source](https://d18-a.sdn.cz/d_18/c_img_oW_A/nO1SBfAluiD9J7zf4CQQFO4/edd1.jpeg?fl=res,800,600,3|shr,,20|webp,60)</span>
@@ -155,7 +157,7 @@ Census characterstics as the predictors
 
 ### Large Scale Developments
 
-![](../figures/202504_GISRUK/panelaky.jpeg){height="600"}
+![](../figures/202504_GISRUK/panelaky.jpeg){height="500"}
 
 ::: footer
 <span style="font-size:0.4em">[Source](https://www.irozhlas.cz/ekonomika/na-prumerny-novy-byt-vydelava-prazan-11-5-roku-dele-nez-v-berline-bratislave-i-vidni_201609290829_pholinkova)</span>
@@ -178,13 +180,11 @@ Delineated based on urban fabric
 ![](../figures/202504_GISRUK/clusters_cz.png){fig-align="center" width="100%"}
 
 ::: aside
-Target - most common urban form type for BSUs
+Target - most common urban form type assigned to BSUs
 :::
 ---
 
 ## Census variables
-
-800+ variables
 
 ::: {.column width="50%"}
 
@@ -248,10 +248,12 @@ Target - most common urban form type for BSUs
 ---
 
 ## Spatial relationship
-[Who lives in different types of the urban form? How does it differ across the country?]{.fragment}
 
+Who lives in different types of the urban form?
 
-[Is there a specific relationship between a group of people and an urban form type? How does it differ regionally?]{.fragment}
+[Is there a specific relationship between a group of people and an urban form type?]{.fragment}
+
+[Does it differ across the country?]{.fragment}
 
 [How to asses this relationship?]{.fragment}
 
@@ -259,6 +261,8 @@ Target - most common urban form type for BSUs
 
 
 ## Census processing
+
+800+ variables
 
 [Variable selection]{.fragment} [- no leakage, no nested variables, repetition etc.]{.fragment}
 
@@ -299,32 +303,36 @@ Target - most common urban form type for BSUs
 
 ### Weighting
 
-[Controlled by a distance-decay parameter.]{.fragment data-fragment-index="0"}
+::: {.column width="50%"}
 
-[Nearby observations are given more weight than distant ones.]{.fragment data-fragment-index="1"}
+Controlled by a distance-decay parameter.
 
-<span class="fragment" data-fragment-index="2">
-  ![](../figures/202504_GISRUK/bandwidth.png){height="300"}
-</span>
+Nearby observations are given more weight than distant ones.
 
-<span class="fragment" data-fragment-index="2" style="font-size:0.4em">
+:::
+
+::: {.column width="50%"}
+
+![](../figures/202504_GISRUK/bandwidth.png){height="300"}
+
+
+<span style="font-size:0.4em">
   Illustration of bandwidth and its relation to weight, Fotheringham et al. [(2002, 44–45)](https://www.researchgate.net/publication/27246972_Geographically_Weighted_Regression_The_Analysis_of_Spatially_Varying_Relationships)
 </span>
 
-
-
+:::
 
 ---
 
 ### Bandwidth 
 
-[Controls the spatial scale over which a process varies.]{.fragment data-fragment-index="1"}
+Controls the spatial scale over which a process varies.
 
-<span class="fragment" data-fragment-index="2">
-  ![](../figures/202504_GISRUK/gwr_bw.png){height="400"}
-</span>
 
-<span class="fragment" data-fragment-index="2" style="font-size:0.4em">
+![](../figures/202504_GISRUK/gwr_bw.png){height="300"}
+
+
+<span style="font-size:0.4em">
   Conceptual diagram explaining fixed (left) and adaptive weighting (right) schemes. Sachdeva, M., & Fotheringham, A. S. [(2020)](https://gistbok-topics.ucgis.org/AM-03-034s)
 </span>
 
@@ -334,7 +342,9 @@ Target - most common urban form type for BSUs
 
 ## Modelling
 
-[Outputs from dimensionality reduction →]{.fragment} [Geographically weighted Logistic Regression & Random Forest Classification]{.fragment}
+[Outputs from dimensionality reduction →]{.fragment} [Geographically weighted models]{.fragment}
+
+[Logistic Regression & Random Forest Classification]{.fragment}
 
 ---
 
@@ -353,14 +363,14 @@ Target - most common urban form type for BSUs
 ![](../figures/202504_GISRUK/macro.png){.r-stretch}
 
 ::: aside
-F1-macro score
+Averaged f1-macro score
 :::
 
 ---
 
 ### Principal Components
 
-1. Economic activity of the pupulation
+1. Economic activity of the population
 
 2. Property ownership, family household with children
 
