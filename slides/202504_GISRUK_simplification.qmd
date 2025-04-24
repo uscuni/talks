@@ -361,10 +361,10 @@ Computational efficiency of different methods.
 ::: {.column}
 ### Preprint {.smaller}
 
-![](../figures/202504_GISRUK_simplification/qr_repo.svg)
+![](../figures/202504_GISRUK_simplification/qr_arxiv.svg)
 
 ::: {style="font-size: 50%;"}
-doi.org/XXXXXXX
+arxiv.org/abs/2504.16198
 :::
 ### Slides
 
