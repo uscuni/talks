@@ -193,21 +193,21 @@
     "href": "slides/202504_GISRUK_Anna.html#census-variables",
     "title": "Spatial modelling of the relationship between the urban form and population data",
     "section": "Census variables",
-    "text": "Census variables\n800+ variables\n\nAge structure\nEducation\nEconomic activity\nEmployment type\nMarital status\n\nHouseholds\nReligion\nNationality\nResidence\nProperty ownership"
+    "text": "Census variables\n\nAge structure\nEducation\nEconomic activity\nEmployment type\nMarital status\n\nHouseholds\nReligion\nNationality\nResidence\nProperty ownership"
   },
   {
     "objectID": "slides/202504_GISRUK_Anna.html#spatial-relationship",
     "href": "slides/202504_GISRUK_Anna.html#spatial-relationship",
     "title": "Spatial modelling of the relationship between the urban form and population data",
     "section": "Spatial relationship",
-    "text": "Spatial relationship\nWho lives in different types of the urban form? How does it differ across the country?\nIs there a specific relationship between a group of people and an urban form type? How does it differ regionally?\nHow to asses this relationship?"
+    "text": "Spatial relationship\nWho lives in different types of the urban form?\nIs there a specific relationship between a group of people and an urban form type?\nDoes it differ across the country?\nHow to asses this relationship?"
   },
   {
     "objectID": "slides/202504_GISRUK_Anna.html#census-processing",
     "href": "slides/202504_GISRUK_Anna.html#census-processing",
     "title": "Spatial modelling of the relationship between the urban form and population data",
     "section": "Census processing",
-    "text": "Census processing\nVariable selection - no leakage, no nested variables, repetition etc.\nData normalization and standardization\nDimensionality reduction"
+    "text": "Census processing\n800+ variables\nVariable selection - no leakage, no nested variables, repetition etc.\nData normalization and standardization\nDimensionality reduction"
   },
   {
     "objectID": "slides/202504_GISRUK_Anna.html#dimesionality-reduction",
@@ -235,14 +235,14 @@
     "href": "slides/202504_GISRUK_Anna.html#modelling",
     "title": "Spatial modelling of the relationship between the urban form and population data",
     "section": "Modelling",
-    "text": "Modelling\nOutputs from dimensionality reduction → Geographically weighted Logistic Regression & Random Forest Classification"
+    "text": "Modelling\nOutputs from dimensionality reduction → Geographically weighted models\nLogistic Regression & Random Forest Classification"
   },
   {
     "objectID": "slides/202504_GISRUK_Anna.html#results",
     "href": "slides/202504_GISRUK_Anna.html#results",
     "title": "Spatial modelling of the relationship between the urban form and population data",
     "section": "Results",
-    "text": "Results\n\n\n\nF1-macro score"
+    "text": "Results\n\n\n\nAveraged f1-macro score"
   },
   {
     "objectID": "slides/202504_GISRUK_Anna.html#conclusion",
