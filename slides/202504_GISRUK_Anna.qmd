@@ -1,0 +1,419 @@
+---
+title: "Spatial modelling of the relationship between the urban form and population data"
+subtitle: ""
+author: "Anna Brazdova, Martin Fleischmann, Lisa Winkler"
+institute: "Charles University"
+# date: "today"
+format:
+    revealjs:
+        theme: [default, ../assets/reveal.scss]
+        logo: ../assets/icon.svg
+        menu: false
+        transition: slide
+        navigation-mode: linear
+        controls-layout: edges
+        progress: true
+        include-in-header:
+            - ../assets/font.html
+            - text: |
+                <style>
+                #title-slide .title {
+                    font-size: 50px;
+                }
+                </style>
+        title-slide-attributes:
+            data-background-image: ../assets/full_logo.svg
+            data-background-size: 15%
+            data-background-position: 50% 90%
+---
+
+# About me
+
+[1st year Ph.D student at the department of Social geography and Regional Development]{.fragment}
+
+[Faculty of Science at Charles University in Prague]{.fragment}
+
+---
+
+## Interplay between population and urban form
+
+[Understand built-up patterns of housing types and the ability of different population groups to inhabit them.]{.fragment}
+
+# Spatial modelling of the relationship between the urban form and population data
+
+---
+
+[Who lives in different types of the urban form and how does it differ across the country?]{.fragment}
+
+[Is there a specific relationship between a group of people and an urban form type? How does it differ regionally?]{.fragment}
+
+[Which model is best at assessing this type of relationship and how does it perform across different regions?]{.fragment}
+
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+Urban form types as the target variable
+:::
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+Census characterstics as the predictors
+:::
+
+---
+
+## Methods
+
+[Dimensinality reduction of census data]{.fragment}
+
+[Geographicaly weighted prediction models]{.fragment}
+
+
+# Case Study of Czechia{background-image="https://upload.wikimedia.org/wikipedia/commons/f/ff/Czech_Republic_in_Europe.svg" .no-text}
+
+
+::: footer
+[<span style="font-size:0.4em">Source](https://upload.wikimedia.org/wikipedia/commons/f/ff/Czech_Republic_in_Europe.svg)</span>
+:::
+
+---
+
+## Morphometric classification
+
+[Quantitative identification of urban form types.]{.fragment}
+
+[Based on similar morphological characteristics shared by street segments and building footprints.]{.fragment}
+
+[Focuses on geometry and spatial configuration within the urban fabric.]{.fragment}
+
+---
+
+## {background-iframe="https://uscuni.org/himoc/" background-size="contain" .no-text}
+
+::: aside
+[https://uscuni.org/himoc/](https://uscuni.org/himoc/)
+:::
+
+---
+
+### Hierarchical morphotope classification
+
+[Level 3: 6 urban form types in Czechia.]{.fragment}
+
+
+---
+
+### Central Urban Developments
+
+![](../figures/202504_GISRUK/grid.png){height="600"}
+
+::: footer
+[<span style="font-size:0.4em">Source](https://feelhome.cz/prodej/byty/detail/104254-u-havlickovych-sadu)</span>
+:::
+
+---
+
+### Dense Urban Developments
+
+![](../figures/202504_GISRUK/dense.jpeg){height="600"}
+
+::: footer
+<span style="font-size:0.4em">[Source](https://www.geo5.cz/reference_reality_praha-4-hodkovicky-vila-v-ulici-korandova)</span>
+:::
+---
+
+### Street-aligned Developments
+
+![](../figures/202504_GISRUK/krupka.jpg){height="600"}
+
+::: footer
+<span style="font-size:0.4em">[Source](https://teplicky.denik.cz/zpravy_region/krupka-obvineni-zastupitele-20210701.html)</span>
+:::
+---
+
+### Sparse Rural Developments
+
+![](../figures/202504_GISRUK/rural.png){height="600"}
+
+::: footer
+<span style="font-size:0.4em">[Source](https://svoboda-williams.com/prodej/rodinne-domy/detail/22750-horni-rokytnice)</span>
+:::
+
+---
+
+### Sparse Road Network Developments
+
+![](../figures/202504_GISRUK/sparse.png){height="600"}
+
+::: footer
+<span style="font-size:0.4em">[Source](https://d18-a.sdn.cz/d_18/c_img_oW_A/nO1SBfAluiD9J7zf4CQQFO4/edd1.jpeg?fl=res,800,600,3|shr,,20|webp,60)</span>
+:::
+
+---
+
+### Large Scale Developments
+
+![](../figures/202504_GISRUK/panelaky.jpeg){height="600"}
+
+::: footer
+<span style="font-size:0.4em">[Source](https://www.irozhlas.cz/ekonomika/na-prumerny-novy-byt-vydelava-prazan-11-5-roku-dele-nez-v-berline-bratislave-i-vidni_201609290829_pholinkova)</span>
+:::
+
+---
+
+## Scale {background-image="../figures/202504_GISRUK/zsj.png".no-text}
+
+::: aside
+Basic Settlement Units ~ Output Areas 
+
+20 000 BSU in Czechia
+
+Delineated based on urban fabric
+:::
+
+---
+
+![](../figures/202504_GISRUK/clusters_cz.png){fig-align="center" width="100%"}
+
+::: aside
+Target - most common urban form type for BSUs
+:::
+---
+
+## Census variables
+
+800+ variables
+
+::: {.column width="50%"}
+
+
+[Age structure]{.fragment}
+
+[Education]{.fragment}
+
+[Economic activity]{.fragment}
+
+[Employment type]{.fragment}
+
+[Marital status]{.fragment}
+
+:::
+
+::: {.column width="50%"}
+
+
+[Households]{.fragment}
+
+[Religion]{.fragment}
+
+[Nationality]{.fragment}
+
+[Residence]{.fragment}
+
+[Property ownership]{.fragment}
+
+:::
+
+
+---
+
+
+:::{.columns}
+
+::: {.column width="50%"}
+![](../figures/202504_GISRUK/cz1.png){height="300"}
+:::
+
+::: {.column width="50%"}
+![](../figures/202504_GISRUK/cz2.png){height="300"}
+:::
+
+::: {.column width="50%"}
+![](../figures/202504_GISRUK/cz3.png){height="300"}
+:::
+
+::: {.column width="50%"}
+![](../figures/202504_GISRUK/cz4.png){height="300"}
+:::
+
+:::
+
+::: footer
+[<span style="font-size:0.4em">Source](https://geodata.csu.gov.cz/as/atlas/?xmax=2076452.9657335544&ymax=6627527.699888541&xmin=1373843.8017364012&ymin=6202537.822623075&wkid=102100&ds=1)</span>
+:::
+
+
+---
+
+## Spatial relationship
+[Who lives in different types of the urban form? How does it differ across the country?]{.fragment}
+
+
+[Is there a specific relationship between a group of people and an urban form type? How does it differ regionally?]{.fragment}
+
+[How to asses this relationship?]{.fragment}
+
+---
+
+
+## Census processing
+
+[Variable selection]{.fragment} [- no leakage, no nested variables, repetition etc.]{.fragment}
+
+[Data normalization and standardization]{.fragment}
+
+[Dimensionality reduction]{.fragment}
+
+## Dimesionality reduction
+
+[Principal Component Analysis]{.fragment} 
+
+[Factor Analysis]{.fragment}
+
+[Uniform Manifold Approximation and Projection]{.fragment}
+
+---
+
+## Geographically weighted modelling
+
+[Global models assume the same relationship between predictors and target classes across the entire dataset]{.fragment} 
+
+[They do not account for the geographic variation in the relationship]{.fragment}
+
+[Geographically weighted models capture this by applying local models rather than a single global model.]{.fragment}
+
+---
+
+## Geographically weighted classification
+
+
+[Similar in concept to Geographically Weighted Regression (GWR).]{.fragment}
+
+[Categorical or class-based outcomes.]{.fragment}
+
+[Separate classifier for each location using data weighted by geographic proximity.]{.fragment}
+
+---
+
+### Weighting
+
+[Controlled by a distance-decay parameter.]{.fragment data-fragment-index="0"}
+
+[Nearby observations are given more weight than distant ones.]{.fragment data-fragment-index="1"}
+
+<span class="fragment" data-fragment-index="2">
+  ![](../figures/202504_GISRUK/bandwidth.png){height="300"}
+</span>
+
+<span class="fragment" data-fragment-index="2" style="font-size:0.4em">
+  Illustration of bandwidth and its relation to weight, Fotheringham et al. [(2002, 44–45)](https://www.researchgate.net/publication/27246972_Geographically_Weighted_Regression_The_Analysis_of_Spatially_Varying_Relationships)
+</span>
+
+
+
+
+---
+
+### Bandwidth 
+
+[Controls the spatial scale over which a process varies.]{.fragment data-fragment-index="1"}
+
+<span class="fragment" data-fragment-index="2">
+  ![](../figures/202504_GISRUK/gwr_bw.png){height="400"}
+</span>
+
+<span class="fragment" data-fragment-index="2" style="font-size:0.4em">
+  Conceptual diagram explaining fixed (left) and adaptive weighting (right) schemes. Sachdeva, M., & Fotheringham, A. S. [(2020)](https://gistbok-topics.ucgis.org/AM-03-034s)
+</span>
+
+
+
+---
+
+## Modelling
+
+[Outputs from dimensionality reduction →]{.fragment} [Geographically weighted Logistic Regression & Random Forest Classification]{.fragment}
+
+---
+
+### Binary Classification
+
+[The distribution of urban form classes is uneven across space.]{.fragment}
+
+[Some urban forms do not appear in certain locations at all.]{.fragment}
+
+[Each model can be tuned to local prevalence and have custom thresholds, weights, bandwidth...]{.fragment}
+
+---
+
+## Results
+
+![](../figures/202504_GISRUK/macro.png){.r-stretch}
+
+::: aside
+F1-macro score
+:::
+
+---
+
+### Principal Components
+
+1. Economic activity of the pupulation
+
+2. Property ownership, family household with children
+
+3. Czech nationality and permanent residency
+
+
+---
+
+![](../figures/202504_GISRUK/mean.png){fig-align="center" width="100%"}
+
+::: aside
+Mean feature importance of principal components 
+:::
+
+---
+
+
+![](../figures/202504_GISRUK/std.png){fig-align="center" width="100%"}
+
+::: aside
+Standard deviation components feature importance
+:::
+
+---
+
+![](../figures/202504_GISRUK/central_urban.png){fig-align="center" width="100%"}
+
+::: aside
+[Central Urban Developments](https://uscuni.org/himoc/)
+:::
+
+---
+
+![](../figures/202504_GISRUK/large_scale.png){fig-align="center" width="100%"}
+
+::: aside
+[Large Scale Developments](https://uscuni.org/himoc/)
+:::
+
+---
+
+## Conclusion
+
+[Relationship does differ geographically.]{.fragment}
+
+[Specific relationship between population characteristics and urban form types.]{.fragment}
+
+[Dimensionality reduction or cluster analysis?]{.fragment}
+
+[Work still in progress, would appreciate some feedback!]{.fragment}
+
+
+# Thank you
+[kryndlea@natur.cuni.cz]()
+
+[www.linkedin.com/in/kryndlea]()
