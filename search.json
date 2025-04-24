@@ -154,6 +154,237 @@
     "text": "Milestones\n\n\nProgress (MS 1), KO + 6 months\nFinal (MS 2), KO + 12 months"
   },
   {
+    "objectID": "slides/202504_GISRUK_Anna.html#interplay-between-population-and-urban-form",
+    "href": "slides/202504_GISRUK_Anna.html#interplay-between-population-and-urban-form",
+    "title": "Spatial modelling of the relationship between the urban form and population data",
+    "section": "Interplay between population and urban form",
+    "text": "Interplay between population and urban form\nUnderstand built-up patterns of housing types and the ability of different population groups to inhabit them."
+  },
+  {
+    "objectID": "slides/202504_GISRUK_Anna.html#methods",
+    "href": "slides/202504_GISRUK_Anna.html#methods",
+    "title": "Spatial modelling of the relationship between the urban form and population data",
+    "section": "Methods",
+    "text": "Methods\nDimensinality reduction of census data\nGeographicaly weighted prediction models"
+  },
+  {
+    "objectID": "slides/202504_GISRUK_Anna.html#morphometric-classification",
+    "href": "slides/202504_GISRUK_Anna.html#morphometric-classification",
+    "title": "Spatial modelling of the relationship between the urban form and population data",
+    "section": "Morphometric classification",
+    "text": "Morphometric classification\nQuantitative identification of urban form types.\nBased on similar morphological characteristics shared by street segments and building footprints.\nFocuses on geometry and spatial configuration within the urban fabric."
+  },
+  {
+    "objectID": "slides/202504_GISRUK_Anna.html#section",
+    "href": "slides/202504_GISRUK_Anna.html#section",
+    "title": "Spatial modelling of the relationship between the urban form and population data",
+    "section": "",
+    "text": "https://uscuni.org/himoc/"
+  },
+  {
+    "objectID": "slides/202504_GISRUK_Anna.html#scale",
+    "href": "slides/202504_GISRUK_Anna.html#scale",
+    "title": "Spatial modelling of the relationship between the urban form and population data",
+    "section": "Scale",
+    "text": "Scale\n\n\nBasic Settlement Units ~ Output Areas\n20 000 BSU in Czechia\nDelineated based on urban fabric"
+  },
+  {
+    "objectID": "slides/202504_GISRUK_Anna.html#census-variables",
+    "href": "slides/202504_GISRUK_Anna.html#census-variables",
+    "title": "Spatial modelling of the relationship between the urban form and population data",
+    "section": "Census variables",
+    "text": "Census variables\n800+ variables\n\nAge structure\nEducation\nEconomic activity\nEmployment type\nMarital status\n\nHouseholds\nReligion\nNationality\nResidence\nProperty ownership"
+  },
+  {
+    "objectID": "slides/202504_GISRUK_Anna.html#spatial-relationship",
+    "href": "slides/202504_GISRUK_Anna.html#spatial-relationship",
+    "title": "Spatial modelling of the relationship between the urban form and population data",
+    "section": "Spatial relationship",
+    "text": "Spatial relationship\nWho lives in different types of the urban form? How does it differ across the country?\nIs there a specific relationship between a group of people and an urban form type? How does it differ regionally?\nHow to asses this relationship?"
+  },
+  {
+    "objectID": "slides/202504_GISRUK_Anna.html#census-processing",
+    "href": "slides/202504_GISRUK_Anna.html#census-processing",
+    "title": "Spatial modelling of the relationship between the urban form and population data",
+    "section": "Census processing",
+    "text": "Census processing\nVariable selection - no leakage, no nested variables, repetition etc.\nData normalization and standardization\nDimensionality reduction"
+  },
+  {
+    "objectID": "slides/202504_GISRUK_Anna.html#dimesionality-reduction",
+    "href": "slides/202504_GISRUK_Anna.html#dimesionality-reduction",
+    "title": "Spatial modelling of the relationship between the urban form and population data",
+    "section": "Dimesionality reduction",
+    "text": "Dimesionality reduction\nPrincipal Component Analysis\nFactor Analysis\nUniform Manifold Approximation and Projection"
+  },
+  {
+    "objectID": "slides/202504_GISRUK_Anna.html#geographically-weighted-modelling",
+    "href": "slides/202504_GISRUK_Anna.html#geographically-weighted-modelling",
+    "title": "Spatial modelling of the relationship between the urban form and population data",
+    "section": "Geographically weighted modelling",
+    "text": "Geographically weighted modelling\nGlobal models assume the same relationship between predictors and target classes across the entire dataset\nThey do not account for the geographic variation in the relationship\nGeographically weighted models capture this by applying local models rather than a single global model."
+  },
+  {
+    "objectID": "slides/202504_GISRUK_Anna.html#geographically-weighted-classification",
+    "href": "slides/202504_GISRUK_Anna.html#geographically-weighted-classification",
+    "title": "Spatial modelling of the relationship between the urban form and population data",
+    "section": "Geographically weighted classification",
+    "text": "Geographically weighted classification\nSimilar in concept to Geographically Weighted Regression (GWR).\nCategorical or class-based outcomes.\nSeparate classifier for each location using data weighted by geographic proximity."
+  },
+  {
+    "objectID": "slides/202504_GISRUK_Anna.html#modelling",
+    "href": "slides/202504_GISRUK_Anna.html#modelling",
+    "title": "Spatial modelling of the relationship between the urban form and population data",
+    "section": "Modelling",
+    "text": "Modelling\nOutputs from dimensionality reduction → Geographically weighted Logistic Regression & Random Forest Classification"
+  },
+  {
+    "objectID": "slides/202504_GISRUK_Anna.html#results",
+    "href": "slides/202504_GISRUK_Anna.html#results",
+    "title": "Spatial modelling of the relationship between the urban form and population data",
+    "section": "Results",
+    "text": "Results\n\n\n\nF1-macro score"
+  },
+  {
+    "objectID": "slides/202504_GISRUK_Anna.html#conclusion",
+    "href": "slides/202504_GISRUK_Anna.html#conclusion",
+    "title": "Spatial modelling of the relationship between the urban form and population data",
+    "section": "Conclusion",
+    "text": "Conclusion\nRelationship does differ geographically.\nSpecific relationship between population characteristics and urban form types.\nDimensionality reduction or cluster analysis?\nWork still in progress, would appreciate some feedback!"
+  },
+  {
+    "objectID": "slides/202504_taxonomy_gisruk.html#section",
+    "href": "slides/202504_taxonomy_gisruk.html#section",
+    "title": "Understanding Urban Form",
+    "section": "",
+    "text": "Prague by Jay Dantine"
+  },
+  {
+    "objectID": "slides/202504_taxonomy_gisruk.html#section-1",
+    "href": "slides/202504_taxonomy_gisruk.html#section-1",
+    "title": "Understanding Urban Form",
+    "section": "",
+    "text": "Barcelona"
+  },
+  {
+    "objectID": "slides/202504_taxonomy_gisruk.html#section-2",
+    "href": "slides/202504_taxonomy_gisruk.html#section-2",
+    "title": "Understanding Urban Form",
+    "section": "",
+    "text": "Araldi, A. and Fusco, G. (2025), Multi-Level Street-Based Analysis of the Urban Fabric: Developments for a Nationwide Taxonomy. Geographical Analysis, 57: 270-301."
+  },
+  {
+    "objectID": "slides/202504_taxonomy_gisruk.html#section-3",
+    "href": "slides/202504_taxonomy_gisruk.html#section-3",
+    "title": "Understanding Urban Form",
+    "section": "",
+    "text": "Fleischmann, M., Feliciotti, A., Romice, O., & Porta, S. (2021). Methodological foundation of a numerical taxonomy of urban form. Environment and Planning B, 49(4), 1283-1299."
+  },
+  {
+    "objectID": "slides/202504_taxonomy_gisruk.html#enclosed-tessellation-cells",
+    "href": "slides/202504_taxonomy_gisruk.html#enclosed-tessellation-cells",
+    "title": "Understanding Urban Form",
+    "section": "Enclosed Tessellation Cells",
+    "text": "Enclosed Tessellation Cells"
+  },
+  {
+    "objectID": "slides/202504_taxonomy_gisruk.html#measured-characteristics",
+    "href": "slides/202504_taxonomy_gisruk.html#measured-characteristics",
+    "title": "Understanding Urban Form",
+    "section": "Measured characteristics",
+    "text": "Measured characteristics"
+  },
+  {
+    "objectID": "slides/202504_taxonomy_gisruk.html#gradually-loosening-spatial-restrictions",
+    "href": "slides/202504_taxonomy_gisruk.html#gradually-loosening-spatial-restrictions",
+    "title": "Understanding Urban Form",
+    "section": "Gradually Loosening Spatial Restrictions",
+    "text": "Gradually Loosening Spatial Restrictions\nFramework for hierarchical spatial clustering relying on:\n\nNested intermediate aggregations\nNested spatial restrictions for each aggregation\nHierarchical operationalisations to create the aggregations, given the restrictions"
+  },
+  {
+    "objectID": "slides/202504_taxonomy_gisruk.html#three-levels-of-aggregations",
+    "href": "slides/202504_taxonomy_gisruk.html#three-levels-of-aggregations",
+    "title": "Understanding Urban Form",
+    "section": "Three levels of aggregations",
+    "text": "Three levels of aggregations\n\nETCs to morphotopes\nMorphotopes to Regional Morphotope Types\nRegional Morphotope Types clusters to Morphotope Types (taxa)"
+  },
+  {
+    "objectID": "slides/202504_taxonomy_gisruk.html#morphotope",
+    "href": "slides/202504_taxonomy_gisruk.html#morphotope",
+    "title": "Understanding Urban Form",
+    "section": "Morphotope",
+    "text": "Morphotope\n\n\n“the smallest urban locality obtaining distinctive character among their neighbours from their particular combination of constituent morphological elements.”"
+  },
+  {
+    "objectID": "slides/202504_taxonomy_gisruk.html#three-levels-of-spatial-restrictions",
+    "href": "slides/202504_taxonomy_gisruk.html#three-levels-of-spatial-restrictions",
+    "title": "Understanding Urban Form",
+    "section": "Three levels of spatial restrictions",
+    "text": "Three levels of spatial restrictions\n\nImmediate - only immediate neighbors can be part of the same cluster.\nRegional - only neighbours within the same region can be combined. A region is contiguous land around buildings where the nearest neighbour is at maximum 500 meters away.\nGlobal - no spatial restrictions"
+  },
+  {
+    "objectID": "slides/202504_taxonomy_gisruk.html#regions",
+    "href": "slides/202504_taxonomy_gisruk.html#regions",
+    "title": "Understanding Urban Form",
+    "section": "Regions",
+    "text": "Regions\n\nRegion around Prague"
+  },
+  {
+    "objectID": "slides/202504_taxonomy_gisruk.html#three-algorithms",
+    "href": "slides/202504_taxonomy_gisruk.html#three-algorithms",
+    "title": "Understanding Urban Form",
+    "section": "Three algorithms",
+    "text": "Three algorithms"
+  },
+  {
+    "objectID": "slides/202504_taxonomy_gisruk.html#spatial-adaptive-agglomerative-clustering-sa3",
+    "href": "slides/202504_taxonomy_gisruk.html#spatial-adaptive-agglomerative-clustering-sa3",
+    "title": "Understanding Urban Form",
+    "section": "1. Spatial Adaptive Agglomerative Clustering (\\(SA^3\\))",
+    "text": "1. Spatial Adaptive Agglomerative Clustering (\\(SA^3\\))\n\nCompute a full regionalisation tree with any sklearn.hierarchy.AgglomerativeClustering algorithm and spatial restrictions imposed by a libpysal.graph.Graph or libpysal.weights.W."
+  },
+  {
+    "objectID": "slides/202504_taxonomy_gisruk.html#regional-clusters",
+    "href": "slides/202504_taxonomy_gisruk.html#regional-clusters",
+    "title": "Understanding Urban Form",
+    "section": "2. Regional clusters",
+    "text": "2. Regional clusters\n\nComplete linkage applied to all the morphotopes within a single region."
+  },
+  {
+    "objectID": "slides/202504_taxonomy_gisruk.html#bisecting-k-means",
+    "href": "slides/202504_taxonomy_gisruk.html#bisecting-k-means",
+    "title": "Understanding Urban Form",
+    "section": "3. Bisecting K-Means",
+    "text": "3. Bisecting K-Means\n\nStep 1. - the whole dataset is split into two clusters by performing a kmeans clustering with K=2.\nStep \\(N\\). - the algorithm splits each of the clusters from the \\(N-1\\) iteration into two further clusters, again using a kmeans clustering with K=2.\nThe algorithm stops when each cluster has at most 2 members, and the taxonomy is built based on the splits."
+  },
+  {
+    "objectID": "slides/202504_taxonomy_gisruk.html#section-4",
+    "href": "slides/202504_taxonomy_gisruk.html#section-4",
+    "title": "Understanding Urban Form",
+    "section": "",
+    "text": "https://uscuni.org/himoc/"
+  },
+  {
+    "objectID": "slides/202409_SDSL.html#section",
+    "href": "slides/202409_SDSL.html#section",
+    "title": "Spatial Data Science across Languages",
+    "section": "",
+    "text": "Vinohrady Brewery"
+  },
+  {
+    "objectID": "slides/202409_SDSL.html#personal-reflections",
+    "href": "slides/202409_SDSL.html#personal-reflections",
+    "title": "Spatial Data Science across Languages",
+    "section": "Personal reflections",
+    "text": "Personal reflections"
+  },
+  {
+    "objectID": "slides/202409_SDSL.html#working-paper",
+    "href": "slides/202409_SDSL.html#working-paper",
+    "title": "Spatial Data Science across Languages",
+    "section": "Working paper",
+    "text": "Working paper"
+  },
+  {
     "objectID": "slides/202410_Nanjing.html#looking-back-to-2019",
     "href": "slides/202410_Nanjing.html#looking-back-to-2019",
     "title": "From a building to a region",
@@ -299,139 +530,6 @@
     "title": "From a building to a region",
     "section": "Do you want to follow up",
     "text": "Do you want to follow up\n martin.fleischmann@natur.cuni.cz\n @martinfleis@fosstodon.org\n martinfleischmann.net"
-  },
-  {
-    "objectID": "slides/202409_SDSL.html#section",
-    "href": "slides/202409_SDSL.html#section",
-    "title": "Spatial Data Science across Languages",
-    "section": "",
-    "text": "Vinohrady Brewery"
-  },
-  {
-    "objectID": "slides/202409_SDSL.html#personal-reflections",
-    "href": "slides/202409_SDSL.html#personal-reflections",
-    "title": "Spatial Data Science across Languages",
-    "section": "Personal reflections",
-    "text": "Personal reflections"
-  },
-  {
-    "objectID": "slides/202409_SDSL.html#working-paper",
-    "href": "slides/202409_SDSL.html#working-paper",
-    "title": "Spatial Data Science across Languages",
-    "section": "Working paper",
-    "text": "Working paper"
-  },
-  {
-    "objectID": "slides/202504_taxonomy_gisruk.html#section",
-    "href": "slides/202504_taxonomy_gisruk.html#section",
-    "title": "Understanding Urban Form",
-    "section": "",
-    "text": "Prague by Jay Dantine"
-  },
-  {
-    "objectID": "slides/202504_taxonomy_gisruk.html#section-1",
-    "href": "slides/202504_taxonomy_gisruk.html#section-1",
-    "title": "Understanding Urban Form",
-    "section": "",
-    "text": "Barcelona"
-  },
-  {
-    "objectID": "slides/202504_taxonomy_gisruk.html#section-2",
-    "href": "slides/202504_taxonomy_gisruk.html#section-2",
-    "title": "Understanding Urban Form",
-    "section": "",
-    "text": "Araldi, A. and Fusco, G. (2025), Multi-Level Street-Based Analysis of the Urban Fabric: Developments for a Nationwide Taxonomy. Geographical Analysis, 57: 270-301."
-  },
-  {
-    "objectID": "slides/202504_taxonomy_gisruk.html#section-3",
-    "href": "slides/202504_taxonomy_gisruk.html#section-3",
-    "title": "Understanding Urban Form",
-    "section": "",
-    "text": "Fleischmann, M., Feliciotti, A., Romice, O., & Porta, S. (2021). Methodological foundation of a numerical taxonomy of urban form. Environment and Planning B, 49(4), 1283-1299."
-  },
-  {
-    "objectID": "slides/202504_taxonomy_gisruk.html#enclosed-tessellation-cells",
-    "href": "slides/202504_taxonomy_gisruk.html#enclosed-tessellation-cells",
-    "title": "Understanding Urban Form",
-    "section": "Enclosed Tessellation Cells",
-    "text": "Enclosed Tessellation Cells"
-  },
-  {
-    "objectID": "slides/202504_taxonomy_gisruk.html#measured-characteristics",
-    "href": "slides/202504_taxonomy_gisruk.html#measured-characteristics",
-    "title": "Understanding Urban Form",
-    "section": "Measured characteristics",
-    "text": "Measured characteristics"
-  },
-  {
-    "objectID": "slides/202504_taxonomy_gisruk.html#gradually-loosening-spatial-restrictions",
-    "href": "slides/202504_taxonomy_gisruk.html#gradually-loosening-spatial-restrictions",
-    "title": "Understanding Urban Form",
-    "section": "Gradually Loosening Spatial Restrictions",
-    "text": "Gradually Loosening Spatial Restrictions\nFramework for hierarchical spatial clustering relying on:\n\nNested intermediate aggregations\nNested spatial restrictions for each aggregation\nHierarchical operationalisations to create the aggregations, given the restrictions"
-  },
-  {
-    "objectID": "slides/202504_taxonomy_gisruk.html#three-levels-of-aggregations",
-    "href": "slides/202504_taxonomy_gisruk.html#three-levels-of-aggregations",
-    "title": "Understanding Urban Form",
-    "section": "Three levels of aggregations",
-    "text": "Three levels of aggregations\n\nETCs to morphotopes\nMorphotopes to Regional Morphotope Types\nRegional Morphotope Types clusters to Morphotope Types (taxa)"
-  },
-  {
-    "objectID": "slides/202504_taxonomy_gisruk.html#morphotope",
-    "href": "slides/202504_taxonomy_gisruk.html#morphotope",
-    "title": "Understanding Urban Form",
-    "section": "Morphotope",
-    "text": "Morphotope\n\n\n“the smallest urban locality obtaining distinctive character among their neighbours from their particular combination of constituent morphological elements.”"
-  },
-  {
-    "objectID": "slides/202504_taxonomy_gisruk.html#three-levels-of-spatial-restrictions",
-    "href": "slides/202504_taxonomy_gisruk.html#three-levels-of-spatial-restrictions",
-    "title": "Understanding Urban Form",
-    "section": "Three levels of spatial restrictions",
-    "text": "Three levels of spatial restrictions\n\nImmediate - only immediate neighbors can be part of the same cluster.\nRegional - only neighbours within the same region can be combined. A region is contiguous land around buildings where the nearest neighbour is at maximum 500 meters away.\nGlobal - no spatial restrictions"
-  },
-  {
-    "objectID": "slides/202504_taxonomy_gisruk.html#regions",
-    "href": "slides/202504_taxonomy_gisruk.html#regions",
-    "title": "Understanding Urban Form",
-    "section": "Regions",
-    "text": "Regions\n\nRegion around Prague"
-  },
-  {
-    "objectID": "slides/202504_taxonomy_gisruk.html#three-algorithms",
-    "href": "slides/202504_taxonomy_gisruk.html#three-algorithms",
-    "title": "Understanding Urban Form",
-    "section": "Three algorithms",
-    "text": "Three algorithms"
-  },
-  {
-    "objectID": "slides/202504_taxonomy_gisruk.html#spatial-adaptive-agglomerative-clustering-sa3",
-    "href": "slides/202504_taxonomy_gisruk.html#spatial-adaptive-agglomerative-clustering-sa3",
-    "title": "Understanding Urban Form",
-    "section": "1. Spatial Adaptive Agglomerative Clustering (\\(SA^3\\))",
-    "text": "1. Spatial Adaptive Agglomerative Clustering (\\(SA^3\\))\n\nCompute a full regionalisation tree with any sklearn.hierarchy.AgglomerativeClustering algorithm and spatial restrictions imposed by a libpysal.graph.Graph or libpysal.weights.W."
-  },
-  {
-    "objectID": "slides/202504_taxonomy_gisruk.html#regional-clusters",
-    "href": "slides/202504_taxonomy_gisruk.html#regional-clusters",
-    "title": "Understanding Urban Form",
-    "section": "2. Regional clusters",
-    "text": "2. Regional clusters\n\nComplete linkage applied to all the morphotopes within a single region."
-  },
-  {
-    "objectID": "slides/202504_taxonomy_gisruk.html#bisecting-k-means",
-    "href": "slides/202504_taxonomy_gisruk.html#bisecting-k-means",
-    "title": "Understanding Urban Form",
-    "section": "3. Bisecting K-Means",
-    "text": "3. Bisecting K-Means\n\nStep 1. - the whole dataset is split into two clusters by performing a kmeans clustering with K=2.\nStep \\(N\\). - the algorithm splits each of the clusters from the \\(N-1\\) iteration into two further clusters, again using a kmeans clustering with K=2.\nThe algorithm stops when each cluster has at most 2 members, and the taxonomy is built based on the splits."
-  },
-  {
-    "objectID": "slides/202504_taxonomy_gisruk.html#section-4",
-    "href": "slides/202504_taxonomy_gisruk.html#section-4",
-    "title": "Understanding Urban Form",
-    "section": "",
-    "text": "https://uscuni.org/himoc/"
   },
   {
     "objectID": "slides/template.html#heading-level-2",
