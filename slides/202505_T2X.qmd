@@ -1,0 +1,198 @@
+---
+title: "Open by Default"
+author: "Martin Fleischmann and Dani Arribas-Bel"
+institute: "Charles University, University of Liverpool"
+# date: "today"
+format:
+    revealjs:
+        theme: [default, ../assets/reveal.scss]
+        logo: ../assets/icon.svg
+        menu: false
+        transition: slide
+        navigation-mode: linear
+        controls-layout: edges
+        progress: true
+        include-in-header: ../assets/font.html
+        title-slide-attributes:
+            data-background-image: ../assets/full_logo.svg
+            data-background-size: 15%
+            data-background-position: 50% 90%
+---
+
+
+##  Developing reproducible, computational research
+
+## *Open by default*
+
+#### Use (and nurture) the *existing* OSS infrastructure {.fragment}
+#### Treat research artifacts as OSS from Day 1 {.fragment}
+#### Only "stay closed" when there is a good reason {.fragment}
+
+
+## *Reproducible research*
+
+#### Transparent  {.fragment}
+#### Accessible  {.fragment}
+#### Transferrable  {.fragment}
+
+
+## Example
+
+# Urban Grammar AI
+
+
+## A characterisation of space based on form and function designed to understand urban environments
+
+## *Needs*
+
+#### Ingredients and tools {.fragment}
+
+#### Letting people know {.fragment}
+
+
+## *Ingredients and tools*
+
+#### Data, data, data {.fragment}
+#### (New) methods, (new) code {.fragment}
+#### Infrastructure {.fragment}
+
+
+
+## Data
+
+#### Standard (formats) better than niche {.fragment}
+#### Open better than proprietary {.fragment}
+#### Static better than database {.fragment}
+
+
+
+## Methods and code
+
+#### Contribution first {.fragment}
+#### Reusability matters {.fragment}
+#### Reproducibility as well {.fragment}
+
+
+
+## Contribution first {background-image="../figures/202505_T2X/Screenshot_2024-05-16_at_12.18.28.png" background-size=80% background-opacity="0.65"}
+
+
+::: aside
+[urbangrammarai.xyz/blog/post6_tobler.html](https://urbangrammarai.xyz/blog/post6_tobler.html)
+:::
+
+## Reusability matters {background-image="../figures/202505_T2X/Screenshot_2024-05-16_at_12.19.30.png" background-size=80% background-opacity="0.65"}
+
+::: aside
+[clustergram.readthedocs.io](https://clustergram.readthedocs.io/en/stable/index.html)
+:::
+
+## Release readable code {background-image="../figures/202505_T2X/Screenshot_2023-02-13_at_14.54.09.png.public.png" background-size=80% background-opacity="0.65"}
+
+::: aside
+[urbangrammarai.xyz/data_processing/code/GHS-composite-S2_explore_mosaic.html](https://urbangrammarai.xyz/data_processing/code/GHS-composite-S2_explore_mosaic.html)
+:::
+
+## Release reproducible code {background-image="../figures/202505_T2X/Screenshot_2024-05-16_at_12.16.56.png" background-size=80% background-opacity="0.65"}
+
+::: aside
+[github.com/urbangrammarai](https://github.com/urbangrammarai)
+:::
+
+## Infrastructure
+
+#### Ensure others can use the same {.fragment}
+#### Reproducible environments {.fragment}
+#### Containers {.fragment}
+
+## Infrastructure {background-image="../figures/202505_T2X/Screenshot_2024-05-16_at_12.25.19.png" background-size=80% background-opacity="0.65"}
+
+::: aside
+[darribas.org/gds_env](https://darribas.org/gds_env)
+:::
+
+## *Letting people know*
+
+#### (Academic) dissemination {.fragment}
+#### Open Data Products {.fragment}
+#### Journaling/reporting {.fragment}
+
+## Website {background-image="../figures/202505_T2X/Screenshot_2023-02-13_at_14.51.57.png.public.png" background-size=80% background-opacity="0.65"}
+
+::: aside
+[urbangrammarai.xyz](https://urbangrammarai.xyz)
+:::
+
+## Papers {background-image="../figures/202505_T2X/Screenshot_2023-02-13_at_14.57.36.png.public.png" background-size=80% background-opacity="0.65"}
+
+
+::: aside
+[10.1016/j.habitatint.2022.102641](https://doi.org/10.1016/j.habitatint.2022.102641)
+:::
+
+## Papers {background-image="../figures/202505_T2X/Screenshot_2023-02-13_at_14.58.08.png.public.png" background-size=80% background-opacity="0.65"}
+
+::: aside
+[10.1038/s41597-022-01640-8](https://doi.org/10.1038/s41597-022-01640-8)
+:::
+
+## Papers {background-image="../figures/202505_T2X/Screenshot_2023-02-13_at_14.59.03.png.public.png" background-size=80% background-opacity="0.65"}
+
+::: aside
+[10.1016/j.dib.2022.108335](https://doi.org/10.1016/j.dib.2022.108335)
+:::
+
+## Papers {background-image="../figures/202505_T2X/Screenshot_2023-02-13_at_14.59.34.png.public.png" background-size=80% background-opacity="0.65"}
+
+::: aside
+[10.1016/j.compenvurbsys.2022.101802](https://doi.org/10.1016/j.compenvurbsys.2022.101802)
+:::
+
+## Open Data Products {background-image="../figures/202505_T2X/Screenshot_2024-05-16_at_12.23.57.png" background-size=80% background-opacity="0.65"}
+
+::: aside
+[data.cdrc.ac.uk/dataset/spatial-signatures-great-britain](https://data.cdrc.ac.uk/dataset/spatial-signatures-great-britain)
+:::
+
+## Open Data Products {background-image="../figures/202505_T2X/Screenshot_2024-05-16_at_12.24.53.png" background-size=80% background-opacity="0.65"}
+
+::: aside
+[10.6084/m9.figshare.21904446.v1](https://doi.org/10.6084/m9.figshare.21904446.v1)
+:::
+
+## Non-expert outputs {background-image="../figures/202505_T2X/Screenshot_2023-02-13_at_15.02.31.png.public.png" background-size=80% background-opacity="0.65"}
+
+::: aside
+[urbangrammarai.xyz/story](https://urbangrammarai.xyz/story)
+:::
+
+## Tutorials {background-image="../figures/202505_T2X/Screenshot_2024-05-16_at_12.14.08.png" background-size=80% background-opacity="0.65"}
+
+::: aside
+[martinfleischmann.net/how-to-create-a-vector-based-web-map-hosted-on-github](https://martinfleischmann.net/how-to-create-a-vector-based-web-map-hosted-on-github/)
+:::
+
+## Talks {background-image="../figures/202505_T2X/Screenshot_2024-05-16_at_12.29.08.png" background-size=80% background-opacity="0.65"}
+
+::: aside
+[urbangrammarai.xyz/talks](https://urbangrammarai.xyz/talks)
+:::
+
+## Applicability example
+
+[Land Use Demonstrator](https://urban-analytics-technology-platform.github.io/demoland-web/tyne_and_wear/#10.05/54.94/-1.59)
+
+## Future
+
+[Hierarchical Morphotope Classification](https://uscuni.org/himoc)
+
+# The takeaway
+
+## *"Release early, release often"*
+
+## Make open a feature, not a bug
+
+## Do what is best, not what system wants
+
+## *Share your knowledge, it is a way to achieve immortality*
+#### (Dalai Lama)
