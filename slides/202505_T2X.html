@@ -9,9 +9,8 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-d4d76bf8491c20bad77d141916dc28e1.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.6.43">
 
-  <meta name="author" content="Waldo Tobler">
-  <meta name="dcterms.date" content="2025-05-15">
-  <title>Talks – Spatial Autocorrelation</title>
+  <meta name="author" content="Martin Fleischmann and Dani Arribas-Bel">
+  <title>Talks – Open by Default</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -29,71 +28,6 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-    /* CSS for syntax highlighting */
-    pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { line-height: 1.25; }
-    pre > code.sourceCode > span:empty { height: 1.2em; }
-    .sourceCode { overflow: visible; }
-    code.sourceCode > span { color: inherit; text-decoration: inherit; }
-    div.sourceCode { margin: 1em 0; }
-    pre.sourceCode { margin: 0; }
-    @media screen {
-    div.sourceCode { overflow: auto; }
-    }
-    @media print {
-    pre > code.sourceCode { white-space: pre-wrap; }
-    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-    }
-    pre.numberSource code
-      { counter-reset: source-line 0; }
-    pre.numberSource code > span
-      { position: relative; left: -4em; counter-increment: source-line; }
-    pre.numberSource code > span > a:first-child::before
-      { content: counter(source-line);
-        position: relative; left: -1em; text-align: right; vertical-align: baseline;
-        border: none; display: inline-block;
-        -webkit-touch-callout: none; -webkit-user-select: none;
-        -khtml-user-select: none; -moz-user-select: none;
-        -ms-user-select: none; user-select: none;
-        padding: 0 4px; width: 4em;
-        color: #aaaaaa;
-      }
-    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-    div.sourceCode
-      { color: #003b4f; background-color: #f1f3f5; }
-    @media screen {
-    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-    }
-    code span { color: #003b4f; } /* Normal */
-    code span.al { color: #ad0000; } /* Alert */
-    code span.an { color: #5e5e5e; } /* Annotation */
-    code span.at { color: #657422; } /* Attribute */
-    code span.bn { color: #ad0000; } /* BaseN */
-    code span.bu { } /* BuiltIn */
-    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
-    code span.ch { color: #20794d; } /* Char */
-    code span.cn { color: #8f5902; } /* Constant */
-    code span.co { color: #5e5e5e; } /* Comment */
-    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
-    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
-    code span.dt { color: #ad0000; } /* DataType */
-    code span.dv { color: #ad0000; } /* DecVal */
-    code span.er { color: #ad0000; } /* Error */
-    code span.ex { } /* Extension */
-    code span.fl { color: #ad0000; } /* Float */
-    code span.fu { color: #4758ab; } /* Function */
-    code span.im { color: #00769e; } /* Import */
-    code span.in { color: #5e5e5e; } /* Information */
-    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
-    code span.op { color: #5e5e5e; } /* Operator */
-    code span.ot { color: #003b4f; } /* Other */
-    code span.pp { color: #ad0000; } /* Preprocessor */
-    code span.sc { color: #5e5e5e; } /* SpecialChar */
-    code span.ss { color: #20794d; } /* SpecialString */
-    code span.st { color: #20794d; } /* String */
-    code span.va { color: #111111; } /* Variable */
-    code span.vs { color: #20794d; } /* VerbatimString */
-    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-bcfa6dfeb4f2dc79f224f77deb3ae294.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -196,100 +130,200 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" data-background-image="../assets/full_logo.svg" data-background-position="50% 90%" data-background-size="20%" class="quarto-title-block center">
-  <h1 class="title">Spatial Autocorrelation</h1>
-  <p class="subtitle">Using Moran’s I to detect local clusters</p>
+<section id="title-slide" data-background-image="../assets/full_logo.svg" data-background-position="50% 90%" data-background-size="15%" class="quarto-title-block center">
+  <h1 class="title">Open by Default</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Waldo Tobler 
+Martin Fleischmann and Dani Arribas-Bel 
 </div>
         <p class="quarto-title-affiliation">
-            Charles University
+            Charles University, University of Liverpool
           </p>
     </div>
 </div>
 
-  <p class="date">2025-05-15</p>
+</section>
+<section id="developing-reproducible-computational-research" class="slide level2">
+<h2>Developing reproducible, computational research</h2>
+</section>
+<section id="open-by-default" class="slide level2">
+<h2><em>Open by default</em></h2>
+<h4 class="fragment" id="use-and-nurture-the-existing-oss-infrastructure">Use (and nurture) the <em>existing</em> OSS infrastructure</h4>
+<h4 class="fragment" id="treat-research-artifacts-as-oss-from-day-1">Treat research artifacts as OSS from Day 1</h4>
+<h4 class="fragment" id="only-stay-closed-when-there-is-a-good-reason">Only “stay closed” when there is a good reason</h4>
+</section>
+<section id="reproducible-research" class="slide level2">
+<h2><em>Reproducible research</em></h2>
+<h4 class="fragment" id="transparent">Transparent</h4>
+<h4 class="fragment" id="accessible">Accessible</h4>
+<h4 class="fragment" id="transferrable">Transferrable</h4>
+</section>
+<section id="example" class="slide level2">
+<h2>Example</h2>
 </section>
 <section>
-<section id="heading-level-1" class="title-slide slide level1 center">
-<h1>Heading level 1</h1>
-<p>Some text</p>
-</section>
-<section id="heading-level-2" class="slide level2">
-<h2>Heading level 2</h2>
-<p>Another text</p>
-<p><span class="fragment">Fragment</span></p>
-</section>
-<section class="slide level2">
+<section id="urban-grammar-ai" class="title-slide slide level1 center">
+<h1>Urban Grammar AI</h1>
 
-<div class="r-fit-text absolute" style="top: 39%; ">
-<p>text that fills slide</p>
-</div>
+</section>
+<section id="a-characterisation-of-space-based-on-form-and-function-designed-to-understand-urban-environments" class="slide level2">
+<h2>A characterisation of space based on form and function designed to understand urban environments</h2>
+</section>
+<section id="needs" class="slide level2">
+<h2><em>Needs</em></h2>
+<h4 class="fragment" id="ingredients-and-tools">Ingredients and tools</h4>
+<h4 class="fragment" id="letting-people-know">Letting people know</h4>
+</section>
+<section id="ingredients-and-tools-1" class="slide level2">
+<h2><em>Ingredients and tools</em></h2>
+<h4 class="fragment" id="data-data-data">Data, data, data</h4>
+<h4 class="fragment" id="new-methods-new-code">(New) methods, (new) code</h4>
+<h4 class="fragment" id="infrastructure">Infrastructure</h4>
+</section>
+<section id="data" class="slide level2">
+<h2>Data</h2>
+<h4 class="fragment" id="standard-formats-better-than-niche">Standard (formats) better than niche</h4>
+<h4 class="fragment" id="open-better-than-proprietary">Open better than proprietary</h4>
+<h4 class="fragment" id="static-better-than-database">Static better than database</h4>
+</section>
+<section id="methods-and-code" class="slide level2">
+<h2>Methods and code</h2>
+<h4 class="fragment" id="contribution-first">Contribution first</h4>
+<h4 class="fragment" id="reusability-matters">Reusability matters</h4>
+<h4 class="fragment" id="reproducibility-as-well">Reproducibility as well</h4>
+</section>
+<section id="contribution-first-1" class="slide level2" data-background-image="../figures/202505_T2X/Screenshot_2024-05-16_at_12.18.28.png" data-background-size="80%" data-background-opacity="0.65">
+<h2>Contribution first</h2>
 
 <aside><div>
-<p>Note</p>
+<p><a href="https://urbangrammarai.xyz/blog/post6_tobler.html">urbangrammarai.xyz/blog/post6_tobler.html</a></p>
 </div></aside></section>
-<section id="this-will-be-vertically-centered" class="slide level2 center">
-<h2>This will be vertically centered</h2>
-<p>This text is moved as well</p>
-</section>
-<section id="heading-that-is-a-question" class="slide level2 question">
-<h2>Heading that is a question</h2>
-<p>Another text with footnote<sup>1</sup></p>
-<div class="fragment fade-in">
-<p>Fragment block</p>
-</div>
-<aside><ol class="aside-footnotes"><li id="fn1"><p>My footnote.</p></li></ol></aside></section>
-<section class="slide level2">
+<section id="reusability-matters-1" class="slide level2" data-background-image="../figures/202505_T2X/Screenshot_2024-05-16_at_12.19.30.png" data-background-size="80%" data-background-opacity="0.65">
+<h2>Reusability matters</h2>
 
-<h3 id="code-block">Code block</h3>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a>elections <span class="op">=</span> gpd.read_file(</span>
-<span id="cb1-2"><a></a>    <span class="st">"https://martinfleischmann.net/sds/chapter_05/data/cz_elections_2023.gpkg"</span></span>
-<span id="cb1-3"><a></a>)</span>
-<span id="cb1-4"><a></a>elections <span class="op">=</span> elections.set_index(<span class="st">"name"</span>)</span>
-<span id="cb1-5"><a></a>elections.explore(</span>
-<span id="cb1-6"><a></a>    <span class="st">"PetrPavel"</span>,</span>
-<span id="cb1-7"><a></a>    cmap<span class="op">=</span><span class="st">"coolwarm"</span>,</span>
-<span id="cb1-8"><a></a>    vmin<span class="op">=</span><span class="dv">0</span>,</span>
-<span id="cb1-9"><a></a>    vmax<span class="op">=</span><span class="dv">100</span>,</span>
-<span id="cb1-10"><a></a>    prefer_canvas<span class="op">=</span><span class="va">True</span>,</span>
-<span id="cb1-11"><a></a>    tiles<span class="op">=</span><span class="st">"CartoDB Positron"</span>,</span>
-<span id="cb1-12"><a></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<aside><div>
+<p><a href="https://clustergram.readthedocs.io/en/stable/index.html">clustergram.readthedocs.io</a></p>
+</div></aside></section>
+<section id="release-readable-code" class="slide level2" data-background-image="../figures/202505_T2X/Screenshot_2023-02-13_at_14.54.09.png.public.png" data-background-size="80%" data-background-opacity="0.65">
+<h2>Release readable code</h2>
+
+<aside><div>
+<p><a href="https://urbangrammarai.xyz/data_processing/code/GHS-composite-S2_explore_mosaic.html">urbangrammarai.xyz/data_processing/code/GHS-composite-S2_explore_mosaic.html</a></p>
+</div></aside></section>
+<section id="release-reproducible-code" class="slide level2" data-background-image="../figures/202505_T2X/Screenshot_2024-05-16_at_12.16.56.png" data-background-size="80%" data-background-opacity="0.65">
+<h2>Release reproducible code</h2>
+
+<aside><div>
+<p><a href="https://github.com/urbangrammarai">github.com/urbangrammarai</a></p>
+</div></aside></section>
+<section id="infrastructure-1" class="slide level2">
+<h2>Infrastructure</h2>
+<h4 class="fragment" id="ensure-others-can-use-the-same">Ensure others can use the same</h4>
+<h4 class="fragment" id="reproducible-environments">Reproducible environments</h4>
+<h4 class="fragment" id="containers">Containers</h4>
 </section>
-<section id="inline-code" class="slide level2">
-<h2>Inline code</h2>
-<p>Text with <code>libpysal.graph.Graph</code> inline.</p>
+<section id="infrastructure-2" class="slide level2" data-background-image="../figures/202505_T2X/Screenshot_2024-05-16_at_12.25.19.png" data-background-size="80%" data-background-opacity="0.65">
+<h2>Infrastructure</h2>
+
+<aside><div>
+<p><a href="https://darribas.org/gds_env">darribas.org/gds_env</a></p>
+</div></aside></section>
+<section id="letting-people-know-1" class="slide level2">
+<h2><em>Letting people know</em></h2>
+<h4 class="fragment" id="academic-dissemination">(Academic) dissemination</h4>
+<h4 class="fragment" id="open-data-products">Open Data Products</h4>
+<h4 class="fragment" id="journalingreporting">Journaling/reporting</h4>
 </section>
-<section id="slide-with-an-image" class="slide level2">
-<h2>Slide with an image</h2>
-<p>Set height</p>
-<p><img data-src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Waldo_Tobler_2007.jpg" height="200"></p>
+<section id="website" class="slide level2" data-background-image="../figures/202505_T2X/Screenshot_2023-02-13_at_14.51.57.png.public.png" data-background-size="80%" data-background-opacity="0.65">
+<h2>Website</h2>
+
+<aside><div>
+<p><a href="https://urbangrammarai.xyz">urbangrammarai.xyz</a></p>
+</div></aside></section>
+<section id="papers" class="slide level2" data-background-image="../figures/202505_T2X/Screenshot_2023-02-13_at_14.57.36.png.public.png" data-background-size="80%" data-background-opacity="0.65">
+<h2>Papers</h2>
+
+<aside><div>
+<p><a href="https://doi.org/10.1016/j.habitatint.2022.102641">10.1016/j.habitatint.2022.102641</a></p>
+</div></aside></section>
+<section id="papers-1" class="slide level2" data-background-image="../figures/202505_T2X/Screenshot_2023-02-13_at_14.58.08.png.public.png" data-background-size="80%" data-background-opacity="0.65">
+<h2>Papers</h2>
+
+<aside><div>
+<p><a href="https://doi.org/10.1038/s41597-022-01640-8">10.1038/s41597-022-01640-8</a></p>
+</div></aside></section>
+<section id="papers-2" class="slide level2" data-background-image="../figures/202505_T2X/Screenshot_2023-02-13_at_14.59.03.png.public.png" data-background-size="80%" data-background-opacity="0.65">
+<h2>Papers</h2>
+
+<aside><div>
+<p><a href="https://doi.org/10.1016/j.dib.2022.108335">10.1016/j.dib.2022.108335</a></p>
+</div></aside></section>
+<section id="papers-3" class="slide level2" data-background-image="../figures/202505_T2X/Screenshot_2023-02-13_at_14.59.34.png.public.png" data-background-size="80%" data-background-opacity="0.65">
+<h2>Papers</h2>
+
+<aside><div>
+<p><a href="https://doi.org/10.1016/j.compenvurbsys.2022.101802">10.1016/j.compenvurbsys.2022.101802</a></p>
+</div></aside></section>
+<section id="open-data-products-1" class="slide level2" data-background-image="../figures/202505_T2X/Screenshot_2024-05-16_at_12.23.57.png" data-background-size="80%" data-background-opacity="0.65">
+<h2>Open Data Products</h2>
+
+<aside><div>
+<p><a href="https://data.cdrc.ac.uk/dataset/spatial-signatures-great-britain">data.cdrc.ac.uk/dataset/spatial-signatures-great-britain</a></p>
+</div></aside></section>
+<section id="open-data-products-2" class="slide level2" data-background-image="../figures/202505_T2X/Screenshot_2024-05-16_at_12.24.53.png" data-background-size="80%" data-background-opacity="0.65">
+<h2>Open Data Products</h2>
+
+<aside><div>
+<p><a href="https://doi.org/10.6084/m9.figshare.21904446.v1">10.6084/m9.figshare.21904446.v1</a></p>
+</div></aside></section>
+<section id="non-expert-outputs" class="slide level2" data-background-image="../figures/202505_T2X/Screenshot_2023-02-13_at_15.02.31.png.public.png" data-background-size="80%" data-background-opacity="0.65">
+<h2>Non-expert outputs</h2>
+
+<aside><div>
+<p><a href="https://urbangrammarai.xyz/story">urbangrammarai.xyz/story</a></p>
+</div></aside></section>
+<section id="tutorials" class="slide level2" data-background-image="../figures/202505_T2X/Screenshot_2024-05-16_at_12.14.08.png" data-background-size="80%" data-background-opacity="0.65">
+<h2>Tutorials</h2>
+
+<aside><div>
+<p><a href="https://martinfleischmann.net/how-to-create-a-vector-based-web-map-hosted-on-github/">martinfleischmann.net/how-to-create-a-vector-based-web-map-hosted-on-github</a></p>
+</div></aside></section>
+<section id="talks" class="slide level2" data-background-image="../figures/202505_T2X/Screenshot_2024-05-16_at_12.29.08.png" data-background-size="80%" data-background-opacity="0.65">
+<h2>Talks</h2>
+
+<aside><div>
+<p><a href="https://urbangrammarai.xyz/talks">urbangrammarai.xyz/talks</a></p>
+</div></aside></section>
+<section id="applicability-example" class="slide level2">
+<h2>Applicability example</h2>
+<p><a href="https://urban-analytics-technology-platform.github.io/demoland-web/tyne_and_wear/#10.05/54.94/-1.59">Land Use Demonstrator</a></p>
 </section>
-<section id="slide-with-an-image-1" class="slide level2">
-<h2>Slide with an image</h2>
-<img data-src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Waldo_Tobler_2007.jpg" class="r-stretch">
-<p>Automatically stretched to fill remaining space</p>
-</section>
-<section id="slide-with-image-as-background" class="slide level2" data-background-image="../assets/full_logo.svg">
-<h2>Slide with image as background</h2>
-</section>
-<section id="section" class="slide level2 no-text" data-background-image="../assets/full_logo.svg" data-background-size="contain">
-<h2></h2>
-</section>
-<section id="slide-with-iframe-background" class="slide level2" data-background-iframe="http://martinfleischmann.net/numerical-taxonomy-maps/prg.html">
-<h2>Slide with iframe background</h2>
+<section id="future" class="slide level2">
+<h2>Future</h2>
+<p><a href="https://uscuni.org/himoc">Hierarchical Morphotope Classification</a></p>
 </section></section>
-<section id="see-docs-for-more" class="title-slide slide level1 center">
-<h1>See docs for more</h1>
-<p><a href="https://quarto.org/docs/presentations/revealjs/">https://quarto.org/docs/presentations/revealjs/</a></p>
-
+<section>
+<section id="the-takeaway" class="title-slide slide level1 center">
+<h1>The takeaway</h1>
 
 </section>
+<section id="release-early-release-often" class="slide level2">
+<h2><em>“Release early, release often”</em></h2>
+</section>
+<section id="make-open-a-feature-not-a-bug" class="slide level2">
+<h2>Make open a feature, not a bug</h2>
+</section>
+<section id="do-what-is-best-not-what-system-wants" class="slide level2">
+<h2>Do what is best, not what system wants</h2>
+</section>
+<section id="share-your-knowledge-it-is-a-way-to-achieve-immortality" class="slide level2">
+<h2><em>Share your knowledge, it is a way to achieve immortality</em></h2>
+<h4 id="dalai-lama">(Dalai Lama)</h4>
 
 
+</section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <p><img src="../assets/icon.svg" class="slide-logo"></p>
