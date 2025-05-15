@@ -3,7 +3,6 @@ title: "Spatial modelling of the relationship between the urban form and populat
 subtitle: ""
 author: "Anna Brazdova, Martin Fleischmann, Lisa Winkler"
 institute: "Charles University"
-# date: "today"
 format:
     revealjs:
         theme: [default, ../assets/reveal.scss]
@@ -168,7 +167,7 @@ Level 3 of the classification - 6 main types in Czechia
 ## Scale {background-image="../figures/202504_GISRUK/zsj.png".no-text}
 
 ::: aside
-Basic Settlement Units ~ Output Areas 
+Basic Settlement Units ~ Output Areas
 
 20 000 BSU in Czechia
 
@@ -272,7 +271,7 @@ Who lives in different types of the urban form?
 
 ## Dimesionality reduction
 
-[Principal Component Analysis]{.fragment} 
+[Principal Component Analysis]{.fragment}
 
 [Factor Analysis]{.fragment}
 
@@ -282,7 +281,7 @@ Who lives in different types of the urban form?
 
 ## Geographically weighted modelling
 
-[Global models assume the same relationship between predictors and target classes across the entire dataset]{.fragment} 
+[Global models assume the same relationship between predictors and target classes across the entire dataset]{.fragment}
 
 [They do not account for the geographic variation in the relationship]{.fragment}
 
@@ -324,7 +323,7 @@ Nearby observations are given more weight than distant ones.
 
 ---
 
-### Bandwidth 
+### Bandwidth
 
 Controls the spatial scale over which a process varies.
 
@@ -382,7 +381,7 @@ Averaged f1-macro score
 ![](../figures/202504_GISRUK/mean.png){fig-align="center" width="100%"}
 
 ::: aside
-Mean feature importance of principal components 
+Mean feature importance of principal components
 :::
 
 ---

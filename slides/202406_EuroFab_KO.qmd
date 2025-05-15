@@ -1,9 +1,6 @@
 ---
 title: "EuroFab"
 subtitle: "European Urban Fabric Classification Using Artificial Intelligence"
-# author: "Martin Fleischmann"
-# institute: "Charles University"
-# date: "today"
 format:
     revealjs:
         theme: [default, ../assets/reveal.scss]

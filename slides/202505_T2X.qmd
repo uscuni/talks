@@ -2,7 +2,6 @@
 title: "Open by Default"
 author: "Martin Fleischmann and Dani Arribas-Bel"
 institute: "Charles University, University of Liverpool"
-# date: "today"
 format:
     revealjs:
         theme: [default, ../assets/reveal.scss]

@@ -3,7 +3,6 @@ title: "Understanding Urban Form"
 subtitle: "Hierarchical Morphotope Classification based on Gradually Loosening Spatial Restrictions"
 author: "Martin Fleischmann and Krasen Samardzhiev"
 institute: "Charles University"
-# date: "today"
 format:
     revealjs:
         theme: [default, ../assets/reveal.scss]
@@ -204,7 +203,7 @@ Baseline morphotope types in Kraków, Poland
 
 ## 3. Bisecting K-Means
 
-1. Step 1. - the whole dataset is split into two clusters by performing a kmeans clustering with K=2. 
+1. Step 1. - the whole dataset is split into two clusters by performing a kmeans clustering with K=2.
 2. Step $N$. - the algorithm splits each of the clusters from the $N-1$ iteration into two further clusters, again using a kmeans clustering with K=2.
 3. The algorithm stops when each cluster has at most 2 members, and the taxonomy is built based on the splits.
 
@@ -234,7 +233,7 @@ Full dendrogram
 
 - The morphometric characters are limited to 2d variables, since there is only aggregte height data available that is derived and not recorded.
 
---- 
+---
 
 - The Kmeans can split classes into sub-classes when its not desirable. For example, Dispersed Linear Development and Linear Development.
 
@@ -243,7 +242,7 @@ Full dendrogram
 
 # Conclusions
 
-Multiple types of urban form in different countries and across the setttlement hierarchy are morphologically close to eachother. 
+Multiple types of urban form in different countries and across the setttlement hierarchy are morphologically close to eachother.
 
 ---
 

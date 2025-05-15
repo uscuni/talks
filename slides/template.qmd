@@ -3,7 +3,7 @@ title: "Spatial Autocorrelation"
 subtitle: "Using Moran's I to detect local clusters"
 author: "Waldo Tobler"
 institute: "Charles University"
-# date: "today"
+date: "today"
 format:
     revealjs:
         theme: [default, ../assets/reveal.scss]

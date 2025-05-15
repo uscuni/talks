@@ -3,7 +3,6 @@ title: "From a building to a region"
 subtitle: "Scalable morphology with urban morphometrics"
 author: "Martin Fleischmann"
 institute: "Charles University"
-# date: 2024-10-29
 format:
     revealjs:
         theme: [default, ../assets/reveal.scss]
