@@ -132,7 +132,7 @@
 
 <section id="title-slide" data-background-image="../assets/full_logo.svg" data-background-position="50% 90%" data-background-size="15%" class="quarto-title-block center">
   <h1 class="title">Understanding Urban Form</h1>
-  <p class="subtitle">Hierarchical Morphotope Classification based on Gradually Loosening Spatial Restrictions</p>
+  <p class="subtitle">Hierarchical Morphotope Classification</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -242,37 +242,11 @@ Martin Fleischmann and Krasen Samardzhiev
 <aside><div>
 <p>Street network meshedness in Kraków, Poland</p>
 </div></aside></section>
-<section id="gradually-loosening-spatial-restrictions" class="slide level2">
-<h2>Gradually Loosening Spatial Restrictions</h2>
-<p>Framework for hierarchical spatial clustering relying on:</p>
+<section id="two-levels-of-aggregations" class="slide level2">
+<h2>Two levels of aggregations</h2>
 <ol type="1">
-<li>Nested intermediate aggregations</li>
-<li>Nested spatial restrictions for each aggregation</li>
-<li>Hierarchical operationalisations to create the aggregations, given the restrictions</li>
-</ol>
-</section>
-<section id="three-levels-of-aggregations" class="slide level2">
-<h2>Three levels of aggregations</h2>
-<ol type="1">
-<li>ETCs to morphotopes</li>
-<li>Morphotopes to Regional Morphotope Types</li>
-<li>Regional Morphotope Types clusters to Morphotope Types (taxa)</li>
-</ol>
-</section>
-<section id="morphotope" class="slide level2">
-<h2>Morphotope</h2>
-<div class="fragment">
-<blockquote>
-<p>“the smallest urban locality obtaining distinctive character among their neighbours from their particular combination of constituent morphological elements.”</p>
-</blockquote>
-</div>
-</section>
-<section id="three-levels-of-spatial-restrictions" class="slide level2">
-<h2>Three levels of spatial restrictions</h2>
-<ol type="1">
-<li>Immediate - only immediate neighbors can be part of the same cluster.</li>
-<li>Regional - only neighbours within the same region can be combined. A region is contiguous land around buildings where the nearest neighbour is at maximum 500 meters away.</li>
-<li>Global - no spatial restrictions</li>
+<li>Regional ETCs to morphotopes</li>
+<li>Morphotopes to a taxonomy of Morphotopes.</li>
 </ol>
 </section>
 <section id="regions" class="slide level2">
@@ -283,37 +257,21 @@ Martin Fleischmann and Krasen Samardzhiev
 
 
 <img data-src="../figures/202504_taxonomy_gisruk/krakow_region.png" class="r-stretch quarto-figure-center"><p class="caption">Region around Krakow</p></section>
-<section id="three-algorithms" class="slide level2">
-<h2>Three algorithms</h2>
-</section>
-<section id="spatial-adaptive-agglomerative-clustering-sa3" class="slide level2">
-<h2>1. Spatial Adaptive Agglomerative Clustering (<span class="math inline">\(SA^3\)</span>)</h2>
-<ol type="1">
-<li>Compute a full regionalisation tree with any <code>sklearn.hierarchy.AgglomerativeClustering</code> algorithm and spatial restrictions imposed by a <code>libpysal.graph.Graph</code> or <code>libpysal.weights.W</code>.</li>
-</ol>
+<section id="morphotope" class="slide level2">
+<h2>Morphotope</h2>
+<div class="fragment">
+<blockquote>
+<p>“the smallest urban locality obtaining distinctive character among their neighbours from their particular combination of constituent morphological elements.”</p>
+</blockquote>
+</div>
 </section>
 <section class="slide level2">
 
-<ol start="2" type="1">
-<li>Extraction of contiguous regions with noise ( i.e.&nbsp;some observations will not belong to any of the extracted regions) using hierarchical density-based clustering schemas - <code>ExcessOfMass</code> or <code>leaf</code>.</li>
-</ol>
-<!-- ## Properties
-1. Contiguous - observations in the same cluster should be spatially contiguos.
-2. Conservative - observations are assigned to a noise cluster if they are not similar in feature space, to any of their geographical neighbours.
-3. Multiscale - It is possible to have clusters with internal dissimilarity higher than the external dissimilarity between a pair of other clusters.
-4. Dynamic - The final number of clusters is inferred from the data based on a `min_cluster_size` parameter and not predefined.
+<p><img data-src="../figures/202504_taxonomy_gisruk/morphotopes.png" style="width:50.0%;height:50.0%"></p>
 
-
-## Justication
-1. By definition morphotopes are spatially contiguous
-2. There are multiple types of urban fabric interspersed within a city which should be kept seperate - single family houses around apartment blocks, for example.
-
----
-
-3. The internal dissimilarity within an industrial area is higher, than the external similarity between a single family housing and a multi-family housing area. Nevertheless, we are interested in getting the three types of coherent units deliniated using one algorithm.
-
-4. We dont know how many morphotopes to look for beforehand. -->
-</section>
+<aside><div>
+<p>Example morphotopes</p>
+</div></aside></section>
 <section class="slide level2">
 
 <p><img data-src="../figures/202410_Nanjing/morphotopes.png"></p>
@@ -321,29 +279,8 @@ Martin Fleischmann and Krasen Samardzhiev
 <aside><div>
 <p>Morphotope delineation in Kraków, Poland</p>
 </div></aside></section>
-<section id="regional-clusters" class="slide level2">
-<h2>2. Regional clusters</h2>
-<ul>
-<li>Complete linkage applied to all the morphotopes within a single region.</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<img data-src="../figures/202410_Nanjing/cut0.png" class="r-stretch">
-
-<aside><div>
-<p>Baseline morphotope types in Kraków, Poland</p>
-</div></aside></section>
-<section id="bisecting-k-means" class="slide level2">
-<h2>3. Bisecting K-Means</h2>
-<ol type="1">
-<li>Step 1. - the whole dataset is split into two clusters by performing a kmeans clustering with K=2.</li>
-<li>Step <span class="math inline">\(N\)</span>. - the algorithm splits each of the clusters from the <span class="math inline">\(N-1\)</span> iteration into two further clusters, again using a kmeans clustering with K=2.</li>
-<li>The algorithm stops when each cluster has at most 2 members, and the taxonomy is built based on the splits.</li>
-</ol>
-</section>
-<section class="slide level2">
-
+<section id="taxonomy-of-morphotopes" class="slide level2">
+<h2>Taxonomy of morphotopes</h2>
 <img data-src="../figures/202504_taxonomy_gisruk/full_dendro.png" class="r-stretch">
 
 <aside><div>
@@ -360,21 +297,15 @@ Martin Fleischmann and Krasen Samardzhiev
 <aside><div>
 <p><a href="https://uscuni.org/himoc/">https://uscuni.org/himoc/</a></p>
 </div></aside></section></section>
-<section>
 <section id="limitations" class="title-slide slide level1 center">
 <h1>Limitations</h1>
 <ul>
 <li><p>Even cadastral data is of very different quality, there is no consistent definition of what is a building across neighbouring countries, regions or even cities within the same country.</p></li>
 <li><p>The morphometric characters are limited to 2d variables, since there is only aggregte height data available that is derived and not recorded.</p></li>
-</ul>
-</section>
-<section class="slide level2">
-
-<ul>
-<li><p>The Kmeans can split classes into sub-classes when its not desirable. For example, Dispersed Linear Development and Linear Development.</p></li>
 <li><p>Adding a temporal dimension to the analysis is difficult due to data unavailability.</p></li>
 </ul>
-</section></section>
+</section>
+
 <section>
 <section id="conclusions" class="title-slide slide level1 center">
 <h1>Conclusions</h1>
@@ -394,19 +325,23 @@ Martin Fleischmann and Krasen Samardzhiev
 <img data-src="../figures/202504_taxonomy_gisruk/poland_linear.png" class="r-stretch quarto-figure-center"><p class="caption">Linear development concentration</p></section>
 <section class="slide level2">
 
-<p>The taxonomy extends existing regional and global classifications.</p>
+<ul>
+<li><p>The taxonomy extends existing regional and global classifications.</p></li>
+<li><p>The importance of elements and variables changes as we move through the taxonomy. Capturing and combining aspects of other urban form classifications.</p></li>
+</ul>
 </section>
 <section class="slide level2">
 
 
-<img data-src="../figures/202504_taxonomy_gisruk/lcz.png" class="r-stretch quarto-figure-center"><p class="caption">Local climate zones</p></section>
+<img data-src="../figures/202504_taxonomy_gisruk/corine.png" class="r-stretch quarto-figure-center"><p class="caption">Corine</p></section>
 <section class="slide level2">
 
-<ul>
-<li><p>The importance of elements and variables changes as we move through the taxonomy. Capturing and combining aspects of other urban form classifications.</p></li>
-<li><p>The GLSR is generalisable. We are using the first law of geography ( spatial autocorrelation ) to turn a computationally intractable problem into a solvable one.</p></li>
-</ul>
-</section></section>
+
+<img data-src="../figures/202504_taxonomy_gisruk/urban_atlas.png" class="r-stretch quarto-figure-center"><p class="caption">Urban Atlas</p></section>
+<section class="slide level2">
+
+
+<img data-src="../figures/202504_taxonomy_gisruk/lcz.png" class="r-stretch quarto-figure-center"><p class="caption">Local climate zones</p></section></section>
 <section id="open-source-software" class="title-slide slide level1 center">
 <h1>Open Source Software</h1>
 <ul>

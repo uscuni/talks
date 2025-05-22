@@ -280,32 +280,11 @@
     "text": "Measured characteristics"
   },
   {
-    "objectID": "slides/202504_taxonomy_gisruk.html#gradually-loosening-spatial-restrictions",
-    "href": "slides/202504_taxonomy_gisruk.html#gradually-loosening-spatial-restrictions",
+    "objectID": "slides/202504_taxonomy_gisruk.html#two-levels-of-aggregations",
+    "href": "slides/202504_taxonomy_gisruk.html#two-levels-of-aggregations",
     "title": "Understanding Urban Form",
-    "section": "Gradually Loosening Spatial Restrictions",
-    "text": "Gradually Loosening Spatial Restrictions\nFramework for hierarchical spatial clustering relying on:\n\nNested intermediate aggregations\nNested spatial restrictions for each aggregation\nHierarchical operationalisations to create the aggregations, given the restrictions"
-  },
-  {
-    "objectID": "slides/202504_taxonomy_gisruk.html#three-levels-of-aggregations",
-    "href": "slides/202504_taxonomy_gisruk.html#three-levels-of-aggregations",
-    "title": "Understanding Urban Form",
-    "section": "Three levels of aggregations",
-    "text": "Three levels of aggregations\n\nETCs to morphotopes\nMorphotopes to Regional Morphotope Types\nRegional Morphotope Types clusters to Morphotope Types (taxa)"
-  },
-  {
-    "objectID": "slides/202504_taxonomy_gisruk.html#morphotope",
-    "href": "slides/202504_taxonomy_gisruk.html#morphotope",
-    "title": "Understanding Urban Form",
-    "section": "Morphotope",
-    "text": "Morphotope\n\n\n“the smallest urban locality obtaining distinctive character among their neighbours from their particular combination of constituent morphological elements.”"
-  },
-  {
-    "objectID": "slides/202504_taxonomy_gisruk.html#three-levels-of-spatial-restrictions",
-    "href": "slides/202504_taxonomy_gisruk.html#three-levels-of-spatial-restrictions",
-    "title": "Understanding Urban Form",
-    "section": "Three levels of spatial restrictions",
-    "text": "Three levels of spatial restrictions\n\nImmediate - only immediate neighbors can be part of the same cluster.\nRegional - only neighbours within the same region can be combined. A region is contiguous land around buildings where the nearest neighbour is at maximum 500 meters away.\nGlobal - no spatial restrictions"
+    "section": "Two levels of aggregations",
+    "text": "Two levels of aggregations\n\nRegional ETCs to morphotopes\nMorphotopes to a taxonomy of Morphotopes."
   },
   {
     "objectID": "slides/202504_taxonomy_gisruk.html#regions",
@@ -315,32 +294,18 @@
     "text": "Regions\n\nRegion around Prague"
   },
   {
-    "objectID": "slides/202504_taxonomy_gisruk.html#three-algorithms",
-    "href": "slides/202504_taxonomy_gisruk.html#three-algorithms",
+    "objectID": "slides/202504_taxonomy_gisruk.html#morphotope",
+    "href": "slides/202504_taxonomy_gisruk.html#morphotope",
     "title": "Understanding Urban Form",
-    "section": "Three algorithms",
-    "text": "Three algorithms"
+    "section": "Morphotope",
+    "text": "Morphotope\n\n\n“the smallest urban locality obtaining distinctive character among their neighbours from their particular combination of constituent morphological elements.”"
   },
   {
-    "objectID": "slides/202504_taxonomy_gisruk.html#spatial-adaptive-agglomerative-clustering-sa3",
-    "href": "slides/202504_taxonomy_gisruk.html#spatial-adaptive-agglomerative-clustering-sa3",
+    "objectID": "slides/202504_taxonomy_gisruk.html#taxonomy-of-morphotopes",
+    "href": "slides/202504_taxonomy_gisruk.html#taxonomy-of-morphotopes",
     "title": "Understanding Urban Form",
-    "section": "1. Spatial Adaptive Agglomerative Clustering (\\(SA^3\\))",
-    "text": "1. Spatial Adaptive Agglomerative Clustering (\\(SA^3\\))\n\nCompute a full regionalisation tree with any sklearn.hierarchy.AgglomerativeClustering algorithm and spatial restrictions imposed by a libpysal.graph.Graph or libpysal.weights.W."
-  },
-  {
-    "objectID": "slides/202504_taxonomy_gisruk.html#regional-clusters",
-    "href": "slides/202504_taxonomy_gisruk.html#regional-clusters",
-    "title": "Understanding Urban Form",
-    "section": "2. Regional clusters",
-    "text": "2. Regional clusters\n\nComplete linkage applied to all the morphotopes within a single region."
-  },
-  {
-    "objectID": "slides/202504_taxonomy_gisruk.html#bisecting-k-means",
-    "href": "slides/202504_taxonomy_gisruk.html#bisecting-k-means",
-    "title": "Understanding Urban Form",
-    "section": "3. Bisecting K-Means",
-    "text": "3. Bisecting K-Means\n\nStep 1. - the whole dataset is split into two clusters by performing a kmeans clustering with K=2.\nStep \\(N\\). - the algorithm splits each of the clusters from the \\(N-1\\) iteration into two further clusters, again using a kmeans clustering with K=2.\nThe algorithm stops when each cluster has at most 2 members, and the taxonomy is built based on the splits."
+    "section": "Taxonomy of morphotopes",
+    "text": "Taxonomy of morphotopes\n\n\n\nFull dendrogram"
   },
   {
     "objectID": "slides/202504_taxonomy_gisruk.html#section-4",
