@@ -1,0 +1,171 @@
+---
+title: "Understanding cross-regional patterns of urban form using hierarchical morphotope classification"
+author: "Martin Fleischmann, Krasen Samardzhiev, Anna Brázdová, Daniela Dančejová, Lisa Winkler"
+institute: "Charles University"
+format:
+    revealjs:
+        theme: [default, ../assets/reveal.scss]
+        logo: ../assets/icon.svg
+        menu: false
+        transition: fade
+        navigation-mode: linear
+        controls-layout: edges
+        progress: true
+        include-in-header:
+            - ../assets/font.html
+            - text: |
+                <style>
+                #title-slide .title {
+                    font-size: 50px;
+                }
+                </style>
+        title-slide-attributes:
+            data-background-image: ../assets/full_logo.svg
+            data-background-size: 20%
+            data-background-position: 50% 90%
+        max-scale: 10
+---
+
+![](../figures/202410_Nanjing/morphometrics_conzen.png)
+
+::: aside
+excerpt from Larkham and Jones, 1991
+:::
+
+## What is urban morphometrics {.question}
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+Not anything new!
+:::
+
+## What is urban morphometrics {.question}
+
+::: {.fragment}
+> A study of urban form through the means of quantitative assessment of its constituent elements.
+:::
+
+[Conceptually similar to historico-geographical approach.]{.fragment}
+
+[Methodologically embedded in spatial data science and geography.]{.fragment}
+
+## Morphometrics in 2025
+
+---
+
+::: {.r-fit-text .absolute top=5%}
+availability of data
+:::
+
+::: {.r-fit-text .absolute top=25% .fragment}
+evolution of software
+:::
+
+::: {.r-fit-text .absolute top=40% .fragment}
+performance
+:::
+
+::: {.r-fit-text .absolute top=75% .fragment}
+automatised pre-processing
+:::
+
+---
+
+::: {.r-fit-text .absolute top=30%}
+all that pushes the limits of scalability
+:::
+
+::: {.r-fit-text .absolute top=50% .fragment}
+scalable urban morphometrics
+:::
+
+---
+
+## Idea of a morphotope
+
+![](../figures/202410_Nanjing/mtope.png){.fragment}
+
+
+::: aside
+[excerpt from Larkham and Jones, 1991]{.fragment}
+:::
+
+---
+
+## How to capture it {.question}
+
+TODO: add a diagram
+
+---
+
+TODO: add aa figure illustrating morphometric characters - those from The figure
+
+---
+
+TODO: add a figure of morphotopes on a map - glasbey
+
+---
+
+## Flexible definition of urban fabric
+
+TODO: add a diagram morphotope -> taxonomy
+
+---
+
+TODO: add The figure, potentially sliced? maybe no time for slicing
+
+---
+
+TODO: add figure on resolutions - with small dendrogram with the cut highlighted
+
+---
+
+TODO: whole map - interactive, either live or using GIF (probably safer) - zoom out to whole region
+
+---
+
+## Geography and urban structure
+
+---
+
+TODO: add figure of FUAs
+
+---
+
+TODO: add figure of annotated PCA scatter plot
+
+## Spatial clustering
+
+---
+
+TODO: add figure of synthetic boundaries - show PCA scatter with cluster labels, include small bray curtis matrices
+
+## Boundaries of impact
+
+TODO: add figure of real boundaries, include small bray curtis matrices
+
+
+# Take home points
+
+<!-- TODO possibly update, these are from Nanjing -->
+
+## Times have changed. Methods have changed. Concepts? Those only evolved
+## Urban morphology can be deeply embedded in spatial data science
+## Urban morphometrics can support quantitative studies done at scale
+## All within fully interpretable framework
+
+
+---
+
+## Do you want to follow up {.question}
+
+[{{< fa regular envelope >}}](mailto:martin.fleischmann@natur.cuni.cz) martin.fleischmann@natur.cuni.cz
+
+[{{< fa brands mastodon >}}](https://fosstodon.org/@martinfleis) @martinfleis@fosstodon.org
+
+[{{< fa regular user >}}](https://martinfleischmann.net) martinfleischmann.net
+
+::: aside
+The authors kindly acknowledge funding by the Charles University’s Primus programme through the project "Influence of Socioeconomic and Cultural Factors on Urban Structure in Central Europe", project reference `PRIMUS/24/SCI/023`.
+:::
