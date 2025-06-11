@@ -95,33 +95,61 @@ scalable urban morphometrics
 
 ## How to capture it {.question}
 
-TODO: add a diagram
+---
+
+![](../figures/202506_ISUF/morphotope_diagram.png)
+
+::: aside
+Diagram illustrating a procedure to derive morphotopes using Spatial Adaptive Agglomerative Aggregation ($SA^3$)
+:::
 
 ---
 
-TODO: add aa figure illustrating morphometric characters - those from The figure
+
+![](../figures/202506_ISUF/characters.png){fig-align="center" width=75%}
+
+::: aside
+5 out of 54 morphometric characters illustrated on the Prague City Centre
+:::
+
 
 ---
 
-TODO: add a figure of morphotopes on a map - glasbey
+![](../figures/202506_ISUF/morphotopes.png){fig-align="center" width=65%}
+
+::: aside
+Morphotope delineation illustrated on the Prague City Centre
+:::
 
 ---
 
 ## Flexible definition of urban fabric
 
-TODO: add a diagram morphotope -> taxonomy
+---
+
+![](../figures/202506_ISUF/taxonomy_diagram.png){fig-align="center" width=90%}
+
+::: aside
+Diagram illustrating a procedure to derive Hierarchical Morphotope Classification (HiMoC)
+:::
 
 ---
 
-TODO: add The figure, potentially sliced? maybe no time for slicing
+## {background-image="../figures/202506_ISUF/taxonomy.png" background-size="contain" .no-text}
+
 
 ---
 
-TODO: add figure on resolutions - with small dendrogram with the cut highlighted
+## {background-image="../figures/202506_ISUF/examples.png" background-size="contain" .no-text}
+
+::: aside
+Illustration of different levels of the hierarchy.
+:::
 
 ---
 
-TODO: whole map - interactive, either live or using GIF (probably safer) - zoom out to whole region
+## {background-image="../figures/202506_ISUF/map.gif" background-size="contain" .no-text}
+
 
 ---
 
@@ -129,11 +157,28 @@ TODO: whole map - interactive, either live or using GIF (probably safer) - zoom 
 
 ---
 
-TODO: add figure of FUAs
+![](../figures/202506_ISUF/fuas.png){fig-align="center" width=90%}
+
+::: aside
+Functional Urban Areas used to sample from the classification
+:::
+
 
 ---
 
-TODO: add figure of annotated PCA scatter plot
+![](../figures/202506_ISUF/fua_prg.png){fig-align="center" width=65%}
+
+::: aside
+Functional Urban Area of Prague
+:::
+
+---
+
+![](../figures/202506_ISUF/pca.png){fig-align="center" width=60%}
+
+::: aside
+Projection of FUAs into 2 dimensions based on their morphological composition
+:::
 
 ## Spatial clustering
 
@@ -148,12 +193,10 @@ TODO: add figure of real boundaries, include small bray curtis matrices
 
 # Take home points
 
-<!-- TODO possibly update, these are from Nanjing -->
-
 ## Times have changed. Methods have changed. Concepts? Those only evolved
 ## Urban morphology can be deeply embedded in spatial data science
 ## Urban morphometrics can support quantitative studies done at scale
-## All within fully interpretable framework
+## We can ask questions like never before
 
 
 ---
