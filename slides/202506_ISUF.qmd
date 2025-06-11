@@ -177,18 +177,36 @@ Functional Urban Area of Prague
 ![](../figures/202506_ISUF/pca.png){fig-align="center" width=60%}
 
 ::: aside
-Projection of FUAs into 2 dimensions based on their morphological composition
+Projection of FUAs into 2 dimensions (PCA 1 x PCA 2) based on their morphological composition
+:::
+
+---
+
+![](../figures/202506_ISUF/pca3.png){fig-align="center" width=60%}
+
+::: aside
+Projection of FUAs into 2 dimensions (PCA 1 x PCA 3) based on their morphological composition
 :::
 
 ## Spatial clustering
 
 ---
 
-TODO: add figure of synthetic boundaries - show PCA scatter with cluster labels, include small bray curtis matrices
+![](../figures/202506_ISUF/synthetic.png){fig-align="center"}
+
+::: aside
+Strength of the synthetic boundary in distinguishing morphology of regions
+:::
 
 ## Boundaries of impact
 
-TODO: add figure of real boundaries, include small bray curtis matrices
+---
+
+![](../figures/202506_ISUF/boundaries.png){fig-align="center"}
+
+::: aside
+Strength of the historical boundary in distinguishing morphology of regions
+:::
 
 
 # Take home points
