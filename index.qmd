@@ -6,6 +6,7 @@ Archive of talks of the US CUNI team.
 
 ## List of talks
 
+- [2025-06-?? ISUF](slides/202506_ISUF.qmd)
 - [2025-05-16 Twin2Expand](slides/202505_T2X.qmd)
 - [2025-04-24 GISRUK 2025 (Urban form and population), Bristol](slides/202504_GISRUK_Anna.qmd)
 - [2025-04-24 GISRUK 2025 (Taxonomy), Bristol](slides/202504_taxonomy_gisruk.qmd)

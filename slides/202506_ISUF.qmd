@@ -221,6 +221,8 @@ Strength of the historical boundary in distinguishing morphology of regions
 
 ## Do you want to follow up {.question}
 
+[{{< fa solid person-chalkboard >}}](https://uscuni.org/talks/slides/202506_ISUF/) uscuni.org/talks
+
 [{{< fa regular envelope >}}](mailto:martin.fleischmann@natur.cuni.cz) martin.fleischmann@natur.cuni.cz
 
 [{{< fa brands mastodon >}}](https://fosstodon.org/@martinfleis) @martinfleis@fosstodon.org
