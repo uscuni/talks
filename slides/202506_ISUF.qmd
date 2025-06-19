@@ -26,11 +26,6 @@ format:
         max-scale: 10
 ---
 
-![](../figures/202410_Nanjing/morphometrics_conzen.png)
-
-::: aside
-excerpt from Larkham and Jones, 1991
-:::
 
 ## What is urban morphometrics {.question}
 
@@ -38,6 +33,14 @@ excerpt from Larkham and Jones, 1991
 
 ::: {.r-fit-text .absolute top=39%}
 Not anything new!
+:::
+
+---
+
+![](../figures/202410_Nanjing/morphometrics_conzen.png)
+
+::: aside
+excerpt from Larkham and Jones, 1991
 :::
 
 ## What is urban morphometrics {.question}
@@ -223,9 +226,11 @@ Strength of the historical boundary in distinguishing morphology of regions
 
 [{{< fa solid person-chalkboard >}}](https://uscuni.org/talks/slides/202506_ISUF/) uscuni.org/talks
 
-[{{< fa regular envelope >}}](mailto:martin.fleischmann@natur.cuni.cz) martin.fleischmann@natur.cuni.cz
+[{{< fa solid map >}}](https://uscuni.org/himoc) uscuni.org/himoc
 
-[{{< fa brands mastodon >}}](https://fosstodon.org/@martinfleis) @martinfleis@fosstodon.org
+[{{< fa solid code >}}](https://github.com/uscuni/urban_taxonomy) github.com/uscuni/urban_taxonomy
+
+[{{< fa regular envelope >}}](mailto:martin.fleischmann@natur.cuni.cz) martin.fleischmann@natur.cuni.cz
 
 [{{< fa regular user >}}](https://martinfleischmann.net) martinfleischmann.net
 
