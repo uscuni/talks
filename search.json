@@ -11,7 +11,7 @@
     "href": "index.html#list-of-talks",
     "title": "Talks",
     "section": "List of talks",
-    "text": "List of talks\n\n2025-06-19 ISUF\n2025-05-16 Twin2Expand\n2025-04-24 GISRUK 2025 (Urban form and population), Bristol\n2025-04-24 GISRUK 2025 (Taxonomy), Bristol\n2025-04-24 GISRUK 2025 (Simplification), Bristol\n2025-04-14 University of California, Berkeley\n2024-10-29 International Seminar on Urban Morpho-Science\n2024-09-18 Spatial Data Science across Languages\n2024-09-12 City Transitions Saarbrücken\n2024-06-07 EuroFab project Kick-Off meeting\n2024-05-16 Open Source Science Meetup Prague"
+    "text": "List of talks\n\n2025-07-01 SDH\n2025-06-19 ISUF\n2025-05-16 Twin2Expand\n2025-04-24 GISRUK 2025 (Urban form and population), Bristol\n2025-04-24 GISRUK 2025 (Taxonomy), Bristol\n2025-04-24 GISRUK 2025 (Simplification), Bristol\n2025-04-14 University of California, Berkeley\n2024-10-29 International Seminar on Urban Morpho-Science\n2024-09-18 Spatial Data Science across Languages\n2024-09-12 City Transitions Saarbrücken\n2024-06-07 EuroFab project Kick-Off meeting\n2024-05-16 Open Source Science Meetup Prague"
   },
   {
     "objectID": "slides/202406_EuroFab_KO.html#why-urban-fabric",
@@ -441,172 +441,151 @@
     "text": "Share your knowledge, it is a way to achieve immortality\n(Dalai Lama)"
   },
   {
-    "objectID": "slides/202504_Berkeley.html#open-by-default",
-    "href": "slides/202504_Berkeley.html#open-by-default",
-    "title": "Urban science as a software",
-    "section": "Open by default",
-    "text": "Open by default\nUse (and nurture) the existing OSS infrastructure\nTreat research artifacts as OSS from Day 1\nOnly “stay closed” when there is a good reason"
+    "objectID": "slides/202410_Nanjing.html#looking-back-to-2019",
+    "href": "slides/202410_Nanjing.html#looking-back-to-2019",
+    "title": "From a building to a region",
+    "section": "Looking back to 2019",
+    "text": "Looking back to 2019"
   },
   {
-    "objectID": "slides/202504_Berkeley.html#reproducible-research",
-    "href": "slides/202504_Berkeley.html#reproducible-research",
-    "title": "Urban science as a software",
-    "section": "Reproducible research",
-    "text": "Reproducible research\n\nTransparent\nAccessible\nTransferrable"
+    "objectID": "slides/202410_Nanjing.html#looking-back-to-2022",
+    "href": "slides/202410_Nanjing.html#looking-back-to-2022",
+    "title": "From a building to a region",
+    "section": "Looking back to 2022",
+    "text": "Looking back to 2022"
   },
   {
-    "objectID": "slides/202504_Berkeley.html#methodological-foundation-of-a-numerical-taxonomy-of-urban-form",
-    "href": "slides/202504_Berkeley.html#methodological-foundation-of-a-numerical-taxonomy-of-urban-form",
-    "title": "Urban science as a software",
-    "section": "Methodological foundation of a numerical taxonomy of urban form",
-    "text": "Methodological foundation of a numerical taxonomy of urban form\n\n\nFleischmann, M., Feliciotti, A., Romice, O., Porta, S., 2022. Methodological foundation of a numerical taxonomy of urban form. Environment and Planning B: Urban Analytics and City Science 49, 1283–1299. https://doi.org/10/gnth7q"
+    "objectID": "slides/202410_Nanjing.html#today",
+    "href": "slides/202410_Nanjing.html#today",
+    "title": "From a building to a region",
+    "section": "Today",
+    "text": "Today"
   },
   {
-    "objectID": "slides/202504_Berkeley.html#geographical-characterisation-of-british-urban-form-and-function-using-the-spatial-signatures-framework",
-    "href": "slides/202504_Berkeley.html#geographical-characterisation-of-british-urban-form-and-function-using-the-spatial-signatures-framework",
-    "title": "Urban science as a software",
-    "section": "Geographical characterisation of British urban form and function using the spatial signatures framework",
-    "text": "Geographical characterisation of British urban form and function using the spatial signatures framework\n\n\nFleischmann, M., Arribas-Bel, D., 2022. Geographical characterisation of British urban form and function using the spatial signatures framework. Sci Data 9, 546. https://doi.org/10.1038/s41597-022-01640-8"
+    "objectID": "slides/202410_Nanjing.html#what-is-urban-morphometrics",
+    "href": "slides/202410_Nanjing.html#what-is-urban-morphometrics",
+    "title": "From a building to a region",
+    "section": "What is urban morphometrics",
+    "text": "What is urban morphometrics"
   },
   {
-    "objectID": "slides/202504_Berkeley.html#understanding-urban-form---hierarchical-morphotope-classification-based-on-gradually-loosening-spatial-restrictions",
-    "href": "slides/202504_Berkeley.html#understanding-urban-form---hierarchical-morphotope-classification-based-on-gradually-loosening-spatial-restrictions",
-    "title": "Urban science as a software",
-    "section": "Understanding Urban Form - Hierarchical Morphotope Classification based on Gradually Loosening Spatial Restrictions",
-    "text": "Understanding Urban Form - Hierarchical Morphotope Classification based on Gradually Loosening Spatial Restrictions\n\n\nFleischmann, M., Samardzhiev, K., upcoming. Understanding Urban Form - Hierarchical Morphotope Classification based on Gradually Loosening Spatial Restrictions"
+    "objectID": "slides/202410_Nanjing.html#what-is-urban-morphometrics-1",
+    "href": "slides/202410_Nanjing.html#what-is-urban-morphometrics-1",
+    "title": "From a building to a region",
+    "section": "What is urban morphometrics",
+    "text": "What is urban morphometrics\n\n\n\nexcerpt from Larkham and Jones, 1991"
   },
   {
-    "objectID": "slides/202504_Berkeley.html#generic-framework-for-geographically-weighted-modelling",
-    "href": "slides/202504_Berkeley.html#generic-framework-for-geographically-weighted-modelling",
-    "title": "Urban science as a software",
-    "section": "Generic framework for geographically-weighted modelling",
-    "text": "Generic framework for geographically-weighted modelling\n\n\nFleischmann, M., Brazdova, A., Winkler, L., upcoming. Generic framework for geographically-weighted modelling"
+    "objectID": "slides/202410_Nanjing.html#what-is-urban-morphometrics-2",
+    "href": "slides/202410_Nanjing.html#what-is-urban-morphometrics-2",
+    "title": "From a building to a region",
+    "section": "What is urban morphometrics",
+    "text": "What is urban morphometrics\n\n\nA study of urban form through the means of quantitative assessment of its constituent elements.\n\n\nConceptually similar to historico-geographical approach.\nMethodologically embedded in spatial data science and geography."
   },
   {
-    "objectID": "slides/202504_Berkeley.html#release-early-release-often",
-    "href": "slides/202504_Berkeley.html#release-early-release-often",
-    "title": "Urban science as a software",
-    "section": "Release early, release often",
-    "text": "Release early, release often"
+    "objectID": "slides/202410_Nanjing.html#how-to-scale-urban-morphometrics",
+    "href": "slides/202410_Nanjing.html#how-to-scale-urban-morphometrics",
+    "title": "From a building to a region",
+    "section": "How to scale urban morphometrics",
+    "text": "How to scale urban morphometrics"
   },
   {
-    "objectID": "slides/202504_Berkeley.html#make-open-a-feature-not-a-bug",
-    "href": "slides/202504_Berkeley.html#make-open-a-feature-not-a-bug",
-    "title": "Urban science as a software",
-    "section": "Make open a feature, not a bug",
-    "text": "Make open a feature, not a bug"
+    "objectID": "slides/202410_Nanjing.html#step-01",
+    "href": "slides/202410_Nanjing.html#step-01",
+    "title": "From a building to a region",
+    "section": "Step 01",
+    "text": "Step 01\nSplit the data without breaking spatial dependency"
   },
   {
-    "objectID": "slides/202504_Berkeley.html#do-what-is-best-not-what-system-wants",
-    "href": "slides/202504_Berkeley.html#do-what-is-best-not-what-system-wants",
-    "title": "Urban science as a software",
-    "section": "Do what is best, not what system wants",
-    "text": "Do what is best, not what system wants"
+    "objectID": "slides/202410_Nanjing.html#step-02",
+    "href": "slides/202410_Nanjing.html#step-02",
+    "title": "From a building to a region",
+    "section": "Step 02",
+    "text": "Step 02\nAvoid methodological bottlenecks\nExample - morphological tessellation"
   },
   {
-    "objectID": "slides/202504_Berkeley.html#share-your-knowledge-it-is-a-way-to-achieve-immortality",
-    "href": "slides/202504_Berkeley.html#share-your-knowledge-it-is-a-way-to-achieve-immortality",
-    "title": "Urban science as a software",
-    "section": "Share your knowledge, it is a way to achieve immortality",
-    "text": "Share your knowledge, it is a way to achieve immortality\n(Dalai Lama)\n\n\n\n\nThank you! Contacts at martinfleischmann.net."
+    "objectID": "slides/202410_Nanjing.html#step-03",
+    "href": "slides/202410_Nanjing.html#step-03",
+    "title": "From a building to a region",
+    "section": "Step 03",
+    "text": "Step 03\nAvoid implementation bottlenecks"
   },
   {
-    "objectID": "slides/202409_SDSL.html#section",
-    "href": "slides/202409_SDSL.html#section",
-    "title": "Spatial Data Science across Languages",
-    "section": "",
-    "text": "Vinohrady Brewery"
+    "objectID": "slides/202410_Nanjing.html#step-04",
+    "href": "slides/202410_Nanjing.html#step-04",
+    "title": "From a building to a region",
+    "section": "Step 04",
+    "text": "Step 04\nMeasure!"
   },
   {
-    "objectID": "slides/202409_SDSL.html#personal-reflections",
-    "href": "slides/202409_SDSL.html#personal-reflections",
-    "title": "Spatial Data Science across Languages",
-    "section": "Personal reflections",
-    "text": "Personal reflections"
+    "objectID": "slides/202410_Nanjing.html#what-is-next",
+    "href": "slides/202410_Nanjing.html#what-is-next",
+    "title": "From a building to a region",
+    "section": "What is next",
+    "text": "What is next\n\nIt depends…"
   },
   {
-    "objectID": "slides/202409_SDSL.html#working-paper",
-    "href": "slides/202409_SDSL.html#working-paper",
-    "title": "Spatial Data Science across Languages",
-    "section": "Working paper",
-    "text": "Working paper"
+    "objectID": "slides/202410_Nanjing.html#our-step-05",
+    "href": "slides/202410_Nanjing.html#our-step-05",
+    "title": "From a building to a region",
+    "section": "Our step 05",
+    "text": "Our step 05\nMorphotope delineation"
   },
   {
-    "objectID": "slides/202504_taxonomy_gisruk.html#section",
-    "href": "slides/202504_taxonomy_gisruk.html#section",
-    "title": "Understanding Urban Form",
-    "section": "",
-    "text": "Prague by Jay Dantine"
-  },
-  {
-    "objectID": "slides/202504_taxonomy_gisruk.html#section-1",
-    "href": "slides/202504_taxonomy_gisruk.html#section-1",
-    "title": "Understanding Urban Form",
-    "section": "",
-    "text": "Barcelona"
-  },
-  {
-    "objectID": "slides/202504_taxonomy_gisruk.html#section-2",
-    "href": "slides/202504_taxonomy_gisruk.html#section-2",
-    "title": "Understanding Urban Form",
-    "section": "",
-    "text": "Araldi, A. and Fusco, G. (2025), Multi-Level Street-Based Analysis of the Urban Fabric: Developments for a Nationwide Taxonomy. Geographical Analysis, 57: 270-301."
-  },
-  {
-    "objectID": "slides/202504_taxonomy_gisruk.html#section-3",
-    "href": "slides/202504_taxonomy_gisruk.html#section-3",
-    "title": "Understanding Urban Form",
-    "section": "",
-    "text": "Fleischmann, M., Feliciotti, A., Romice, O., & Porta, S. (2021). Methodological foundation of a numerical taxonomy of urban form. Environment and Planning B, 49(4), 1283-1299."
-  },
-  {
-    "objectID": "slides/202504_taxonomy_gisruk.html#enclosed-tessellation-cells",
-    "href": "slides/202504_taxonomy_gisruk.html#enclosed-tessellation-cells",
-    "title": "Understanding Urban Form",
-    "section": "Enclosed Tessellation Cells",
-    "text": "Enclosed Tessellation Cells"
-  },
-  {
-    "objectID": "slides/202504_taxonomy_gisruk.html#measured-characteristics",
-    "href": "slides/202504_taxonomy_gisruk.html#measured-characteristics",
-    "title": "Understanding Urban Form",
-    "section": "Measured characteristics",
-    "text": "Measured characteristics"
-  },
-  {
-    "objectID": "slides/202504_taxonomy_gisruk.html#two-levels-of-aggregations",
-    "href": "slides/202504_taxonomy_gisruk.html#two-levels-of-aggregations",
-    "title": "Understanding Urban Form",
-    "section": "Two levels of aggregations",
-    "text": "Two levels of aggregations\n\nRegional ETCs to morphotopes\nMorphotopes to a taxonomy of Morphotopes."
-  },
-  {
-    "objectID": "slides/202504_taxonomy_gisruk.html#regions",
-    "href": "slides/202504_taxonomy_gisruk.html#regions",
-    "title": "Understanding Urban Form",
-    "section": "Regions",
-    "text": "Regions\n\nRegion around Prague"
-  },
-  {
-    "objectID": "slides/202504_taxonomy_gisruk.html#morphotope",
-    "href": "slides/202504_taxonomy_gisruk.html#morphotope",
-    "title": "Understanding Urban Form",
+    "objectID": "slides/202410_Nanjing.html#morphotope",
+    "href": "slides/202410_Nanjing.html#morphotope",
+    "title": "From a building to a region",
     "section": "Morphotope",
-    "text": "Morphotope\n\n\n“the smallest urban locality obtaining distinctive character among their neighbours from their particular combination of constituent morphological elements.”"
+    "text": "Morphotope\n\n\n\nexcerpt from Larkham and Jones, 1991"
   },
   {
-    "objectID": "slides/202504_taxonomy_gisruk.html#taxonomy-of-morphotopes",
-    "href": "slides/202504_taxonomy_gisruk.html#taxonomy-of-morphotopes",
-    "title": "Understanding Urban Form",
-    "section": "Taxonomy of morphotopes",
-    "text": "Taxonomy of morphotopes\n\n\n\nFull dendrogram"
+    "objectID": "slides/202410_Nanjing.html#our-step-06",
+    "href": "slides/202410_Nanjing.html#our-step-06",
+    "title": "From a building to a region",
+    "section": "Our step 06",
+    "text": "Our step 06\nBaseline morphotope types"
   },
   {
-    "objectID": "slides/202504_taxonomy_gisruk.html#section-4",
-    "href": "slides/202504_taxonomy_gisruk.html#section-4",
-    "title": "Understanding Urban Form",
-    "section": "",
-    "text": "https://uscuni.org/himoc/"
+    "objectID": "slides/202410_Nanjing.html#our-step-07",
+    "href": "slides/202410_Nanjing.html#our-step-07",
+    "title": "From a building to a region",
+    "section": "Our step 07",
+    "text": "Our step 07\nExtensible taxonomy of urban form"
+  },
+  {
+    "objectID": "slides/202410_Nanjing.html#times-have-changed.-methods-have-changed.-concepts-those-only-evolved",
+    "href": "slides/202410_Nanjing.html#times-have-changed.-methods-have-changed.-concepts-those-only-evolved",
+    "title": "From a building to a region",
+    "section": "Times have changed. Methods have changed. Concepts? Those only evolved",
+    "text": "Times have changed. Methods have changed. Concepts? Those only evolved"
+  },
+  {
+    "objectID": "slides/202410_Nanjing.html#urban-morphology-can-be-deeply-embedded-in-spatial-data-science",
+    "href": "slides/202410_Nanjing.html#urban-morphology-can-be-deeply-embedded-in-spatial-data-science",
+    "title": "From a building to a region",
+    "section": "Urban morphology can be deeply embedded in spatial data science",
+    "text": "Urban morphology can be deeply embedded in spatial data science"
+  },
+  {
+    "objectID": "slides/202410_Nanjing.html#urban-morphometrics-can-support-quantitative-studies-done-at-scale",
+    "href": "slides/202410_Nanjing.html#urban-morphometrics-can-support-quantitative-studies-done-at-scale",
+    "title": "From a building to a region",
+    "section": "Urban morphometrics can support quantitative studies done at scale",
+    "text": "Urban morphometrics can support quantitative studies done at scale"
+  },
+  {
+    "objectID": "slides/202410_Nanjing.html#all-within-fully-interpretable-framework",
+    "href": "slides/202410_Nanjing.html#all-within-fully-interpretable-framework",
+    "title": "From a building to a region",
+    "section": "All within fully interpretable framework",
+    "text": "All within fully interpretable framework"
+  },
+  {
+    "objectID": "slides/202410_Nanjing.html#do-you-want-to-follow-up",
+    "href": "slides/202410_Nanjing.html#do-you-want-to-follow-up",
+    "title": "From a building to a region",
+    "section": "Do you want to follow up",
+    "text": "Do you want to follow up\n martin.fleischmann@natur.cuni.cz\n @martinfleis@fosstodon.org\n martinfleischmann.net"
   },
   {
     "objectID": "slides/202409_Saarbrucken.html#methods-of-analysis",
@@ -1092,151 +1071,256 @@
     "text": "Do you want to follow up\n martin.fleischmann@natur.cuni.cz\n @martinfleis\n @martinfleis@fosstodon.org\n martinfleischmann.net"
   },
   {
-    "objectID": "slides/202410_Nanjing.html#looking-back-to-2019",
-    "href": "slides/202410_Nanjing.html#looking-back-to-2019",
-    "title": "From a building to a region",
-    "section": "Looking back to 2019",
-    "text": "Looking back to 2019"
+    "objectID": "slides/202504_taxonomy_gisruk.html#section",
+    "href": "slides/202504_taxonomy_gisruk.html#section",
+    "title": "Understanding Urban Form",
+    "section": "",
+    "text": "Prague by Jay Dantine"
   },
   {
-    "objectID": "slides/202410_Nanjing.html#looking-back-to-2022",
-    "href": "slides/202410_Nanjing.html#looking-back-to-2022",
-    "title": "From a building to a region",
-    "section": "Looking back to 2022",
-    "text": "Looking back to 2022"
+    "objectID": "slides/202504_taxonomy_gisruk.html#section-1",
+    "href": "slides/202504_taxonomy_gisruk.html#section-1",
+    "title": "Understanding Urban Form",
+    "section": "",
+    "text": "Barcelona"
   },
   {
-    "objectID": "slides/202410_Nanjing.html#today",
-    "href": "slides/202410_Nanjing.html#today",
-    "title": "From a building to a region",
-    "section": "Today",
-    "text": "Today"
+    "objectID": "slides/202504_taxonomy_gisruk.html#section-2",
+    "href": "slides/202504_taxonomy_gisruk.html#section-2",
+    "title": "Understanding Urban Form",
+    "section": "",
+    "text": "Araldi, A. and Fusco, G. (2025), Multi-Level Street-Based Analysis of the Urban Fabric: Developments for a Nationwide Taxonomy. Geographical Analysis, 57: 270-301."
   },
   {
-    "objectID": "slides/202410_Nanjing.html#what-is-urban-morphometrics",
-    "href": "slides/202410_Nanjing.html#what-is-urban-morphometrics",
-    "title": "From a building to a region",
-    "section": "What is urban morphometrics",
-    "text": "What is urban morphometrics"
+    "objectID": "slides/202504_taxonomy_gisruk.html#section-3",
+    "href": "slides/202504_taxonomy_gisruk.html#section-3",
+    "title": "Understanding Urban Form",
+    "section": "",
+    "text": "Fleischmann, M., Feliciotti, A., Romice, O., & Porta, S. (2021). Methodological foundation of a numerical taxonomy of urban form. Environment and Planning B, 49(4), 1283-1299."
   },
   {
-    "objectID": "slides/202410_Nanjing.html#what-is-urban-morphometrics-1",
-    "href": "slides/202410_Nanjing.html#what-is-urban-morphometrics-1",
-    "title": "From a building to a region",
-    "section": "What is urban morphometrics",
-    "text": "What is urban morphometrics\n\n\n\nexcerpt from Larkham and Jones, 1991"
+    "objectID": "slides/202504_taxonomy_gisruk.html#enclosed-tessellation-cells",
+    "href": "slides/202504_taxonomy_gisruk.html#enclosed-tessellation-cells",
+    "title": "Understanding Urban Form",
+    "section": "Enclosed Tessellation Cells",
+    "text": "Enclosed Tessellation Cells"
   },
   {
-    "objectID": "slides/202410_Nanjing.html#what-is-urban-morphometrics-2",
-    "href": "slides/202410_Nanjing.html#what-is-urban-morphometrics-2",
-    "title": "From a building to a region",
-    "section": "What is urban morphometrics",
-    "text": "What is urban morphometrics\n\n\nA study of urban form through the means of quantitative assessment of its constituent elements.\n\n\nConceptually similar to historico-geographical approach.\nMethodologically embedded in spatial data science and geography."
+    "objectID": "slides/202504_taxonomy_gisruk.html#measured-characteristics",
+    "href": "slides/202504_taxonomy_gisruk.html#measured-characteristics",
+    "title": "Understanding Urban Form",
+    "section": "Measured characteristics",
+    "text": "Measured characteristics"
   },
   {
-    "objectID": "slides/202410_Nanjing.html#how-to-scale-urban-morphometrics",
-    "href": "slides/202410_Nanjing.html#how-to-scale-urban-morphometrics",
-    "title": "From a building to a region",
-    "section": "How to scale urban morphometrics",
-    "text": "How to scale urban morphometrics"
+    "objectID": "slides/202504_taxonomy_gisruk.html#two-levels-of-aggregations",
+    "href": "slides/202504_taxonomy_gisruk.html#two-levels-of-aggregations",
+    "title": "Understanding Urban Form",
+    "section": "Two levels of aggregations",
+    "text": "Two levels of aggregations\n\nRegional ETCs to morphotopes\nMorphotopes to a taxonomy of Morphotopes."
   },
   {
-    "objectID": "slides/202410_Nanjing.html#step-01",
-    "href": "slides/202410_Nanjing.html#step-01",
-    "title": "From a building to a region",
-    "section": "Step 01",
-    "text": "Step 01\nSplit the data without breaking spatial dependency"
+    "objectID": "slides/202504_taxonomy_gisruk.html#regions",
+    "href": "slides/202504_taxonomy_gisruk.html#regions",
+    "title": "Understanding Urban Form",
+    "section": "Regions",
+    "text": "Regions\n\nRegion around Prague"
   },
   {
-    "objectID": "slides/202410_Nanjing.html#step-02",
-    "href": "slides/202410_Nanjing.html#step-02",
-    "title": "From a building to a region",
-    "section": "Step 02",
-    "text": "Step 02\nAvoid methodological bottlenecks\nExample - morphological tessellation"
-  },
-  {
-    "objectID": "slides/202410_Nanjing.html#step-03",
-    "href": "slides/202410_Nanjing.html#step-03",
-    "title": "From a building to a region",
-    "section": "Step 03",
-    "text": "Step 03\nAvoid implementation bottlenecks"
-  },
-  {
-    "objectID": "slides/202410_Nanjing.html#step-04",
-    "href": "slides/202410_Nanjing.html#step-04",
-    "title": "From a building to a region",
-    "section": "Step 04",
-    "text": "Step 04\nMeasure!"
-  },
-  {
-    "objectID": "slides/202410_Nanjing.html#what-is-next",
-    "href": "slides/202410_Nanjing.html#what-is-next",
-    "title": "From a building to a region",
-    "section": "What is next",
-    "text": "What is next\n\nIt depends…"
-  },
-  {
-    "objectID": "slides/202410_Nanjing.html#our-step-05",
-    "href": "slides/202410_Nanjing.html#our-step-05",
-    "title": "From a building to a region",
-    "section": "Our step 05",
-    "text": "Our step 05\nMorphotope delineation"
-  },
-  {
-    "objectID": "slides/202410_Nanjing.html#morphotope",
-    "href": "slides/202410_Nanjing.html#morphotope",
-    "title": "From a building to a region",
+    "objectID": "slides/202504_taxonomy_gisruk.html#morphotope",
+    "href": "slides/202504_taxonomy_gisruk.html#morphotope",
+    "title": "Understanding Urban Form",
     "section": "Morphotope",
-    "text": "Morphotope\n\n\n\nexcerpt from Larkham and Jones, 1991"
+    "text": "Morphotope\n\n\n“the smallest urban locality obtaining distinctive character among their neighbours from their particular combination of constituent morphological elements.”"
   },
   {
-    "objectID": "slides/202410_Nanjing.html#our-step-06",
-    "href": "slides/202410_Nanjing.html#our-step-06",
-    "title": "From a building to a region",
-    "section": "Our step 06",
-    "text": "Our step 06\nBaseline morphotope types"
+    "objectID": "slides/202504_taxonomy_gisruk.html#taxonomy-of-morphotopes",
+    "href": "slides/202504_taxonomy_gisruk.html#taxonomy-of-morphotopes",
+    "title": "Understanding Urban Form",
+    "section": "Taxonomy of morphotopes",
+    "text": "Taxonomy of morphotopes\n\n\n\nFull dendrogram"
   },
   {
-    "objectID": "slides/202410_Nanjing.html#our-step-07",
-    "href": "slides/202410_Nanjing.html#our-step-07",
-    "title": "From a building to a region",
-    "section": "Our step 07",
-    "text": "Our step 07\nExtensible taxonomy of urban form"
+    "objectID": "slides/202504_taxonomy_gisruk.html#section-4",
+    "href": "slides/202504_taxonomy_gisruk.html#section-4",
+    "title": "Understanding Urban Form",
+    "section": "",
+    "text": "https://uscuni.org/himoc/"
   },
   {
-    "objectID": "slides/202410_Nanjing.html#times-have-changed.-methods-have-changed.-concepts-those-only-evolved",
-    "href": "slides/202410_Nanjing.html#times-have-changed.-methods-have-changed.-concepts-those-only-evolved",
-    "title": "From a building to a region",
-    "section": "Times have changed. Methods have changed. Concepts? Those only evolved",
-    "text": "Times have changed. Methods have changed. Concepts? Those only evolved"
+    "objectID": "slides/202409_SDSL.html#section",
+    "href": "slides/202409_SDSL.html#section",
+    "title": "Spatial Data Science across Languages",
+    "section": "",
+    "text": "Vinohrady Brewery"
   },
   {
-    "objectID": "slides/202410_Nanjing.html#urban-morphology-can-be-deeply-embedded-in-spatial-data-science",
-    "href": "slides/202410_Nanjing.html#urban-morphology-can-be-deeply-embedded-in-spatial-data-science",
-    "title": "From a building to a region",
-    "section": "Urban morphology can be deeply embedded in spatial data science",
-    "text": "Urban morphology can be deeply embedded in spatial data science"
+    "objectID": "slides/202409_SDSL.html#personal-reflections",
+    "href": "slides/202409_SDSL.html#personal-reflections",
+    "title": "Spatial Data Science across Languages",
+    "section": "Personal reflections",
+    "text": "Personal reflections"
   },
   {
-    "objectID": "slides/202410_Nanjing.html#urban-morphometrics-can-support-quantitative-studies-done-at-scale",
-    "href": "slides/202410_Nanjing.html#urban-morphometrics-can-support-quantitative-studies-done-at-scale",
-    "title": "From a building to a region",
-    "section": "Urban morphometrics can support quantitative studies done at scale",
-    "text": "Urban morphometrics can support quantitative studies done at scale"
+    "objectID": "slides/202409_SDSL.html#working-paper",
+    "href": "slides/202409_SDSL.html#working-paper",
+    "title": "Spatial Data Science across Languages",
+    "section": "Working paper",
+    "text": "Working paper"
   },
   {
-    "objectID": "slides/202410_Nanjing.html#all-within-fully-interpretable-framework",
-    "href": "slides/202410_Nanjing.html#all-within-fully-interpretable-framework",
-    "title": "From a building to a region",
-    "section": "All within fully interpretable framework",
-    "text": "All within fully interpretable framework"
+    "objectID": "slides/202504_Berkeley.html#open-by-default",
+    "href": "slides/202504_Berkeley.html#open-by-default",
+    "title": "Urban science as a software",
+    "section": "Open by default",
+    "text": "Open by default\nUse (and nurture) the existing OSS infrastructure\nTreat research artifacts as OSS from Day 1\nOnly “stay closed” when there is a good reason"
   },
   {
-    "objectID": "slides/202410_Nanjing.html#do-you-want-to-follow-up",
-    "href": "slides/202410_Nanjing.html#do-you-want-to-follow-up",
-    "title": "From a building to a region",
+    "objectID": "slides/202504_Berkeley.html#reproducible-research",
+    "href": "slides/202504_Berkeley.html#reproducible-research",
+    "title": "Urban science as a software",
+    "section": "Reproducible research",
+    "text": "Reproducible research\n\nTransparent\nAccessible\nTransferrable"
+  },
+  {
+    "objectID": "slides/202504_Berkeley.html#methodological-foundation-of-a-numerical-taxonomy-of-urban-form",
+    "href": "slides/202504_Berkeley.html#methodological-foundation-of-a-numerical-taxonomy-of-urban-form",
+    "title": "Urban science as a software",
+    "section": "Methodological foundation of a numerical taxonomy of urban form",
+    "text": "Methodological foundation of a numerical taxonomy of urban form\n\n\nFleischmann, M., Feliciotti, A., Romice, O., Porta, S., 2022. Methodological foundation of a numerical taxonomy of urban form. Environment and Planning B: Urban Analytics and City Science 49, 1283–1299. https://doi.org/10/gnth7q"
+  },
+  {
+    "objectID": "slides/202504_Berkeley.html#geographical-characterisation-of-british-urban-form-and-function-using-the-spatial-signatures-framework",
+    "href": "slides/202504_Berkeley.html#geographical-characterisation-of-british-urban-form-and-function-using-the-spatial-signatures-framework",
+    "title": "Urban science as a software",
+    "section": "Geographical characterisation of British urban form and function using the spatial signatures framework",
+    "text": "Geographical characterisation of British urban form and function using the spatial signatures framework\n\n\nFleischmann, M., Arribas-Bel, D., 2022. Geographical characterisation of British urban form and function using the spatial signatures framework. Sci Data 9, 546. https://doi.org/10.1038/s41597-022-01640-8"
+  },
+  {
+    "objectID": "slides/202504_Berkeley.html#understanding-urban-form---hierarchical-morphotope-classification-based-on-gradually-loosening-spatial-restrictions",
+    "href": "slides/202504_Berkeley.html#understanding-urban-form---hierarchical-morphotope-classification-based-on-gradually-loosening-spatial-restrictions",
+    "title": "Urban science as a software",
+    "section": "Understanding Urban Form - Hierarchical Morphotope Classification based on Gradually Loosening Spatial Restrictions",
+    "text": "Understanding Urban Form - Hierarchical Morphotope Classification based on Gradually Loosening Spatial Restrictions\n\n\nFleischmann, M., Samardzhiev, K., upcoming. Understanding Urban Form - Hierarchical Morphotope Classification based on Gradually Loosening Spatial Restrictions"
+  },
+  {
+    "objectID": "slides/202504_Berkeley.html#generic-framework-for-geographically-weighted-modelling",
+    "href": "slides/202504_Berkeley.html#generic-framework-for-geographically-weighted-modelling",
+    "title": "Urban science as a software",
+    "section": "Generic framework for geographically-weighted modelling",
+    "text": "Generic framework for geographically-weighted modelling\n\n\nFleischmann, M., Brazdova, A., Winkler, L., upcoming. Generic framework for geographically-weighted modelling"
+  },
+  {
+    "objectID": "slides/202504_Berkeley.html#release-early-release-often",
+    "href": "slides/202504_Berkeley.html#release-early-release-often",
+    "title": "Urban science as a software",
+    "section": "Release early, release often",
+    "text": "Release early, release often"
+  },
+  {
+    "objectID": "slides/202504_Berkeley.html#make-open-a-feature-not-a-bug",
+    "href": "slides/202504_Berkeley.html#make-open-a-feature-not-a-bug",
+    "title": "Urban science as a software",
+    "section": "Make open a feature, not a bug",
+    "text": "Make open a feature, not a bug"
+  },
+  {
+    "objectID": "slides/202504_Berkeley.html#do-what-is-best-not-what-system-wants",
+    "href": "slides/202504_Berkeley.html#do-what-is-best-not-what-system-wants",
+    "title": "Urban science as a software",
+    "section": "Do what is best, not what system wants",
+    "text": "Do what is best, not what system wants"
+  },
+  {
+    "objectID": "slides/202504_Berkeley.html#share-your-knowledge-it-is-a-way-to-achieve-immortality",
+    "href": "slides/202504_Berkeley.html#share-your-knowledge-it-is-a-way-to-achieve-immortality",
+    "title": "Urban science as a software",
+    "section": "Share your knowledge, it is a way to achieve immortality",
+    "text": "Share your knowledge, it is a way to achieve immortality\n(Dalai Lama)\n\n\n\n\nThank you! Contacts at martinfleischmann.net."
+  },
+  {
+    "objectID": "slides/202507_SDH.html#lets-talk-about-urban-morphometrics",
+    "href": "slides/202507_SDH.html#lets-talk-about-urban-morphometrics",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "Let’s talk about urban morphometrics",
+    "text": "Let’s talk about urban morphometrics"
+  },
+  {
+    "objectID": "slides/202507_SDH.html#what-is-urban-morphometrics",
+    "href": "slides/202507_SDH.html#what-is-urban-morphometrics",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "What is urban morphometrics",
+    "text": "What is urban morphometrics\n\n\nA study of urban form through the means of quantitative assessment of its constituent elements.\n\n\nConceptually similar to historico-geographical school of urban morphology.\nMethodologically embedded in spatial data science and geography."
+  },
+  {
+    "objectID": "slides/202507_SDH.html#morphometrics-in-2025",
+    "href": "slides/202507_SDH.html#morphometrics-in-2025",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "Morphometrics in 2025",
+    "text": "Morphometrics in 2025"
+  },
+  {
+    "objectID": "slides/202507_SDH.html#how",
+    "href": "slides/202507_SDH.html#how",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "How",
+    "text": "How"
+  },
+  {
+    "objectID": "slides/202507_SDH.html#flexible-definition-of-built-up-fabric",
+    "href": "slides/202507_SDH.html#flexible-definition-of-built-up-fabric",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "Flexible definition of built-up fabric",
+    "text": "Flexible definition of built-up fabric"
+  },
+  {
+    "objectID": "slides/202507_SDH.html#geography-and-urban-structure",
+    "href": "slides/202507_SDH.html#geography-and-urban-structure",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "Geography and urban structure",
+    "text": "Geography and urban structure"
+  },
+  {
+    "objectID": "slides/202507_SDH.html#spatial-clustering",
+    "href": "slides/202507_SDH.html#spatial-clustering",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "Spatial clustering",
+    "text": "Spatial clustering"
+  },
+  {
+    "objectID": "slides/202507_SDH.html#boundaries-of-impact",
+    "href": "slides/202507_SDH.html#boundaries-of-impact",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "Boundaries of impact",
+    "text": "Boundaries of impact"
+  },
+  {
+    "objectID": "slides/202507_SDH.html#urban-morphometrics-can-unpack-structure-of-built-environment",
+    "href": "slides/202507_SDH.html#urban-morphometrics-can-unpack-structure-of-built-environment",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "Urban morphometrics can unpack structure of built environment",
+    "text": "Urban morphometrics can unpack structure of built environment"
+  },
+  {
+    "objectID": "slides/202507_SDH.html#cities-of-today-embed-noticeable-layers-of-the-past",
+    "href": "slides/202507_SDH.html#cities-of-today-embed-noticeable-layers-of-the-past",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "Cities of today embed noticeable layers of the past",
+    "text": "Cities of today embed noticeable layers of the past"
+  },
+  {
+    "objectID": "slides/202507_SDH.html#even-when-they-do-not-manifest-in-architectural-style",
+    "href": "slides/202507_SDH.html#even-when-they-do-not-manifest-in-architectural-style",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "Even when they do not manifest in architectural style",
+    "text": "Even when they do not manifest in architectural style"
+  },
+  {
+    "objectID": "slides/202507_SDH.html#do-you-want-to-follow-up",
+    "href": "slides/202507_SDH.html#do-you-want-to-follow-up",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
     "section": "Do you want to follow up",
-    "text": "Do you want to follow up\n martin.fleischmann@natur.cuni.cz\n @martinfleis@fosstodon.org\n martinfleischmann.net"
+    "text": "Do you want to follow up\n uscuni.org/talks\n uscuni.org/himoc\n github.com/uscuni/urban_taxonomy\n martin.fleischmann@natur.cuni.cz\n martinfleischmann.net\n\n\n\n\nThe authors kindly acknowledge funding by the Charles University’s Primus programme through the project “Influence of Socioeconomic and Cultural Factors on Urban Structure in Central Europe”, project reference PRIMUS/24/SCI/023."
   },
   {
     "objectID": "slides/202504_GISRUK_simplification.html#manual-simplification",

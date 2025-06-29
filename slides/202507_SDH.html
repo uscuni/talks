@@ -6,12 +6,13 @@
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-d4d76bf8491c20bad77d141916dc28e1.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-d4d76bf8491c20bad77d141916dc28e1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.6.43">
 
-  <meta name="author" content="Waldo Tobler">
-  <meta name="dcterms.date" content="2025-06-29">
-  <title>Talks – Spatial Autocorrelation</title>
+  <meta name="author" content="Martin Fleischmann, Krasen Samardzhiev, Anna Brázdová, Daniela Dančejová, Lisa Winkler">
+  <title>Talks – Understanding cross-regional patterns of urban form using hierarchical morphotope classification</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -29,71 +30,6 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-    /* CSS for syntax highlighting */
-    pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { line-height: 1.25; }
-    pre > code.sourceCode > span:empty { height: 1.2em; }
-    .sourceCode { overflow: visible; }
-    code.sourceCode > span { color: inherit; text-decoration: inherit; }
-    div.sourceCode { margin: 1em 0; }
-    pre.sourceCode { margin: 0; }
-    @media screen {
-    div.sourceCode { overflow: auto; }
-    }
-    @media print {
-    pre > code.sourceCode { white-space: pre-wrap; }
-    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-    }
-    pre.numberSource code
-      { counter-reset: source-line 0; }
-    pre.numberSource code > span
-      { position: relative; left: -4em; counter-increment: source-line; }
-    pre.numberSource code > span > a:first-child::before
-      { content: counter(source-line);
-        position: relative; left: -1em; text-align: right; vertical-align: baseline;
-        border: none; display: inline-block;
-        -webkit-touch-callout: none; -webkit-user-select: none;
-        -khtml-user-select: none; -moz-user-select: none;
-        -ms-user-select: none; user-select: none;
-        padding: 0 4px; width: 4em;
-        color: #aaaaaa;
-      }
-    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-    div.sourceCode
-      { color: #003b4f; background-color: #f1f3f5; }
-    @media screen {
-    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-    }
-    code span { color: #003b4f; } /* Normal */
-    code span.al { color: #ad0000; } /* Alert */
-    code span.an { color: #5e5e5e; } /* Annotation */
-    code span.at { color: #657422; } /* Attribute */
-    code span.bn { color: #ad0000; } /* BaseN */
-    code span.bu { } /* BuiltIn */
-    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
-    code span.ch { color: #20794d; } /* Char */
-    code span.cn { color: #8f5902; } /* Constant */
-    code span.co { color: #5e5e5e; } /* Comment */
-    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
-    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
-    code span.dt { color: #ad0000; } /* DataType */
-    code span.dv { color: #ad0000; } /* DecVal */
-    code span.er { color: #ad0000; } /* Error */
-    code span.ex { } /* Extension */
-    code span.fl { color: #ad0000; } /* Float */
-    code span.fu { color: #4758ab; } /* Function */
-    code span.im { color: #00769e; } /* Import */
-    code span.in { color: #5e5e5e; } /* Information */
-    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
-    code span.op { color: #5e5e5e; } /* Operator */
-    code span.ot { color: #003b4f; } /* Other */
-    code span.pp { color: #ad0000; } /* Preprocessor */
-    code span.sc { color: #5e5e5e; } /* SpecialChar */
-    code span.ss { color: #20794d; } /* SpecialString */
-    code span.st { color: #20794d; } /* String */
-    code span.va { color: #111111; } /* Variable */
-    code span.vs { color: #20794d; } /* VerbatimString */
-    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-bcfa6dfeb4f2dc79f224f77deb3ae294.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -191,19 +127,23 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&amp;family=PT+Mono&amp;family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&amp;display=swap" rel="stylesheet">
+  <style>
+  #title-slide .title {
+      font-size: 50px;
+  }
+  </style>
 </head>
 <body class="quarto-light">
   <div class="reveal">
     <div class="slides">
 
 <section id="title-slide" data-background-image="../assets/full_logo.svg" data-background-position="50% 90%" data-background-size="20%" class="quarto-title-block center">
-  <h1 class="title">Spatial Autocorrelation</h1>
-  <p class="subtitle">Using Moran’s I to detect local clusters</p>
+  <h1 class="title">Understanding cross-regional patterns of urban form using hierarchical morphotope classification</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Waldo Tobler 
+Martin Fleischmann, Krasen Samardzhiev, Anna Brázdová, Daniela Dančejová, Lisa Winkler 
 </div>
         <p class="quarto-title-affiliation">
             Charles University
@@ -211,85 +151,208 @@ Waldo Tobler
     </div>
 </div>
 
-  <p class="date">2025-06-29</p>
 </section>
-<section>
-<section id="heading-level-1" class="title-slide slide level1 center">
-<h1>Heading level 1</h1>
-<p>Some text</p>
-</section>
-<section id="heading-level-2" class="slide level2">
-<h2>Heading level 2</h2>
-<p>Another text</p>
-<p><span class="fragment">Fragment</span></p>
+<section id="lets-talk-about-urban-morphometrics" class="slide level2">
+<h2>Let’s talk about urban morphometrics</h2>
 </section>
 <section class="slide level2">
 
-<div class="r-fit-text absolute" style="top: 39%; ">
-<p>text that fills slide</p>
+<p><img data-src="../figures/202410_Nanjing/morphometrics_conzen.png"></p>
+
+<aside><div>
+<p>excerpt from Larkham and Jones, 1991</p>
+</div></aside></section>
+<section id="what-is-urban-morphometrics" class="slide level2 question">
+<h2>What is urban morphometrics</h2>
+<div class="fragment">
+<blockquote>
+<p>A study of urban form through the means of quantitative assessment of its constituent elements.</p>
+</blockquote>
+</div>
+<p><span class="fragment">Conceptually similar to historico-geographical school of urban morphology.</span></p>
+<p><span class="fragment">Methodologically embedded in spatial data science and geography.</span></p>
+</section>
+<section id="morphometrics-in-2025" class="slide level2">
+<h2>Morphometrics in 2025</h2>
+</section>
+<section class="slide level2">
+
+<div class="r-fit-text absolute" style="top: 5%; ">
+<p>availability of data</p>
+</div>
+<div class="r-fit-text absolute fragment" style="top: 25%; ">
+<p>evolution of software</p>
+</div>
+<div class="r-fit-text absolute fragment" style="top: 40%; ">
+<p>performance</p>
+</div>
+<div class="r-fit-text absolute fragment" style="top: 75%; ">
+<p>automatised pre-processing</p>
+</div>
+</section>
+<section class="slide level2">
+
+<div class="r-fit-text absolute" style="top: 30%; ">
+<p>all that pushes the limits of scalability</p>
+</div>
+<div class="r-fit-text absolute fragment" style="top: 50%; ">
+<p>scalable urban morphometrics</p>
+</div>
+</section>
+<section id="how" class="slide level2 question">
+<h2>How</h2>
+</section>
+<section class="slide level2">
+
+<p><img data-src="../figures/202506_ISUF/morphotope_diagram.png"></p>
+
+<aside><div>
+<p>Diagram illustrating a procedure to derive morphotopes using Spatial Adaptive Agglomerative Aggregation (<span class="math inline">\(SA^3\)</span>)</p>
+</div></aside></section>
+<section class="slide level2">
+
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../figures/202506_ISUF/characters.png" class="quarto-figure quarto-figure-center" style="width:75.0%"></p>
+</figure>
 </div>
 
 <aside><div>
-<p>Note</p>
+<p>5 out of 54 morphometric characters illustrated on the Prague City Centre</p>
 </div></aside></section>
-<section id="this-will-be-vertically-centered" class="slide level2 center">
-<h2>This will be vertically centered</h2>
-<p>This text is moved as well</p>
-</section>
-<section id="heading-that-is-a-question" class="slide level2 question">
-<h2>Heading that is a question</h2>
-<p>Another text with footnote<sup>1</sup></p>
-<div class="fragment fade-in">
-<p>Fragment block</p>
-</div>
-<aside><ol class="aside-footnotes"><li id="fn1"><p>My footnote.</p></li></ol></aside></section>
 <section class="slide level2">
 
-<h3 id="code-block">Code block</h3>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a>elections <span class="op">=</span> gpd.read_file(</span>
-<span id="cb1-2"><a></a>    <span class="st">"https://martinfleischmann.net/sds/chapter_05/data/cz_elections_2023.gpkg"</span></span>
-<span id="cb1-3"><a></a>)</span>
-<span id="cb1-4"><a></a>elections <span class="op">=</span> elections.set_index(<span class="st">"name"</span>)</span>
-<span id="cb1-5"><a></a>elections.explore(</span>
-<span id="cb1-6"><a></a>    <span class="st">"PetrPavel"</span>,</span>
-<span id="cb1-7"><a></a>    cmap<span class="op">=</span><span class="st">"coolwarm"</span>,</span>
-<span id="cb1-8"><a></a>    vmin<span class="op">=</span><span class="dv">0</span>,</span>
-<span id="cb1-9"><a></a>    vmax<span class="op">=</span><span class="dv">100</span>,</span>
-<span id="cb1-10"><a></a>    prefer_canvas<span class="op">=</span><span class="va">True</span>,</span>
-<span id="cb1-11"><a></a>    tiles<span class="op">=</span><span class="st">"CartoDB Positron"</span>,</span>
-<span id="cb1-12"><a></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../figures/202506_ISUF/morphotopes.png" class="quarto-figure quarto-figure-center" style="width:65.0%"></p>
+</figure>
+</div>
+
+<aside><div>
+<p>Morphotope delineation illustrated on the Prague City Centre</p>
+</div></aside></section>
+<section id="flexible-definition-of-built-up-fabric" class="slide level2">
+<h2>Flexible definition of built-up fabric</h2>
 </section>
-<section id="inline-code" class="slide level2">
-<h2>Inline code</h2>
-<p>Text with <code>libpysal.graph.Graph</code> inline.</p>
-</section>
-<section id="slide-with-an-image" class="slide level2">
-<h2>Slide with an image</h2>
-<p>Set height</p>
-<p><img data-src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Waldo_Tobler_2007.jpg" height="200"></p>
-</section>
-<section id="slide-with-an-image-1" class="slide level2">
-<h2>Slide with an image</h2>
-<img data-src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Waldo_Tobler_2007.jpg" class="r-stretch">
-<p>Automatically stretched to fill remaining space</p>
-</section>
-<section id="slide-with-image-as-background" class="slide level2" data-background-image="../assets/full_logo.svg">
-<h2>Slide with image as background</h2>
-</section>
-<section id="section" class="slide level2 no-text" data-background-image="../assets/full_logo.svg" data-background-size="contain">
+<section class="slide level2">
+
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../figures/202506_ISUF/taxonomy_diagram.png" class="quarto-figure quarto-figure-center" style="width:90.0%"></p>
+</figure>
+</div>
+
+<aside><div>
+<p>Diagram illustrating a procedure to derive Hierarchical Morphotope Classification (HiMoC)</p>
+</div></aside></section>
+<section id="section" class="slide level2 no-text" data-background-image="../figures/202506_ISUF/taxonomy.png" data-background-size="contain">
 <h2></h2>
 </section>
-<section id="slide-with-iframe-background" class="slide level2" data-background-iframe="http://martinfleischmann.net/numerical-taxonomy-maps/prg.html">
-<h2>Slide with iframe background</h2>
-</section></section>
-<section id="see-docs-for-more" class="title-slide slide level1 center">
-<h1>See docs for more</h1>
-<p><a href="https://quarto.org/docs/presentations/revealjs/">https://quarto.org/docs/presentations/revealjs/</a></p>
+<section id="section-1" class="slide level2 no-text" data-background-image="../figures/202506_ISUF/map.gif" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="geography-and-urban-structure" class="slide level2">
+<h2>Geography and urban structure</h2>
+</section>
+<section class="slide level2">
 
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../figures/202506_ISUF/fuas.png" class="quarto-figure quarto-figure-center" style="width:90.0%"></p>
+</figure>
+</div>
+
+<aside><div>
+<p>Functional Urban Areas used to sample from the classification</p>
+</div></aside></section>
+<section class="slide level2">
+
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../figures/202506_ISUF/fua_prg.png" class="quarto-figure quarto-figure-center" style="width:65.0%"></p>
+</figure>
+</div>
+
+<aside><div>
+<p>Functional Urban Area of Prague</p>
+</div></aside></section>
+<section class="slide level2">
+
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../figures/202506_ISUF/pca.png" class="quarto-figure quarto-figure-center" style="width:60.0%"></p>
+</figure>
+</div>
+
+<aside><div>
+<p>Projection of FUAs into 2 dimensions (PCA 1 x PCA 2) based on their morphological composition</p>
+</div></aside></section>
+<section class="slide level2">
+
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../figures/202506_ISUF/pca3.png" class="quarto-figure quarto-figure-center" style="width:60.0%"></p>
+</figure>
+</div>
+
+<aside><div>
+<p>Projection of FUAs into 2 dimensions (PCA 1 x PCA 3) based on their morphological composition</p>
+</div></aside></section>
+<section id="spatial-clustering" class="slide level2">
+<h2>Spatial clustering</h2>
+</section>
+<section class="slide level2">
+
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../figures/202506_ISUF/synthetic.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+
+<aside><div>
+<p>Strength of the synthetic boundary in distinguishing morphology of regions</p>
+</div></aside></section>
+<section id="boundaries-of-impact" class="slide level2">
+<h2>Boundaries of impact</h2>
+</section>
+<section class="slide level2">
+
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../figures/202506_ISUF/boundaries.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+
+<aside><div>
+<p>Strength of the historical boundary in distinguishing morphology of regions</p>
+</div></aside></section>
+<section>
+<section id="take-home-points" class="title-slide slide level1 center">
+<h1>Take home points</h1>
 
 </section>
+<section id="urban-morphometrics-can-unpack-structure-of-built-environment" class="slide level2">
+<h2>Urban morphometrics can unpack structure of built environment</h2>
+</section>
+<section id="cities-of-today-embed-noticeable-layers-of-the-past" class="slide level2">
+<h2>Cities of today embed noticeable layers of the past</h2>
+</section>
+<section id="even-when-they-do-not-manifest-in-architectural-style" class="slide level2">
+<h2>Even when they do not manifest in architectural style</h2>
+</section>
+<section id="do-you-want-to-follow-up" class="slide level2 question">
+<h2>Do you want to follow up</h2>
+<p><a href="https://uscuni.org/talks/slides/202506_ISUF/"><i class="fa-solid fa-person-chalkboard" aria-label="person-chalkboard"></i></a> uscuni.org/talks</p>
+<p><a href="https://uscuni.org/himoc"><i class="fa-solid fa-map" aria-label="map"></i></a> uscuni.org/himoc</p>
+<p><a href="https://github.com/uscuni/urban_taxonomy"><i class="fa-solid fa-code" aria-label="code"></i></a> github.com/uscuni/urban_taxonomy</p>
+<p><a href="mailto:martin.fleischmann@natur.cuni.cz"><i class="fa-regular fa-envelope" aria-label="envelope"></i></a> martin.fleischmann@natur.cuni.cz</p>
+<p><a href="https://martinfleischmann.net"><i class="fa-regular fa-user" aria-label="user"></i></a> martinfleischmann.net</p>
 
 
+
+<aside><div>
+<p>The authors kindly acknowledge funding by the Charles University’s Primus programme through the project “Influence of Socioeconomic and Cultural Factors on Urban Structure in Central Europe”, project reference <code>PRIMUS/24/SCI/023</code>.</p>
+</div></aside></section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <p><img src="../assets/icon.svg" class="slide-logo"></p>
@@ -452,7 +515,7 @@ Waldo Tobler
         previewLinks: false,
 
         // Transition style (none/fade/slide/convex/concave/zoom)
-        transition: 'slide',
+        transition: 'fade',
 
         // Transition speed (default/fast/slow)
         transitionSpeed: 'default',
@@ -478,6 +541,8 @@ Waldo Tobler
 
         // Factor of the display size that should remain empty around the content
         margin: 0.1,
+
+        maxScale: 10,
 
         math: {
           mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
