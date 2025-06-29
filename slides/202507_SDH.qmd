@@ -1,0 +1,211 @@
+---
+title: "Understanding cross-regional patterns of urban form using hierarchical morphotope classification"
+author: "Martin Fleischmann, Krasen Samardzhiev, Anna Brázdová, Daniela Dančejová, Lisa Winkler"
+institute: "Charles University"
+format:
+    revealjs:
+        theme: [default, ../assets/reveal.scss]
+        logo: ../assets/icon.svg
+        menu: false
+        transition: fade
+        navigation-mode: linear
+        controls-layout: edges
+        progress: true
+        include-in-header:
+            - ../assets/font.html
+            - text: |
+                <style>
+                #title-slide .title {
+                    font-size: 50px;
+                }
+                </style>
+        title-slide-attributes:
+            data-background-image: ../assets/full_logo.svg
+            data-background-size: 20%
+            data-background-position: 50% 90%
+        max-scale: 10
+---
+
+
+## Let's talk about urban morphometrics
+
+---
+
+![](../figures/202410_Nanjing/morphometrics_conzen.png)
+
+::: aside
+excerpt from Larkham and Jones, 1991
+:::
+
+## What is urban morphometrics {.question}
+
+::: {.fragment}
+> A study of urban form through the means of quantitative assessment of its constituent elements.
+:::
+
+[Conceptually similar to historico-geographical school of urban morphology.]{.fragment}
+
+[Methodologically embedded in spatial data science and geography.]{.fragment}
+
+## Morphometrics in 2025
+
+---
+
+::: {.r-fit-text .absolute top=5%}
+availability of data
+:::
+
+::: {.r-fit-text .absolute top=25% .fragment}
+evolution of software
+:::
+
+::: {.r-fit-text .absolute top=40% .fragment}
+performance
+:::
+
+::: {.r-fit-text .absolute top=75% .fragment}
+automatised pre-processing
+:::
+
+---
+
+::: {.r-fit-text .absolute top=30%}
+all that pushes the limits of scalability
+:::
+
+::: {.r-fit-text .absolute top=50% .fragment}
+scalable urban morphometrics
+:::
+
+---
+
+## How {.question}
+
+---
+
+![](../figures/202506_ISUF/morphotope_diagram.png)
+
+::: aside
+Diagram illustrating a procedure to derive morphotopes using Spatial Adaptive Agglomerative Aggregation ($SA^3$)
+:::
+
+---
+
+
+![](../figures/202506_ISUF/characters.png){fig-align="center" width=75%}
+
+::: aside
+5 out of 54 morphometric characters illustrated on the Prague City Centre
+:::
+
+
+---
+
+![](../figures/202506_ISUF/morphotopes.png){fig-align="center" width=65%}
+
+::: aside
+Morphotope delineation illustrated on the Prague City Centre
+:::
+
+---
+
+## Flexible definition of built-up fabric
+
+---
+
+![](../figures/202506_ISUF/taxonomy_diagram.png){fig-align="center" width=90%}
+
+::: aside
+Diagram illustrating a procedure to derive Hierarchical Morphotope Classification (HiMoC)
+:::
+
+---
+
+## {background-image="../figures/202506_ISUF/taxonomy.png" background-size="contain" .no-text}
+
+---
+
+## {background-image="../figures/202506_ISUF/map.gif" background-size="contain" .no-text}
+
+
+---
+
+## Geography and urban structure
+
+---
+
+![](../figures/202506_ISUF/fuas.png){fig-align="center" width=90%}
+
+::: aside
+Functional Urban Areas used to sample from the classification
+:::
+
+
+---
+
+![](../figures/202506_ISUF/fua_prg.png){fig-align="center" width=65%}
+
+::: aside
+Functional Urban Area of Prague
+:::
+
+---
+
+![](../figures/202506_ISUF/pca.png){fig-align="center" width=60%}
+
+::: aside
+Projection of FUAs into 2 dimensions (PCA 1 x PCA 2) based on their morphological composition
+:::
+
+---
+
+![](../figures/202506_ISUF/pca3.png){fig-align="center" width=60%}
+
+::: aside
+Projection of FUAs into 2 dimensions (PCA 1 x PCA 3) based on their morphological composition
+:::
+
+## Spatial clustering
+
+---
+
+![](../figures/202506_ISUF/synthetic.png){fig-align="center"}
+
+::: aside
+Strength of the synthetic boundary in distinguishing morphology of regions
+:::
+
+## Boundaries of impact
+
+---
+
+![](../figures/202506_ISUF/boundaries.png){fig-align="center"}
+
+::: aside
+Strength of the historical boundary in distinguishing morphology of regions
+:::
+
+
+# Take home points
+
+## Urban morphometrics can unpack structure of built environment
+## Cities of today embed noticeable layers of the past
+## Even when they do not manifest in architectural style
+
+---
+
+## Do you want to follow up {.question}
+
+[{{< fa solid person-chalkboard >}}](https://uscuni.org/talks/slides/202506_ISUF/) uscuni.org/talks
+
+[{{< fa solid map >}}](https://uscuni.org/himoc) uscuni.org/himoc
+
+[{{< fa solid code >}}](https://github.com/uscuni/urban_taxonomy) github.com/uscuni/urban_taxonomy
+
+[{{< fa regular envelope >}}](mailto:martin.fleischmann@natur.cuni.cz) martin.fleischmann@natur.cuni.cz
+
+[{{< fa regular user >}}](https://martinfleischmann.net) martinfleischmann.net
+
+::: aside
+The authors kindly acknowledge funding by the Charles University’s Primus programme through the project "Influence of Socioeconomic and Cultural Factors on Urban Structure in Central Europe", project reference `PRIMUS/24/SCI/023`.
+:::
