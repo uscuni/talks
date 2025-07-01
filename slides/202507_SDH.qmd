@@ -77,17 +77,8 @@ all that pushes the limits of scalability
 scalable urban morphometrics
 :::
 
----
 
-## How {.question}
-
----
-
-![](../figures/202506_ISUF/morphotope_diagram.png)
-
-::: aside
-Diagram illustrating a procedure to derive morphotopes using Spatial Adaptive Agglomerative Aggregation ($SA^3$)
-:::
+## How does it look like {.question}
 
 ---
 
@@ -98,6 +89,15 @@ Diagram illustrating a procedure to derive morphotopes using Spatial Adaptive Ag
 5 out of 54 morphometric characters illustrated on the Prague City Centre
 :::
 
+## Why {.question}
+
+---
+
+![](../figures/202506_ISUF/morphotope_diagram.png)
+
+::: aside
+Diagram illustrating a procedure to derive morphotopes using Spatial Adaptive Agglomerative Aggregation ($SA^3$)
+:::
 
 ---
 
