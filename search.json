@@ -1,17 +1,94 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Talks",
-    "section": "",
-    "text": "Archive of talks of the US CUNI team."
+    "objectID": "slides/202507_SDH.html#lets-talk-about-urban-morphometrics",
+    "href": "slides/202507_SDH.html#lets-talk-about-urban-morphometrics",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "Let’s talk about urban morphometrics",
+    "text": "Let’s talk about urban morphometrics"
   },
   {
-    "objectID": "index.html#list-of-talks",
-    "href": "index.html#list-of-talks",
-    "title": "Talks",
-    "section": "List of talks",
-    "text": "List of talks\n\n2025-07-01 SDH\n2025-06-19 ISUF\n2025-05-16 Twin2Expand\n2025-04-24 GISRUK 2025 (Urban form and population), Bristol\n2025-04-24 GISRUK 2025 (Taxonomy), Bristol\n2025-04-24 GISRUK 2025 (Simplification), Bristol\n2025-04-14 University of California, Berkeley\n2024-10-29 International Seminar on Urban Morpho-Science\n2024-09-18 Spatial Data Science across Languages\n2024-09-12 City Transitions Saarbrücken\n2024-06-07 EuroFab project Kick-Off meeting\n2024-05-16 Open Source Science Meetup Prague"
+    "objectID": "slides/202507_SDH.html#what-is-urban-morphometrics",
+    "href": "slides/202507_SDH.html#what-is-urban-morphometrics",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "What is urban morphometrics",
+    "text": "What is urban morphometrics\n\n\nA study of urban form through the means of quantitative assessment of its constituent elements.\n\n\nConceptually similar to historico-geographical school of urban morphology.\nMethodologically embedded in spatial data science and geography."
+  },
+  {
+    "objectID": "slides/202507_SDH.html#morphometrics-in-2025",
+    "href": "slides/202507_SDH.html#morphometrics-in-2025",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "Morphometrics in 2025",
+    "text": "Morphometrics in 2025"
+  },
+  {
+    "objectID": "slides/202507_SDH.html#how-does-it-look-like",
+    "href": "slides/202507_SDH.html#how-does-it-look-like",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "How does it look like",
+    "text": "How does it look like"
+  },
+  {
+    "objectID": "slides/202507_SDH.html#why",
+    "href": "slides/202507_SDH.html#why",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "Why",
+    "text": "Why"
+  },
+  {
+    "objectID": "slides/202507_SDH.html#flexible-definition-of-built-up-fabric",
+    "href": "slides/202507_SDH.html#flexible-definition-of-built-up-fabric",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "Flexible definition of built-up fabric",
+    "text": "Flexible definition of built-up fabric"
+  },
+  {
+    "objectID": "slides/202507_SDH.html#geography-and-urban-structure",
+    "href": "slides/202507_SDH.html#geography-and-urban-structure",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "Geography and urban structure",
+    "text": "Geography and urban structure"
+  },
+  {
+    "objectID": "slides/202507_SDH.html#spatial-clustering",
+    "href": "slides/202507_SDH.html#spatial-clustering",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "Spatial clustering",
+    "text": "Spatial clustering"
+  },
+  {
+    "objectID": "slides/202507_SDH.html#boundaries-of-impact",
+    "href": "slides/202507_SDH.html#boundaries-of-impact",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "Boundaries of impact",
+    "text": "Boundaries of impact"
+  },
+  {
+    "objectID": "slides/202507_SDH.html#urban-morphometrics-can-unpack-structure-of-built-environment",
+    "href": "slides/202507_SDH.html#urban-morphometrics-can-unpack-structure-of-built-environment",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "Urban morphometrics can unpack structure of built environment",
+    "text": "Urban morphometrics can unpack structure of built environment"
+  },
+  {
+    "objectID": "slides/202507_SDH.html#cities-of-today-embed-noticeable-layers-of-the-past",
+    "href": "slides/202507_SDH.html#cities-of-today-embed-noticeable-layers-of-the-past",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "Cities of today embed noticeable layers of the past",
+    "text": "Cities of today embed noticeable layers of the past"
+  },
+  {
+    "objectID": "slides/202507_SDH.html#even-when-they-do-not-manifest-in-architectural-style",
+    "href": "slides/202507_SDH.html#even-when-they-do-not-manifest-in-architectural-style",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "Even when they do not manifest in architectural style",
+    "text": "Even when they do not manifest in architectural style"
+  },
+  {
+    "objectID": "slides/202507_SDH.html#do-you-want-to-follow-up",
+    "href": "slides/202507_SDH.html#do-you-want-to-follow-up",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "Do you want to follow up",
+    "text": "Do you want to follow up\n uscuni.org/talks\n uscuni.org/himoc\n github.com/uscuni/urban_taxonomy\n martin.fleischmann@natur.cuni.cz\n martinfleischmann.net\n\n\n\n\nThe authors kindly acknowledge funding by the Charles University’s Primus programme through the project “Influence of Socioeconomic and Cultural Factors on Urban Structure in Central Europe”, project reference PRIMUS/24/SCI/023."
   },
   {
     "objectID": "slides/202406_EuroFab_KO.html#why-urban-fabric",
@@ -110,111 +187,6 @@
     "title": "EuroFab",
     "section": "Milestones",
     "text": "Milestones\n\n\nProgress (MS 1), KO + 6 months\nFinal (MS 2), KO + 12 months"
-  },
-  {
-    "objectID": "slides/202506_ISUF.html#what-is-urban-morphometrics",
-    "href": "slides/202506_ISUF.html#what-is-urban-morphometrics",
-    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
-    "section": "What is urban morphometrics",
-    "text": "What is urban morphometrics"
-  },
-  {
-    "objectID": "slides/202506_ISUF.html#what-is-urban-morphometrics-1",
-    "href": "slides/202506_ISUF.html#what-is-urban-morphometrics-1",
-    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
-    "section": "What is urban morphometrics",
-    "text": "What is urban morphometrics\n\n\nA study of urban form through the means of quantitative assessment of its constituent elements.\n\n\nConceptually similar to historico-geographical approach.\nMethodologically embedded in spatial data science and geography."
-  },
-  {
-    "objectID": "slides/202506_ISUF.html#morphometrics-in-2025",
-    "href": "slides/202506_ISUF.html#morphometrics-in-2025",
-    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
-    "section": "Morphometrics in 2025",
-    "text": "Morphometrics in 2025"
-  },
-  {
-    "objectID": "slides/202506_ISUF.html#idea-of-a-morphotope",
-    "href": "slides/202506_ISUF.html#idea-of-a-morphotope",
-    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
-    "section": "Idea of a morphotope",
-    "text": "Idea of a morphotope\n\n\n\nexcerpt from Larkham and Jones, 1991"
-  },
-  {
-    "objectID": "slides/202506_ISUF.html#how-to-capture-it",
-    "href": "slides/202506_ISUF.html#how-to-capture-it",
-    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
-    "section": "How to capture it",
-    "text": "How to capture it"
-  },
-  {
-    "objectID": "slides/202506_ISUF.html#flexible-definition-of-built-up-fabric",
-    "href": "slides/202506_ISUF.html#flexible-definition-of-built-up-fabric",
-    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
-    "section": "Flexible definition of built-up fabric",
-    "text": "Flexible definition of built-up fabric"
-  },
-  {
-    "objectID": "slides/202506_ISUF.html#section-1",
-    "href": "slides/202506_ISUF.html#section-1",
-    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
-    "section": "",
-    "text": "Illustration of different levels of the hierarchy."
-  },
-  {
-    "objectID": "slides/202506_ISUF.html#geography-and-urban-structure",
-    "href": "slides/202506_ISUF.html#geography-and-urban-structure",
-    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
-    "section": "Geography and urban structure",
-    "text": "Geography and urban structure"
-  },
-  {
-    "objectID": "slides/202506_ISUF.html#spatial-clustering",
-    "href": "slides/202506_ISUF.html#spatial-clustering",
-    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
-    "section": "Spatial clustering",
-    "text": "Spatial clustering"
-  },
-  {
-    "objectID": "slides/202506_ISUF.html#boundaries-of-impact",
-    "href": "slides/202506_ISUF.html#boundaries-of-impact",
-    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
-    "section": "Boundaries of impact",
-    "text": "Boundaries of impact"
-  },
-  {
-    "objectID": "slides/202506_ISUF.html#times-have-changed.-methods-have-changed.-concepts-those-only-evolved",
-    "href": "slides/202506_ISUF.html#times-have-changed.-methods-have-changed.-concepts-those-only-evolved",
-    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
-    "section": "Times have changed. Methods have changed. Concepts? Those only evolved",
-    "text": "Times have changed. Methods have changed. Concepts? Those only evolved"
-  },
-  {
-    "objectID": "slides/202506_ISUF.html#urban-morphology-can-be-deeply-embedded-in-spatial-data-science",
-    "href": "slides/202506_ISUF.html#urban-morphology-can-be-deeply-embedded-in-spatial-data-science",
-    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
-    "section": "Urban morphology can be deeply embedded in spatial data science",
-    "text": "Urban morphology can be deeply embedded in spatial data science"
-  },
-  {
-    "objectID": "slides/202506_ISUF.html#urban-morphometrics-can-support-quantitative-studies-done-at-scale",
-    "href": "slides/202506_ISUF.html#urban-morphometrics-can-support-quantitative-studies-done-at-scale",
-    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
-    "section": "Urban morphometrics can support quantitative studies done at scale",
-    "text": "Urban morphometrics can support quantitative studies done at scale"
-  },
-  {
-    "objectID": "slides/202506_ISUF.html#we-can-ask-questions-like-never-before",
-    "href": "slides/202506_ISUF.html#we-can-ask-questions-like-never-before",
-    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
-    "section": "We can ask questions like never before",
-    "text": "We can ask questions like never before"
-  },
-  {
-    "objectID": "slides/202506_ISUF.html#do-you-want-to-follow-up",
-    "href": "slides/202506_ISUF.html#do-you-want-to-follow-up",
-    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
-    "section": "Do you want to follow up",
-    "text": "Do you want to follow up\n uscuni.org/talks\n uscuni.org/himoc\n github.com/uscuni/urban_taxonomy\n martin.fleischmann@natur.cuni.cz\n martinfleischmann.net\n\n\n\n\nThe authors kindly acknowledge funding by the Charles University’s Primus programme through the project “Influence of Socioeconomic and Cultural Factors on Urban Structure in Central Europe”, project reference PRIMUS/24/SCI/023."
   },
   {
     "objectID": "slides/202505_T2X.html#developing-reproducible-computational-research",
@@ -586,6 +558,27 @@
     "title": "From a building to a region",
     "section": "Do you want to follow up",
     "text": "Do you want to follow up\n martin.fleischmann@natur.cuni.cz\n @martinfleis@fosstodon.org\n martinfleischmann.net"
+  },
+  {
+    "objectID": "slides/202409_SDSL.html#section",
+    "href": "slides/202409_SDSL.html#section",
+    "title": "Spatial Data Science across Languages",
+    "section": "",
+    "text": "Vinohrady Brewery"
+  },
+  {
+    "objectID": "slides/202409_SDSL.html#personal-reflections",
+    "href": "slides/202409_SDSL.html#personal-reflections",
+    "title": "Spatial Data Science across Languages",
+    "section": "Personal reflections",
+    "text": "Personal reflections"
+  },
+  {
+    "objectID": "slides/202409_SDSL.html#working-paper",
+    "href": "slides/202409_SDSL.html#working-paper",
+    "title": "Spatial Data Science across Languages",
+    "section": "Working paper",
+    "text": "Working paper"
   },
   {
     "objectID": "slides/202409_Saarbrucken.html#methods-of-analysis",
@@ -1071,6 +1064,342 @@
     "text": "Do you want to follow up\n martin.fleischmann@natur.cuni.cz\n @martinfleis\n @martinfleis@fosstodon.org\n martinfleischmann.net"
   },
   {
+    "objectID": "slides/202504_GISRUK_simplification.html#manual-simplification",
+    "href": "slides/202504_GISRUK_simplification.html#manual-simplification",
+    "title": "Adaptive continuity-preserving simplification of street networks",
+    "section": "Manual simplification",
+    "text": "Manual simplification"
+  },
+  {
+    "objectID": "slides/202504_GISRUK_simplification.html#five-requirements",
+    "href": "slides/202504_GISRUK_simplification.html#five-requirements",
+    "title": "Adaptive continuity-preserving simplification of street networks",
+    "section": "Five requirements",
+    "text": "Five requirements\n\nopen-source\nfully automated\nattribute-agnostic\ncase-agnostic\nfully packaged"
+  },
+  {
+    "objectID": "slides/202504_GISRUK_simplification.html#what-do-you-mean-by-continuity-preserving",
+    "href": "slides/202504_GISRUK_simplification.html#what-do-you-mean-by-continuity-preserving",
+    "title": "Adaptive continuity-preserving simplification of street networks",
+    "section": "What do you mean by “continuity-preserving”",
+    "text": "What do you mean by “continuity-preserving”"
+  },
+  {
+    "objectID": "slides/202504_GISRUK_simplification.html#face-artifact-detection",
+    "href": "slides/202504_GISRUK_simplification.html#face-artifact-detection",
+    "title": "Adaptive continuity-preserving simplification of street networks",
+    "section": "Face artifact detection",
+    "text": "Face artifact detection"
+  },
+  {
+    "objectID": "slides/202504_GISRUK_simplification.html#artifact-classification",
+    "href": "slides/202504_GISRUK_simplification.html#artifact-classification",
+    "title": "Adaptive continuity-preserving simplification of street networks",
+    "section": "Artifact classification",
+    "text": "Artifact classification\n\nartifact polygon contiguity\n\nisolates\npairs\nclusters\n\nnetwork continuity"
+  },
+  {
+    "objectID": "slides/202504_GISRUK_simplification.html#how-close-are-we-to-the-manually-simplified-network",
+    "href": "slides/202504_GISRUK_simplification.html#how-close-are-we-to-the-manually-simplified-network",
+    "title": "Adaptive continuity-preserving simplification of street networks",
+    "section": "How close are we to the manually simplified network",
+    "text": "How close are we to the manually simplified network"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Talks",
+    "section": "",
+    "text": "Archive of talks of the US CUNI team."
+  },
+  {
+    "objectID": "index.html#list-of-talks",
+    "href": "index.html#list-of-talks",
+    "title": "Talks",
+    "section": "List of talks",
+    "text": "List of talks\n\n2025-10-02 Urban Evo Devo\n2025-07-01 SDH\n2025-06-19 ISUF\n2025-05-16 Twin2Expand\n2025-04-24 GISRUK 2025 (Urban form and population), Bristol\n2025-04-24 GISRUK 2025 (Taxonomy), Bristol\n2025-04-24 GISRUK 2025 (Simplification), Bristol\n2025-04-14 University of California, Berkeley\n2024-10-29 International Seminar on Urban Morpho-Science\n2024-09-18 Spatial Data Science across Languages\n2024-09-12 City Transitions Saarbrücken\n2024-06-07 EuroFab project Kick-Off meeting\n2024-05-16 Open Source Science Meetup Prague"
+  },
+  {
+    "objectID": "slides/202510_Evo_devo.html#what-is-urban-morphometrics",
+    "href": "slides/202510_Evo_devo.html#what-is-urban-morphometrics",
+    "title": "Urban morphometrics",
+    "section": "What is urban morphometrics",
+    "text": "What is urban morphometrics"
+  },
+  {
+    "objectID": "slides/202510_Evo_devo.html#what-is-urban-morphometrics-1",
+    "href": "slides/202510_Evo_devo.html#what-is-urban-morphometrics-1",
+    "title": "Urban morphometrics",
+    "section": "What is urban morphometrics",
+    "text": "What is urban morphometrics\n\n\n\nexcerpt from Larkham and Jones, 1991"
+  },
+  {
+    "objectID": "slides/202510_Evo_devo.html#what-is-urban-morphometrics-2",
+    "href": "slides/202510_Evo_devo.html#what-is-urban-morphometrics-2",
+    "title": "Urban morphometrics",
+    "section": "What is urban morphometrics",
+    "text": "What is urban morphometrics\n\n\nA study of urban form through the means of quantitative assessment of its constituent elements.\n\n\nConceptually similar to historico-geographical approach.\nMethodologically embedded in spatial data science and geography."
+  },
+  {
+    "objectID": "slides/202510_Evo_devo.html#fundamental-elements-of-urban-form",
+    "href": "slides/202510_Evo_devo.html#fundamental-elements-of-urban-form",
+    "title": "Urban morphometrics",
+    "section": "Fundamental elements of urban form",
+    "text": "Fundamental elements of urban form\n\nbuildings"
+  },
+  {
+    "objectID": "slides/202510_Evo_devo.html#section",
+    "href": "slides/202510_Evo_devo.html#section",
+    "title": "Urban morphometrics",
+    "section": "",
+    "text": "Building layer representing a portion of Prague."
+  },
+  {
+    "objectID": "slides/202510_Evo_devo.html#fundamental-elements-of-urban-form-1",
+    "href": "slides/202510_Evo_devo.html#fundamental-elements-of-urban-form-1",
+    "title": "Urban morphometrics",
+    "section": "Fundamental elements of urban form",
+    "text": "Fundamental elements of urban form\nbuildings\nstreets"
+  },
+  {
+    "objectID": "slides/202510_Evo_devo.html#section-1",
+    "href": "slides/202510_Evo_devo.html#section-1",
+    "title": "Urban morphometrics",
+    "section": "",
+    "text": "Street layer representing a portion of Prague."
+  },
+  {
+    "objectID": "slides/202510_Evo_devo.html#fundamental-elements-of-urban-form-2",
+    "href": "slides/202510_Evo_devo.html#fundamental-elements-of-urban-form-2",
+    "title": "Urban morphometrics",
+    "section": "Fundamental elements of urban form",
+    "text": "Fundamental elements of urban form\nbuildings\nstreets\nplots"
+  },
+  {
+    "objectID": "slides/202510_Evo_devo.html#section-2",
+    "href": "slides/202510_Evo_devo.html#section-2",
+    "title": "Urban morphometrics",
+    "section": "",
+    "text": "Plot layer representing a portion of Prague."
+  },
+  {
+    "objectID": "slides/202510_Evo_devo.html#what-can-we-learn-about-a-building",
+    "href": "slides/202510_Evo_devo.html#what-can-we-learn-about-a-building",
+    "title": "Urban morphometrics",
+    "section": "What can we learn about a building",
+    "text": "What can we learn about a building"
+  },
+  {
+    "objectID": "slides/202510_Evo_devo.html#section-3",
+    "href": "slides/202510_Evo_devo.html#section-3",
+    "title": "Urban morphometrics",
+    "section": "",
+    "text": "What can we learn about a building?"
+  },
+  {
+    "objectID": "slides/202510_Evo_devo.html#section-4",
+    "href": "slides/202510_Evo_devo.html#section-4",
+    "title": "Urban morphometrics",
+    "section": "",
+    "text": "Building area"
+  },
+  {
+    "objectID": "slides/202510_Evo_devo.html#section-5",
+    "href": "slides/202510_Evo_devo.html#section-5",
+    "title": "Urban morphometrics",
+    "section": "",
+    "text": "Equivalent rectangular index (a measure of shape complexity)"
+  },
+  {
+    "objectID": "slides/202510_Evo_devo.html#section-6",
+    "href": "slides/202510_Evo_devo.html#section-6",
+    "title": "Urban morphometrics",
+    "section": "",
+    "text": "Building orientation"
+  },
+  {
+    "objectID": "slides/202510_Evo_devo.html#what-can-we-learn-about-a-street",
+    "href": "slides/202510_Evo_devo.html#what-can-we-learn-about-a-street",
+    "title": "Urban morphometrics",
+    "section": "What can we learn about a street",
+    "text": "What can we learn about a street"
+  },
+  {
+    "objectID": "slides/202510_Evo_devo.html#section-7",
+    "href": "slides/202510_Evo_devo.html#section-7",
+    "title": "Urban morphometrics",
+    "section": "",
+    "text": "Transportation vs morphological representation of a street network"
+  },
+  {
+    "objectID": "slides/202510_Evo_devo.html#section-8",
+    "href": "slides/202510_Evo_devo.html#section-8",
+    "title": "Urban morphometrics",
+    "section": "",
+    "text": "Street profile width"
+  },
+  {
+    "objectID": "slides/202510_Evo_devo.html#section-9",
+    "href": "slides/202510_Evo_devo.html#section-9",
+    "title": "Urban morphometrics",
+    "section": "",
+    "text": "Street profile openness"
+  },
+  {
+    "objectID": "slides/202510_Evo_devo.html#section-10",
+    "href": "slides/202510_Evo_devo.html#section-10",
+    "title": "Urban morphometrics",
+    "section": "",
+    "text": "Linearity of street geometry"
+  },
+  {
+    "objectID": "slides/202510_Evo_devo.html#what-can-we-learn-about-streets",
+    "href": "slides/202510_Evo_devo.html#what-can-we-learn-about-streets",
+    "title": "Urban morphometrics",
+    "section": "What can we learn about streets",
+    "text": "What can we learn about streets"
+  },
+  {
+    "objectID": "slides/202510_Evo_devo.html#section-11",
+    "href": "slides/202510_Evo_devo.html#section-11",
+    "title": "Urban morphometrics",
+    "section": "",
+    "text": "Local closeness of street network"
+  },
+  {
+    "objectID": "slides/202510_Evo_devo.html#section-12",
+    "href": "slides/202510_Evo_devo.html#section-12",
+    "title": "Urban morphometrics",
+    "section": "",
+    "text": "Square clustering of street network"
+  },
+  {
+    "objectID": "slides/202510_Evo_devo.html#what-can-we-learn-about-a-plot",
+    "href": "slides/202510_Evo_devo.html#what-can-we-learn-about-a-plot",
+    "title": "Urban morphometrics",
+    "section": "What can we learn about a plot",
+    "text": "What can we learn about a plot"
+  },
+  {
+    "objectID": "slides/202510_Evo_devo.html#section-14",
+    "href": "slides/202510_Evo_devo.html#section-14",
+    "title": "Urban morphometrics",
+    "section": "",
+    "text": "Morphological tessellation"
+  },
+  {
+    "objectID": "slides/202510_Evo_devo.html#section-15",
+    "href": "slides/202510_Evo_devo.html#section-15",
+    "title": "Urban morphometrics",
+    "section": "",
+    "text": "Enclosed tessellation"
+  },
+  {
+    "objectID": "slides/202510_Evo_devo.html#what-can-we-learn-about-a-plot-cell",
+    "href": "slides/202510_Evo_devo.html#what-can-we-learn-about-a-plot-cell",
+    "title": "Urban morphometrics",
+    "section": "What can we learn about a plot cell",
+    "text": "What can we learn about a plot cell"
+  },
+  {
+    "objectID": "slides/202510_Evo_devo.html#section-16",
+    "href": "slides/202510_Evo_devo.html#section-16",
+    "title": "Urban morphometrics",
+    "section": "",
+    "text": "Longest-axis length"
+  },
+  {
+    "objectID": "slides/202510_Evo_devo.html#section-17",
+    "href": "slides/202510_Evo_devo.html#section-17",
+    "title": "Urban morphometrics",
+    "section": "",
+    "text": "Circular compactness"
+  },
+  {
+    "objectID": "slides/202510_Evo_devo.html#section-18",
+    "href": "slides/202510_Evo_devo.html#section-18",
+    "title": "Urban morphometrics",
+    "section": "",
+    "text": "Queen contiguity decoding adjacency of geometries"
+  },
+  {
+    "objectID": "slides/202510_Evo_devo.html#section-19",
+    "href": "slides/202510_Evo_devo.html#section-19",
+    "title": "Urban morphometrics",
+    "section": "",
+    "text": "Queen contiguity decoding adjacency of geometries"
+  },
+  {
+    "objectID": "slides/202510_Evo_devo.html#what-can-we-learn-about-buildings",
+    "href": "slides/202510_Evo_devo.html#what-can-we-learn-about-buildings",
+    "title": "Urban morphometrics",
+    "section": "What can we learn about buildings",
+    "text": "What can we learn about buildings"
+  },
+  {
+    "objectID": "slides/202510_Evo_devo.html#section-20",
+    "href": "slides/202510_Evo_devo.html#section-20",
+    "title": "Urban morphometrics",
+    "section": "",
+    "text": "Shared walls ratio"
+  },
+  {
+    "objectID": "slides/202510_Evo_devo.html#section-21",
+    "href": "slides/202510_Evo_devo.html#section-21",
+    "title": "Urban morphometrics",
+    "section": "",
+    "text": "Building adjacency"
+  },
+  {
+    "objectID": "slides/202510_Evo_devo.html#section-22",
+    "href": "slides/202510_Evo_devo.html#section-22",
+    "title": "Urban morphometrics",
+    "section": "",
+    "text": "Mean interbuilding distance"
+  },
+  {
+    "objectID": "slides/202510_Evo_devo.html#what-if-we-combine-it-all-together",
+    "href": "slides/202510_Evo_devo.html#what-if-we-combine-it-all-together",
+    "title": "Urban morphometrics",
+    "section": "What if we combine it all together",
+    "text": "What if we combine it all together"
+  },
+  {
+    "objectID": "slides/202510_Evo_devo.html#idea-of-a-morphotope",
+    "href": "slides/202510_Evo_devo.html#idea-of-a-morphotope",
+    "title": "Urban morphometrics",
+    "section": "Idea of a morphotope",
+    "text": "Idea of a morphotope\n\n\n\nexcerpt from Larkham and Jones, 1991"
+  },
+  {
+    "objectID": "slides/202510_Evo_devo.html#how-to-capture-it",
+    "href": "slides/202510_Evo_devo.html#how-to-capture-it",
+    "title": "Urban morphometrics",
+    "section": "How to capture it",
+    "text": "How to capture it"
+  },
+  {
+    "objectID": "slides/202510_Evo_devo.html#flexible-definition-of-built-up-fabric",
+    "href": "slides/202510_Evo_devo.html#flexible-definition-of-built-up-fabric",
+    "title": "Urban morphometrics",
+    "section": "Flexible definition of built-up fabric",
+    "text": "Flexible definition of built-up fabric"
+  },
+  {
+    "objectID": "slides/202510_Evo_devo.html#section-24",
+    "href": "slides/202510_Evo_devo.html#section-24",
+    "title": "Urban morphometrics",
+    "section": "",
+    "text": "Illustration of different levels of the hierarchy."
+  },
+  {
+    "objectID": "slides/202510_Evo_devo.html#do-you-want-to-follow-up",
+    "href": "slides/202510_Evo_devo.html#do-you-want-to-follow-up",
+    "title": "Urban morphometrics",
+    "section": "Do you want to follow up",
+    "text": "Do you want to follow up\n uscuni.org/talks\n urbantaxonomy.org\n github.com/uscuni/urban_taxonomy\n martin.fleischmann@natur.cuni.cz\n martinfleischmann.net\n\n\n\n\nThe authors kindly acknowledge funding by the Charles University’s Primus programme through the project “Influence of Socioeconomic and Cultural Factors on Urban Structure in Central Europe”, project reference PRIMUS/24/SCI/023."
+  },
+  {
     "objectID": "slides/202504_taxonomy_gisruk.html#section",
     "href": "slides/202504_taxonomy_gisruk.html#section",
     "title": "Understanding Urban Form",
@@ -1148,230 +1477,6 @@
     "text": "https://uscuni.org/himoc/"
   },
   {
-    "objectID": "slides/202409_SDSL.html#section",
-    "href": "slides/202409_SDSL.html#section",
-    "title": "Spatial Data Science across Languages",
-    "section": "",
-    "text": "Vinohrady Brewery"
-  },
-  {
-    "objectID": "slides/202409_SDSL.html#personal-reflections",
-    "href": "slides/202409_SDSL.html#personal-reflections",
-    "title": "Spatial Data Science across Languages",
-    "section": "Personal reflections",
-    "text": "Personal reflections"
-  },
-  {
-    "objectID": "slides/202409_SDSL.html#working-paper",
-    "href": "slides/202409_SDSL.html#working-paper",
-    "title": "Spatial Data Science across Languages",
-    "section": "Working paper",
-    "text": "Working paper"
-  },
-  {
-    "objectID": "slides/202504_Berkeley.html#open-by-default",
-    "href": "slides/202504_Berkeley.html#open-by-default",
-    "title": "Urban science as a software",
-    "section": "Open by default",
-    "text": "Open by default\nUse (and nurture) the existing OSS infrastructure\nTreat research artifacts as OSS from Day 1\nOnly “stay closed” when there is a good reason"
-  },
-  {
-    "objectID": "slides/202504_Berkeley.html#reproducible-research",
-    "href": "slides/202504_Berkeley.html#reproducible-research",
-    "title": "Urban science as a software",
-    "section": "Reproducible research",
-    "text": "Reproducible research\n\nTransparent\nAccessible\nTransferrable"
-  },
-  {
-    "objectID": "slides/202504_Berkeley.html#methodological-foundation-of-a-numerical-taxonomy-of-urban-form",
-    "href": "slides/202504_Berkeley.html#methodological-foundation-of-a-numerical-taxonomy-of-urban-form",
-    "title": "Urban science as a software",
-    "section": "Methodological foundation of a numerical taxonomy of urban form",
-    "text": "Methodological foundation of a numerical taxonomy of urban form\n\n\nFleischmann, M., Feliciotti, A., Romice, O., Porta, S., 2022. Methodological foundation of a numerical taxonomy of urban form. Environment and Planning B: Urban Analytics and City Science 49, 1283–1299. https://doi.org/10/gnth7q"
-  },
-  {
-    "objectID": "slides/202504_Berkeley.html#geographical-characterisation-of-british-urban-form-and-function-using-the-spatial-signatures-framework",
-    "href": "slides/202504_Berkeley.html#geographical-characterisation-of-british-urban-form-and-function-using-the-spatial-signatures-framework",
-    "title": "Urban science as a software",
-    "section": "Geographical characterisation of British urban form and function using the spatial signatures framework",
-    "text": "Geographical characterisation of British urban form and function using the spatial signatures framework\n\n\nFleischmann, M., Arribas-Bel, D., 2022. Geographical characterisation of British urban form and function using the spatial signatures framework. Sci Data 9, 546. https://doi.org/10.1038/s41597-022-01640-8"
-  },
-  {
-    "objectID": "slides/202504_Berkeley.html#understanding-urban-form---hierarchical-morphotope-classification-based-on-gradually-loosening-spatial-restrictions",
-    "href": "slides/202504_Berkeley.html#understanding-urban-form---hierarchical-morphotope-classification-based-on-gradually-loosening-spatial-restrictions",
-    "title": "Urban science as a software",
-    "section": "Understanding Urban Form - Hierarchical Morphotope Classification based on Gradually Loosening Spatial Restrictions",
-    "text": "Understanding Urban Form - Hierarchical Morphotope Classification based on Gradually Loosening Spatial Restrictions\n\n\nFleischmann, M., Samardzhiev, K., upcoming. Understanding Urban Form - Hierarchical Morphotope Classification based on Gradually Loosening Spatial Restrictions"
-  },
-  {
-    "objectID": "slides/202504_Berkeley.html#generic-framework-for-geographically-weighted-modelling",
-    "href": "slides/202504_Berkeley.html#generic-framework-for-geographically-weighted-modelling",
-    "title": "Urban science as a software",
-    "section": "Generic framework for geographically-weighted modelling",
-    "text": "Generic framework for geographically-weighted modelling\n\n\nFleischmann, M., Brazdova, A., Winkler, L., upcoming. Generic framework for geographically-weighted modelling"
-  },
-  {
-    "objectID": "slides/202504_Berkeley.html#release-early-release-often",
-    "href": "slides/202504_Berkeley.html#release-early-release-often",
-    "title": "Urban science as a software",
-    "section": "Release early, release often",
-    "text": "Release early, release often"
-  },
-  {
-    "objectID": "slides/202504_Berkeley.html#make-open-a-feature-not-a-bug",
-    "href": "slides/202504_Berkeley.html#make-open-a-feature-not-a-bug",
-    "title": "Urban science as a software",
-    "section": "Make open a feature, not a bug",
-    "text": "Make open a feature, not a bug"
-  },
-  {
-    "objectID": "slides/202504_Berkeley.html#do-what-is-best-not-what-system-wants",
-    "href": "slides/202504_Berkeley.html#do-what-is-best-not-what-system-wants",
-    "title": "Urban science as a software",
-    "section": "Do what is best, not what system wants",
-    "text": "Do what is best, not what system wants"
-  },
-  {
-    "objectID": "slides/202504_Berkeley.html#share-your-knowledge-it-is-a-way-to-achieve-immortality",
-    "href": "slides/202504_Berkeley.html#share-your-knowledge-it-is-a-way-to-achieve-immortality",
-    "title": "Urban science as a software",
-    "section": "Share your knowledge, it is a way to achieve immortality",
-    "text": "Share your knowledge, it is a way to achieve immortality\n(Dalai Lama)\n\n\n\n\nThank you! Contacts at martinfleischmann.net."
-  },
-  {
-    "objectID": "slides/202507_SDH.html#lets-talk-about-urban-morphometrics",
-    "href": "slides/202507_SDH.html#lets-talk-about-urban-morphometrics",
-    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
-    "section": "Let’s talk about urban morphometrics",
-    "text": "Let’s talk about urban morphometrics"
-  },
-  {
-    "objectID": "slides/202507_SDH.html#what-is-urban-morphometrics",
-    "href": "slides/202507_SDH.html#what-is-urban-morphometrics",
-    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
-    "section": "What is urban morphometrics",
-    "text": "What is urban morphometrics\n\n\nA study of urban form through the means of quantitative assessment of its constituent elements.\n\n\nConceptually similar to historico-geographical school of urban morphology.\nMethodologically embedded in spatial data science and geography."
-  },
-  {
-    "objectID": "slides/202507_SDH.html#morphometrics-in-2025",
-    "href": "slides/202507_SDH.html#morphometrics-in-2025",
-    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
-    "section": "Morphometrics in 2025",
-    "text": "Morphometrics in 2025"
-  },
-  {
-    "objectID": "slides/202507_SDH.html#how-does-it-look-like",
-    "href": "slides/202507_SDH.html#how-does-it-look-like",
-    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
-    "section": "How does it look like",
-    "text": "How does it look like"
-  },
-  {
-    "objectID": "slides/202507_SDH.html#why",
-    "href": "slides/202507_SDH.html#why",
-    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
-    "section": "Why",
-    "text": "Why"
-  },
-  {
-    "objectID": "slides/202507_SDH.html#flexible-definition-of-built-up-fabric",
-    "href": "slides/202507_SDH.html#flexible-definition-of-built-up-fabric",
-    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
-    "section": "Flexible definition of built-up fabric",
-    "text": "Flexible definition of built-up fabric"
-  },
-  {
-    "objectID": "slides/202507_SDH.html#geography-and-urban-structure",
-    "href": "slides/202507_SDH.html#geography-and-urban-structure",
-    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
-    "section": "Geography and urban structure",
-    "text": "Geography and urban structure"
-  },
-  {
-    "objectID": "slides/202507_SDH.html#spatial-clustering",
-    "href": "slides/202507_SDH.html#spatial-clustering",
-    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
-    "section": "Spatial clustering",
-    "text": "Spatial clustering"
-  },
-  {
-    "objectID": "slides/202507_SDH.html#boundaries-of-impact",
-    "href": "slides/202507_SDH.html#boundaries-of-impact",
-    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
-    "section": "Boundaries of impact",
-    "text": "Boundaries of impact"
-  },
-  {
-    "objectID": "slides/202507_SDH.html#urban-morphometrics-can-unpack-structure-of-built-environment",
-    "href": "slides/202507_SDH.html#urban-morphometrics-can-unpack-structure-of-built-environment",
-    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
-    "section": "Urban morphometrics can unpack structure of built environment",
-    "text": "Urban morphometrics can unpack structure of built environment"
-  },
-  {
-    "objectID": "slides/202507_SDH.html#cities-of-today-embed-noticeable-layers-of-the-past",
-    "href": "slides/202507_SDH.html#cities-of-today-embed-noticeable-layers-of-the-past",
-    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
-    "section": "Cities of today embed noticeable layers of the past",
-    "text": "Cities of today embed noticeable layers of the past"
-  },
-  {
-    "objectID": "slides/202507_SDH.html#even-when-they-do-not-manifest-in-architectural-style",
-    "href": "slides/202507_SDH.html#even-when-they-do-not-manifest-in-architectural-style",
-    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
-    "section": "Even when they do not manifest in architectural style",
-    "text": "Even when they do not manifest in architectural style"
-  },
-  {
-    "objectID": "slides/202507_SDH.html#do-you-want-to-follow-up",
-    "href": "slides/202507_SDH.html#do-you-want-to-follow-up",
-    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
-    "section": "Do you want to follow up",
-    "text": "Do you want to follow up\n uscuni.org/talks\n uscuni.org/himoc\n github.com/uscuni/urban_taxonomy\n martin.fleischmann@natur.cuni.cz\n martinfleischmann.net\n\n\n\n\nThe authors kindly acknowledge funding by the Charles University’s Primus programme through the project “Influence of Socioeconomic and Cultural Factors on Urban Structure in Central Europe”, project reference PRIMUS/24/SCI/023."
-  },
-  {
-    "objectID": "slides/202504_GISRUK_simplification.html#manual-simplification",
-    "href": "slides/202504_GISRUK_simplification.html#manual-simplification",
-    "title": "Adaptive continuity-preserving simplification of street networks",
-    "section": "Manual simplification",
-    "text": "Manual simplification"
-  },
-  {
-    "objectID": "slides/202504_GISRUK_simplification.html#five-requirements",
-    "href": "slides/202504_GISRUK_simplification.html#five-requirements",
-    "title": "Adaptive continuity-preserving simplification of street networks",
-    "section": "Five requirements",
-    "text": "Five requirements\n\nopen-source\nfully automated\nattribute-agnostic\ncase-agnostic\nfully packaged"
-  },
-  {
-    "objectID": "slides/202504_GISRUK_simplification.html#what-do-you-mean-by-continuity-preserving",
-    "href": "slides/202504_GISRUK_simplification.html#what-do-you-mean-by-continuity-preserving",
-    "title": "Adaptive continuity-preserving simplification of street networks",
-    "section": "What do you mean by “continuity-preserving”",
-    "text": "What do you mean by “continuity-preserving”"
-  },
-  {
-    "objectID": "slides/202504_GISRUK_simplification.html#face-artifact-detection",
-    "href": "slides/202504_GISRUK_simplification.html#face-artifact-detection",
-    "title": "Adaptive continuity-preserving simplification of street networks",
-    "section": "Face artifact detection",
-    "text": "Face artifact detection"
-  },
-  {
-    "objectID": "slides/202504_GISRUK_simplification.html#artifact-classification",
-    "href": "slides/202504_GISRUK_simplification.html#artifact-classification",
-    "title": "Adaptive continuity-preserving simplification of street networks",
-    "section": "Artifact classification",
-    "text": "Artifact classification\n\nartifact polygon contiguity\n\nisolates\npairs\nclusters\n\nnetwork continuity"
-  },
-  {
-    "objectID": "slides/202504_GISRUK_simplification.html#how-close-are-we-to-the-manually-simplified-network",
-    "href": "slides/202504_GISRUK_simplification.html#how-close-are-we-to-the-manually-simplified-network",
-    "title": "Adaptive continuity-preserving simplification of street networks",
-    "section": "How close are we to the manually simplified network",
-    "text": "How close are we to the manually simplified network"
-  },
-  {
     "objectID": "slides/template.html#heading-level-2",
     "href": "slides/template.html#heading-level-2",
     "title": "Spatial Autocorrelation",
@@ -1426,6 +1531,111 @@
     "title": "Spatial Autocorrelation",
     "section": "Slide with iframe background",
     "text": "Slide with iframe background"
+  },
+  {
+    "objectID": "slides/202506_ISUF.html#what-is-urban-morphometrics",
+    "href": "slides/202506_ISUF.html#what-is-urban-morphometrics",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "What is urban morphometrics",
+    "text": "What is urban morphometrics"
+  },
+  {
+    "objectID": "slides/202506_ISUF.html#what-is-urban-morphometrics-1",
+    "href": "slides/202506_ISUF.html#what-is-urban-morphometrics-1",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "What is urban morphometrics",
+    "text": "What is urban morphometrics\n\n\nA study of urban form through the means of quantitative assessment of its constituent elements.\n\n\nConceptually similar to historico-geographical approach.\nMethodologically embedded in spatial data science and geography."
+  },
+  {
+    "objectID": "slides/202506_ISUF.html#morphometrics-in-2025",
+    "href": "slides/202506_ISUF.html#morphometrics-in-2025",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "Morphometrics in 2025",
+    "text": "Morphometrics in 2025"
+  },
+  {
+    "objectID": "slides/202506_ISUF.html#idea-of-a-morphotope",
+    "href": "slides/202506_ISUF.html#idea-of-a-morphotope",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "Idea of a morphotope",
+    "text": "Idea of a morphotope\n\n\n\nexcerpt from Larkham and Jones, 1991"
+  },
+  {
+    "objectID": "slides/202506_ISUF.html#how-to-capture-it",
+    "href": "slides/202506_ISUF.html#how-to-capture-it",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "How to capture it",
+    "text": "How to capture it"
+  },
+  {
+    "objectID": "slides/202506_ISUF.html#flexible-definition-of-built-up-fabric",
+    "href": "slides/202506_ISUF.html#flexible-definition-of-built-up-fabric",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "Flexible definition of built-up fabric",
+    "text": "Flexible definition of built-up fabric"
+  },
+  {
+    "objectID": "slides/202506_ISUF.html#section-1",
+    "href": "slides/202506_ISUF.html#section-1",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "",
+    "text": "Illustration of different levels of the hierarchy."
+  },
+  {
+    "objectID": "slides/202506_ISUF.html#geography-and-urban-structure",
+    "href": "slides/202506_ISUF.html#geography-and-urban-structure",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "Geography and urban structure",
+    "text": "Geography and urban structure"
+  },
+  {
+    "objectID": "slides/202506_ISUF.html#spatial-clustering",
+    "href": "slides/202506_ISUF.html#spatial-clustering",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "Spatial clustering",
+    "text": "Spatial clustering"
+  },
+  {
+    "objectID": "slides/202506_ISUF.html#boundaries-of-impact",
+    "href": "slides/202506_ISUF.html#boundaries-of-impact",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "Boundaries of impact",
+    "text": "Boundaries of impact"
+  },
+  {
+    "objectID": "slides/202506_ISUF.html#times-have-changed.-methods-have-changed.-concepts-those-only-evolved",
+    "href": "slides/202506_ISUF.html#times-have-changed.-methods-have-changed.-concepts-those-only-evolved",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "Times have changed. Methods have changed. Concepts? Those only evolved",
+    "text": "Times have changed. Methods have changed. Concepts? Those only evolved"
+  },
+  {
+    "objectID": "slides/202506_ISUF.html#urban-morphology-can-be-deeply-embedded-in-spatial-data-science",
+    "href": "slides/202506_ISUF.html#urban-morphology-can-be-deeply-embedded-in-spatial-data-science",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "Urban morphology can be deeply embedded in spatial data science",
+    "text": "Urban morphology can be deeply embedded in spatial data science"
+  },
+  {
+    "objectID": "slides/202506_ISUF.html#urban-morphometrics-can-support-quantitative-studies-done-at-scale",
+    "href": "slides/202506_ISUF.html#urban-morphometrics-can-support-quantitative-studies-done-at-scale",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "Urban morphometrics can support quantitative studies done at scale",
+    "text": "Urban morphometrics can support quantitative studies done at scale"
+  },
+  {
+    "objectID": "slides/202506_ISUF.html#we-can-ask-questions-like-never-before",
+    "href": "slides/202506_ISUF.html#we-can-ask-questions-like-never-before",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "We can ask questions like never before",
+    "text": "We can ask questions like never before"
+  },
+  {
+    "objectID": "slides/202506_ISUF.html#do-you-want-to-follow-up",
+    "href": "slides/202506_ISUF.html#do-you-want-to-follow-up",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "Do you want to follow up",
+    "text": "Do you want to follow up\n uscuni.org/talks\n uscuni.org/himoc\n github.com/uscuni/urban_taxonomy\n martin.fleischmann@natur.cuni.cz\n martinfleischmann.net\n\n\n\n\nThe authors kindly acknowledge funding by the Charles University’s Primus programme through the project “Influence of Socioeconomic and Cultural Factors on Urban Structure in Central Europe”, project reference PRIMUS/24/SCI/023."
   },
   {
     "objectID": "slides/202504_GISRUK_Anna.html#interplay-between-population-and-urban-form",
@@ -1524,5 +1734,75 @@
     "title": "Spatial modelling of the relationship between the urban form and population data",
     "section": "Conclusion",
     "text": "Conclusion\nRelationship does differ geographically.\nSpecific relationship between population characteristics and urban form types.\nDimensionality reduction or cluster analysis?\nWork still in progress, would appreciate some feedback!"
+  },
+  {
+    "objectID": "slides/202504_Berkeley.html#open-by-default",
+    "href": "slides/202504_Berkeley.html#open-by-default",
+    "title": "Urban science as a software",
+    "section": "Open by default",
+    "text": "Open by default\nUse (and nurture) the existing OSS infrastructure\nTreat research artifacts as OSS from Day 1\nOnly “stay closed” when there is a good reason"
+  },
+  {
+    "objectID": "slides/202504_Berkeley.html#reproducible-research",
+    "href": "slides/202504_Berkeley.html#reproducible-research",
+    "title": "Urban science as a software",
+    "section": "Reproducible research",
+    "text": "Reproducible research\n\nTransparent\nAccessible\nTransferrable"
+  },
+  {
+    "objectID": "slides/202504_Berkeley.html#methodological-foundation-of-a-numerical-taxonomy-of-urban-form",
+    "href": "slides/202504_Berkeley.html#methodological-foundation-of-a-numerical-taxonomy-of-urban-form",
+    "title": "Urban science as a software",
+    "section": "Methodological foundation of a numerical taxonomy of urban form",
+    "text": "Methodological foundation of a numerical taxonomy of urban form\n\n\nFleischmann, M., Feliciotti, A., Romice, O., Porta, S., 2022. Methodological foundation of a numerical taxonomy of urban form. Environment and Planning B: Urban Analytics and City Science 49, 1283–1299. https://doi.org/10/gnth7q"
+  },
+  {
+    "objectID": "slides/202504_Berkeley.html#geographical-characterisation-of-british-urban-form-and-function-using-the-spatial-signatures-framework",
+    "href": "slides/202504_Berkeley.html#geographical-characterisation-of-british-urban-form-and-function-using-the-spatial-signatures-framework",
+    "title": "Urban science as a software",
+    "section": "Geographical characterisation of British urban form and function using the spatial signatures framework",
+    "text": "Geographical characterisation of British urban form and function using the spatial signatures framework\n\n\nFleischmann, M., Arribas-Bel, D., 2022. Geographical characterisation of British urban form and function using the spatial signatures framework. Sci Data 9, 546. https://doi.org/10.1038/s41597-022-01640-8"
+  },
+  {
+    "objectID": "slides/202504_Berkeley.html#understanding-urban-form---hierarchical-morphotope-classification-based-on-gradually-loosening-spatial-restrictions",
+    "href": "slides/202504_Berkeley.html#understanding-urban-form---hierarchical-morphotope-classification-based-on-gradually-loosening-spatial-restrictions",
+    "title": "Urban science as a software",
+    "section": "Understanding Urban Form - Hierarchical Morphotope Classification based on Gradually Loosening Spatial Restrictions",
+    "text": "Understanding Urban Form - Hierarchical Morphotope Classification based on Gradually Loosening Spatial Restrictions\n\n\nFleischmann, M., Samardzhiev, K., upcoming. Understanding Urban Form - Hierarchical Morphotope Classification based on Gradually Loosening Spatial Restrictions"
+  },
+  {
+    "objectID": "slides/202504_Berkeley.html#generic-framework-for-geographically-weighted-modelling",
+    "href": "slides/202504_Berkeley.html#generic-framework-for-geographically-weighted-modelling",
+    "title": "Urban science as a software",
+    "section": "Generic framework for geographically-weighted modelling",
+    "text": "Generic framework for geographically-weighted modelling\n\n\nFleischmann, M., Brazdova, A., Winkler, L., upcoming. Generic framework for geographically-weighted modelling"
+  },
+  {
+    "objectID": "slides/202504_Berkeley.html#release-early-release-often",
+    "href": "slides/202504_Berkeley.html#release-early-release-often",
+    "title": "Urban science as a software",
+    "section": "Release early, release often",
+    "text": "Release early, release often"
+  },
+  {
+    "objectID": "slides/202504_Berkeley.html#make-open-a-feature-not-a-bug",
+    "href": "slides/202504_Berkeley.html#make-open-a-feature-not-a-bug",
+    "title": "Urban science as a software",
+    "section": "Make open a feature, not a bug",
+    "text": "Make open a feature, not a bug"
+  },
+  {
+    "objectID": "slides/202504_Berkeley.html#do-what-is-best-not-what-system-wants",
+    "href": "slides/202504_Berkeley.html#do-what-is-best-not-what-system-wants",
+    "title": "Urban science as a software",
+    "section": "Do what is best, not what system wants",
+    "text": "Do what is best, not what system wants"
+  },
+  {
+    "objectID": "slides/202504_Berkeley.html#share-your-knowledge-it-is-a-way-to-achieve-immortality",
+    "href": "slides/202504_Berkeley.html#share-your-knowledge-it-is-a-way-to-achieve-immortality",
+    "title": "Urban science as a software",
+    "section": "Share your knowledge, it is a way to achieve immortality",
+    "text": "Share your knowledge, it is a way to achieve immortality\n(Dalai Lama)\n\n\n\n\nThank you! Contacts at martinfleischmann.net."
   }
 ]
