@@ -141,6 +141,26 @@ plots
 Plot layer representing a portion of Prague.
 :::
 
+---
+
+### We can measure potentially hundreds of morphometric characters
+
+::: {.column width="50%" .incremental}
+- dimension
+- shape
+- spatial distribution
+:::
+
+::: {.column width="50%" .incremental}
+- intensity
+- diversity
+- connectivity
+:::
+
+::: aside
+based on Fleischmann, Romice and Porta (2020)
+:::
+
 # What can morphometrics tell about cities {.question}
 
 ## What can we learn about a building {.question}
@@ -150,7 +170,6 @@ Plot layer representing a portion of Prague.
 ::: aside
 What can we learn about a building?
 :::
-
 
 ---
 
@@ -415,7 +434,7 @@ Illustration of different levels of the hierarchy.
 
 ## {background-image="../figures/202506_ISUF/map.gif" background-size="contain" .no-text}
 
-# urbantaxonomy.org
+# [urbantaxonomy.org](https://urbantaxonomy.org)
 
 ---
 
