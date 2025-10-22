@@ -1,0 +1,409 @@
+---
+title: "Spatial data in the open"
+author: "Martin Fleischmann"
+institute: "Charles University"
+format:
+    revealjs:
+        theme: [default, ../assets/reveal.scss]
+        logo: ../assets/icon.svg
+        menu: false
+        transition: fade
+        navigation-mode: linear
+        controls-layout: edges
+        progress: true
+        include-in-header:
+            - ../assets/font.html
+            # - text: |
+            #     <style>
+            #     #title-slide .title {
+            #         font-size: 50px;
+            #     }
+            #     </style>
+        title-slide-attributes:
+            data-background-image: ../assets/full_logo.svg
+            data-background-size: 20%
+            data-background-position: 50% 90%
+        max-scale: 10
+---
+
+# 2013
+
+---
+
+<!-- - Architecture years -->
+![](../figures/202510_SODAS/martin2013.jpg)
+
+---
+
+![](../figures/202510_SODAS/arch1.png)
+
+---
+
+![](../figures/202510_SODAS/arch2.png)
+
+---
+
+![](../figures/202510_SODAS/arch3.png)
+
+---
+
+![](../figures/202510_SODAS/arch4.png)
+
+---
+
+![](../figures/202510_SODAS/arch5.png)
+
+## Let's go to Erasmus
+
+[UCL Bartlett School of Planning]{.fragment}
+
+---
+
+::: {.r-fit-text .absolute top=30%}
+heh, no way
+:::
+
+## Let's go to Erasmus
+
+~~UCL Bartlett School of Planning~~
+
+[University of Strathclyde]{.fragment}
+
+---
+
+::: {.r-fit-text .absolute top=20%}
+where?
+:::
+
+## Let's go to Erasmus
+
+~~UCL Bartlett School of Planning~~
+
+University of Strathclyde, Glasgow, Scotland
+
+---
+
+::: {.r-fit-tex .absolute top=30%}
+Strathclyde became a plan B
+:::
+
+## Let's do Masters abroad
+
+[MEXT scholarship (Japan)]{.fragment}
+
+---
+
+::: {.r-fit-text .absolute top=30%}
+heh, no way
+:::
+
+---
+
+::: {.r-fit-text .absolute top=30%}
+Strathclyde became a plan B
+:::
+
+# 2016
+
+---
+
+::: {.r-fit-text .absolute top=30%}
+QGIS is your friend
+:::
+
+---
+
+![](../figures/202510_SODAS/ud1.png)
+
+---
+
+![](../figures/202510_SODAS/ud2.png)
+
+---
+
+::: {.r-fit-text .absolute top=30%}
+Though analytics is still marginal
+:::
+
+
+---
+
+![](../figures/202510_SODAS/ud3.png)
+
+
+---
+
+![](../figures/202510_SODAS/ud4.png)
+
+
+---
+
+![](../figures/202510_SODAS/ud5.png)
+
+
+---
+
+![](../figures/202510_SODAS/ud6.png)
+
+
+---
+
+::: {.columns}
+::: {.column}
+![](../figures/202510_SODAS/ud7.png)
+:::
+::: {.column}
+![](../figures/202510_SODAS/ud8.png)
+:::
+:::
+
+---
+
+
+![](../figures/202510_SODAS/ud9.png){.center_image}
+
+# 2017
+
+[Enrolled in a PhD programme]{.fragment}
+
+---
+
+::: {.r-fit-text .absolute top=30%}
+The Urban Atlas
+:::
+
+---
+
+::: {.r-fit-text .absolute top=35%}
+How am I going to do this???
+:::
+
+---
+
+::: {.r-fit-text .absolute top=35%}
+I got 0 skills I need.
+:::
+
+---
+
+![](https://imgs.xkcd.com/comics/python.png){.center_image}
+
+---
+
+::: {.absolute top=25%}
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Stack_Overflow_logo.svg/1280px-Stack_Overflow_logo.svg.png)
+:::
+
+---
+
+::: {.absolute top=25%}
+
+![](../figures/202510_SODAS/momepy1.png)
+:::
+
+---
+
+::: {.r-fit-text .absolute top=35%}
+momepy was born that day
+:::
+
+---
+
+![](../figures/202510_SODAS/momepy_github.png){.center_image}
+
+---
+
+::: {.r-fit-text .absolute top=35%}
+a tool I needed myself
+:::
+
+::: {.r-fit-text .absolute top=60% .fragment}
+shared in the open
+:::
+
+---
+
+![](../figures/202410_Nanjing/momepy_01.png){.center_image}
+
+---
+
+::: {.r-fit-text .absolute top=35%}
+I made some mistakes
+:::
+
+---
+
+::: {.r-fit-text .absolute top=35%}
+I fixed them over the years
+:::
+
+---
+
+::: {.r-fit-text .absolute top=35%}
+none of the code written for 0.1 would run today
+:::
+
+---
+
+::: {.r-fit-text .absolute top=35%}
+What does it do?
+:::
+
+## Morphological tessellation
+
+---
+
+![](../figures/202410_Nanjing/user_guide_elements_tessellation_23_1.png){.center_image}
+
+::: aside
+Morphological tessellation (docs.momepy.org)
+:::
+
+---
+
+::: {.r-fit-text .absolute top=10%}
+Idea and Concept
+:::
+
+::: {.r-fit-text .absolute top=35% .fragment}
+QGIS Modeller
+:::
+
+::: {.r-fit-text .absolute top=60% .fragment}
+Python code
+:::
+
+# 2018
+
+---
+
+::: {.r-fit-text .absolute top=35%}
+"Hey, this does not work."
+:::
+
+---
+
+::: {.r-fit-text .absolute top=35%}
+"I want to do this."
+:::
+
+---
+
+::: {.r-fit-text .absolute top=35%}
+"This is how you do that."
+:::
+
+# 2019
+
+---
+
+> Hi Martin,
+>
+> I have a question for you: [would you like to become a "core developer" of GeoPandas?]{.fragment}
+
+::: {.r-fit-text .absolute top=60% .fragment}
+are you insane?
+:::
+
+---
+
+![](https://geopandas.org/en/stable/_images/geopandas_logo.png)
+
+## Research stuff
+
+---
+
+![](../figures/202410_Nanjing/epb_clu.png)
+
+::: aside
+Methodological Foundation of a Numerical Taxonomy of Urban Form (Fleischmann et al., 2021)
+:::
+
+---
+
+![](../figures/202410_Nanjing/epb_tax.png)
+
+::: aside
+Methodological Foundation of a Numerical Taxonomy of Urban Form (Fleischmann et al., 2021)
+:::
+
+---
+
+![](../figures/202410_Nanjing/epb_tax_whole.png)
+
+::: aside
+Methodological Foundation of a Numerical Taxonomy of Urban Form (Fleischmann et al., 2021)
+:::
+
+# 2020
+
+## University of Liverpool
+
+![](../figures/202510_SODAS/logo_gdsl.png){.center_image}
+
+---
+
+![](../figures/202410_Nanjing/sig_liv.png)
+
+::: aside
+Geographical characterisation of British urban form and function using the spatial signatures framework<br>(Fleischmann and Arribas-Bel, 2022)
+:::
+
+---
+
+![](../figures/202410_Nanjing/sig_mers.png)
+
+::: aside
+Geographical characterisation of British urban form and function using the spatial signatures framework<br>(Fleischmann and Arribas-Bel, 2022)
+:::
+
+---
+
+![](../figures/202410_Nanjing/sig_eng.png)
+
+::: aside
+Geographical characterisation of British urban form and function using the spatial signatures framework<br>(Fleischmann and Arribas-Bel, 2022)
+:::
+
+---
+
+![](../figures/202410_Nanjing/sig_all.png)
+
+::: aside
+Geographical characterisation of British urban form and function using the spatial signatures framework<br>(Fleischmann and Arribas-Bel, 2022)
+:::
+
+---
+
+![](../figures/202410_Nanjing/sig_lon.png)
+
+::: aside
+Geographical characterisation of British urban form and function using the spatial signatures framework<br>(Fleischmann and Arribas-Bel, 2022)
+:::
+
+## PySAL
+
+Python Spatial Analysis Library
+
+---
+
+> hi martin,
+>
+> this morning at our dev meeting you were nominated to be a pysal core dev
+>
+> i am happy to invite you to join the team
+
+---
+
+![](https://pysal.org/spglm/_static/images/pysal_logo.svg){.center_image}
+
+# 2022
+
+
+<!--
+- Back home
+    - industry experience
+    - Charles Uni
+- Artifacts + Neatnet
+- Urban Taxonomy -->
