@@ -312,12 +312,24 @@ are you insane?
 
 ## Research stuff
 
+
+---
+
+![](../figures/202504_Berkeley/taxonomy_paper.png){fig-align="center"}
+
+::: aside
+[10.1177/23998083211059835](https://doi.org/10.1177/23998083211059835)
+:::
+
 ---
 
 ![](../figures/202410_Nanjing/epb_clu.png)
 
 ::: aside
-Methodological Foundation of a Numerical Taxonomy of Urban Form (Fleischmann et al., 2021)
+Methodological Foundation of a Numerical Taxonomy of Urban Form (Fleischmann et al., 2022)
+
+[martinfleischmann.net/numerical-taxonomy-maps/](https://martinfleischmann.net/numerical-taxonomy-maps/)
+
 :::
 
 ---
@@ -325,7 +337,10 @@ Methodological Foundation of a Numerical Taxonomy of Urban Form (Fleischmann et 
 ![](../figures/202410_Nanjing/epb_tax.png)
 
 ::: aside
-Methodological Foundation of a Numerical Taxonomy of Urban Form (Fleischmann et al., 2021)
+Methodological Foundation of a Numerical Taxonomy of Urban Form (Fleischmann et al., 2022)
+
+[martinfleischmann.net/numerical-taxonomy-maps/](https://martinfleischmann.net/numerical-taxonomy-maps/)
+
 :::
 
 ---
@@ -333,7 +348,25 @@ Methodological Foundation of a Numerical Taxonomy of Urban Form (Fleischmann et 
 ![](../figures/202410_Nanjing/epb_tax_whole.png)
 
 ::: aside
-Methodological Foundation of a Numerical Taxonomy of Urban Form (Fleischmann et al., 2021)
+Methodological Foundation of a Numerical Taxonomy of Urban Form (Fleischmann et al., 2022)
+
+[martinfleischmann.net/numerical-taxonomy-maps/](https://martinfleischmann.net/numerical-taxonomy-maps/)
+:::
+
+---
+
+![](../figures/202504_Berkeley/taxonomy_dp.png){fig-align="center"}
+
+::: aside
+[10.6084/m9.figshare.16897102.v1](https://doi.org/10.6084/m9.figshare.16897102.v1)
+:::
+
+---
+
+![](../figures/202504_Berkeley/taxonomy_code.png){fig-align="center"}
+
+::: aside
+[github.com/martinfleis/numerical-taxonomy-paper](https://github.com/martinfleis/numerical-taxonomy-paper/)
 :::
 
 # 2020
@@ -382,6 +415,70 @@ Geographical characterisation of British urban form and function using the spati
 Geographical characterisation of British urban form and function using the spatial signatures framework<br>(Fleischmann and Arribas-Bel, 2022)
 :::
 
+---
+
+![](../figures/202504_Berkeley/ug.png){fig-align="center"}
+
+::: aside
+[turing.ac.uk/research/research-projects/urban-grammar](https://www.turing.ac.uk/research/research-projects/urban-grammar)
+:::
+
+---
+
+![](../figures/202504_Berkeley/ug_sigs.png){fig-align="center"}
+
+::: aside
+[urbangrammarai.xyz/great-britain](https://urbangrammarai.xyz/great-britain/#)
+:::
+
+---
+
+![](../figures/202504_Berkeley/ug_story.png){fig-align="center"}
+
+::: aside
+[urbangrammarai.xyz/story](https://urbangrammarai.xyz/story)
+:::
+
+---
+
+We had to scale up the analysis but tools were not ready. [So, we improved the tools.]{.fragment}
+
+---
+
+![](../figures/202504_Berkeley/ug_tobler.png){fig-align="center"}
+
+::: aside
+[urbangrammarai.xyz/blog/post6_tobler.html](https://urbangrammarai.xyz/blog/post6_tobler.html)
+:::
+
+---
+
+And created some new.
+
+---
+
+![](../figures/202504_Berkeley/ug_cgram.png){fig-align="center"}
+
+::: aside
+[clustergram.readthedocs.io](https://clustergram.readthedocs.io/en/stable/index.html)
+:::
+
+---
+
+![](../figures/202504_Berkeley/ug_code.png){fig-align="center"}
+
+::: aside
+[github.com/urbangrammarai/data_processing](https://github.com/urbangrammarai/data_processing)
+:::
+
+---
+
+![](../figures/202504_Berkeley/ug_code_site.png){fig-align="center"}
+
+::: aside
+[urbangrammarai.xyz/data_processing](https://urbangrammarai.xyz/data_processing)
+:::
+
 ## PySAL
 
 Python Spatial Analysis Library
@@ -396,14 +493,271 @@ Python Spatial Analysis Library
 
 ---
 
-![](https://pysal.org/spglm/_static/images/pysal_logo.svg){.center_image}
+![](../figures/202510_SODAS/pysal.png)
+
 
 # 2022
 
+## ??? {.question}
 
-<!--
-- Back home
-    - industry experience
-    - Charles Uni
-- Artifacts + Neatnet
-- Urban Taxonomy -->
+[back in Prague]{.fragment}
+
+[out of academia]{.fragment}
+
+## Peek into startup world
+
+---
+
+::: {.r-fit-text .absolute top=30%}
+heh, no way
+:::
+
+---
+
+## Charles University
+
+# 2025
+
+## Urban Taxonomy
+
+## What is urban morphometrics {.question}
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+Not anything new!
+:::
+
+---
+
+![](../figures/202410_Nanjing/morphometrics_conzen.png)
+
+::: aside
+excerpt from Larkham and Jones, 1991
+:::
+
+## What is urban morphometrics {.question}
+
+::: {.fragment}
+> A study of urban form through the means of quantitative assessment of its constituent elements.
+:::
+
+## Morphometrics in 2025
+
+---
+
+::: {.r-fit-text .absolute top=5%}
+availability of data
+:::
+
+::: {.r-fit-text .absolute top=25% .fragment}
+evolution of software
+:::
+
+::: {.r-fit-text .absolute top=40% .fragment}
+performance
+:::
+
+::: {.r-fit-text .absolute top=75% .fragment}
+automatised pre-processing
+:::
+
+---
+
+::: {.r-fit-text .absolute top=30%}
+all that pushes the limits of scalability
+:::
+
+::: {.r-fit-text .absolute top=50% .fragment}
+scalable urban morphometrics
+:::
+
+---
+
+## Idea of a morphotope
+
+![](../figures/202410_Nanjing/mtope.png){.fragment}
+
+
+::: aside
+[excerpt from Larkham and Jones, 1991]{.fragment}
+:::
+
+---
+
+## How to capture it {.question}
+
+---
+
+![](../figures/202506_ISUF/morphotope_diagram.png)
+
+::: aside
+Diagram illustrating a procedure to derive morphotopes using Spatial Adaptive Agglomerative Aggregation ($SA^3$)
+:::
+
+---
+
+
+![](../figures/202506_ISUF/characters.png){fig-align="center" width=75%}
+
+::: aside
+5 out of 54 morphometric characters illustrated on the Prague City Centre
+:::
+
+
+---
+
+![](../figures/202506_ISUF/morphotopes.png){fig-align="center" width=65%}
+
+::: aside
+Morphotope delineation illustrated on the Prague City Centre
+:::
+
+---
+
+## Flexible definition of built-up fabric
+
+---
+
+![](../figures/202506_ISUF/taxonomy_diagram.png){fig-align="center" width=90%}
+
+::: aside
+Diagram illustrating a procedure to derive Hierarchical Morphotope Classification (HiMoC)
+:::
+
+---
+
+## {background-image="../figures/202506_ISUF/taxonomy.png" background-size="contain" .no-text}
+
+
+---
+
+## {background-image="../figures/202506_ISUF/examples.png" background-size="contain" .no-text}
+
+::: aside
+Illustration of different levels of the hierarchy.
+:::
+
+---
+
+## {background-image="../figures/202506_ISUF/map.gif" background-size="contain" .no-text}
+
+
+## Geography and urban structure
+
+---
+
+![](../figures/202506_ISUF/fuas.png){fig-align="center" width=90%}
+
+::: aside
+Functional Urban Areas used to sample from the classification
+:::
+
+
+---
+
+![](../figures/202506_ISUF/fua_prg.png){fig-align="center" width=65%}
+
+::: aside
+Functional Urban Area of Prague
+:::
+
+---
+
+![](../figures/202506_ISUF/pca.png){fig-align="center" width=60%}
+
+::: aside
+Projection of FUAs into 2 dimensions (PCA 1 x PCA 2) based on their morphological composition
+:::
+
+---
+
+![](../figures/202506_ISUF/pca3.png){fig-align="center" width=60%}
+
+::: aside
+Projection of FUAs into 2 dimensions (PCA 1 x PCA 3) based on their morphological composition
+:::
+
+## Our approach to open science
+
+---
+
+![](../figures/202510_SODAS/taxo1.png){.center_image}
+
+---
+
+![](../figures/202510_SODAS/taxo2.png){.center_image}
+
+---
+
+![](../figures/202510_SODAS/taxo3.png){.center_image}
+
+---
+
+![](../figures/202510_SODAS/taxo4.png){.center_image}
+
+---
+
+![](../figures/202504_Berkeley/geoplanar.png){fig-align="center"}
+
+::: aside
+[geoplanar.readthedocs.io](https://geoplanar.readthedocs.io/en/latest/)
+:::
+
+---
+
+![](../figures/202504_Berkeley/momepy08.png){fig-align="center"}
+
+::: aside
+[github.com/pysal/momepy](https://github.com/pysal/momepy/releases/tag/v0.8.0)
+:::
+
+---
+
+![](../figures/202504_Berkeley/shapely.png){fig-align="center"}
+
+::: aside
+[github.com/shapely/shapely](https://github.com/shapely/shapely/pull/1969)
+:::
+
+---
+
+![](../figures/202504_Berkeley/graph.png){fig-align="center"}
+
+::: aside
+[pysal.org/libpysal](https://pysal.org/libpysal/generated/libpysal.graph.Graph.html)
+:::
+
+---
+
+![](../figures/202504_Berkeley/neatnet.png){fig-align="center"}
+
+::: aside
+[uscuni.org/neatnet](https://uscuni.org/neatnet)
+:::
+
+---
+
+::: {.r-fit-text .absolute top=30%}
+open access?
+:::
+
+
+# The takeaway
+
+## *Be active in what you enjoy*
+
+## *Release early, release often*
+
+## *Make open a feature, not a bug*
+
+## *Do what is best, not what system wants*
+
+## *Share your knowledge, it is a way to achieve immortality*
+#### (Dalai Lama)
+
+::: aside
+
+[Thank you! Contacts at [martinfleischmann.net](https://martinfleischmann.net).]{.fragment}
+
+:::
