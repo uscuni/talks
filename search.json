@@ -1117,7 +1117,7 @@
     "href": "index.html#list-of-talks",
     "title": "Talks",
     "section": "List of talks",
-    "text": "List of talks\n\n2025-10-02 Urban Evo Devo\n2025-07-01 SDH\n2025-06-19 ISUF\n2025-05-16 Twin2Expand\n2025-04-24 GISRUK 2025 (Urban form and population), Bristol\n2025-04-24 GISRUK 2025 (Taxonomy), Bristol\n2025-04-24 GISRUK 2025 (Simplification), Bristol\n2025-04-14 University of California, Berkeley\n2024-10-29 International Seminar on Urban Morpho-Science\n2024-09-18 Spatial Data Science across Languages\n2024-09-12 City Transitions Saarbrücken\n2024-06-07 EuroFab project Kick-Off meeting\n2024-05-16 Open Source Science Meetup Prague"
+    "text": "List of talks\n\n2025-10-31 SODAS\n2025-10-02 Urban Evo Devo\n2025-07-01 SDH\n2025-06-19 ISUF\n2025-05-16 Twin2Expand\n2025-04-24 GISRUK 2025 (Urban form and population), Bristol\n2025-04-24 GISRUK 2025 (Taxonomy), Bristol\n2025-04-24 GISRUK 2025 (Simplification), Bristol\n2025-04-14 University of California, Berkeley\n2024-10-29 International Seminar on Urban Morpho-Science\n2024-09-18 Spatial Data Science across Languages\n2024-09-12 City Transitions Saarbrücken\n2024-06-07 EuroFab project Kick-Off meeting\n2024-05-16 Open Source Science Meetup Prague"
   },
   {
     "objectID": "slides/202510_SODAS.html#lets-go-to-erasmus",
@@ -1174,6 +1174,132 @@
     "title": "Spatial data in the open",
     "section": "PySAL",
     "text": "PySAL\nPython Spatial Analysis Library"
+  },
+  {
+    "objectID": "slides/202510_SODAS.html#section-7",
+    "href": "slides/202510_SODAS.html#section-7",
+    "title": "Spatial data in the open",
+    "section": "???",
+    "text": "???\nback in Prague\nout of academia"
+  },
+  {
+    "objectID": "slides/202510_SODAS.html#peek-into-startup-world",
+    "href": "slides/202510_SODAS.html#peek-into-startup-world",
+    "title": "Spatial data in the open",
+    "section": "Peek into startup world",
+    "text": "Peek into startup world"
+  },
+  {
+    "objectID": "slides/202510_SODAS.html#charles-university",
+    "href": "slides/202510_SODAS.html#charles-university",
+    "title": "Spatial data in the open",
+    "section": "Charles University",
+    "text": "Charles University"
+  },
+  {
+    "objectID": "slides/202510_SODAS.html#urban-taxonomy",
+    "href": "slides/202510_SODAS.html#urban-taxonomy",
+    "title": "Spatial data in the open",
+    "section": "Urban Taxonomy",
+    "text": "Urban Taxonomy"
+  },
+  {
+    "objectID": "slides/202510_SODAS.html#what-is-urban-morphometrics",
+    "href": "slides/202510_SODAS.html#what-is-urban-morphometrics",
+    "title": "Spatial data in the open",
+    "section": "What is urban morphometrics",
+    "text": "What is urban morphometrics"
+  },
+  {
+    "objectID": "slides/202510_SODAS.html#what-is-urban-morphometrics-1",
+    "href": "slides/202510_SODAS.html#what-is-urban-morphometrics-1",
+    "title": "Spatial data in the open",
+    "section": "What is urban morphometrics",
+    "text": "What is urban morphometrics\n\n\nA study of urban form through the means of quantitative assessment of its constituent elements."
+  },
+  {
+    "objectID": "slides/202510_SODAS.html#morphometrics-in-2025",
+    "href": "slides/202510_SODAS.html#morphometrics-in-2025",
+    "title": "Spatial data in the open",
+    "section": "Morphometrics in 2025",
+    "text": "Morphometrics in 2025"
+  },
+  {
+    "objectID": "slides/202510_SODAS.html#idea-of-a-morphotope",
+    "href": "slides/202510_SODAS.html#idea-of-a-morphotope",
+    "title": "Spatial data in the open",
+    "section": "Idea of a morphotope",
+    "text": "Idea of a morphotope\n\n\n\nexcerpt from Larkham and Jones, 1991"
+  },
+  {
+    "objectID": "slides/202510_SODAS.html#how-to-capture-it",
+    "href": "slides/202510_SODAS.html#how-to-capture-it",
+    "title": "Spatial data in the open",
+    "section": "How to capture it",
+    "text": "How to capture it"
+  },
+  {
+    "objectID": "slides/202510_SODAS.html#flexible-definition-of-built-up-fabric",
+    "href": "slides/202510_SODAS.html#flexible-definition-of-built-up-fabric",
+    "title": "Spatial data in the open",
+    "section": "Flexible definition of built-up fabric",
+    "text": "Flexible definition of built-up fabric"
+  },
+  {
+    "objectID": "slides/202510_SODAS.html#section-10",
+    "href": "slides/202510_SODAS.html#section-10",
+    "title": "Spatial data in the open",
+    "section": "",
+    "text": "Illustration of different levels of the hierarchy."
+  },
+  {
+    "objectID": "slides/202510_SODAS.html#geography-and-urban-structure",
+    "href": "slides/202510_SODAS.html#geography-and-urban-structure",
+    "title": "Spatial data in the open",
+    "section": "Geography and urban structure",
+    "text": "Geography and urban structure"
+  },
+  {
+    "objectID": "slides/202510_SODAS.html#our-approach-to-open-science",
+    "href": "slides/202510_SODAS.html#our-approach-to-open-science",
+    "title": "Spatial data in the open",
+    "section": "Our approach to open science",
+    "text": "Our approach to open science"
+  },
+  {
+    "objectID": "slides/202510_SODAS.html#be-active-in-what-you-enjoy",
+    "href": "slides/202510_SODAS.html#be-active-in-what-you-enjoy",
+    "title": "Spatial data in the open",
+    "section": "Be active in what you enjoy",
+    "text": "Be active in what you enjoy"
+  },
+  {
+    "objectID": "slides/202510_SODAS.html#release-early-release-often",
+    "href": "slides/202510_SODAS.html#release-early-release-often",
+    "title": "Spatial data in the open",
+    "section": "Release early, release often",
+    "text": "Release early, release often"
+  },
+  {
+    "objectID": "slides/202510_SODAS.html#make-open-a-feature-not-a-bug",
+    "href": "slides/202510_SODAS.html#make-open-a-feature-not-a-bug",
+    "title": "Spatial data in the open",
+    "section": "Make open a feature, not a bug",
+    "text": "Make open a feature, not a bug"
+  },
+  {
+    "objectID": "slides/202510_SODAS.html#do-what-is-best-not-what-system-wants",
+    "href": "slides/202510_SODAS.html#do-what-is-best-not-what-system-wants",
+    "title": "Spatial data in the open",
+    "section": "Do what is best, not what system wants",
+    "text": "Do what is best, not what system wants"
+  },
+  {
+    "objectID": "slides/202510_SODAS.html#share-your-knowledge-it-is-a-way-to-achieve-immortality",
+    "href": "slides/202510_SODAS.html#share-your-knowledge-it-is-a-way-to-achieve-immortality",
+    "title": "Spatial data in the open",
+    "section": "Share your knowledge, it is a way to achieve immortality",
+    "text": "Share your knowledge, it is a way to achieve immortality\n(Dalai Lama)\n\n\n\n\nThank you! Contacts at martinfleischmann.net."
   },
   {
     "objectID": "slides/202510_Evo_devo.html#what-is-urban-morphometrics",
