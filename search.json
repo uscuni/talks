@@ -1106,6 +1106,69 @@
     "text": "How close are we to the manually simplified network"
   },
   {
+    "objectID": "slides/202510_ITU.html#free",
+    "href": "slides/202510_ITU.html#free",
+    "title": "Open source inside out",
+    "section": "Free",
+    "text": "Free\n\nThink free as in free speech, not free beer.\n\nRichard Stallman"
+  },
+  {
+    "objectID": "slides/202510_ITU.html#section",
+    "href": "slides/202510_ITU.html#section",
+    "title": "Open source inside out",
+    "section": "2011",
+    "text": "2011"
+  },
+  {
+    "objectID": "slides/202510_ITU.html#section-1",
+    "href": "slides/202510_ITU.html#section-1",
+    "title": "Open source inside out",
+    "section": "2016",
+    "text": "2016"
+  },
+  {
+    "objectID": "slides/202510_ITU.html#momepy",
+    "href": "slides/202510_ITU.html#momepy",
+    "title": "Open source inside out",
+    "section": "momepy",
+    "text": "momepy"
+  },
+  {
+    "objectID": "slides/202510_ITU.html#pysal",
+    "href": "slides/202510_ITU.html#pysal",
+    "title": "Open source inside out",
+    "section": "PySAL",
+    "text": "PySAL"
+  },
+  {
+    "objectID": "slides/202510_ITU.html#splot",
+    "href": "slides/202510_ITU.html#splot",
+    "title": "Open source inside out",
+    "section": "splot",
+    "text": "splot"
+  },
+  {
+    "objectID": "slides/202510_ITU.html#pygeos",
+    "href": "slides/202510_ITU.html#pygeos",
+    "title": "Open source inside out",
+    "section": "pygeos",
+    "text": "pygeos"
+  },
+  {
+    "objectID": "slides/202510_ITU.html#geoplot",
+    "href": "slides/202510_ITU.html#geoplot",
+    "title": "Open source inside out",
+    "section": "geoplot",
+    "text": "geoplot"
+  },
+  {
+    "objectID": "slides/202510_ITU.html#a-contributor-1",
+    "href": "slides/202510_ITU.html#a-contributor-1",
+    "title": "Open source inside out",
+    "section": "A contributor",
+    "text": "A contributor\n\n\nDevelopment\nMaintenance\nDocumentation\nDiscussion\nQ&A\nProposals and ideas\n\nTriage\nTeaching\nBug reports\nCommunity management\nBlog posts\n…"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Talks",
@@ -1117,7 +1180,7 @@
     "href": "index.html#list-of-talks",
     "title": "Talks",
     "section": "List of talks",
-    "text": "List of talks\n\n2025-10-31 SODAS\n2025-10-02 Urban Evo Devo\n2025-07-01 SDH\n2025-06-19 ISUF\n2025-05-16 Twin2Expand\n2025-04-24 GISRUK 2025 (Urban form and population), Bristol\n2025-04-24 GISRUK 2025 (Taxonomy), Bristol\n2025-04-24 GISRUK 2025 (Simplification), Bristol\n2025-04-14 University of California, Berkeley\n2024-10-29 International Seminar on Urban Morpho-Science\n2024-09-18 Spatial Data Science across Languages\n2024-09-12 City Transitions Saarbrücken\n2024-06-07 EuroFab project Kick-Off meeting\n2024-05-16 Open Source Science Meetup Prague"
+    "text": "List of talks\n\n2025-10-31 SODAS\n2025-10-30 SODAS\n2025-10-02 Urban Evo Devo\n2025-07-01 SDH\n2025-06-19 ISUF\n2025-05-16 Twin2Expand\n2025-04-24 GISRUK 2025 (Urban form and population), Bristol\n2025-04-24 GISRUK 2025 (Taxonomy), Bristol\n2025-04-24 GISRUK 2025 (Simplification), Bristol\n2025-04-14 University of California, Berkeley\n2024-10-29 International Seminar on Urban Morpho-Science\n2024-09-18 Spatial Data Science across Languages\n2024-09-12 City Transitions Saarbrücken\n2024-06-07 EuroFab project Kick-Off meeting\n2024-05-16 Open Source Science Meetup Prague"
   },
   {
     "objectID": "slides/202510_SODAS.html#lets-go-to-erasmus",
