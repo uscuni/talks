@@ -145,6 +145,11 @@ Though analytics is still marginal
 
 ![](../figures/202510_SODAS/ud6.png){.center_image}
 
+---
+
+::: {.r-fit-text .absolute top=30%}
+yet, there were some hints of the future
+:::
 
 ---
 
@@ -758,6 +763,6 @@ open access?
 
 ::: aside
 
-[Thank you! Contacts at [martinfleischmann.net](https://martinfleischmann.net).]{.fragment}
+[Thank you! Contacts at [martinfleischmann.net](https://martinfleischmann.net). Slides at [uscuni.org/talks](https://uscuni.org/talks).]{.fragment}
 
 :::
