@@ -26,32 +26,32 @@ format:
         max-scale: 10
 ---
 
-# 2013
+# 2011
 
 ---
 
 <!-- - Architecture years -->
-![](../figures/202510_SODAS/martin2013.jpg)
+![](../figures/202510_SODAS/martin2013.jpg){.center_image}
 
 ---
 
-![](../figures/202510_SODAS/arch1.png)
+![](../figures/202510_SODAS/arch1.png){.center_image}
 
 ---
 
-![](../figures/202510_SODAS/arch2.png)
+![](../figures/202510_SODAS/arch2.png){.center_image}
 
 ---
 
-![](../figures/202510_SODAS/arch3.png)
+![](../figures/202510_SODAS/arch3.png){.center_image}
 
 ---
 
-![](../figures/202510_SODAS/arch4.png)
+![](../figures/202510_SODAS/arch4.png){.center_image}
 
 ---
 
-![](../figures/202510_SODAS/arch5.png)
+![](../figures/202510_SODAS/arch5.png){.center_image}
 
 ## Let's go to Erasmus
 
@@ -113,11 +113,11 @@ QGIS is your friend
 
 ---
 
-![](../figures/202510_SODAS/ud1.png)
+![](../figures/202510_SODAS/ud1.png){.center_image}
 
 ---
 
-![](../figures/202510_SODAS/ud2.png)
+![](../figures/202510_SODAS/ud2.png){.center_image}
 
 ---
 
@@ -128,32 +128,32 @@ Though analytics is still marginal
 
 ---
 
-![](../figures/202510_SODAS/ud3.png)
+![](../figures/202510_SODAS/ud3.png){.center_image}
 
 
 ---
 
-![](../figures/202510_SODAS/ud4.png)
+![](../figures/202510_SODAS/ud4.png){.center_image}
 
 
 ---
 
-![](../figures/202510_SODAS/ud5.png)
+![](../figures/202510_SODAS/ud5.png){.center_image}
 
 
 ---
 
-![](../figures/202510_SODAS/ud6.png)
+![](../figures/202510_SODAS/ud6.png){.center_image}
 
 
 ---
 
 ::: {.columns}
 ::: {.column}
-![](../figures/202510_SODAS/ud7.png)
+![](../figures/202510_SODAS/ud7.png){.center_image}
 :::
 ::: {.column}
-![](../figures/202510_SODAS/ud8.png)
+![](../figures/202510_SODAS/ud8.png){.center_image}
 :::
 :::
 
@@ -192,14 +192,14 @@ I got 0 skills I need.
 
 ::: {.absolute top=25%}
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Stack_Overflow_logo.svg/1280px-Stack_Overflow_logo.svg.png)
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Stack_Overflow_logo.svg/1280px-Stack_Overflow_logo.svg.png){.center_image}
 :::
 
 ---
 
 ::: {.absolute top=25%}
 
-![](../figures/202510_SODAS/momepy1.png)
+![](../figures/202510_SODAS/momepy1.png){.center_image}
 :::
 
 ---

@@ -1,0 +1,775 @@
+---
+title: "Open source inside out"
+author: "Martin Fleischmann"
+institute: "Charles University"
+format:
+    revealjs:
+        theme: [default, ../assets/reveal.scss]
+        logo: ../assets/icon.svg
+        menu: false
+        transition: fade
+        navigation-mode: linear
+        controls-layout: edges
+        progress: true
+        include-in-header:
+            - ../assets/font.html
+            # - text: |
+            #     <style>
+            #     #title-slide .title {
+            #         font-size: 50px;
+            #     }
+            #     </style>
+        title-slide-attributes:
+            data-background-image: ../assets/full_logo.svg
+            data-background-size: 20%
+            data-background-position: 50% 90%
+        max-scale: 10
+---
+
+::: {.r-fit-text}
+momepy geopandas xyzservices neatnet libpysal
+:::
+::: {.r-fit-text .fragment}
+pyinterpolate xvec clustergram contextily spopt
+:::
+::: {.r-fit-text .fragment}
+geoplanar dask-geopandas mapclassify pointpats
+:::
+::: {.r-fit-text .fragment}
+shapely giddy inequality esda splot folium tobler
+:::
+::: {.r-fit-text .fragment}
+ branca pyogrio mgwr osmnx spaghetti spherely
+:::
+::: {.r-fit-text .fragment}
+access matplotlib pandas holoviews geoplot
+:::
+::: {.r-fit-text .fragment}
+greedy topojson legendgram movingpandas
+:::
+::: {.fragment}
+I might have a problem...
+:::
+
+# What is open source {.question}
+
+::: {.r-fit-text .fragment}
+[free]{.fragment} open source software
+:::
+
+## Free
+
+> [Think *free* as in *free speech*]{.fragment}[, not *free beer*.]{.fragment}
+
+[Richard Stallman]{.fragment}
+
+---
+
+::: {.r-fit-text .absolute top=35%}
+FOSS is inherently political.
+:::
+
+---
+
+![](../figures/202510_ITU/psf.png){.center_image}
+
+---
+
+::: {.r-fit-text .absolute top=35%}
+FOSS is also very diverse.
+:::
+
+---
+
+![](https://imgs.xkcd.com/comics/dependency.png){.center_image}
+
+
+# How did I get there {.question}
+
+## 2011
+
+---
+
+<!-- - Architecture years -->
+![](../figures/202510_SODAS/martin2013.jpg){.center_image}
+
+---
+
+![](../figures/202510_SODAS/arch1.png){.center_image}
+
+---
+
+![](../figures/202510_SODAS/arch2.png){.center_image}
+
+---
+
+![](../figures/202510_SODAS/arch3.png){.center_image}
+
+---
+
+![](../figures/202510_SODAS/arch4.png){.center_image}
+
+---
+
+![](../figures/202510_SODAS/arch5.png){.center_image}
+
+## 2016
+
+---
+
+::: {.r-fit-text .absolute top=30%}
+QGIS is your friend
+:::
+
+---
+
+![](../figures/202510_SODAS/ud1.png){.center_image}
+
+---
+
+![](../figures/202510_SODAS/ud2.png){.center_image}
+
+---
+
+::: {.r-fit-text .absolute top=30%}
+Though analytics is still marginal
+:::
+
+
+---
+
+![](../figures/202510_SODAS/ud3.png){.center_image}
+
+
+---
+
+![](../figures/202510_SODAS/ud4.png){.center_image}
+
+
+---
+
+![](../figures/202510_SODAS/ud5.png){.center_image}
+
+
+---
+
+![](../figures/202510_SODAS/ud6.png){.center_image}
+
+
+---
+
+::: {.r-fit-text .absolute top=30%}
+yet, there were some hints of the future
+:::
+
+---
+
+::: {.columns}
+::: {.column}
+![](../figures/202510_SODAS/ud7.png){.center_image}
+:::
+::: {.column}
+![](../figures/202510_SODAS/ud8.png){.center_image}
+:::
+:::
+
+---
+
+
+![](../figures/202510_SODAS/ud9.png){.center_image}
+
+# 2017
+
+[Enrolled in a PhD programme]{.fragment}
+
+---
+
+::: {.r-fit-text .absolute top=30%}
+The Urban Atlas
+:::
+
+---
+
+::: {.r-fit-text .absolute top=35%}
+How am I going to do this???
+:::
+
+---
+
+::: {.r-fit-text .absolute top=35%}
+I got 0 skills I need.
+:::
+
+---
+
+![](https://imgs.xkcd.com/comics/python.png){.center_image}
+
+---
+
+::: {.absolute top=25%}
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Stack_Overflow_logo.svg/1280px-Stack_Overflow_logo.svg.png){.center_image}
+:::
+
+---
+
+
+::: {.absolute top=25%}
+
+![](../figures/202510_SODAS/momepy1.png){.center_image}
+:::
+
+---
+
+::: {.r-fit-text .absolute top=35%}
+momepy was born that day
+:::
+
+---
+
+![](../figures/202510_SODAS/momepy_github.png){.center_image}
+
+---
+
+::: {.r-fit-text .absolute top=35%}
+a tool I needed myself
+:::
+
+::: {.r-fit-text .absolute top=60% .fragment}
+shared in the open
+:::
+
+---
+
+![](../figures/202410_Nanjing/momepy_01.png){.center_image}
+
+---
+
+::: {.r-fit-text .absolute top=35%}
+I made some mistakes
+:::
+
+---
+
+::: {.r-fit-text .absolute top=35%}
+I fixed them over the years
+:::
+
+---
+
+::: {.r-fit-text .absolute top=35%}
+none of the code written for 0.1 would run today
+:::
+
+# 2018
+
+---
+
+::: {.r-fit-text .absolute top=35%}
+"Hey, this does not work."
+:::
+
+---
+
+::: {.r-fit-text .absolute top=35%}
+"I want to do this."
+:::
+
+---
+
+::: {.r-fit-text .absolute top=35%}
+"This is how you do that."
+:::
+
+# 2019
+
+---
+
+> Hi Martin,
+>
+> I have a question for you: [would you like to become a "core developer" of GeoPandas?]{.fragment}
+
+::: {.r-fit-text .absolute top=60% .fragment}
+are you insane?
+:::
+
+---
+
+![](https://geopandas.org/en/stable/_images/geopandas_logo.png){.center_image}
+
+---
+
+::: {.r-fit-text .absolute top=35%}
+that is how I got in FOSS
+:::
+
+# Inside of FOSS
+
+---
+
+![](../figures/202510_ITU/all_stars.png){.center_image}
+
+
+## momepy
+
+---
+
+![](../figures/202510_ITU/momepy_repo.png){.center_image}
+
+::: {.aside}
+github.com/pysal/momepy
+:::
+
+---
+
+::: {.r-fit-text .absolute top=35%}
+A toolkit for urban morphology in Python.
+:::
+
+::: {.r-fit-text .absolute top=55% .fragment}
+An outcome of my PhD.
+:::
+
+---
+
+![](../figures/202510_ITU/momepy_stars.png){.center_image}
+
+---
+
+### Motivation
+
+Science
+
+---
+
+### Life of a project
+
+---
+
+::: {.r-fit-text .absolute top=30%}
+Bus factor
+:::
+
+---
+
+### Joining PySAL federation in 2021
+
+---
+
+### Who
+
+Martin
+
+[Martin + James (maintenance)]{.fragment}
+
+[Martin + Krasen + James (maintenance)]{.fragment}
+
+---
+
+![](../figures/202510_ITU/momepy_contrib.png){.center_image}
+
+---
+
+### Current status
+
+[Actively developed]{.fragment}
+
+[Reaching stability]{.fragment}
+
+[Planned 1.0 (stable) release]{.fragment}
+
+## PySAL
+
+---
+
+![](../figures/202510_ITU/pysal_repo.png){.center_image}
+
+::: {.aside}
+github.com/pysal/pysal
+:::
+
+---
+
+![](../figures/202510_ITU/pysal_repos.png){.center_image}
+
+::: {.aside}
+github.com/pysal
+:::
+
+---
+
+::: {.r-fit-text .absolute top=35%}
+Python Spatial Analysis Library
+:::
+
+::: {.r-fit-text .absolute top=55% .fragment}
+A federation of scientific packages.
+:::
+
+---
+
+![](../figures/202510_ITU/pysal_stars.png){.center_image}
+
+---
+
+### Motivation
+
+Science
+
+---
+
+### Life of a project
+
+#### ± 20 years ago
+
+[Rey and Anselin created PySAL as a single package]{.fragment}
+
+[Support for development through scientific grants]{.fragment}
+
+---
+
+### Split into a federation 2018
+
+[PySAL 2.0]{.fragment}
+
+---
+
+### Who
+
+![](../figures/202510_ITU/pysal_team1.png){.center_image}
+
+---
+
+### Who
+
+![](../figures/202510_ITU/pysal_team2.png){.center_image}
+
+---
+
+### Who
+
+![](../figures/202510_ITU/pysal_team3.png){.center_image}
+
+---
+
+### Who
+
+![](../figures/202510_ITU/pysal_team4.png){.center_image}
+
+---
+
+![](../figures/202510_ITU/libpysal_contrib.png){.center_image}
+
+---
+
+![](../figures/202510_ITU/tobler_contrib.png){.center_image}
+
+---
+
+![](../figures/202510_ITU/spaghetti_contrib.png){.center_image}
+
+---
+
+### Current status
+
+[Actively developed]{.fragment}
+
+[Stable]{.fragment}
+
+[Strong developer base]{.fragment}
+
+[Archival of some subpackages]{.fragment}
+
+## splot
+
+---
+
+![](../figures/202510_ITU/splot_repo.png){.center_image}
+
+::: {.aside}
+github.com/pysal/splot
+:::
+
+---
+
+::: {.r-fit-text .absolute top=35%}
+Lightweight plotting for geospatial analysis in PySAL
+:::
+
+::: {.r-fit-text .absolute top=55% .fragment}
+Google Summer of Code project
+:::
+
+---
+
+![](../figures/202510_ITU/splot_stars.png){.center_image}
+
+---
+
+### Motivation
+
+Science visualisation (nice to have)
+
+---
+
+### Life of a project
+
+[Stefanie Lumnitz released 1.0 in 2018]{.fragment}
+
+[Search for a maintainer]{.fragment}
+
+[Decision to archive in 2025]{.fragment}
+
+---
+
+::: {.r-fit-text .absolute top=35%}
+cut into pieces and distribute them
+:::
+
+---
+
+![](../figures/202510_ITU/splot_1.png){.center_image}
+
+::: {.aside}
+autocorrelation plotting moved to `esda`, where statistics is computed
+:::
+
+---
+
+![](../figures/202510_ITU/splot_2.png){.center_image}
+
+::: {.aside}
+graph plotting moved to `libpysal`, where graph objects are defined
+:::
+
+---
+
+### Who
+
+---
+
+![](../figures/202510_ITU/splot_contrib.png){.center_image}
+
+---
+
+### Current status
+
+[Scheduled for archival with a deprecation period]{.fragment}
+
+[Functionality moved elsewhere, but with a different API]{.fragment}
+
+## pygeos
+
+---
+
+![](../figures/202510_ITU/pygeos_repo.png){.center_image}
+
+::: {.aside}
+github.com/pygeos/pygeos
+:::
+
+---
+
+::: {.r-fit-text .absolute top=35%}
+C/Python library with vectorized geometry functions
+:::
+
+::: {.r-fit-text .absolute top=55% .fragment}
+Replaced Shapely to become Shapely
+:::
+
+---
+
+![](../figures/202510_ITU/pygeos_stars.png){.center_image}
+
+---
+
+### Motivation
+
+Performance
+
+---
+
+### Life of a project
+
+#### 2019
+
+[Shapely is a bottleneck]{.fragment}
+
+[Let's wrap GEOS to keep loops in C]{.fragment}
+
+---
+
+### Optionally supported in GeoPandas in 2020
+
+[Shapely was no longer needed]{.fragment}
+
+[Huge transition effort would be needed]{.fragment}
+
+---
+
+### PyGEOS merged into Shapely in 2021
+
+[Shapely 2.0 was PyGEOS with backwards compatibility]{.fragment}
+
+---
+
+::: {.r-fit-text .absolute top=35%}
+merge into another project
+:::
+
+---
+
+### Who
+
+---
+
+![](../figures/202510_ITU/pygeos_contrib.png){.center_image}
+
+---
+
+### Current status
+
+[Code consumed by Shapely]{.fragment}
+
+[PyGEOS no longer maintained]{.fragment}
+
+## geoplot
+
+---
+
+![](../figures/202510_ITU/geoplot_repo.png){.center_image}
+
+::: {.aside}
+github.com/ResidentMario/geoplot
+:::
+
+---
+
+::: {.r-fit-text .absolute top=35%}
+High-level geospatial data visualization library for Python
+:::
+
+::: {.r-fit-text .absolute top=55% .fragment}
+Abandoned
+:::
+
+---
+
+![](../figures/202510_ITU/geoplot_stars.png){.center_image}
+
+---
+
+### Motivation
+
+Cool visualisation
+
+---
+
+### Life of a project
+
+[Released in 2017 by Aleksey Bilogur]{.fragment}
+
+[Part of GeoPandas documentation since 2018]{.fragment}
+
+[Discussion to merge with the GeoPandas project]{.fragment}
+
+---
+
+::: {.r-fit-text .absolute top=35%}
+abandoned in 2022
+:::
+
+---
+
+::: {.r-fit-text .absolute top=35%}
+code no longer works*
+:::
+
+::: {.aside}
+\* with current version of its dependencies
+:::
+
+---
+
+### Who
+
+---
+
+![](../figures/202510_ITU/geoplot_contrib.png){.center_image}
+
+---
+
+::: {.r-fit-text .absolute top=35%}
+unresolved bus factor
+:::
+
+---
+
+::: {.r-fit-text .absolute top=35%}
+geoplot lacked contributors
+:::
+
+# A contributor
+
+---
+
+::: {.r-fit-text .absolute top=45%}
+someone who writes code
+:::
+
+::: {.r-fit-text .absolute top=0% .fragment}
+not only
+:::
+
+## A contributor
+
+::: {.columns}
+::: {.column}
+[Development]{.fragment}
+
+[Maintenance]{.fragment}
+
+[Documentation]{.fragment}
+
+[Discussion]{.fragment}
+
+[Q&A]{.fragment}
+
+[Proposals and ideas]{.fragment}
+
+:::
+
+::: {.column}
+
+[Triage]{.fragment}
+
+[Teaching]{.fragment}
+
+[Bug reports]{.fragment}
+
+[Community management]{.fragment}
+
+[Blog posts]{.fragment}
+
+[...]{.fragment}
+
+:::
+:::
+
+---
+
+::: {.r-fit-text .absolute top=5%}
+are you a contributor?
+:::
+
+::: {.r-fit-text .absolute top=30% .fragment}
+why not?
+:::
+
+::: aside
+
+[Thank you! Contacts at [martinfleischmann.net](https://martinfleischmann.net). Slides at [uscuni.org/talks](https://uscuni.org/talks).]{.fragment}
+
+:::
+
