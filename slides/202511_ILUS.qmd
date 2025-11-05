@@ -26,60 +26,18 @@ format:
             data-background-position: 50% 90%
         max-scale: 10
 ---
-<!-- Krasen Samardzhiev, Anna Brázdová, Daniela Dančejová, Lisa Winkler, Eliška Pospěchová -->
-<!--
-- I
-- add intro to urban morphology
-- add intro to urban morphometrics70
- -->
-
 
 ::: {.r-fit-text .absolute top=35%}
 urban morphologist
 :::
 
-# A brief introduction into urban morphology
-
 ---
 
 ::: {.r-fit-text .absolute top=39%}
-What is urban morphology?
+Urban morphology is changing.
 :::
 
 ---
-
-> The study of the city as human habitat.
-
-(Moudon, 1997)
-
-::: {.fragment}
-
-> The study of human settlements, their structure and the process of their formation and transformation.
-
-(Kropf, 2017)
-
-:::
-
-::: {.fragment}
-
-> The study of urban form.
-:::
-
----
-
-## Methods of analysis
-
-[typo-morphological]{.fragment} [(bottom-up)]{.fragment}
-
-[historico-geographical]{.fragment} [(top-down)]{.fragment}
-
-[...]{.fragment}
-
-[urban morphometrics]{.fragment}
-
----
-
-<!-- examples -->
 
 ![](../figures/202511_ILUS/ex1.png){.absolute top=0% width=33%}
 
@@ -108,7 +66,7 @@ What is urban morphology?
 ---
 
 ::: {.r-fit-text .absolute top=39%}
-The field is changing
+Urban morphometrics plays a role.
 :::
 
 
@@ -122,7 +80,7 @@ Not anything new!
 
 ---
 
-![](../figures/202410_Nanjing/morphometrics_conzen.png)
+![](../figures/202410_Nanjing/morphometrics_conzen.png){.absolute top=20%}
 
 ::: aside
 excerpt from Larkham and Jones, 1991
@@ -134,7 +92,7 @@ excerpt from Larkham and Jones, 1991
 > A study of urban form through the means of quantitative assessment of its constituent elements.
 :::
 
-[Conceptually similar to historico-geographical approach.]{.fragment}
+[Conceptually similar to historico-geographical approach in urban morphology.]{.fragment}
 
 [Methodologically embedded in spatial data science and geography.]{.fragment}
 
@@ -170,36 +128,7 @@ scalable urban morphometrics
 
 ---
 
-::: {.r-fit-text .absolute top=39%}
-How to conceptualise urban form for data science?
-:::
-
-## Fundamental elements of urban form
-
-::: {.fragment}
-buildings
-:::
-
-## {background-image="../figures/202409_Saarbrucken/blg.png" background-size="contain" .no-text}
-
-::: aside
-Building layer representing a portion of Prague.
-:::
-
-
-## Fundamental elements of urban form
-
-buildings
-
-streets
-
----
-
-## {background-image="../figures/202409_Saarbrucken/edges.png" background-size="contain" .no-text}
-
-::: aside
-Street layer representing a portion of Prague.
-:::
+## Data pain points
 
 ---
 
@@ -213,10 +142,10 @@ There is an issue with streets we need to talk about.
 A street may not be a street.
 :::
 
-## {background-image="../figures/202409_Saarbrucken/net.png" background-size=80% .no-text}
+## {background-image="../figures/202504_GISRUK_simplification/fig_original-manual.png" background-size=80% .no-text}
 
 ::: aside
-Transportation vs morphological representation of a street network
+Transportation vs manually-derived morphological representation of a street network
 :::
 
 ## What to do {.question}
@@ -269,24 +198,6 @@ Python package `neatnet`
 
 ::: aside
 Output of different simplification methods for a street network fragment in Seraing, Liège (Belgium).
-:::
-
-
-
-## Fundamental elements of urban form
-
-buildings
-
-streets
-
-plots
-
----
-
-## {background-image="../figures/202409_Saarbrucken/plots_prg.png" background-size="contain" .no-text}
-
-::: aside
-Plot layer representing a portion of Prague.
 :::
 
 ---
@@ -343,12 +254,6 @@ Arribas-Bel, D., Fleischmann, M., 2022. Spatial Signatures - Understanding (urba
 
 ::: aside
 Enclosed tessellation
-:::
-
-## {background-image="../figures/202409_Saarbrucken/contig_blg.png" background-size="contain" .no-text}
-
-::: aside
-Queen contiguity decoding adjacency of geometries
 :::
 
 ---
