@@ -180,7 +180,7 @@ How to conceptualise urban form for data science?
 buildings
 :::
 
-## {background-image="../figures/202409_Saarbrucken/blg.png" background-size=70% .no-text}
+## {background-image="../figures/202409_Saarbrucken/blg.png" background-size="contain" .no-text}
 
 ::: aside
 Building layer representing a portion of Prague.
@@ -195,7 +195,7 @@ streets
 
 ---
 
-## {background-image="../figures/202409_Saarbrucken/edges.png" background-size=70% .no-text}
+## {background-image="../figures/202409_Saarbrucken/edges.png" background-size="contain" .no-text}
 
 ::: aside
 Street layer representing a portion of Prague.
@@ -209,7 +209,9 @@ There is an issue with streets we need to talk about.
 
 ---
 
-### A street may not be a street
+::: {.r-fit-text .absolute top=39%}
+A street may not be a street.
+:::
 
 ## {background-image="../figures/202409_Saarbrucken/net.png" background-size=80% .no-text}
 
@@ -436,13 +438,22 @@ Diagram illustrating a procedure to derive Hierarchical Morphotope Classificatio
 
 ---
 
-## {background-image="../figures/202506_ISUF/taxonomy.png" background-size="contain" .no-text}
+## {background-image="../figures/202511_ILUS/taxonomy.png" background-size="contain" .no-text}
 
+## {background-image="../figures/202511_ILUS/taxonomy_tree.png" background-size="contain" .no-text}
+
+## {background-image="../figures/202511_ILUS/taxonomy_chars.png" background-size="contain" .no-text}
+
+## {background-image="../figures/202511_ILUS/taxonomy_abundance.png" background-size="contain" .no-text}
+
+## {background-image="../figures/202511_ILUS/taxonomy_mtopes.png" background-size="contain" .no-text}
+
+## {background-image="../figures/202511_ILUS/taxonomy.png" background-size="contain" .no-text}
 
 ---
 
 
-![](../figures/202511_ILUS/tree_nocut.png){fig-align="center" width=65%}
+![](../figures/202511_ILUS/tree_nocut.png){fig-align="center" width=60%}
 
 ::: aside
 Taxonomic tree (up to 256 branches)
@@ -450,7 +461,7 @@ Taxonomic tree (up to 256 branches)
 
 ---
 
-![](../figures/202511_ILUS/tree_cut0.png){fig-align="center" width=65%}
+![](../figures/202511_ILUS/tree_cut0.png){fig-align="center" width=60%}
 
 ::: aside
 Taxonomic tree with a cut marking 2 branches (level 1)
@@ -465,7 +476,7 @@ Illustration of different levels of the hierarchy.
 
 ---
 
-![](../figures/202511_ILUS/tree_cut1.png){fig-align="center" width=65%}
+![](../figures/202511_ILUS/tree_cut1.png){fig-align="center" width=60%}
 
 ::: aside
 Taxonomic tree with a cut marking 4 branches (level 2)
@@ -480,7 +491,7 @@ Illustration of different levels of the hierarchy.
 ---
 
 
-![](../figures/202511_ILUS/tree_cut2.png){fig-align="center" width=65%}
+![](../figures/202511_ILUS/tree_cut2.png){fig-align="center" width=60%}
 
 ::: aside
 Taxonomic tree with a cut marking 8 branches (level 3)
@@ -517,7 +528,7 @@ Abundance of built fabric types derived from level 3
 
 ---
 
-![](../figures/202511_ILUS/tree_cut3.png){fig-align="center" width=65%}
+![](../figures/202511_ILUS/tree_cut3.png){fig-align="center" width=60%}
 
 ::: aside
 Taxonomic tree with a cut marking 107 branches (level 7)
