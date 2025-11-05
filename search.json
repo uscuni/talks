@@ -1722,13 +1722,6 @@
     "text": "Do you want to follow up\n martin.fleischmann@natur.cuni.cz\n @martinfleis\n @martinfleis@fosstodon.org\n martinfleischmann.net"
   },
   {
-    "objectID": "slides/202511_ILUS.html#methods-of-analysis",
-    "href": "slides/202511_ILUS.html#methods-of-analysis",
-    "title": "Understanding the structure of space",
-    "section": "Methods of analysis",
-    "text": "Methods of analysis\ntypo-morphological (bottom-up)\nhistorico-geographical (top-down)\n…\nurban morphometrics"
-  },
-  {
     "objectID": "slides/202511_ILUS.html#what-is-urban-morphometrics",
     "href": "slides/202511_ILUS.html#what-is-urban-morphometrics",
     "title": "Understanding the structure of space",
@@ -1740,7 +1733,7 @@
     "href": "slides/202511_ILUS.html#what-is-urban-morphometrics-1",
     "title": "Understanding the structure of space",
     "section": "What is urban morphometrics",
-    "text": "What is urban morphometrics\n\n\nA study of urban form through the means of quantitative assessment of its constituent elements.\n\n\nConceptually similar to historico-geographical approach.\nMethodologically embedded in spatial data science and geography."
+    "text": "What is urban morphometrics\n\n\nA study of urban form through the means of quantitative assessment of its constituent elements.\n\n\nConceptually similar to historico-geographical approach in urban morphology.\nMethodologically embedded in spatial data science and geography."
   },
   {
     "objectID": "slides/202511_ILUS.html#morphometrics-in-2025",
@@ -1750,39 +1743,18 @@
     "text": "Morphometrics in 2025"
   },
   {
-    "objectID": "slides/202511_ILUS.html#fundamental-elements-of-urban-form",
-    "href": "slides/202511_ILUS.html#fundamental-elements-of-urban-form",
+    "objectID": "slides/202511_ILUS.html#data-pain-points",
+    "href": "slides/202511_ILUS.html#data-pain-points",
     "title": "Understanding the structure of space",
-    "section": "Fundamental elements of urban form",
-    "text": "Fundamental elements of urban form\n\nbuildings"
+    "section": "Data pain points",
+    "text": "Data pain points"
   },
   {
     "objectID": "slides/202511_ILUS.html#section",
     "href": "slides/202511_ILUS.html#section",
     "title": "Understanding the structure of space",
     "section": "",
-    "text": "Building layer representing a portion of Prague."
-  },
-  {
-    "objectID": "slides/202511_ILUS.html#fundamental-elements-of-urban-form-1",
-    "href": "slides/202511_ILUS.html#fundamental-elements-of-urban-form-1",
-    "title": "Understanding the structure of space",
-    "section": "Fundamental elements of urban form",
-    "text": "Fundamental elements of urban form\nbuildings\nstreets"
-  },
-  {
-    "objectID": "slides/202511_ILUS.html#section-1",
-    "href": "slides/202511_ILUS.html#section-1",
-    "title": "Understanding the structure of space",
-    "section": "",
-    "text": "Street layer representing a portion of Prague."
-  },
-  {
-    "objectID": "slides/202511_ILUS.html#section-2",
-    "href": "slides/202511_ILUS.html#section-2",
-    "title": "Understanding the structure of space",
-    "section": "",
-    "text": "Transportation vs morphological representation of a street network"
+    "text": "Transportation vs manually-derived morphological representation of a street network"
   },
   {
     "objectID": "slides/202511_ILUS.html#what-to-do",
@@ -1799,46 +1771,25 @@
     "text": "Adaptive continuity-preserving simplification of street networks\n\n\nFleischmann, M., Vybornova, A., Gaboardi, J.D., Brázdová, A., Dančejová, D., 2026. Adaptive continuity-preserving simplification of street networks. Computers, Environment and Urban Systems 123, 102354. https://doi.org/10.1016/j.compenvurbsys.2025.102354"
   },
   {
-    "objectID": "slides/202511_ILUS.html#section-3",
-    "href": "slides/202511_ILUS.html#section-3",
+    "objectID": "slides/202511_ILUS.html#section-1",
+    "href": "slides/202511_ILUS.html#section-1",
     "title": "Understanding the structure of space",
     "section": "",
     "text": "Output of different simplification methods for a street network fragment in Seraing, Liège (Belgium)."
   },
   {
-    "objectID": "slides/202511_ILUS.html#fundamental-elements-of-urban-form-2",
-    "href": "slides/202511_ILUS.html#fundamental-elements-of-urban-form-2",
+    "objectID": "slides/202511_ILUS.html#section-3",
+    "href": "slides/202511_ILUS.html#section-3",
     "title": "Understanding the structure of space",
-    "section": "Fundamental elements of urban form",
-    "text": "Fundamental elements of urban form\nbuildings\nstreets\nplots"
+    "section": "",
+    "text": "Morphological tessellation"
   },
   {
     "objectID": "slides/202511_ILUS.html#section-4",
     "href": "slides/202511_ILUS.html#section-4",
     "title": "Understanding the structure of space",
     "section": "",
-    "text": "Plot layer representing a portion of Prague."
-  },
-  {
-    "objectID": "slides/202511_ILUS.html#section-6",
-    "href": "slides/202511_ILUS.html#section-6",
-    "title": "Understanding the structure of space",
-    "section": "",
-    "text": "Morphological tessellation"
-  },
-  {
-    "objectID": "slides/202511_ILUS.html#section-7",
-    "href": "slides/202511_ILUS.html#section-7",
-    "title": "Understanding the structure of space",
-    "section": "",
     "text": "Enclosed tessellation"
-  },
-  {
-    "objectID": "slides/202511_ILUS.html#section-8",
-    "href": "slides/202511_ILUS.html#section-8",
-    "title": "Understanding the structure of space",
-    "section": "",
-    "text": "Queen contiguity decoding adjacency of geometries"
   },
   {
     "objectID": "slides/202511_ILUS.html#idea-of-a-morphotope",
@@ -1855,39 +1806,67 @@
     "text": "How to capture it"
   },
   {
-    "objectID": "slides/202511_ILUS.html#section-15",
-    "href": "slides/202511_ILUS.html#section-15",
+    "objectID": "slides/202511_ILUS.html#section-11",
+    "href": "slides/202511_ILUS.html#section-11",
     "title": "Understanding the structure of space",
     "section": "",
     "text": "Illustration of different levels of the hierarchy."
   },
   {
-    "objectID": "slides/202511_ILUS.html#section-16",
-    "href": "slides/202511_ILUS.html#section-16",
+    "objectID": "slides/202511_ILUS.html#section-12",
+    "href": "slides/202511_ILUS.html#section-12",
     "title": "Understanding the structure of space",
     "section": "",
     "text": "Illustration of different levels of the hierarchy."
+  },
+  {
+    "objectID": "slides/202511_ILUS.html#section-13",
+    "href": "slides/202511_ILUS.html#section-13",
+    "title": "Understanding the structure of space",
+    "section": "",
+    "text": "Illustration of different levels of the hierarchy."
+  },
+  {
+    "objectID": "slides/202511_ILUS.html#section-14",
+    "href": "slides/202511_ILUS.html#section-14",
+    "title": "Understanding the structure of space",
+    "section": "",
+    "text": "urbantaxonomy.org"
   },
   {
     "objectID": "slides/202511_ILUS.html#section-17",
     "href": "slides/202511_ILUS.html#section-17",
     "title": "Understanding the structure of space",
     "section": "",
-    "text": "Illustration of different levels of the hierarchy."
+    "text": "UMAP components reflecting the composition within 50km grid."
   },
   {
     "objectID": "slides/202511_ILUS.html#section-18",
     "href": "slides/202511_ILUS.html#section-18",
     "title": "Understanding the structure of space",
     "section": "",
-    "text": "urbantaxonomy.org"
+    "text": "Projection of UMAP components"
+  },
+  {
+    "objectID": "slides/202511_ILUS.html#section-19",
+    "href": "slides/202511_ILUS.html#section-19",
+    "title": "Understanding the structure of space",
+    "section": "",
+    "text": "Projection of UMAP components"
+  },
+  {
+    "objectID": "slides/202511_ILUS.html#section-20",
+    "href": "slides/202511_ILUS.html#section-20",
+    "title": "Understanding the structure of space",
+    "section": "",
+    "text": "Projection of UMAP components"
   },
   {
     "objectID": "slides/202511_ILUS.html#section-21",
     "href": "slides/202511_ILUS.html#section-21",
     "title": "Understanding the structure of space",
     "section": "",
-    "text": "UMAP components reflecting the composition within 50km grid."
+    "text": "Projection of UMAP components"
   },
   {
     "objectID": "slides/202511_ILUS.html#section-22",
@@ -1927,34 +1906,6 @@
   {
     "objectID": "slides/202511_ILUS.html#section-27",
     "href": "slides/202511_ILUS.html#section-27",
-    "title": "Understanding the structure of space",
-    "section": "",
-    "text": "Projection of UMAP components"
-  },
-  {
-    "objectID": "slides/202511_ILUS.html#section-28",
-    "href": "slides/202511_ILUS.html#section-28",
-    "title": "Understanding the structure of space",
-    "section": "",
-    "text": "Projection of UMAP components"
-  },
-  {
-    "objectID": "slides/202511_ILUS.html#section-29",
-    "href": "slides/202511_ILUS.html#section-29",
-    "title": "Understanding the structure of space",
-    "section": "",
-    "text": "Projection of UMAP components"
-  },
-  {
-    "objectID": "slides/202511_ILUS.html#section-30",
-    "href": "slides/202511_ILUS.html#section-30",
-    "title": "Understanding the structure of space",
-    "section": "",
-    "text": "Projection of UMAP components"
-  },
-  {
-    "objectID": "slides/202511_ILUS.html#section-31",
-    "href": "slides/202511_ILUS.html#section-31",
     "title": "Understanding the structure of space",
     "section": "",
     "text": "Projection of UMAP components"
