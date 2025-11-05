@@ -6,6 +6,7 @@ Archive of talks of the US CUNI team.
 
 ## List of talks
 
+- [2025-11-06 ILUS](slides/202511_ILUS.qmd)
 - [2025-10-31 SODAS](slides/202510_SODAS.qmd)
 - [2025-10-30 ITU](slides/202510_ITU.qmd)
 - [2025-10-02 Urban Evo Devo](slides/202510_Evo_devo.qmd)
