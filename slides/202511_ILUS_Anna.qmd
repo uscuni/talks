@@ -112,7 +112,7 @@ Level 3 of the classification - 7 main housing types in Czechia
 
 ---
 
-#### Coherent Interconnected Fabric 
+#### Coherent Interconnected Fabric
 
 ![](../figures/202511_ILUS_Anna/grid.png){height="500"}
 
@@ -132,7 +132,7 @@ Level 3 of the classification - 7 main housing types in Czechia
 
 ---
 
-#### Coherent Dense Disjoint Fabric 
+#### Coherent Dense Disjoint Fabric
 
 ![](../figures/202511_ILUS_Anna/dense.jpeg){height="500"}
 
@@ -142,7 +142,7 @@ Level 3 of the classification - 7 main housing types in Czechia
 
 ---
 
-#### Incoherent Large-scale Homogeneous Fabric 
+#### Incoherent Large-scale Homogeneous Fabric
 
 ![](../figures/202511_ILUS_Anna/panelaky.jpeg){height="500"}
 
@@ -195,7 +195,7 @@ Target - most common urban form type assigned to BSUs
 ## Scale {background-image="../figures/202511_ILUS_Anna/detail.png".no-text}
 
 ::: aside
-Basic Settlement Units 
+Basic Settlement Units
 
 20 000 BSU in Czechia
 
@@ -291,7 +291,7 @@ Census characteristics as the independent variables
 
 ---
 
-#### Built form types 
+#### Built form types
 
 ![](../figures/202511_ILUS_Anna/cz_target.png){height="700"}
 
@@ -328,7 +328,7 @@ Census characteristics as the independent variables
 
 ## Geographically weighted modelling
 
-[Global models assume the same relationship between predictors and target classes across the entire dataset.]{.fragment} 
+[Global models assume the same relationship between predictors and target classes across the entire dataset.]{.fragment}
 
 [They do not account for the geographic variation in the relationship.]{.fragment}
 
@@ -370,7 +370,7 @@ Nearby observations are given more weight than distant ones.
 
 ---
 
-### Bandwidth 
+### Bandwidth
 
 Controls the spatial scale over which a process varies.
 
@@ -400,7 +400,7 @@ Controls the spatial scale over which a process varies.
 ![](../figures/202511_ILUS_Anna/acc.png){.r-stretch}
 
 ::: aside
-Averaged F1 macro score 
+Averaged F1 macro score
 :::
 
 ---
@@ -427,7 +427,7 @@ Averaged F1 macro score
 
 ---
 
-#### Incoherent Small-Scale Sparse Fabric 
+#### Incoherent Small-Scale Sparse Fabric
 
 ![](../figures/202511_ILUS_Anna/5_acc.png){.r-stretch}
 
@@ -479,7 +479,7 @@ Coefficients for Education - university degree
 
 ## Conclusion
 
-[Locally linear but globally heterogenous.]{.fragment}
+[Locally linear but globally heterogeneous.]{.fragment}
 
 [Specific relationship between social structure and different built form types.]{.fragment}
 
@@ -491,4 +491,4 @@ Coefficients for Education - university degree
 # Thank you
 [anna.brazdova@natur.cuni.cz]()
 
-[www.linkedin.com/in/kryndlea]() 
+[www.linkedin.com/in/kryndlea]()
