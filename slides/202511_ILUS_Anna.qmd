@@ -1,0 +1,494 @@
+---
+title: "Interaction of Spatial and Social Structure"
+subtitle: ""
+author: "Anna Brazdova, Martin Fleischmann, Lisa Winkler"
+institute: "Charles University"
+# date: "today"
+format:
+    revealjs:
+        theme: [default, ../assets/reveal.scss]
+        logo: ../assets/icon.svg
+        menu: false
+        transition: fade
+        navigation-mode: linear
+        controls-layout: edges
+        progress: true
+        include-in-header:
+            - ../assets/font.html
+            - text: |
+                <style>
+                #title-slide .title {
+                    font-size: 50px;
+                }
+                </style>
+        title-slide-attributes:
+            data-background-image: ../assets/full_logo.svg
+            data-background-size: 15%
+            data-background-position: 50% 90%
+---
+
+# About me
+
+2nd year Ph.D student at the department of Social geography and Regional Development
+
+Faculty of Science at Charles University in Prague
+
+---
+
+## Interplay between population and built form
+
+[Understand built-up patterns of housing types and the ability of different population to inhabit them.]{.fragment}
+
+---
+
+## Relationship between social structure and built form
+
+[Spatial configuration, urban design, and morphology actively shape social interactions, mobility, and segregation]{.fragment}
+
+[Qualitative methods and quantitative methods]{.fragment}
+
+[Urban morphometrics - deprivation prediction]{.fragment}
+
+[Rarely been empirically measured]{.fragment}
+
+---
+
+## How strong are the associations between built form and population {.question}
+
+---
+
+## Systematic exploration of the associations
+
+[How to measure the relationship between social structure and the built form?]{.fragment}
+
+[Does the relationship differ across different built form types?]{.fragment}
+
+[Is the relationship consistent or spatially variable?]{.fragment}
+
+
+# Case Study of Czechia{background-image="https://upload.wikimedia.org/wikipedia/commons/f/ff/Czech_Republic_in_Europe.svg" .no-text}
+
+
+::: footer
+
+residential differentiation
+
+driving forces
+
+[<span style="font-size:0.4em">Source](https://upload.wikimedia.org/wikipedia/commons/f/ff/Czech_Republic_in_Europe.svg)</span>
+:::
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+Built form types as the dependent variable
+:::
+
+---
+
+## Morphometric classification
+
+[Quantitative identification of built form types.]{.fragment}
+
+[Based on similar morphological characteristics shared by street segments and building footprints.]{.fragment}
+
+[Focuses on geometry and spatial configuration within the built fabric.]{.fragment}
+
+---
+
+
+## {background-iframe="https://urbantaxonomy.org/map.html" background-size="contain" .no-text}
+
+::: aside
+[https://urbantaxonomy.org/map.html](https://urbantaxonomy.org/map.html)
+:::
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+Level 3 of the classification - 7 main housing types in Czechia
+:::
+
+
+---
+
+#### Coherent Interconnected Fabric 
+
+![](../figures/202511_ILUS_Anna/grid.png){height="500"}
+
+::: footer
+[<span style="font-size:0.4em">Source](https://feelhome.cz/prodej/byty/detail/104254-u-havlickovych-sadu)</span>
+:::
+
+---
+
+#### Coherent Dense Adjacent Fabric
+
+![](../figures/202511_ILUS_Anna/krupka.jpg){height="500"}
+
+::: footer
+<span style="font-size:0.4em">[Source](https://teplicky.denik.cz/zpravy_region/krupka-obvineni-zastupitele-20210701.html)</span>
+:::
+
+---
+
+#### Coherent Dense Disjoint Fabric 
+
+![](../figures/202511_ILUS_Anna/dense.jpeg){height="500"}
+
+::: footer
+<span style="font-size:0.4em">[Source](https://www.geo5.cz/reference_reality_praha-4-hodkovicky-vila-v-ulici-korandova)</span>
+:::
+
+---
+
+#### Incoherent Large-scale Homogeneous Fabric 
+
+![](../figures/202511_ILUS_Anna/panelaky.jpeg){height="500"}
+
+::: footer
+<span style="font-size:0.4em">[Source](https://www.irozhlas.cz/ekonomika/na-prumerny-novy-byt-vydelava-prazan-11-5-roku-dele-nez-v-berline-bratislave-i-vidni_201609290829_pholinkova)</span>
+:::
+
+---
+
+#### Incoherent Small-scale Linear Fabric
+
+![](../figures/202511_ILUS_Anna/linear.png){height="500"}
+
+::: footer
+<span style="font-size:0.4em">[Source](https://www.hornitresnovec.cz/wp-content/uploads/2022/04/2018-110-416-028-03-Dolni-Tresnovec.jpg)</span>
+:::
+
+
+---
+
+#### Incoherent Small-scale Sparse Fabric
+
+![](../figures/202511_ILUS_Anna/rural.png){height="500"}
+
+::: footer
+<span style="font-size:0.4em">[Source](https://svoboda-williams.com/prodej/rodinne-domy/detail/22750-horni-rokytnice)</span>
+:::
+
+---
+
+#### Incoherent Small-scale Compact Fabric
+
+![](../figures/202511_ILUS_Anna/sparse.png){height="500"}
+
+::: footer
+<span style="font-size:0.4em">[Source](https://d18-a.sdn.cz/d_18/c_img_oW_A/nO1SBfAluiD9J7zf4CQQFO4/edd1.jpeg?fl=res,800,600,3|shr,,20|webp,60)</span>
+:::
+
+---
+
+![](../figures/202511_ILUS_Anna/cz_target.png){height="700"}
+
+::: aside
+Target - most common urban form type assigned to BSUs
+:::
+
+---
+
+
+## Scale {background-image="../figures/202511_ILUS_Anna/detail.png".no-text}
+
+::: aside
+Basic Settlement Units 
+
+20 000 BSU in Czechia
+
+Delineated based on urban fabric
+:::
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+Census characteristics as the independent variables
+:::
+
+---
+
+## Census variables
+
+::: {.column width="50%"}
+
+
+[Population density]{.fragment}
+
+[Age structure]{.fragment}
+
+[Employment sector]{.fragment}
+
+[Employment status]{.fragment}
+
+[Dwelling ownership]{.fragment}
+
+
+:::
+
+::: {.column width="50%"}
+
+[Education level]{.fragment}
+
+[Household size]{.fragment}
+
+[Citizenship]{.fragment}
+
+[Religion]{.fragment}
+
+[Marital status]{.fragment}
+
+
+:::
+
+
+---
+
+
+:::{.columns}
+
+::: {.column width="50%"}
+![](../figures/202511_ILUS_Anna/cz1.png){height="300"}
+:::
+
+::: {.column width="50%"}
+![](../figures/202511_ILUS_Anna/cz2.png){height="300"}
+:::
+
+::: {.column width="50%"}
+![](../figures/202511_ILUS_Anna/cz3.png){height="300"}
+:::
+
+::: {.column width="50%"}
+![](../figures/202511_ILUS_Anna/cz4.png){height="300"}
+:::
+
+:::
+
+::: footer
+[<span style="font-size:0.4em">Source](https://geodata.csu.gov.cz/as/atlas/?xmax=2076452.9657335544&ymax=6627527.699888541&xmin=1373843.8017364012&ymin=6202537.822623075&wkid=102100&ds=1)</span>
+:::
+
+
+---
+
+
+## Census processing
+
+
+![](../figures/202511_ILUS_Anna/diagram.png){.r-stretch}
+
+---
+
+
+## Global modelling
+
+[Logistic Regression - 0.098]{.fragment}
+
+[Random Forest Classification - 0.377]{.fragment}
+
+---
+
+#### Built form types 
+
+![](../figures/202511_ILUS_Anna/cz_target.png){height="700"}
+
+
+---
+
+#### Prediction
+
+![](../figures/202511_ILUS_Anna/cz_predicted.png){height="700"}
+
+
+---
+
+
+#### Error
+
+![](../figures/202511_ILUS_Anna/cz_error.png){height="700"}
+
+
+---
+
+#### Spatial autocorellation of the error
+
+![](../figures/202511_ILUS_Anna/cz_correlation.png){height="700"}
+
+---
+
+
+## Spatial lag and spatial cross-validation
+
+[Random Forest Classification - 0.416]{.fragment}
+
+---
+
+## Geographically weighted modelling
+
+[Global models assume the same relationship between predictors and target classes across the entire dataset.]{.fragment} 
+
+[They do not account for the geographic variation in the relationship.]{.fragment}
+
+[Geographically weighted models capture this by applying local models rather than a single global model.]{.fragment}
+
+---
+
+## Geographically weighted classification
+
+
+[Similar in concept to Geographically Weighted Regression (GWR).]{.fragment}
+
+[Categorical or class-based outcomes.]{.fragment}
+
+[Separate classifier for each location using data weighted by geographic proximity.]{.fragment}
+
+---
+
+### Weighting
+
+::: {.column width="50%"}
+
+Controlled by a distance-decay parameter.
+
+Nearby observations are given more weight than distant ones.
+
+:::
+
+::: {.column width="50%"}
+
+![](../figures/202511_ILUS_Anna/bandwidth.png){height="300"}
+
+
+<span style="font-size:0.4em">
+  Illustration of bandwidth and its relation to weight, Fotheringham et al. [(2002, 44–45)](https://www.researchgate.net/publication/27246972_Geographically_Weighted_Regression_The_Analysis_of_Spatially_Varying_Relationships)
+</span>
+
+:::
+
+---
+
+### Bandwidth 
+
+Controls the spatial scale over which a process varies.
+
+
+![](../figures/202511_ILUS_Anna/gwr_bw.png){height="300"}
+
+
+<span style="font-size:0.4em">
+  Conceptual diagram explaining fixed (left) and adaptive weighting (right) schemes. Sachdeva, M., & Fotheringham, A. S. [(2020)](https://gistbok-topics.ucgis.org/AM-03-034s)
+</span>
+
+
+---
+
+### Binary Classification
+
+[The distribution of built form classes is uneven across space.]{.fragment}
+
+[Some built forms do not appear in certain locations at all.]{.fragment}
+
+[Each model can be tuned to local prevalence and have custom thresholds, weights, bandwidth...]{.fragment}
+
+---
+
+## Results {data-transition="none"}
+
+![](../figures/202511_ILUS_Anna/acc.png){.r-stretch}
+
+::: aside
+Averaged F1 macro score 
+:::
+
+---
+
+
+## Results {data-transition="none"}
+
+![](../figures/202511_ILUS_Anna/acc_strong.png){.r-stretch}
+
+::: aside
+Averaged F1 macro score
+:::
+
+---
+
+
+## Results {data-transition="none"}
+
+![](../figures/202511_ILUS_Anna/acc_linear.png){.r-stretch}
+
+::: aside
+Averaged F1 macro score
+:::
+
+---
+
+#### Incoherent Small-Scale Sparse Fabric 
+
+![](../figures/202511_ILUS_Anna/5_acc.png){.r-stretch}
+
+::: aside
+F1 macro score
+:::
+
+---
+
+
+![](../figures/202511_ILUS_Anna/inequality.png){.r-stretch}
+
+::: aside
+The strongest positive and negative coefficients (averaged)
+:::
+
+---
+
+
+![](../figures/202511_ILUS_Anna/stds.png){.r-stretch}
+
+::: aside
+Standard deviation of the coefficients
+:::
+
+---
+
+
+#### Incoherent Small-Scale Sparse Fabric
+
+![](../figures/202511_ILUS_Anna/5_coef.png){.r-stretch}
+
+::: aside
+Coefficients for Population in privately owned dwellings
+:::
+
+---
+
+#### Incoherent Small-Scale Sparse Fabric
+
+![](../figures/202511_ILUS_Anna/5_coef2.png){.r-stretch}
+
+::: aside
+Coefficients for Education - university degree
+:::
+
+
+---
+
+## Conclusion
+
+[Locally linear but globally heterogenous.]{.fragment}
+
+[Specific relationship between social structure and different built form types.]{.fragment}
+
+[In some locations, education, ownership regime and employment status strongly increase the probability of belonging to specific built forms.]{.fragment}
+
+[Preliminary results, would appreciate some feedback!]{.fragment}
+
+
+# Thank you
+[anna.brazdova@natur.cuni.cz]()
+
+[www.linkedin.com/in/kryndlea]() 
