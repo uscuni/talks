@@ -161,18 +161,11 @@
     "text": "Global modelling\nLogistic Regression - 0.098\nRandom Forest Classification - 0.377"
   },
   {
-    "objectID": "slides/202511_ILUS_Anna.html#spatial-lag-and-spatial-cross-validation",
-    "href": "slides/202511_ILUS_Anna.html#spatial-lag-and-spatial-cross-validation",
-    "title": "Interaction of Spatial and Social Structure",
-    "section": "Spatial lag and spatial cross-validation",
-    "text": "Spatial lag and spatial cross-validation\nRandom Forest Classification - 0.416"
-  },
-  {
     "objectID": "slides/202511_ILUS_Anna.html#geographically-weighted-modelling",
     "href": "slides/202511_ILUS_Anna.html#geographically-weighted-modelling",
     "title": "Interaction of Spatial and Social Structure",
     "section": "Geographically weighted modelling",
-    "text": "Geographically weighted modelling\nGlobal models assume the same relationship between predictors and target classes across the entire dataset.\nThey do not account for the geographic variation in the relationship.\nGeographically weighted models capture this by applying local models rather than a single global model."
+    "text": "Geographically weighted modelling\nGlobal models do not account for the geographic variation in the relationship.\nGeographically weighted models capture this by applying local models rather than a single global model."
   },
   {
     "objectID": "slides/202511_ILUS_Anna.html#geographically-weighted-classification",
