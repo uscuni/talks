@@ -9,9 +9,8 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-d4d76bf8491c20bad77d141916dc28e1.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.6.43">
 
-  <meta name="author" content="Waldo Tobler">
-  <meta name="dcterms.date" content="2025-11-07">
-  <title>Talks – Spatial Autocorrelation</title>
+  <meta name="author" content="Anna Brazdova, Martin Fleischmann, Lisa Winkler">
+  <title>Talks – Interaction of Spatial and Social Structure</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -29,71 +28,6 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-    /* CSS for syntax highlighting */
-    pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { line-height: 1.25; }
-    pre > code.sourceCode > span:empty { height: 1.2em; }
-    .sourceCode { overflow: visible; }
-    code.sourceCode > span { color: inherit; text-decoration: inherit; }
-    div.sourceCode { margin: 1em 0; }
-    pre.sourceCode { margin: 0; }
-    @media screen {
-    div.sourceCode { overflow: auto; }
-    }
-    @media print {
-    pre > code.sourceCode { white-space: pre-wrap; }
-    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-    }
-    pre.numberSource code
-      { counter-reset: source-line 0; }
-    pre.numberSource code > span
-      { position: relative; left: -4em; counter-increment: source-line; }
-    pre.numberSource code > span > a:first-child::before
-      { content: counter(source-line);
-        position: relative; left: -1em; text-align: right; vertical-align: baseline;
-        border: none; display: inline-block;
-        -webkit-touch-callout: none; -webkit-user-select: none;
-        -khtml-user-select: none; -moz-user-select: none;
-        -ms-user-select: none; user-select: none;
-        padding: 0 4px; width: 4em;
-        color: #aaaaaa;
-      }
-    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-    div.sourceCode
-      { color: #003b4f; background-color: #f1f3f5; }
-    @media screen {
-    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-    }
-    code span { color: #003b4f; } /* Normal */
-    code span.al { color: #ad0000; } /* Alert */
-    code span.an { color: #5e5e5e; } /* Annotation */
-    code span.at { color: #657422; } /* Attribute */
-    code span.bn { color: #ad0000; } /* BaseN */
-    code span.bu { } /* BuiltIn */
-    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
-    code span.ch { color: #20794d; } /* Char */
-    code span.cn { color: #8f5902; } /* Constant */
-    code span.co { color: #5e5e5e; } /* Comment */
-    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
-    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
-    code span.dt { color: #ad0000; } /* DataType */
-    code span.dv { color: #ad0000; } /* DecVal */
-    code span.er { color: #ad0000; } /* Error */
-    code span.ex { } /* Extension */
-    code span.fl { color: #ad0000; } /* Float */
-    code span.fu { color: #4758ab; } /* Function */
-    code span.im { color: #00769e; } /* Import */
-    code span.in { color: #5e5e5e; } /* Information */
-    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
-    code span.op { color: #5e5e5e; } /* Operator */
-    code span.ot { color: #003b4f; } /* Other */
-    code span.pp { color: #ad0000; } /* Preprocessor */
-    code span.sc { color: #5e5e5e; } /* SpecialChar */
-    code span.ss { color: #20794d; } /* SpecialString */
-    code span.st { color: #20794d; } /* String */
-    code span.va { color: #111111; } /* Variable */
-    code span.vs { color: #20794d; } /* VerbatimString */
-    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-bcfa6dfeb4f2dc79f224f77deb3ae294.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -191,19 +125,23 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&amp;family=PT+Mono&amp;family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&amp;display=swap" rel="stylesheet">
+  <style>
+  #title-slide .title {
+      font-size: 50px;
+  }
+  </style>
 </head>
 <body class="quarto-light">
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" data-background-image="../assets/full_logo.svg" data-background-position="50% 90%" data-background-size="20%" class="quarto-title-block center">
-  <h1 class="title">Spatial Autocorrelation</h1>
-  <p class="subtitle">Using Moran’s I to detect local clusters</p>
+<section id="title-slide" data-background-image="../assets/full_logo.svg" data-background-position="50% 90%" data-background-size="15%" class="quarto-title-block center">
+  <h1 class="title">Interaction of Spatial and Social Structure</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Waldo Tobler 
+Anna Brazdova, Martin Fleischmann, Lisa Winkler 
 </div>
         <p class="quarto-title-affiliation">
             Charles University
@@ -211,85 +149,316 @@ Waldo Tobler
     </div>
 </div>
 
-  <p class="date">2025-11-07</p>
 </section>
 <section>
-<section id="heading-level-1" class="title-slide slide level1 center">
-<h1>Heading level 1</h1>
-<p>Some text</p>
+<section id="about-me" class="title-slide slide level1 center">
+<h1>About me</h1>
+<p>2nd year Ph.D student at the department of Social geography and Regional Development</p>
+<p>Faculty of Science at Charles University in Prague</p>
 </section>
-<section id="heading-level-2" class="slide level2">
-<h2>Heading level 2</h2>
-<p>Another text</p>
-<p><span class="fragment">Fragment</span></p>
+<section id="interplay-between-population-and-built-form" class="slide level2">
+<h2>Interplay between population and built form</h2>
+<p><span class="fragment">Understand built-up patterns of housing types and the ability of different population to inhabit them.</span></p>
+</section>
+<section id="relationship-between-social-structure-and-built-form" class="slide level2">
+<h2>Relationship between social structure and built form</h2>
+<p><span class="fragment">Spatial configuration, urban design, and morphology actively shape social interactions, mobility, and segregation</span></p>
+<p><span class="fragment">Qualitative methods and quantitative methods</span></p>
+<p><span class="fragment">Urban morphometrics - deprivation prediction</span></p>
+<p><span class="fragment">Rarely been empirically measured</span></p>
+</section>
+<section id="how-strong-are-the-associations-between-built-form-and-population" class="slide level2 question">
+<h2>How strong are the associations between built form and population</h2>
+</section>
+<section id="systematic-exploration-of-the-associations" class="slide level2">
+<h2>Systematic exploration of the associations</h2>
+<p><span class="fragment">How to measure the relationship between social structure and the built form?</span></p>
+<p><span class="fragment">Does the relationship differ across different built form types?</span></p>
+<p><span class="fragment">Is the relationship consistent or spatially variable?</span></p>
+</section></section>
+<section>
+<section id="case-study-of-czechia" class="title-slide slide level1 no-text center" data-background-image="https://upload.wikimedia.org/wikipedia/commons/f/ff/Czech_Republic_in_Europe.svg">
+<h1>Case Study of Czechia</h1>
+<div class="footer">
+<p>residential differentiation</p>
+<p>driving forces</p>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/f/ff/Czech_Republic_in_Europe.svg"><span style="font-size:0.4em">Source</span></a></p>
+</div>
 </section>
 <section class="slide level2">
 
 <div class="r-fit-text absolute" style="top: 39%; ">
-<p>text that fills slide</p>
+<p>Built form types as the dependent variable</p>
 </div>
+</section>
+<section id="morphometric-classification" class="slide level2">
+<h2>Morphometric classification</h2>
+<p><span class="fragment">Quantitative identification of built form types.</span></p>
+<p><span class="fragment">Based on similar morphological characteristics shared by street segments and building footprints.</span></p>
+<p><span class="fragment">Focuses on geometry and spatial configuration within the built fabric.</span></p>
+</section>
+<section id="section" class="slide level2 no-text" data-background-iframe="https://urbantaxonomy.org/map.html" data-background-size="contain">
+<h2></h2>
 
 <aside><div>
-<p>Note</p>
+<p><a href="https://urbantaxonomy.org/map.html">https://urbantaxonomy.org/map.html</a></p>
 </div></aside></section>
-<section id="this-will-be-vertically-centered" class="slide level2 center">
-<h2>This will be vertically centered</h2>
-<p>This text is moved as well</p>
-</section>
-<section id="heading-that-is-a-question" class="slide level2 question">
-<h2>Heading that is a question</h2>
-<p>Another text with footnote<sup>1</sup></p>
-<div class="fragment fade-in">
-<p>Fragment block</p>
-</div>
-<aside><ol class="aside-footnotes"><li id="fn1"><p>My footnote.</p></li></ol></aside></section>
 <section class="slide level2">
 
-<h3 id="code-block">Code block</h3>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a>elections <span class="op">=</span> gpd.read_file(</span>
-<span id="cb1-2"><a></a>    <span class="st">"https://martinfleischmann.net/sds/chapter_05/data/cz_elections_2023.gpkg"</span></span>
-<span id="cb1-3"><a></a>)</span>
-<span id="cb1-4"><a></a>elections <span class="op">=</span> elections.set_index(<span class="st">"name"</span>)</span>
-<span id="cb1-5"><a></a>elections.explore(</span>
-<span id="cb1-6"><a></a>    <span class="st">"PetrPavel"</span>,</span>
-<span id="cb1-7"><a></a>    cmap<span class="op">=</span><span class="st">"coolwarm"</span>,</span>
-<span id="cb1-8"><a></a>    vmin<span class="op">=</span><span class="dv">0</span>,</span>
-<span id="cb1-9"><a></a>    vmax<span class="op">=</span><span class="dv">100</span>,</span>
-<span id="cb1-10"><a></a>    prefer_canvas<span class="op">=</span><span class="va">True</span>,</span>
-<span id="cb1-11"><a></a>    tiles<span class="op">=</span><span class="st">"CartoDB Positron"</span>,</span>
-<span id="cb1-12"><a></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="r-fit-text absolute" style="top: 39%; ">
+<p>Level 3 of the classification - 7 main housing types in Czechia</p>
+</div>
 </section>
-<section id="inline-code" class="slide level2">
-<h2>Inline code</h2>
-<p>Text with <code>libpysal.graph.Graph</code> inline.</p>
+<section class="slide level2">
+
+<h4 id="coherent-interconnected-fabric">Coherent Interconnected Fabric</h4>
+<p><img data-src="../figures/202511_ILUS_Anna/grid.png" height="500"></p>
+<div class="footer">
+<p><a href="https://feelhome.cz/prodej/byty/detail/104254-u-havlickovych-sadu"><span style="font-size:0.4em">Source</span></a></p>
+</div>
 </section>
-<section id="slide-with-an-image" class="slide level2">
-<h2>Slide with an image</h2>
-<p>Set height</p>
-<p><img data-src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Waldo_Tobler_2007.jpg" height="200"></p>
+<section class="slide level2">
+
+<h4 id="coherent-dense-adjacent-fabric">Coherent Dense Adjacent Fabric</h4>
+<p><img data-src="../figures/202511_ILUS_Anna/krupka.jpg" height="500"></p>
+<div class="footer">
+<p><span style="font-size:0.4em"><a href="https://teplicky.denik.cz/zpravy_region/krupka-obvineni-zastupitele-20210701.html">Source</a></span></p>
+</div>
 </section>
-<section id="slide-with-an-image-1" class="slide level2">
-<h2>Slide with an image</h2>
-<img data-src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Waldo_Tobler_2007.jpg" class="r-stretch">
-<p>Automatically stretched to fill remaining space</p>
+<section class="slide level2">
+
+<h4 id="coherent-dense-disjoint-fabric">Coherent Dense Disjoint Fabric</h4>
+<p><img data-src="../figures/202511_ILUS_Anna/dense.jpeg" height="500"></p>
+<div class="footer">
+<p><span style="font-size:0.4em"><a href="https://www.geo5.cz/reference_reality_praha-4-hodkovicky-vila-v-ulici-korandova">Source</a></span></p>
+</div>
 </section>
-<section id="slide-with-image-as-background" class="slide level2" data-background-image="../assets/full_logo.svg">
-<h2>Slide with image as background</h2>
+<section class="slide level2">
+
+<h4 id="incoherent-large-scale-homogeneous-fabric">Incoherent Large-scale Homogeneous Fabric</h4>
+<p><img data-src="../figures/202511_ILUS_Anna/panelaky.jpeg" height="500"></p>
+<div class="footer">
+<p><span style="font-size:0.4em"><a href="https://www.irozhlas.cz/ekonomika/na-prumerny-novy-byt-vydelava-prazan-11-5-roku-dele-nez-v-berline-bratislave-i-vidni_201609290829_pholinkova">Source</a></span></p>
+</div>
 </section>
-<section id="section" class="slide level2 no-text" data-background-image="../assets/full_logo.svg" data-background-size="contain">
-<h2></h2>
+<section class="slide level2">
+
+<h4 id="incoherent-small-scale-linear-fabric">Incoherent Small-scale Linear Fabric</h4>
+<p><img data-src="../figures/202511_ILUS_Anna/linear.png" height="500"></p>
+<div class="footer">
+<p><span style="font-size:0.4em"><a href="https://www.hornitresnovec.cz/wp-content/uploads/2022/04/2018-110-416-028-03-Dolni-Tresnovec.jpg">Source</a></span></p>
+</div>
 </section>
-<section id="slide-with-iframe-background" class="slide level2" data-background-iframe="http://martinfleischmann.net/numerical-taxonomy-maps/prg.html">
-<h2>Slide with iframe background</h2>
+<section class="slide level2">
+
+<h4 id="incoherent-small-scale-sparse-fabric">Incoherent Small-scale Sparse Fabric</h4>
+<p><img data-src="../figures/202511_ILUS_Anna/rural.png" height="500"></p>
+<div class="footer">
+<p><span style="font-size:0.4em"><a href="https://svoboda-williams.com/prodej/rodinne-domy/detail/22750-horni-rokytnice">Source</a></span></p>
+</div>
+</section>
+<section class="slide level2">
+
+<h4 id="incoherent-small-scale-compact-fabric">Incoherent Small-scale Compact Fabric</h4>
+<p><img data-src="../figures/202511_ILUS_Anna/sparse.png" height="500"></p>
+<div class="footer">
+<p><span style="font-size:0.4em"><a href="https://d18-a.sdn.cz/d_18/c_img_oW_A/nO1SBfAluiD9J7zf4CQQFO4/edd1.jpeg?fl=res,800,600,3%7Cshr,,20%7Cwebp,60">Source</a></span></p>
+</div>
+</section>
+<section class="slide level2">
+
+<p><img data-src="../figures/202511_ILUS_Anna/cz_target.png" height="700"></p>
+
+<aside><div>
+<p>Target - most common urban form type assigned to BSUs</p>
+</div></aside></section>
+<section id="scale" class="slide level2 no-text" data-background-image="../figures/202511_ILUS_Anna/detail.png">
+<h2>Scale</h2>
+
+<aside><div>
+<p>Basic Settlement Units</p>
+<p>20 000 BSU in Czechia</p>
+<p>Delineated based on urban fabric</p>
+</div></aside></section>
+<section class="slide level2">
+
+<div class="r-fit-text absolute" style="top: 39%; ">
+<p>Census characteristics as the independent variables</p>
+</div>
+</section>
+<section id="census-variables" class="slide level2">
+<h2>Census variables</h2>
+<div class="column" style="width:50%;">
+<p><span class="fragment">Population density</span></p>
+<p><span class="fragment">Age structure</span></p>
+<p><span class="fragment">Employment sector</span></p>
+<p><span class="fragment">Employment status</span></p>
+<p><span class="fragment">Dwelling ownership</span></p>
+</div><div class="column" style="width:50%;">
+<p><span class="fragment">Education level</span></p>
+<p><span class="fragment">Household size</span></p>
+<p><span class="fragment">Citizenship</span></p>
+<p><span class="fragment">Religion</span></p>
+<p><span class="fragment">Marital status</span></p>
+</div></section>
+<section class="slide level2">
+
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="../figures/202511_ILUS_Anna/cz1.png" height="300"></p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="../figures/202511_ILUS_Anna/cz2.png" height="300"></p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="../figures/202511_ILUS_Anna/cz3.png" height="300"></p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="../figures/202511_ILUS_Anna/cz4.png" height="300"></p>
+</div></div>
+<div class="footer">
+<p><a href="https://geodata.csu.gov.cz/as/atlas/?xmax=2076452.9657335544&amp;ymax=6627527.699888541&amp;xmin=1373843.8017364012&amp;ymin=6202537.822623075&amp;wkid=102100&amp;ds=1"><span style="font-size:0.4em">Source</span></a></p>
+</div>
+</section>
+<section id="census-processing" class="slide level2">
+<h2>Census processing</h2>
+<img data-src="../figures/202511_ILUS_Anna/diagram.png" class="r-stretch">
+</section>
+<section id="global-modelling" class="slide level2">
+<h2>Global modelling</h2>
+<p><span class="fragment">Logistic Regression - 0.098</span></p>
+<p><span class="fragment">Random Forest Classification - 0.377</span></p>
+</section>
+<section class="slide level2">
+
+<h4 id="built-form-types">Built form types</h4>
+<p><img data-src="../figures/202511_ILUS_Anna/cz_target.png" height="700"></p>
+</section>
+<section class="slide level2">
+
+<h4 id="prediction">Prediction</h4>
+<p><img data-src="../figures/202511_ILUS_Anna/cz_predicted.png" height="700"></p>
+</section>
+<section class="slide level2">
+
+<h4 id="error">Error</h4>
+<p><img data-src="../figures/202511_ILUS_Anna/cz_error.png" height="700"></p>
+</section>
+<section class="slide level2">
+
+<h4 id="spatial-autocorellation-of-the-error">Spatial autocorellation of the error</h4>
+<p><img data-src="../figures/202511_ILUS_Anna/cz_correlation.png" height="700"></p>
+</section>
+<section id="spatial-lag-and-spatial-cross-validation" class="slide level2">
+<h2>Spatial lag and spatial cross-validation</h2>
+<p><span class="fragment">Random Forest Classification - 0.416</span></p>
+</section>
+<section id="geographically-weighted-modelling" class="slide level2">
+<h2>Geographically weighted modelling</h2>
+<p><span class="fragment">Global models assume the same relationship between predictors and target classes across the entire dataset.</span></p>
+<p><span class="fragment">They do not account for the geographic variation in the relationship.</span></p>
+<p><span class="fragment">Geographically weighted models capture this by applying local models rather than a single global model.</span></p>
+</section>
+<section id="geographically-weighted-classification" class="slide level2">
+<h2>Geographically weighted classification</h2>
+<p><span class="fragment">Similar in concept to Geographically Weighted Regression (GWR).</span></p>
+<p><span class="fragment">Categorical or class-based outcomes.</span></p>
+<p><span class="fragment">Separate classifier for each location using data weighted by geographic proximity.</span></p>
+</section>
+<section class="slide level2">
+
+<h3 id="weighting">Weighting</h3>
+<div class="column" style="width:50%;">
+<p>Controlled by a distance-decay parameter.</p>
+<p>Nearby observations are given more weight than distant ones.</p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="../figures/202511_ILUS_Anna/bandwidth.png" height="300"></p>
+<p><span style="font-size:0.4em"> Illustration of bandwidth and its relation to weight, Fotheringham et al.&nbsp;<a href="https://www.researchgate.net/publication/27246972_Geographically_Weighted_Regression_The_Analysis_of_Spatially_Varying_Relationships">(2002, 44–45)</a> </span></p>
+</div></section>
+<section class="slide level2">
+
+<h3 id="bandwidth">Bandwidth</h3>
+<p>Controls the spatial scale over which a process varies.</p>
+<p><img data-src="../figures/202511_ILUS_Anna/gwr_bw.png" height="300"></p>
+<p><span style="font-size:0.4em"> Conceptual diagram explaining fixed (left) and adaptive weighting (right) schemes. Sachdeva, M., &amp; Fotheringham, A. S. <a href="https://gistbok-topics.ucgis.org/AM-03-034s">(2020)</a> </span></p>
+</section>
+<section class="slide level2">
+
+<h3 id="binary-classification">Binary Classification</h3>
+<p><span class="fragment">The distribution of built form classes is uneven across space.</span></p>
+<p><span class="fragment">Some built forms do not appear in certain locations at all.</span></p>
+<p><span class="fragment">Each model can be tuned to local prevalence and have custom thresholds, weights, bandwidth…</span></p>
+</section>
+<section id="results" class="slide level2" data-transition="none">
+<h2>Results</h2>
+<img data-src="../figures/202511_ILUS_Anna/acc.png" class="r-stretch">
+
+<aside><div>
+<p>Averaged F1 macro score</p>
+</div></aside></section>
+<section id="results-1" class="slide level2" data-transition="none">
+<h2>Results</h2>
+<img data-src="../figures/202511_ILUS_Anna/acc_strong.png" class="r-stretch">
+
+<aside><div>
+<p>Averaged F1 macro score</p>
+</div></aside></section>
+<section id="results-2" class="slide level2" data-transition="none">
+<h2>Results</h2>
+<img data-src="../figures/202511_ILUS_Anna/acc_linear.png" class="r-stretch">
+
+<aside><div>
+<p>Averaged F1 macro score</p>
+</div></aside></section>
+<section class="slide level2">
+
+<h4 id="incoherent-small-scale-sparse-fabric-1">Incoherent Small-Scale Sparse Fabric</h4>
+<img data-src="../figures/202511_ILUS_Anna/5_acc.png" class="r-stretch">
+
+<aside><div>
+<p>F1 macro score</p>
+</div></aside></section>
+<section class="slide level2">
+
+<img data-src="../figures/202511_ILUS_Anna/inequality.png" class="r-stretch">
+
+<aside><div>
+<p>The strongest positive and negative coefficients (averaged)</p>
+</div></aside></section>
+<section class="slide level2">
+
+<img data-src="../figures/202511_ILUS_Anna/stds.png" class="r-stretch">
+
+<aside><div>
+<p>Standard deviation of the coefficients</p>
+</div></aside></section>
+<section class="slide level2">
+
+<h4 id="incoherent-small-scale-sparse-fabric-2">Incoherent Small-Scale Sparse Fabric</h4>
+<img data-src="../figures/202511_ILUS_Anna/5_coef.png" class="r-stretch">
+
+<aside><div>
+<p>Coefficients for Population in privately owned dwellings</p>
+</div></aside></section>
+<section class="slide level2">
+
+<h4 id="incoherent-small-scale-sparse-fabric-3">Incoherent Small-Scale Sparse Fabric</h4>
+<img data-src="../figures/202511_ILUS_Anna/5_coef2.png" class="r-stretch">
+
+<aside><div>
+<p>Coefficients for Education - university degree</p>
+</div></aside></section>
+<section id="conclusion" class="slide level2">
+<h2>Conclusion</h2>
+<p><span class="fragment">Locally linear but globally heterogenous.</span></p>
+<p><span class="fragment">Specific relationship between social structure and different built form types.</span></p>
+<p><span class="fragment">In some locations, education, ownership regime and employment status strongly increase the probability of belonging to specific built forms.</span></p>
+<p><span class="fragment">Preliminary results, would appreciate some feedback!</span></p>
 </section></section>
-<section id="see-docs-for-more" class="title-slide slide level1 center">
-<h1>See docs for more</h1>
-<p><a href="https://quarto.org/docs/presentations/revealjs/">https://quarto.org/docs/presentations/revealjs/</a></p>
+<section id="thank-you" class="title-slide slide level1 center">
+<h1>Thank you</h1>
+<p><a href="">anna.brazdova@natur.cuni.cz</a></p>
+<p><a href="">www.linkedin.com/in/kryndlea</a></p>
 
 
 </section>
-
-
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <p><img src="../assets/icon.svg" class="slide-logo"></p>
@@ -452,7 +621,7 @@ Waldo Tobler
         previewLinks: false,
 
         // Transition style (none/fade/slide/convex/concave/zoom)
-        transition: 'slide',
+        transition: 'fade',
 
         // Transition speed (default/fast/slow)
         transitionSpeed: 'default',
