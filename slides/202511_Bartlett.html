@@ -139,7 +139,7 @@
 
 <section id="title-slide" data-background-image="../assets/full_logo.svg" data-background-position="50% 90%" data-background-size="20%" class="quarto-title-block center">
   <h1 class="title">Understanding the structure of space</h1>
-  <p class="subtitle">Urban morphometrics in the wild</p>
+  <p class="subtitle">Urban Morphometrics as a Backbone of Urban Taxonomy</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -152,39 +152,6 @@ Martin Fleischmann
     </div>
 </div>
 
-</section>
-<section class="slide level2">
-
-<div class="r-fit-text absolute" style="top: 35%; ">
-<p>urban morphologist</p>
-</div>
-</section>
-<section class="slide level2">
-
-<div class="r-fit-text absolute" style="top: 39%; ">
-<p>Urban morphology is changing.</p>
-</div>
-</section>
-<section class="slide level2">
-
-<p><img data-src="../figures/202511_ILUS/ex1.png" class="absolute" style="top: 0%; width: 33%; "></p>
-<p><img data-src="../figures/202511_ILUS/ex1_f.png" class="absolute fragment" style="top: 22%; width: 33%; "></p>
-<p><img data-src="../figures/202511_ILUS/ex2.png" class="absolute fragment" style="top: 50%; width: 33%; "></p>
-<p><img data-src="../figures/202511_ILUS/ex2_f.png" class="absolute fragment" style="top: 70%; width: 33%; "></p>
-<p><img data-src="../figures/202511_ILUS/ex3.png" class="absolute fragment" style="top: 0%; left: 33%; width: 33%; "></p>
-<p><img data-src="../figures/202511_ILUS/ex3_f.png" class="absolute fragment" style="top: 20%; left: 33%; width: 33%; "></p>
-<p><img data-src="../figures/202511_ILUS/ex4.png" class="absolute fragment" style="top: 40%; left: 33%; width: 33%; "></p>
-<p><img data-src="../figures/202511_ILUS/ex4_f.png" class="absolute fragment" style="top: 60%; left: 33%; width: 33%; "></p>
-<p><img data-src="../figures/202511_ILUS/ex5.png" class="absolute fragment" style="top: 0%; right: 1%; width: 33%; "></p>
-<p><img data-src="../figures/202511_ILUS/ex5_f.png" class="absolute fragment" style="top: 20%; right: 1%; width: 33%; "></p>
-<p><img data-src="../figures/202511_ILUS/ex6.png" class="absolute fragment" style="top: 40%; right: 1%; width: 33%; "></p>
-<p><img data-src="../figures/202511_ILUS/ex6_f.png" class="absolute fragment" style="top: 60%; right: 1%; width: 33%; "></p>
-</section>
-<section class="slide level2">
-
-<div class="r-fit-text absolute" style="top: 39%; ">
-<p>Urban morphometrics plays a role.</p>
-</div>
 </section>
 <section id="what-is-urban-morphometrics" class="slide level2 question">
 <h2>What is urban morphometrics</h2>
@@ -260,6 +227,14 @@ Martin Fleischmann
 <aside><div>
 <p>Transportation vs manually-derived morphological representation of a street network</p>
 </div></aside></section>
+<section class="slide level2">
+
+<!-- consequences of incorrect representation -->
+<p><img data-src="../figures/202504_GISRUK_simplification/araldi.png"></p>
+
+<aside><div>
+<p>Araldi and Fusco (2024)</p>
+</div></aside></section>
 <section id="what-to-do" class="slide level2 question">
 <h2>What to do</h2>
 </section>
@@ -289,6 +264,21 @@ Martin Fleischmann
 <aside><div>
 <p>Fleischmann, M., Vybornova, A., Gaboardi, J.D., Brázdová, A., Dančejová, D., 2026. Adaptive continuity-preserving simplification of street networks. Computers, Environment and Urban Systems 123, 102354. https://doi.org/10.1016/j.compenvurbsys.2025.102354</p>
 </div></aside></section>
+<section id="what-do-you-mean-by-continuity-preserving" class="slide level2 question">
+<h2>What do you mean by “continuity-preserving”</h2>
+</section>
+<section class="slide level2">
+
+<div class="columns">
+<div class="column">
+<p><img data-src="../figures/202504_GISRUK_simplification/bubenec.webp"></p>
+</div><div class="column">
+<p><img data-src="../figures/202504_GISRUK_simplification/bubenec2.webp"></p>
+</div></div>
+
+<aside><div>
+<p>detection of natural continuity of street networks by Tripathy et al.&nbsp;(2020).</p>
+</div></aside></section>
 <section class="slide level2">
 
 <img data-src="../figures/202504_GISRUK_simplification/neatnet.png" class="r-stretch">
@@ -296,6 +286,74 @@ Martin Fleischmann
 <aside><div>
 <p>Conceptual diagram of the proposed simplification algorithm.</p>
 </div></aside></section>
+<section id="face-artifact-detection" class="slide level2">
+<h2>Face artifact detection</h2>
+</section>
+<section class="slide level2">
+
+<img data-src="../figures/202504_GISRUK_simplification/banana.png" class="r-stretch">
+
+<aside><div>
+<p>Fleischmann and Vybornova (2024)</p>
+</div></aside></section>
+<section class="slide level2">
+
+<img data-src="../figures/202504_GISRUK_simplification/face_artifacts.png" class="r-stretch">
+
+<aside><div>
+<p>Fleischmann and Vybornova (2024)</p>
+</div></aside></section>
+<section class="slide level2">
+
+<img data-src="../figures/202504_GISRUK_simplification/birdviews.png" class="r-stretch">
+
+<aside><div>
+<p>Fleischmann and Vybornova (2024)</p>
+</div></aside></section>
+<section class="slide level2">
+
+<img data-src="../figures/202504_GISRUK_simplification/neatnet.png" class="r-stretch">
+
+<aside><div>
+<p>Conceptual diagram of the proposed simplification algorithm.</p>
+</div></aside></section>
+<section id="artifact-classification" class="slide level2">
+<h2>Artifact classification</h2>
+<ol type="1">
+<li>artifact polygon contiguity
+<ol type="1">
+<li>isolates</li>
+<li>pairs</li>
+<li>clusters</li>
+</ol></li>
+<li>network continuity</li>
+</ol>
+</section>
+<section class="slide level2">
+
+<h3 id="isolates">Isolates</h3>
+</section>
+<section class="slide level2">
+
+<img data-src="../figures/202504_GISRUK_simplification/ces_liege_subset_post.png" class="r-stretch">
+
+<aside><div>
+<p>A subset of the CES typology derived from the Liège street network.</p>
+</div></aside></section>
+<section class="slide level2">
+
+<h3 id="clusters">Clusters</h3>
+<img data-src="../figures/202504_GISRUK_simplification/skeletonize.png" class="r-stretch">
+
+<aside><div>
+<p>merge &amp; skeletonize</p>
+</div></aside></section>
+<section class="slide level2">
+
+<h3 id="pairs">Pairs</h3>
+<p><span class="fragment">solve together as a single isolate</span></p>
+<p><span class="fragment">solve together as a cluster</span></p>
+</section>
 <section class="slide level2">
 
 <div class="r-fit-text absolute" style="top: 39%; ">
@@ -682,9 +740,10 @@ Martin Fleischmann
 </section>
 <section id="do-you-want-to-follow-up" class="slide level2 question">
 <h2>Do you want to follow up</h2>
-<p><a href="https://uscuni.org/talks/slides/202511_ILUS.html"><i class="fa-solid fa-person-chalkboard" aria-label="person-chalkboard"></i></a> uscuni.org/talks</p>
+<p><a href="https://uscuni.org/talks/slides/202511_Bartlett.html"><i class="fa-solid fa-person-chalkboard" aria-label="person-chalkboard"></i></a> uscuni.org/talks</p>
 <p><a href="https://urbantaxonomy.org"><i class="fa-solid fa-map" aria-label="map"></i></a> urbantaxonomy.org</p>
-<p><a href="https://github.com/uscuni/urban_taxonomy"><i class="fa-solid fa-code" aria-label="code"></i></a> github.com/uscuni/urban_taxonomy</p>
+<p><a href="https://urbantaxonomy.org"><i class="fa-brands fa-python" aria-label="python"></i></a> uscuni.org/neatnet</p>
+<p><a href="https://github.com/uscuni"><i class="fa-solid fa-code" aria-label="code"></i></a> github.com/uscuni</p>
 <p><a href="mailto:martin.fleischmann@natur.cuni.cz"><i class="fa-regular fa-envelope" aria-label="envelope"></i></a> martin.fleischmann@natur.cuni.cz</p>
 <p><a href="https://martinfleischmann.net"><i class="fa-regular fa-user" aria-label="user"></i></a> martinfleischmann.net</p>
 
