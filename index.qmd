@@ -6,6 +6,7 @@ Archive of talks of the US CUNI team.
 
 ## List of talks
 
+- [2025-11-18 Morphology @ The Bartlett](slides/202511_Bartlett.qmd)
 - [2025-11-06 ILUS (Interaction of Spatial and Social Structure)](slides/202511_ILUS_Anna.qmd)
 - [2025-11-06 ILUS keynote](slides/202511_ILUS.qmd)
 - [2025-10-31 SODAS](slides/202510_SODAS.qmd)

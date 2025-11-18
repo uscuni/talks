@@ -1,6 +1,6 @@
 ---
 title: "Understanding the structure of space"
-subtitle: "Urban morphometrics in the wild"
+subtitle: "Urban Morphometrics as a Backbone of Urban Taxonomy"
 author: "Martin Fleischmann"
 institute: "Charles University"
 format:
@@ -26,48 +26,6 @@ format:
             data-background-position: 50% 90%
         max-scale: 10
 ---
-
-::: {.r-fit-text .absolute top=35%}
-urban morphologist
-:::
-
----
-
-::: {.r-fit-text .absolute top=39%}
-Urban morphology is changing.
-:::
-
----
-
-![](../figures/202511_ILUS/ex1.png){.absolute top=0% width=33%}
-
-![](../figures/202511_ILUS/ex1_f.png){.absolute top=22% width=33% .fragment}
-
-![](../figures/202511_ILUS/ex2.png){.absolute top=50% width=33% .fragment}
-
-![](../figures/202511_ILUS/ex2_f.png){.absolute top=70% width=33% .fragment}
-
-![](../figures/202511_ILUS/ex3.png){.absolute top=0% left=33% width=33% .fragment}
-
-![](../figures/202511_ILUS/ex3_f.png){.absolute top=20% left=33% width=33% .fragment}
-
-![](../figures/202511_ILUS/ex4.png){.absolute top=40% left=33%  width=33% .fragment}
-
-![](../figures/202511_ILUS/ex4_f.png){.absolute top=60% left=33%  width=33% .fragment}
-
-![](../figures/202511_ILUS/ex5.png){.absolute top=0% right=1% width=33% .fragment}
-
-![](../figures/202511_ILUS/ex5_f.png){.absolute top=20% right=1%  width=33% .fragment}
-
-![](../figures/202511_ILUS/ex6.png){.absolute top=40% right=1% width=33% .fragment}
-
-![](../figures/202511_ILUS/ex6_f.png){.absolute top=60% right=1%  width=33% .fragment}
-
----
-
-::: {.r-fit-text .absolute top=39%}
-Urban morphometrics plays a role.
-:::
 
 
 ## What is urban morphometrics {.question}
@@ -148,6 +106,15 @@ A street may not be a street.
 Transportation vs manually-derived morphological representation of a street network
 :::
 
+---
+
+<!-- consequences of incorrect representation -->
+![](../figures/202504_GISRUK_simplification/araldi.png)
+
+::: aside
+Araldi and Fusco (2024)
+:::
+
 ## What to do {.question}
 
 ---
@@ -178,6 +145,25 @@ Fleischmann, M., Vybornova, A., Gaboardi, J.D., Brázdová, A., Dančejová, D.,
 
 :::
 
+## What do you mean by "continuity-preserving" {.question}
+
+---
+
+::: {.columns}
+::: {.column}
+![](../figures/202504_GISRUK_simplification/bubenec.webp)
+
+:::
+::: {.column}
+![](../figures/202504_GISRUK_simplification/bubenec2.webp)
+
+:::
+:::
+
+::: aside
+detection of natural continuity of street networks by Tripathy et al. (2020).
+:::
+
 ---
 
 ![](../figures/202504_GISRUK_simplification/neatnet.png){.r-stretch}
@@ -185,6 +171,81 @@ Fleischmann, M., Vybornova, A., Gaboardi, J.D., Brázdová, A., Dančejová, D.,
 ::: aside
 Conceptual diagram of the proposed simplification algorithm.
 :::
+
+
+---
+
+## Face artifact detection
+
+---
+
+![](../figures/202504_GISRUK_simplification/banana.png){.r-stretch}
+
+::: aside
+Fleischmann and Vybornova (2024)
+:::
+
+---
+
+![](../figures/202504_GISRUK_simplification/face_artifacts.png){.r-stretch}
+
+::: aside
+Fleischmann and Vybornova (2024)
+:::
+
+---
+
+![](../figures/202504_GISRUK_simplification/birdviews.png){.r-stretch}
+
+::: aside
+Fleischmann and Vybornova (2024)
+:::
+
+---
+
+![](../figures/202504_GISRUK_simplification/neatnet.png){.r-stretch}
+
+::: aside
+Conceptual diagram of the proposed simplification algorithm.
+:::
+
+## Artifact classification
+
+1. artifact polygon contiguity
+    1. isolates
+    2. pairs
+    3. clusters
+2. network continuity
+
+---
+
+### Isolates
+
+---
+
+![](../figures/202504_GISRUK_simplification/ces_liege_subset_post.png){.r-stretch}
+
+::: aside
+A subset of the CES typology derived from the Liège street network.
+:::
+
+---
+
+### Clusters
+
+![](../figures/202504_GISRUK_simplification/skeletonize.png){.r-stretch}
+
+::: aside
+merge & skeletonize
+:::
+
+---
+
+### Pairs
+
+[solve together as a single isolate]{.fragment}
+
+[solve together as a cluster]{.fragment}
 
 ---
 
@@ -576,11 +637,13 @@ We can ask questions like never before.
 
 ## Do you want to follow up {.question}
 
-[{{< fa solid person-chalkboard >}}](https://uscuni.org/talks/slides/202511_ILUS.html) uscuni.org/talks
+[{{< fa solid person-chalkboard >}}](https://uscuni.org/talks/slides/202511_Bartlett.html) uscuni.org/talks
 
 [{{< fa solid map >}}](https://urbantaxonomy.org) urbantaxonomy.org
 
-[{{< fa solid code >}}](https://github.com/uscuni/urban_taxonomy) github.com/uscuni/urban_taxonomy
+[{{< fa brands python >}}](https://urbantaxonomy.org) uscuni.org/neatnet
+
+[{{< fa solid code >}}](https://github.com/uscuni) github.com/uscuni
 
 [{{< fa regular envelope >}}](mailto:martin.fleischmann@natur.cuni.cz) martin.fleischmann@natur.cuni.cz
 
