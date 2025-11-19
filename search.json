@@ -1337,6 +1337,223 @@
     "text": "Share your knowledge, it is a way to achieve immortality\n(Dalai Lama)\n\n\n\n\nThank you! Contacts at martinfleischmann.net. Slides at uscuni.org/talks."
   },
   {
+    "objectID": "slides/202511_UFRGS.html#what-is-urban-morphometrics",
+    "href": "slides/202511_UFRGS.html#what-is-urban-morphometrics",
+    "title": "Urban morphology at scale",
+    "section": "What is urban morphometrics",
+    "text": "What is urban morphometrics"
+  },
+  {
+    "objectID": "slides/202511_UFRGS.html#what-is-urban-morphometrics-1",
+    "href": "slides/202511_UFRGS.html#what-is-urban-morphometrics-1",
+    "title": "Urban morphology at scale",
+    "section": "What is urban morphometrics",
+    "text": "What is urban morphometrics\n\n\nA study of urban form through the means of quantitative assessment of its constituent elements.\n\n\nConceptually similar to historico-geographical approach in urban morphology.\nMethodologically embedded in spatial data science and geography."
+  },
+  {
+    "objectID": "slides/202511_UFRGS.html#morphometrics-in-2025",
+    "href": "slides/202511_UFRGS.html#morphometrics-in-2025",
+    "title": "Urban morphology at scale",
+    "section": "Morphometrics in 2025",
+    "text": "Morphometrics in 2025"
+  },
+  {
+    "objectID": "slides/202511_UFRGS.html#data-pain-points",
+    "href": "slides/202511_UFRGS.html#data-pain-points",
+    "title": "Urban morphology at scale",
+    "section": "Data pain points",
+    "text": "Data pain points"
+  },
+  {
+    "objectID": "slides/202511_UFRGS.html#section",
+    "href": "slides/202511_UFRGS.html#section",
+    "title": "Urban morphology at scale",
+    "section": "",
+    "text": "Transportation vs manually-derived morphological representation of a street network"
+  },
+  {
+    "objectID": "slides/202511_UFRGS.html#what-to-do",
+    "href": "slides/202511_UFRGS.html#what-to-do",
+    "title": "Urban morphology at scale",
+    "section": "What to do",
+    "text": "What to do"
+  },
+  {
+    "objectID": "slides/202511_UFRGS.html#adaptive-continuity-preserving-simplification-of-street-networks",
+    "href": "slides/202511_UFRGS.html#adaptive-continuity-preserving-simplification-of-street-networks",
+    "title": "Urban morphology at scale",
+    "section": "Adaptive continuity-preserving simplification of street networks",
+    "text": "Adaptive continuity-preserving simplification of street networks\n\n\nFleischmann, M., Vybornova, A., Gaboardi, J.D., Brázdová, A., Dančejová, D., 2026. Adaptive continuity-preserving simplification of street networks. Computers, Environment and Urban Systems 123, 102354. https://doi.org/10.1016/j.compenvurbsys.2025.102354"
+  },
+  {
+    "objectID": "slides/202511_UFRGS.html#what-do-you-mean-by-continuity-preserving",
+    "href": "slides/202511_UFRGS.html#what-do-you-mean-by-continuity-preserving",
+    "title": "Urban morphology at scale",
+    "section": "What do you mean by “continuity-preserving”",
+    "text": "What do you mean by “continuity-preserving”"
+  },
+  {
+    "objectID": "slides/202511_UFRGS.html#face-artifact-detection",
+    "href": "slides/202511_UFRGS.html#face-artifact-detection",
+    "title": "Urban morphology at scale",
+    "section": "Face artifact detection",
+    "text": "Face artifact detection"
+  },
+  {
+    "objectID": "slides/202511_UFRGS.html#artifact-classification",
+    "href": "slides/202511_UFRGS.html#artifact-classification",
+    "title": "Urban morphology at scale",
+    "section": "Artifact classification",
+    "text": "Artifact classification\n\nartifact polygon contiguity\n\nisolates\npairs\nclusters\n\nnetwork continuity"
+  },
+  {
+    "objectID": "slides/202511_UFRGS.html#section-1",
+    "href": "slides/202511_UFRGS.html#section-1",
+    "title": "Urban morphology at scale",
+    "section": "",
+    "text": "Output of different simplification methods for a street network fragment in Seraing, Liège (Belgium)."
+  },
+  {
+    "objectID": "slides/202511_UFRGS.html#section-3",
+    "href": "slides/202511_UFRGS.html#section-3",
+    "title": "Urban morphology at scale",
+    "section": "",
+    "text": "Morphological tessellation"
+  },
+  {
+    "objectID": "slides/202511_UFRGS.html#section-4",
+    "href": "slides/202511_UFRGS.html#section-4",
+    "title": "Urban morphology at scale",
+    "section": "",
+    "text": "Enclosed tessellation"
+  },
+  {
+    "objectID": "slides/202511_UFRGS.html#idea-of-a-morphotope",
+    "href": "slides/202511_UFRGS.html#idea-of-a-morphotope",
+    "title": "Urban morphology at scale",
+    "section": "Idea of a morphotope",
+    "text": "Idea of a morphotope\n\n\n\nexcerpt from Larkham and Jones, 1991"
+  },
+  {
+    "objectID": "slides/202511_UFRGS.html#how-to-capture-it",
+    "href": "slides/202511_UFRGS.html#how-to-capture-it",
+    "title": "Urban morphology at scale",
+    "section": "How to capture it",
+    "text": "How to capture it"
+  },
+  {
+    "objectID": "slides/202511_UFRGS.html#section-11",
+    "href": "slides/202511_UFRGS.html#section-11",
+    "title": "Urban morphology at scale",
+    "section": "",
+    "text": "Illustration of different levels of the hierarchy."
+  },
+  {
+    "objectID": "slides/202511_UFRGS.html#section-12",
+    "href": "slides/202511_UFRGS.html#section-12",
+    "title": "Urban morphology at scale",
+    "section": "",
+    "text": "Illustration of different levels of the hierarchy."
+  },
+  {
+    "objectID": "slides/202511_UFRGS.html#section-13",
+    "href": "slides/202511_UFRGS.html#section-13",
+    "title": "Urban morphology at scale",
+    "section": "",
+    "text": "Illustration of different levels of the hierarchy."
+  },
+  {
+    "objectID": "slides/202511_UFRGS.html#section-14",
+    "href": "slides/202511_UFRGS.html#section-14",
+    "title": "Urban morphology at scale",
+    "section": "",
+    "text": "urbantaxonomy.org"
+  },
+  {
+    "objectID": "slides/202511_UFRGS.html#section-17",
+    "href": "slides/202511_UFRGS.html#section-17",
+    "title": "Urban morphology at scale",
+    "section": "",
+    "text": "UMAP components reflecting the composition within 50km grid."
+  },
+  {
+    "objectID": "slides/202511_UFRGS.html#section-18",
+    "href": "slides/202511_UFRGS.html#section-18",
+    "title": "Urban morphology at scale",
+    "section": "",
+    "text": "Projection of UMAP components"
+  },
+  {
+    "objectID": "slides/202511_UFRGS.html#section-19",
+    "href": "slides/202511_UFRGS.html#section-19",
+    "title": "Urban morphology at scale",
+    "section": "",
+    "text": "Projection of UMAP components"
+  },
+  {
+    "objectID": "slides/202511_UFRGS.html#section-20",
+    "href": "slides/202511_UFRGS.html#section-20",
+    "title": "Urban morphology at scale",
+    "section": "",
+    "text": "Projection of UMAP components"
+  },
+  {
+    "objectID": "slides/202511_UFRGS.html#section-21",
+    "href": "slides/202511_UFRGS.html#section-21",
+    "title": "Urban morphology at scale",
+    "section": "",
+    "text": "Projection of UMAP components"
+  },
+  {
+    "objectID": "slides/202511_UFRGS.html#section-22",
+    "href": "slides/202511_UFRGS.html#section-22",
+    "title": "Urban morphology at scale",
+    "section": "",
+    "text": "Projection of UMAP components"
+  },
+  {
+    "objectID": "slides/202511_UFRGS.html#section-23",
+    "href": "slides/202511_UFRGS.html#section-23",
+    "title": "Urban morphology at scale",
+    "section": "",
+    "text": "Projection of UMAP components"
+  },
+  {
+    "objectID": "slides/202511_UFRGS.html#section-24",
+    "href": "slides/202511_UFRGS.html#section-24",
+    "title": "Urban morphology at scale",
+    "section": "",
+    "text": "Projection of UMAP components"
+  },
+  {
+    "objectID": "slides/202511_UFRGS.html#section-25",
+    "href": "slides/202511_UFRGS.html#section-25",
+    "title": "Urban morphology at scale",
+    "section": "",
+    "text": "Projection of UMAP components"
+  },
+  {
+    "objectID": "slides/202511_UFRGS.html#section-26",
+    "href": "slides/202511_UFRGS.html#section-26",
+    "title": "Urban morphology at scale",
+    "section": "",
+    "text": "Projection of UMAP components"
+  },
+  {
+    "objectID": "slides/202511_UFRGS.html#section-27",
+    "href": "slides/202511_UFRGS.html#section-27",
+    "title": "Urban morphology at scale",
+    "section": "",
+    "text": "Projection of UMAP components"
+  },
+  {
+    "objectID": "slides/202511_UFRGS.html#do-you-want-to-follow-up",
+    "href": "slides/202511_UFRGS.html#do-you-want-to-follow-up",
+    "title": "Urban morphology at scale",
+    "section": "Do you want to follow up",
+    "text": "Do you want to follow up\n uscuni.org/talks\n urbantaxonomy.org\n uscuni.org/neatnet\n github.com/uscuni\n martin.fleischmann@natur.cuni.cz\n martinfleischmann.net\n\n\n\n\nThe authors kindly acknowledge funding by the Charles University’s Primus programme through the project “Influence of Socioeconomic and Cultural Factors on Urban Structure in Central Europe”, project reference PRIMUS/24/SCI/023."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Talks",
@@ -1348,7 +1565,7 @@
     "href": "index.html#list-of-talks",
     "title": "Talks",
     "section": "List of talks",
-    "text": "List of talks\n\n2025-11-18 Morphology @ The Bartlett\n2025-11-06 ILUS (Interaction of Spatial and Social Structure)\n2025-11-06 ILUS keynote\n2025-10-31 SODAS\n2025-10-30 ITU\n2025-10-02 Urban Evo Devo\n2025-07-01 SDH\n2025-06-19 ISUF\n2025-05-16 Twin2Expand\n2025-04-24 GISRUK 2025 (Urban form and population), Bristol\n2025-04-24 GISRUK 2025 (Taxonomy), Bristol\n2025-04-24 GISRUK 2025 (Simplification), Bristol\n2025-04-14 University of California, Berkeley\n2024-10-29 International Seminar on Urban Morpho-Science\n2024-09-18 Spatial Data Science across Languages\n2024-09-12 City Transitions Saarbrücken\n2024-06-07 EuroFab project Kick-Off meeting\n2024-05-16 Open Source Science Meetup Prague"
+    "text": "List of talks\n\n2025-11-19 UFRGS\n2025-11-18 Morphology @ The Bartlett\n2025-11-06 ILUS (Interaction of Spatial and Social Structure)\n2025-11-06 ILUS keynote\n2025-10-31 SODAS\n2025-10-30 ITU\n2025-10-02 Urban Evo Devo\n2025-07-01 SDH\n2025-06-19 ISUF\n2025-05-16 Twin2Expand\n2025-04-24 GISRUK 2025 (Urban form and population), Bristol\n2025-04-24 GISRUK 2025 (Taxonomy), Bristol\n2025-04-24 GISRUK 2025 (Simplification), Bristol\n2025-04-14 University of California, Berkeley\n2024-10-29 International Seminar on Urban Morpho-Science\n2024-09-18 Spatial Data Science across Languages\n2024-09-12 City Transitions Saarbrücken\n2024-06-07 EuroFab project Kick-Off meeting\n2024-05-16 Open Source Science Meetup Prague"
   },
   {
     "objectID": "slides/202510_ITU.html#free",
