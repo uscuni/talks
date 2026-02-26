@@ -1,0 +1,654 @@
+---
+title: "Understanding the structure of space"
+subtitle: "Urban Morphometrics as a Backbone of Urban Taxonomy"
+author: "Martin Fleischmann"
+institute: "Charles University"
+format:
+    revealjs:
+        theme: [default, ../assets/reveal.scss]
+        logo: ../assets/icon.svg
+        menu: false
+        transition: fade
+        navigation-mode: linear
+        controls-layout: edges
+        progress: true
+        include-in-header:
+            - ../assets/font.html
+            - text: |
+                <style>
+                #title-slide .title {
+                    font-size: 50px;
+                }
+                </style>
+        title-slide-attributes:
+            data-background-image: ../assets/full_logo.svg
+            data-background-size: 20%
+            data-background-position: 50% 90%
+        max-scale: 10
+---
+
+
+## What is urban morphometrics {.question}
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+Not anything new!
+:::
+
+---
+
+![](../figures/202410_Nanjing/morphometrics_conzen.png){.absolute top=20%}
+
+::: aside
+excerpt from Larkham and Jones, 1991
+:::
+
+## What is urban morphometrics {.question}
+
+::: {.fragment}
+> A study of urban form through the means of quantitative assessment of its constituent elements.
+:::
+
+[Conceptually similar to historico-geographical approach in urban morphology.]{.fragment}
+
+[Methodologically embedded in spatial data science and geography.]{.fragment}
+
+## Morphometrics in 2025
+
+---
+
+::: {.r-fit-text .absolute top=5%}
+availability of data
+:::
+
+::: {.r-fit-text .absolute top=25% .fragment}
+evolution of software
+:::
+
+::: {.r-fit-text .absolute top=40% .fragment}
+performance
+:::
+
+::: {.r-fit-text .absolute top=75% .fragment}
+automatised pre-processing
+:::
+
+---
+
+::: {.r-fit-text .absolute top=30%}
+all that pushes the limits of scalability
+:::
+
+::: {.r-fit-text .absolute top=50% .fragment}
+scalable urban morphometrics
+:::
+
+---
+
+## Data pain points
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+There is an issue with streets we need to talk about.
+:::
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+A street may not be a street.
+:::
+
+## {background-image="../figures/202504_GISRUK_simplification/fig_original-manual.png" background-size=80% .no-text}
+
+::: aside
+Transportation vs manually-derived morphological representation of a street network
+:::
+
+---
+
+<!-- consequences of incorrect representation -->
+![](../figures/202504_GISRUK_simplification/araldi.png)
+
+::: aside
+Araldi and Fusco (2024)
+:::
+
+## What to do {.question}
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+Manual simplification
+:::
+
+---
+
+<!-- manual simplification is cumbersome -->
+_click click click click click click click click click click click click click click click click sigh click click click click click click click click click click click click click click click click fml click click click click click click click click click click click click I hate it here click click click click click click click click click click click click click click click click click click click click click click click click click click click click click click click click click click click click click click click click sigh click click click click click click click click click click click click click click click click click help click click click click click click click ..._
+
+::: aside
+live transcription of the manual simplification process
+:::
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+we need an algorithm
+:::
+
+## Adaptive continuity-preserving simplification of street networks
+
+::: aside
+Fleischmann, M., Vybornova, A., Gaboardi, J.D., Brázdová, A., Dančejová, D., 2026. Adaptive continuity-preserving simplification of street networks. Computers, Environment and Urban Systems 123, 102354. https://doi.org/10.1016/j.compenvurbsys.2025.102354
+
+:::
+
+## What do you mean by "continuity-preserving" {.question}
+
+---
+
+::: {.columns}
+::: {.column}
+![](../figures/202504_GISRUK_simplification/bubenec.webp)
+
+:::
+::: {.column}
+![](../figures/202504_GISRUK_simplification/bubenec2.webp)
+
+:::
+:::
+
+::: aside
+detection of natural continuity of street networks by Tripathy et al. (2020).
+:::
+
+---
+
+![](../figures/202504_GISRUK_simplification/neatnet.png){.r-stretch}
+
+::: aside
+Conceptual diagram of the proposed simplification algorithm.
+:::
+
+
+---
+
+## Face artifact detection
+
+---
+
+![](../figures/202504_GISRUK_simplification/banana.png){.r-stretch}
+
+::: aside
+Fleischmann and Vybornova (2024)
+:::
+
+---
+
+![](../figures/202504_GISRUK_simplification/face_artifacts.png){.r-stretch}
+
+::: aside
+Fleischmann and Vybornova (2024)
+:::
+
+---
+
+![](../figures/202504_GISRUK_simplification/birdviews.png){.r-stretch}
+
+::: aside
+Fleischmann and Vybornova (2024)
+:::
+
+---
+
+![](../figures/202504_GISRUK_simplification/neatnet.png){.r-stretch}
+
+::: aside
+Conceptual diagram of the proposed simplification algorithm.
+:::
+
+## Artifact classification
+
+1. artifact polygon contiguity
+    1. isolates
+    2. pairs
+    3. clusters
+2. network continuity
+
+---
+
+### Isolates
+
+---
+
+![](../figures/202504_GISRUK_simplification/ces_liege_subset_post.png){.r-stretch}
+
+::: aside
+A subset of the CES typology derived from the Liège street network.
+:::
+
+---
+
+### Clusters
+
+![](../figures/202504_GISRUK_simplification/skeletonize.png){.r-stretch}
+
+::: aside
+merge & skeletonize
+:::
+
+---
+
+### Pairs
+
+[solve together as a single isolate]{.fragment}
+
+[solve together as a cluster]{.fragment}
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+Python package `neatnet`
+:::
+
+---
+
+## {background-image="../figures/202511_ILUS/fig_allmethods.png" background-size="90%" .no-text}
+
+::: aside
+Output of different simplification methods for a street network fragment in Seraing, Liège (Belgium).
+:::
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+There is an issue with plots as well.
+:::
+
+---
+
+::: {.r-fit-text .absolute top=20%}
+They are not available as open data
+:::
+
+::: {.r-fit-text .absolute top=45% .fragment}
+They do not represent morphology
+:::
+
+
+
+## {background-image="../figures/202409_Saarbrucken/plots.png" background-size="contain" .no-text}
+
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+Let's find a replacement
+:::
+
+
+---
+
+### Morphological tessellation
+
+::: aside
+Fleischmann, M., Feliciotti, A., Romice, O., Porta, S., 2020. Morphological tessellation as a way of partitioning space: Improving consistency in urban morphology at the plot scale. Computers, Environment and Urban Systems 80, 101441. https://doi.org/10.1016/j.compenvurbsys.2019.101441
+:::
+
+## {background-image="../figures/202409_Saarbrucken/mt.png" background-size="contain" .no-text}
+
+::: aside
+Morphological tessellation
+:::
+
+---
+
+### Enclosed tessellation
+
+::: aside
+Arribas-Bel, D., Fleischmann, M., 2022. Spatial Signatures - Understanding (urban) spaces through form and function. Habitat International 128, 102641. https://doi.org/10.1016/j.habitatint.2022.102641
+:::
+
+## {background-image="../figures/202409_Saarbrucken/et.png" background-size="contain" .no-text}
+
+::: aside
+Enclosed tessellation
+:::
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+Python package `momepy`
+:::
+
+::: aside
+Fleischmann, M., 2019. momepy: Urban Morphology Measuring Toolkit. Journal of Open Source Software 4, 1807. https://doi.org/10.21105/joss.01807
+:::
+
+---
+
+### We can measure potentially hundreds of morphometric characters
+
+::: {.column width="50%" .incremental}
+- dimension
+- shape
+- spatial distribution
+:::
+
+::: {.column width="50%" .incremental}
+- intensity
+- diversity
+- connectivity
+:::
+
+::: aside
+Fleischmann, M., Romice, O., Porta, S., 2020. Measuring urban form: Overcoming terminological inconsistencies for a quantitative and comprehensive morphologic analysis of cities. Environment and Planning B: Urban Analytics and City Science 239980832091044. https://doi.org/10/ggngw6
+:::
+
+# Our take on morphometrics
+
+## Idea of a morphotope
+
+![](../figures/202410_Nanjing/mtope.png){.fragment}
+
+
+::: aside
+[excerpt from Larkham and Jones, 1991]{.fragment}
+:::
+
+---
+
+## How to capture it {.question}
+
+---
+
+![](../figures/202506_ISUF/morphotope_diagram.png)
+
+::: aside
+Diagram illustrating a procedure to derive morphotopes using Spatial Adaptive Agglomerative Aggregation ($SA^3$)
+:::
+
+---
+
+
+![](../figures/202506_ISUF/characters.png){fig-align="center" width=75%}
+
+::: aside
+5 out of 54 morphometric characters illustrated on the Prague City Centre
+:::
+
+
+---
+
+![](../figures/202506_ISUF/morphotopes.png){fig-align="center" width=65%}
+
+::: aside
+Morphotope delineation illustrated on the Prague City Centre
+:::
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+Flexible definition of built-up fabric
+:::
+
+---
+
+![](../figures/202506_ISUF/taxonomy_diagram.png){fig-align="center" width=90%}
+
+::: aside
+Diagram illustrating a procedure to derive Hierarchical Morphotope Classification (HiMoC)
+:::
+
+---
+
+## {background-image="../figures/202511_ILUS/taxonomy.png" background-size="contain" .no-text}
+
+## {background-image="../figures/202511_ILUS/taxonomy_tree.png" background-size="contain" .no-text}
+
+## {background-image="../figures/202511_ILUS/taxonomy_chars.png" background-size="contain" .no-text}
+
+## {background-image="../figures/202511_ILUS/taxonomy_abundance.png" background-size="contain" .no-text}
+
+## {background-image="../figures/202511_ILUS/taxonomy_mtopes.png" background-size="contain" .no-text}
+
+## {background-image="../figures/202511_ILUS/taxonomy.png" background-size="contain" .no-text}
+
+---
+
+
+![](../figures/202511_ILUS/tree_nocut.png){fig-align="center" width=60%}
+
+::: aside
+Taxonomic tree (up to 256 branches)
+:::
+
+---
+
+![](../figures/202511_ILUS/tree_cut0.png){fig-align="center" width=60%}
+
+::: aside
+Taxonomic tree with a cut marking 2 branches (level 1)
+:::
+
+
+## {background-image="../figures/202511_ILUS/examples_1.png" background-size="contain" .no-text}
+
+::: aside
+Illustration of different levels of the hierarchy.
+:::
+
+---
+
+![](../figures/202511_ILUS/tree_cut1.png){fig-align="center" width=60%}
+
+::: aside
+Taxonomic tree with a cut marking 4 branches (level 2)
+:::
+
+## {background-image="../figures/202511_ILUS/examples_2.png" background-size="contain" .no-text}
+
+::: aside
+Illustration of different levels of the hierarchy.
+:::
+
+---
+
+
+![](../figures/202511_ILUS/tree_cut2.png){fig-align="center" width=60%}
+
+::: aside
+Taxonomic tree with a cut marking 8 branches (level 3)
+:::
+
+## {background-image="../figures/202506_ISUF/examples.png" background-size="contain" .no-text}
+
+::: aside
+Illustration of different levels of the hierarchy.
+:::
+
+# Urban Taxonomy
+
+## {background-iframe="https://uscuni.org/himoc/" background-size="contain" .no-text}
+
+::: aside
+[urbantaxonomy.org](https://urbantaxonomy.org)
+:::
+
+
+# Geography and urban structure
+
+---
+
+![](../figures/202511_ILUS/abundance.png){fig-align="center"}
+
+::: aside
+Abundance of built fabric types derived from level 3
+:::
+
+---
+
+## {background-image="../figures/202511_ILUS/europe.png" background-size="fill" .no-text}
+
+---
+
+![](../figures/202511_ILUS/tree_cut3.png){fig-align="center" width=60%}
+
+::: aside
+Taxonomic tree with a cut marking 107 branches (level 7)
+:::
+
+## {background-image="../figures/202511_ILUS/branch_proportions.png" background-size="contain" .no-text}
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+Compression to 2 dimensions using UMAP
+:::
+
+---
+
+## {background-image="../figures/202511_ILUS/umap_components.png" background-size="contain" .no-text data-transition="none"}
+
+::: aside
+UMAP components reflecting the composition within 50km grid.
+:::
+
+---
+
+## {background-image="../figures/202511_ILUS/umap.png" background-size="contain" .no-text data-transition="none"}
+
+::: aside
+Projection of UMAP components
+:::
+
+---
+
+## {background-image="../figures/202511_ILUS/umap_eastern_germany.png" background-size="contain" .no-text data-transition="none"}
+
+::: aside
+Projection of UMAP components
+:::
+
+---
+
+## {background-image="../figures/202511_ILUS/umap_eastern-poland.png" background-size="contain" .no-text data-transition="none"}
+
+::: aside
+Projection of UMAP components
+:::
+
+---
+
+## {background-image="../figures/202511_ILUS/umap_pl_outliers.png" background-size="contain" .no-text data-transition="none"}
+
+::: aside
+Projection of UMAP components
+:::
+
+---
+
+## {background-image="../figures/202511_ILUS/umap_cz-pl.png" background-size="contain" .no-text data-transition="none"}
+
+::: aside
+Projection of UMAP components
+:::
+
+---
+
+## {background-image="../figures/202511_ILUS/umap_galicia.png" background-size="contain" .no-text data-transition="none"}
+
+::: aside
+Projection of UMAP components
+:::
+
+---
+
+## {background-image="../figures/202511_ILUS/umap_be.png" background-size="contain" .no-text data-transition="none"}
+
+::: aside
+Projection of UMAP components
+:::
+
+---
+
+## {background-image="../figures/202511_ILUS/umap_be_top.png" background-size="contain" .no-text data-transition="none"}
+
+::: aside
+Projection of UMAP components
+:::
+
+---
+
+## {background-image="../figures/202511_ILUS/umap_be_mid.png" background-size="contain" .no-text data-transition="none"}
+
+::: aside
+Projection of UMAP components
+:::
+
+---
+
+## {background-image="../figures/202511_ILUS/umap_be_nl.png" background-size="contain" .no-text data-transition="none"}
+
+::: aside
+Projection of UMAP components
+:::
+
+## {background-image="../figures/202511_ILUS/belgium.png" background-size="fill" .no-text}
+
+
+# Take home points
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+Times have changed. Methods have changed.<br>Concepts? Those only evolved.
+:::
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+Urban morphology can be deeply embedded<br>in spatial data science.
+:::
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+Urban morphometrics can support<br>quantitative studies done at scale.
+:::
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+Structure of cities is deeply affected<br>by culture and politics.
+:::
+
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+We can ask questions like never before.
+:::
+
+
+---
+
+## Do you want to follow up {.question}
+
+[{{< fa solid person-chalkboard >}}](https://uscuni.org/talks/slides/202511_Bartlett.html) uscuni.org/talks
+
+[{{< fa solid map >}}](https://urbantaxonomy.org) urbantaxonomy.org
+
+[{{< fa brands python >}}](https://urbantaxonomy.org) uscuni.org/neatnet
+
+[{{< fa solid code >}}](https://github.com/uscuni) github.com/uscuni
+
+[{{< fa regular envelope >}}](mailto:martin.fleischmann@natur.cuni.cz) martin.fleischmann@natur.cuni.cz
+
+[{{< fa regular user >}}](https://martinfleischmann.net) martinfleischmann.net
+
+::: aside
+The authors kindly acknowledge funding by the Charles University’s Primus programme through the project "Influence of Socioeconomic and Cultural Factors on Urban Structure in Central Europe", project reference `PRIMUS/24/SCI/023`.
+:::
