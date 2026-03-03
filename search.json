@@ -91,27 +91,6 @@
     "text": "Adaptive continuity-preserving simplification of street networks\n\n\nFleischmann, M., Vybornova, A., Gaboardi, J.D., Brázdová, A., Dančejová, D., 2026. Adaptive continuity-preserving simplification of street networks. Computers, Environment and Urban Systems 123, 102354. https://doi.org/10.1016/j.compenvurbsys.2025.102354"
   },
   {
-    "objectID": "slides/202603_StAndrews.html#what-do-you-mean-by-continuity-preserving",
-    "href": "slides/202603_StAndrews.html#what-do-you-mean-by-continuity-preserving",
-    "title": "Understanding the structure of space",
-    "section": "What do you mean by “continuity-preserving”",
-    "text": "What do you mean by “continuity-preserving”"
-  },
-  {
-    "objectID": "slides/202603_StAndrews.html#face-artifact-detection",
-    "href": "slides/202603_StAndrews.html#face-artifact-detection",
-    "title": "Understanding the structure of space",
-    "section": "Face artifact detection",
-    "text": "Face artifact detection"
-  },
-  {
-    "objectID": "slides/202603_StAndrews.html#artifact-classification",
-    "href": "slides/202603_StAndrews.html#artifact-classification",
-    "title": "Understanding the structure of space",
-    "section": "Artifact classification",
-    "text": "Artifact classification\n\nartifact polygon contiguity\n\nisolates\npairs\nclusters\n\nnetwork continuity"
-  },
-  {
     "objectID": "slides/202603_StAndrews.html#section-1",
     "href": "slides/202603_StAndrews.html#section-1",
     "title": "Understanding the structure of space",
@@ -256,7 +235,7 @@
     "href": "slides/202603_StAndrews.html#do-you-want-to-follow-up",
     "title": "Understanding the structure of space",
     "section": "Do you want to follow up",
-    "text": "Do you want to follow up\n uscuni.org/talks\n urbantaxonomy.org\n uscuni.org/neatnet\n github.com/uscuni\n martin.fleischmann@natur.cuni.cz\n martinfleischmann.net\n\n\n\n\nThe authors kindly acknowledge funding by the Charles University’s Primus programme through the project “Influence of Socioeconomic and Cultural Factors on Urban Structure in Central Europe”, project reference PRIMUS/24/SCI/023."
+    "text": "Do you want to follow up\n uscuni.org/talks\n urbantaxonomy.org\n github.com/uscuni/urban_taxonomy\n martin.fleischmann@natur.cuni.cz\n martinfleischmann.net\n\n\n\n\nThe authors kindly acknowledge funding by the Charles University’s Primus programme through the project “Influence of Socioeconomic and Cultural Factors on Urban Structure in Central Europe”, project reference PRIMUS/24/SCI/023."
   },
   {
     "objectID": "slides/202511_Bartlett.html#what-is-urban-morphometrics",
