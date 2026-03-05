@@ -1456,6 +1456,76 @@
     "text": "Do you want to follow up\n uscuni.org/talks\n urbantaxonomy.org\n github.com/uscuni/urban_taxonomy\n martin.fleischmann@natur.cuni.cz\n martinfleischmann.net\n\n\n\n\nThe authors kindly acknowledge funding by the Charles University’s Primus programme through the project “Influence of Socioeconomic and Cultural Factors on Urban Structure in Central Europe”, project reference PRIMUS/24/SCI/023."
   },
   {
+    "objectID": "slides/template.html#heading-level-2",
+    "href": "slides/template.html#heading-level-2",
+    "title": "Spatial Autocorrelation",
+    "section": "Heading level 2",
+    "text": "Heading level 2\nAnother text\nFragment"
+  },
+  {
+    "objectID": "slides/template.html#this-will-be-vertically-centered",
+    "href": "slides/template.html#this-will-be-vertically-centered",
+    "title": "Spatial Autocorrelation",
+    "section": "This will be vertically centered",
+    "text": "This will be vertically centered\nThis text is moved as well"
+  },
+  {
+    "objectID": "slides/template.html#heading-that-is-a-question",
+    "href": "slides/template.html#heading-that-is-a-question",
+    "title": "Spatial Autocorrelation",
+    "section": "Heading that is a question",
+    "text": "Heading that is a question\nAnother text with footnote1\n\nFragment block\n\nMy footnote."
+  },
+  {
+    "objectID": "slides/template.html#inline-code",
+    "href": "slides/template.html#inline-code",
+    "title": "Spatial Autocorrelation",
+    "section": "Inline code",
+    "text": "Inline code\nText with libpysal.graph.Graph inline."
+  },
+  {
+    "objectID": "slides/template.html#slide-with-an-image",
+    "href": "slides/template.html#slide-with-an-image",
+    "title": "Spatial Autocorrelation",
+    "section": "Slide with an image",
+    "text": "Slide with an image\nSet height"
+  },
+  {
+    "objectID": "slides/template.html#slide-with-an-image-1",
+    "href": "slides/template.html#slide-with-an-image-1",
+    "title": "Spatial Autocorrelation",
+    "section": "Slide with an image",
+    "text": "Slide with an image\n\nAutomatically stretched to fill remaining space"
+  },
+  {
+    "objectID": "slides/template.html#slide-with-image-as-background",
+    "href": "slides/template.html#slide-with-image-as-background",
+    "title": "Spatial Autocorrelation",
+    "section": "Slide with image as background",
+    "text": "Slide with image as background"
+  },
+  {
+    "objectID": "slides/template.html#slide-with-iframe-background",
+    "href": "slides/template.html#slide-with-iframe-background",
+    "title": "Spatial Autocorrelation",
+    "section": "Slide with iframe background",
+    "text": "Slide with iframe background"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Talks",
+    "section": "",
+    "text": "Archive of talks of the US CUNI team."
+  },
+  {
+    "objectID": "index.html#list-of-talks",
+    "href": "index.html#list-of-talks",
+    "title": "Talks",
+    "section": "List of talks",
+    "text": "List of talks\n\n2026-03-03 BEGIN St. Andrews\n2025-12-03 EORC Würzburg\n2025-11-19 UFRGS\n2025-11-18 Morphology @ The Bartlett\n2025-11-06 ILUS (Interaction of Spatial and Social Structure)\n2025-11-06 ILUS keynote\n2025-10-31 SODAS\n2025-10-30 ITU\n2025-10-02 Urban Evo Devo\n2025-07-01 SDH\n2025-06-19 ISUF\n2025-05-16 Twin2Expand\n2025-04-24 GISRUK 2025 (Urban form and population), Bristol\n2025-04-24 GISRUK 2025 (Taxonomy), Bristol\n2025-04-24 GISRUK 2025 (Simplification), Bristol\n2025-04-14 University of California, Berkeley\n2024-10-29 International Seminar on Urban Morpho-Science\n2024-09-18 Spatial Data Science across Languages\n2024-09-12 City Transitions Saarbrücken\n2024-06-07 EuroFab project Kick-Off meeting\n2024-05-16 Open Source Science Meetup Prague"
+  },
+  {
     "objectID": "slides/202504_Berkeley.html#open-by-default",
     "href": "slides/202504_Berkeley.html#open-by-default",
     "title": "Urban science as a software",
@@ -1526,74 +1596,116 @@
     "text": "Share your knowledge, it is a way to achieve immortality\n(Dalai Lama)\n\n\n\n\nThank you! Contacts at martinfleischmann.net."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Talks",
+    "objectID": "slides/202602_urrlab_Anna.html#interplay-between-population-and-built-form",
+    "href": "slides/202602_urrlab_Anna.html#interplay-between-population-and-built-form",
+    "title": "Spatially conditioned dynamics between population and built form",
+    "section": "Interplay between population and built form",
+    "text": "Interplay between population and built form\nUnderstand built-up patterns of housing types and the ability of different population to inhabit them."
+  },
+  {
+    "objectID": "slides/202602_urrlab_Anna.html#relationship-between-social-structure-and-built-form",
+    "href": "slides/202602_urrlab_Anna.html#relationship-between-social-structure-and-built-form",
+    "title": "Spatially conditioned dynamics between population and built form",
+    "section": "Relationship between social structure and built form",
+    "text": "Relationship between social structure and built form\nSpatial configuration, urban design, and morphology actively shape everyday life, social interactions, mobility, etc.\nQualitative methods (Jacobs, 1961; Gehl, 2006)\nQuantitative methods (Hillier, 1996; Vaughan, 2005; Sapena, 2021; Venerandi 2024)"
+  },
+  {
+    "objectID": "slides/202602_urrlab_Anna.html#morphometric-classification",
+    "href": "slides/202602_urrlab_Anna.html#morphometric-classification",
+    "title": "Spatially conditioned dynamics between population and built form",
+    "section": "Morphometric classification",
+    "text": "Morphometric classification\nQuantitative identification of built form types.\nBased on similar morphological characteristics shared by street segments and building footprints.\nFocuses on geometry and spatial configuration within the urban fabric."
+  },
+  {
+    "objectID": "slides/202602_urrlab_Anna.html#section",
+    "href": "slides/202602_urrlab_Anna.html#section",
+    "title": "Spatially conditioned dynamics between population and built form",
     "section": "",
-    "text": "Archive of talks of the US CUNI team."
+    "text": "https://urbantaxonomy.org/map.html"
   },
   {
-    "objectID": "index.html#list-of-talks",
-    "href": "index.html#list-of-talks",
-    "title": "Talks",
-    "section": "List of talks",
-    "text": "List of talks\n\n2026-03-03 BEGIN St. Andrews\n2025-12-03 EORC Würzburg\n2025-11-19 UFRGS\n2025-11-18 Morphology @ The Bartlett\n2025-11-06 ILUS (Interaction of Spatial and Social Structure)\n2025-11-06 ILUS keynote\n2025-10-31 SODAS\n2025-10-30 ITU\n2025-10-02 Urban Evo Devo\n2025-07-01 SDH\n2025-06-19 ISUF\n2025-05-16 Twin2Expand\n2025-04-24 GISRUK 2025 (Urban form and population), Bristol\n2025-04-24 GISRUK 2025 (Taxonomy), Bristol\n2025-04-24 GISRUK 2025 (Simplification), Bristol\n2025-04-14 University of California, Berkeley\n2024-10-29 International Seminar on Urban Morpho-Science\n2024-09-18 Spatial Data Science across Languages\n2024-09-12 City Transitions Saarbrücken\n2024-06-07 EuroFab project Kick-Off meeting\n2024-05-16 Open Source Science Meetup Prague"
+    "objectID": "slides/202602_urrlab_Anna.html#how-strong-are-the-associations-between-population-and-built-form",
+    "href": "slides/202602_urrlab_Anna.html#how-strong-are-the-associations-between-population-and-built-form",
+    "title": "Spatially conditioned dynamics between population and built form",
+    "section": "How strong are the associations between population and built form",
+    "text": "How strong are the associations between population and built form"
   },
   {
-    "objectID": "slides/template.html#heading-level-2",
-    "href": "slides/template.html#heading-level-2",
-    "title": "Spatial Autocorrelation",
-    "section": "Heading level 2",
-    "text": "Heading level 2\nAnother text\nFragment"
+    "objectID": "slides/202602_urrlab_Anna.html#systematic-exploration-of-the-associations",
+    "href": "slides/202602_urrlab_Anna.html#systematic-exploration-of-the-associations",
+    "title": "Spatially conditioned dynamics between population and built form",
+    "section": "Systematic exploration of the associations",
+    "text": "Systematic exploration of the associations\nHow to measure the relationship between social structure and the built form?\nHow does the relationship differ across different built form types?\nIs the relationship consistent or spatially variable?"
   },
   {
-    "objectID": "slides/template.html#this-will-be-vertically-centered",
-    "href": "slides/template.html#this-will-be-vertically-centered",
-    "title": "Spatial Autocorrelation",
-    "section": "This will be vertically centered",
-    "text": "This will be vertically centered\nThis text is moved as well"
+    "objectID": "slides/202602_urrlab_Anna.html#scale",
+    "href": "slides/202602_urrlab_Anna.html#scale",
+    "title": "Spatially conditioned dynamics between population and built form",
+    "section": "Scale",
+    "text": "Scale\n\n\nBasic Settlement Units\n20 000 BSU in Czechia\nDelineated based on urban fabric"
   },
   {
-    "objectID": "slides/template.html#heading-that-is-a-question",
-    "href": "slides/template.html#heading-that-is-a-question",
-    "title": "Spatial Autocorrelation",
-    "section": "Heading that is a question",
-    "text": "Heading that is a question\nAnother text with footnote1\n\nFragment block\n\nMy footnote."
+    "objectID": "slides/202602_urrlab_Anna.html#census-variables",
+    "href": "slides/202602_urrlab_Anna.html#census-variables",
+    "title": "Spatially conditioned dynamics between population and built form",
+    "section": "Census variables",
+    "text": "Census variables\n\nPopulation density\nAge structure\nEmployment sector\nEmployment status\nDwelling ownership\n\nEducation level\nHousehold size\nCitizenship\nReligion\nMarital status"
   },
   {
-    "objectID": "slides/template.html#inline-code",
-    "href": "slides/template.html#inline-code",
-    "title": "Spatial Autocorrelation",
-    "section": "Inline code",
-    "text": "Inline code\nText with libpysal.graph.Graph inline."
+    "objectID": "slides/202602_urrlab_Anna.html#census-processing",
+    "href": "slides/202602_urrlab_Anna.html#census-processing",
+    "title": "Spatially conditioned dynamics between population and built form",
+    "section": "Census processing",
+    "text": "Census processing"
   },
   {
-    "objectID": "slides/template.html#slide-with-an-image",
-    "href": "slides/template.html#slide-with-an-image",
-    "title": "Spatial Autocorrelation",
-    "section": "Slide with an image",
-    "text": "Slide with an image\nSet height"
+    "objectID": "slides/202602_urrlab_Anna.html#global-modelling-with-spatial-crossvalidation",
+    "href": "slides/202602_urrlab_Anna.html#global-modelling-with-spatial-crossvalidation",
+    "title": "Spatially conditioned dynamics between population and built form",
+    "section": "Global modelling with spatial crossvalidation",
+    "text": "Global modelling with spatial crossvalidation\nLogistic Regression - 0.26\nRandom Forest Classification - 0.33"
   },
   {
-    "objectID": "slides/template.html#slide-with-an-image-1",
-    "href": "slides/template.html#slide-with-an-image-1",
-    "title": "Spatial Autocorrelation",
-    "section": "Slide with an image",
-    "text": "Slide with an image\n\nAutomatically stretched to fill remaining space"
+    "objectID": "slides/202602_urrlab_Anna.html#geographically-weighted-modelling",
+    "href": "slides/202602_urrlab_Anna.html#geographically-weighted-modelling",
+    "title": "Spatially conditioned dynamics between population and built form",
+    "section": "Geographically weighted modelling",
+    "text": "Geographically weighted modelling\nGlobal models assume the same relationship between predictors and target classes across the entire dataset\nThey do not account for the geographic variation in the relationship\nGeographically weighted models capture this by applying local models rather than a single global model."
   },
   {
-    "objectID": "slides/template.html#slide-with-image-as-background",
-    "href": "slides/template.html#slide-with-image-as-background",
-    "title": "Spatial Autocorrelation",
-    "section": "Slide with image as background",
-    "text": "Slide with image as background"
+    "objectID": "slides/202602_urrlab_Anna.html#geographically-weighted-classification",
+    "href": "slides/202602_urrlab_Anna.html#geographically-weighted-classification",
+    "title": "Spatially conditioned dynamics between population and built form",
+    "section": "Geographically weighted classification",
+    "text": "Geographically weighted classification\nSimilar in concept to Geographically Weighted Regression (GWR).\nCategorical or class-based outcomes.\nSeparate classifier for each location using data weighted by geographic proximity."
   },
   {
-    "objectID": "slides/template.html#slide-with-iframe-background",
-    "href": "slides/template.html#slide-with-iframe-background",
-    "title": "Spatial Autocorrelation",
-    "section": "Slide with iframe background",
-    "text": "Slide with iframe background"
+    "objectID": "slides/202602_urrlab_Anna.html#results",
+    "href": "slides/202602_urrlab_Anna.html#results",
+    "title": "Spatially conditioned dynamics between population and built form",
+    "section": "Results",
+    "text": "Results\n\n\n\nAveraged F1-macro score."
+  },
+  {
+    "objectID": "slides/202602_urrlab_Anna.html#results-1",
+    "href": "slides/202602_urrlab_Anna.html#results-1",
+    "title": "Spatially conditioned dynamics between population and built form",
+    "section": "Results",
+    "text": "Results\n\n\n\nAveraged F1-macro score."
+  },
+  {
+    "objectID": "slides/202602_urrlab_Anna.html#results-2",
+    "href": "slides/202602_urrlab_Anna.html#results-2",
+    "title": "Spatially conditioned dynamics between population and built form",
+    "section": "Results",
+    "text": "Results\n\n\n\nAveraged F1-macro score."
+  },
+  {
+    "objectID": "slides/202602_urrlab_Anna.html#conclusion",
+    "href": "slides/202602_urrlab_Anna.html#conclusion",
+    "title": "Spatially conditioned dynamics between population and built form",
+    "section": "Conclusion",
+    "text": "Conclusion\nRelationship is influenced by spatial context by also by the typology of built form.\nRelationship is not uniform and differs geographically – locally linear\nCertain built form types are more socially selective than others and attract populations with specific profiles.\nHousing tenure among the most important variables."
   },
   {
     "objectID": "slides/202505_T2X.html#developing-reproducible-computational-research",
