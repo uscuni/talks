@@ -29,7 +29,7 @@ format:
 
 
 
-# What is hierarchical morphotope classification?
+# What is hierarchical morphotope classification {.question}
 
 ## Idea of a morphotope
 
@@ -61,6 +61,14 @@ Diagram illustrating a procedure to derive morphotopes using Spatial Adaptive Ag
 5 out of 54 morphometric characters illustrated on the Prague City Centre
 :::
 
+---
+
+![](../figures/202506_ISUF/morphotope_diagram.png)
+
+::: aside
+Diagram illustrating a procedure to derive morphotopes using Spatial Adaptive Agglomerative Aggregation ($SA^3$)
+:::
+
 
 ---
 
@@ -70,11 +78,7 @@ Diagram illustrating a procedure to derive morphotopes using Spatial Adaptive Ag
 Morphotope delineation illustrated on the Prague City Centre
 :::
 
----
-
-::: {.r-fit-text .absolute top=39%}
-Flexible definition of built-up fabric
-:::
+## Morphotope classification
 
 ---
 
@@ -152,7 +156,7 @@ Illustration of different levels of the hierarchy.
 :::
 
 
-# Geography and urban structure
+# Cross-regional patterns
 
 ---
 
@@ -225,22 +229,6 @@ Projection of UMAP components
 ---
 
 ## {background-image="../figures/202511_ILUS/umap_eastern-poland.png" background-size="contain" .no-text data-transition="none"}
-
-::: aside
-Projection of UMAP components
-:::
-
----
-
-## {background-image="../figures/202511_ILUS/umap_pl_outliers.png" background-size="contain" .no-text data-transition="none"}
-
-::: aside
-Projection of UMAP components
-:::
-
----
-
-## {background-image="../figures/202511_ILUS/umap_cz-pl.png" background-size="contain" .no-text data-transition="none"}
 
 ::: aside
 Projection of UMAP components
