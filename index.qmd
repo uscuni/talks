@@ -6,6 +6,7 @@ Archive of talks of the US CUNI team.
 
 ## List of talks
 
+- [GISRUK 2026 (gwlearn)](slides/202604_GISRUK_gwlearn.qmd)
 - [2026-03-21 AAG San Francisco](slides/202603_AAG.qmd)
 - [2026-03-03 BEGIN St. Andrews](slides/202603_StAndrews.qmd)
 - [2025-12-03 EORC Würzburg](slides/202512_Wurzburg.qmd)
