@@ -840,6 +840,27 @@
     "text": "Case 2 - graphs"
   },
   {
+    "objectID": "slides/202604_GISRUK_gwlearn.html#section",
+    "href": "slides/202604_GISRUK_gwlearn.html#section",
+    "title": "gwlearn",
+    "section": "",
+    "text": "Euclidean KNN graph at 150 neighbours"
+  },
+  {
+    "objectID": "slides/202604_GISRUK_gwlearn.html#section-1",
+    "href": "slides/202604_GISRUK_gwlearn.html#section-1",
+    "title": "gwlearn",
+    "section": "",
+    "text": "Street network KNN graph at 150 neighbours"
+  },
+  {
+    "objectID": "slides/202604_GISRUK_gwlearn.html#section-2",
+    "href": "slides/202604_GISRUK_gwlearn.html#section-2",
+    "title": "gwlearn",
+    "section": "",
+    "text": "Overlap of both KNN graphs"
+  },
+  {
     "objectID": "slides/202604_GISRUK_gwlearn.html#case-3---predictions",
     "href": "slides/202604_GISRUK_gwlearn.html#case-3---predictions",
     "title": "gwlearn",
