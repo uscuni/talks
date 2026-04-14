@@ -46,10 +46,6 @@ Geographically Weighted Regression
 
 ---
 
-a quick diagram of generic GWR
-
----
-
 ::: {.r-fit-text .absolute top=39%}
 What about non-linear models?
 :::
@@ -240,7 +236,7 @@ Housing price in Busan.
 
 ---
 
-![](../figures/202604_GISRUK/locations.png){fig-align="center"}
+![(C) OpenStreetMap contributors (C) Carto](../figures/202604_GISRUK/locations.png){fig-align="center"}
 
 ## Case 1 - models
 
@@ -252,15 +248,27 @@ Housing price in Busan.
 
 ---
 
-![](../figures/202604_GISRUK/euclidean_knn.png){fig-align="center"}
+## {background-image="../figures/202604_GISRUK/euclidean_knn.png" background-size=80% .no-text}
+
+::: aside
+Euclidean KNN graph at 150 neighbours
+:::
 
 ---
 
-![](../figures/202604_GISRUK/newtork_knn.png){fig-align="center"}
+## {background-image="../figures/202604_GISRUK/newtork_knn.png" background-size=80% .no-text}
+
+::: aside
+Street network KNN graph at 150 neighbours
+:::
 
 ---
 
-![](../figures/202604_GISRUK/graphs.png){fig-align="center"}
+## {background-image="../figures/202604_GISRUK/graphs.png" background-size=80% .no-text}
+
+::: aside
+Overlap of both KNN graphs
+:::
 
 ---
 
@@ -293,6 +301,12 @@ computation remains a bottleneck
 ::: {.r-fit-text .absolute top=20%}
 `gwlearn` provides the missing link<br>between the rich tradition of GWR<br>
 and the modern machine learning<br>ecosystem.
+:::
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+pysal.org/gwlearn
 :::
 
 ---
