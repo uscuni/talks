@@ -236,7 +236,13 @@ Housing price in Busan.
 
 ---
 
-![(C) OpenStreetMap contributors (C) Carto](../figures/202604_GISRUK/locations.png){fig-align="center"}
+## {background-image="../figures/202604_GISRUK/locations.png" background-size="contain" .no-text}
+
+<!-- ![](../figures/202604_GISRUK/locations.png){fig-align="center"} -->
+
+::: aside
+© OpenStreetMap contributors © Carto
+:::
 
 ## Case 1 - models
 
@@ -244,11 +250,13 @@ Housing price in Busan.
 
 ![](../figures/202604_GISRUK/models.png){fig-align="center"}
 
+bandwidth search across models
+
 ## Case 2 - graphs
 
 ---
 
-## {background-image="../figures/202604_GISRUK/euclidean_knn.png" background-size=80% .no-text}
+## {background-image="../figures/202604_GISRUK/euclidean_knn.png" background-size="contain" .no-text}
 
 ::: aside
 Euclidean KNN graph at 150 neighbours
@@ -256,7 +264,7 @@ Euclidean KNN graph at 150 neighbours
 
 ---
 
-## {background-image="../figures/202604_GISRUK/newtork_knn.png" background-size=80% .no-text}
+## {background-image="../figures/202604_GISRUK/newtork_knn.png" background-size="contain" .no-text}
 
 ::: aside
 Street network KNN graph at 150 neighbours
@@ -264,7 +272,7 @@ Street network KNN graph at 150 neighbours
 
 ---
 
-## {background-image="../figures/202604_GISRUK/graphs.png" background-size=80% .no-text}
+## {background-image="../figures/202604_GISRUK/graphs.png" background-size="contain" .no-text}
 
 ::: aside
 Overlap of both KNN graphs
@@ -274,15 +282,21 @@ Overlap of both KNN graphs
 
 ![](../figures/202604_GISRUK/graphs-bandwidths.png){fig-align="center"}
 
+linear regression
+
 ---
 
 ![](../figures/202604_GISRUK/graphs-r2.png){fig-align="center"}
+
+difference in local $R^2$ between Euclidean and network graphs
 
 ## Case 3 - predictions
 
 ---
 
 ![](../figures/202604_GISRUK/fusion.png){fig-align="center"}
+
+OOS prediction using gradient boosted regressor
 
 ---
 
