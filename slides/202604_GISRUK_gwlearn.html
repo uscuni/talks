@@ -359,33 +359,37 @@ Martin Fleischmann
 <p>An, S., Jang, H., Kim, H. et al.&nbsp;Assessment of street-level greenness and its association with housing prices in a metropolitan area. <em>Sci Rep</em> 13, 22577 (2023). <a href="https://doi.org/10.1038/s41598-023-49845-0">https://doi.org/10.1038/s41598-023-49845-0</a></p>
 </blockquote>
 </section>
-<section class="slide level2">
+<section id="section" class="slide level2 no-text" data-background-image="../figures/202604_GISRUK/locations.png" data-background-size="contain">
+<h2></h2>
+<!-- ![](../figures/202604_GISRUK/locations.png){fig-align="center"} -->
 
-
-<img data-src="../figures/202604_GISRUK/locations.png" class="r-stretch quarto-figure-center"><p class="caption">(C) OpenStreetMap contributors (C) Carto</p></section>
+<aside><div>
+<p>© OpenStreetMap contributors © Carto</p>
+</div></aside></section>
 <section id="case-1---models" class="slide level2">
 <h2>Case 1 - models</h2>
 </section>
 <section class="slide level2">
 
 
-<img data-src="../figures/202604_GISRUK/models.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<img data-src="../figures/202604_GISRUK/models.png" class="quarto-figure quarto-figure-center r-stretch"><p>bandwidth search across models</p>
+</section>
 <section id="case-2---graphs" class="slide level2">
 <h2>Case 2 - graphs</h2>
 </section>
-<section id="section" class="slide level2 no-text" data-background-image="../figures/202604_GISRUK/euclidean_knn.png" data-background-size="80%">
+<section id="section-1" class="slide level2 no-text" data-background-image="../figures/202604_GISRUK/euclidean_knn.png" data-background-size="contain">
 <h2></h2>
 
 <aside><div>
 <p>Euclidean KNN graph at 150 neighbours</p>
 </div></aside></section>
-<section id="section-1" class="slide level2 no-text" data-background-image="../figures/202604_GISRUK/newtork_knn.png" data-background-size="80%">
+<section id="section-2" class="slide level2 no-text" data-background-image="../figures/202604_GISRUK/newtork_knn.png" data-background-size="contain">
 <h2></h2>
 
 <aside><div>
 <p>Street network KNN graph at 150 neighbours</p>
 </div></aside></section>
-<section id="section-2" class="slide level2 no-text" data-background-image="../figures/202604_GISRUK/graphs.png" data-background-size="80%">
+<section id="section-3" class="slide level2 no-text" data-background-image="../figures/202604_GISRUK/graphs.png" data-background-size="contain">
 <h2></h2>
 
 <aside><div>
@@ -394,18 +398,21 @@ Martin Fleischmann
 <section class="slide level2">
 
 
-<img data-src="../figures/202604_GISRUK/graphs-bandwidths.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<img data-src="../figures/202604_GISRUK/graphs-bandwidths.png" class="quarto-figure quarto-figure-center r-stretch"><p>linear regression</p>
+</section>
 <section class="slide level2">
 
 
-<img data-src="../figures/202604_GISRUK/graphs-r2.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<img data-src="../figures/202604_GISRUK/graphs-r2.png" class="quarto-figure quarto-figure-center r-stretch"><p>difference in local <span class="math inline">\(R^2\)</span> between Euclidean and network graphs</p>
+</section>
 <section id="case-3---predictions" class="slide level2">
 <h2>Case 3 - predictions</h2>
 </section>
 <section class="slide level2">
 
 
-<img data-src="../figures/202604_GISRUK/fusion.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<img data-src="../figures/202604_GISRUK/fusion.png" class="quarto-figure quarto-figure-center r-stretch"><p>OOS prediction using gradient boosted regressor</p>
+</section>
 <section class="slide level2">
 
 <div class="r-fit-text absolute" style="top: 39%; ">

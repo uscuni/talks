@@ -11,7 +11,7 @@
     "href": "index.html#list-of-talks",
     "title": "Talks",
     "section": "List of talks",
-    "text": "List of talks\n\nGISRUK 2026 (gwlearn)\n2026-03-21 AAG San Francisco\n2026-03-03 BEGIN St. Andrews\n2025-12-03 EORC Würzburg\n2025-11-19 UFRGS\n2025-11-18 Morphology @ The Bartlett\n2025-11-06 ILUS (Interaction of Spatial and Social Structure)\n2025-11-06 ILUS keynote\n2025-10-31 SODAS\n2025-10-30 ITU\n2025-10-02 Urban Evo Devo\n2025-07-01 SDH\n2025-06-19 ISUF\n2025-05-16 Twin2Expand\n2025-04-24 GISRUK 2025 (Urban form and population), Bristol\n2025-04-24 GISRUK 2025 (Taxonomy), Bristol\n2025-04-24 GISRUK 2025 (Simplification), Bristol\n2025-04-14 University of California, Berkeley\n2024-10-29 International Seminar on Urban Morpho-Science\n2024-09-18 Spatial Data Science across Languages\n2024-09-12 City Transitions Saarbrücken\n2024-06-07 EuroFab project Kick-Off meeting\n2024-05-16 Open Source Science Meetup Prague"
+    "text": "List of talks\n\n2026-04-16 GISRUK 2026 (gwlearn)\n2026-03-21 AAG San Francisco\n2026-03-03 BEGIN St. Andrews\n2025-12-03 EORC Würzburg\n2025-11-19 UFRGS\n2025-11-18 Morphology @ The Bartlett\n2025-11-06 ILUS (Interaction of Spatial and Social Structure)\n2025-11-06 ILUS keynote\n2025-10-31 SODAS\n2025-10-30 ITU\n2025-10-02 Urban Evo Devo\n2025-07-01 SDH\n2025-06-19 ISUF\n2025-05-16 Twin2Expand\n2025-04-24 GISRUK 2025 (Urban form and population), Bristol\n2025-04-24 GISRUK 2025 (Taxonomy), Bristol\n2025-04-24 GISRUK 2025 (Simplification), Bristol\n2025-04-14 University of California, Berkeley\n2024-10-29 International Seminar on Urban Morpho-Science\n2024-09-18 Spatial Data Science across Languages\n2024-09-12 City Transitions Saarbrücken\n2024-06-07 EuroFab project Kick-Off meeting\n2024-05-16 Open Source Science Meetup Prague"
   },
   {
     "objectID": "slides/202511_ILUS_Anna.html#interplay-between-population-and-built-form",
@@ -826,6 +826,13 @@
     "text": "Spatial prediction\nTraining set of local models is as a reusable spatial ensemble.\nThree inference strategies:\n\n\nNearest Local Mode\nSpatial Ensemble\nGlobal Model Fusion"
   },
   {
+    "objectID": "slides/202604_GISRUK_gwlearn.html#section",
+    "href": "slides/202604_GISRUK_gwlearn.html#section",
+    "title": "gwlearn",
+    "section": "",
+    "text": "© OpenStreetMap contributors © Carto"
+  },
+  {
     "objectID": "slides/202604_GISRUK_gwlearn.html#case-1---models",
     "href": "slides/202604_GISRUK_gwlearn.html#case-1---models",
     "title": "gwlearn",
@@ -840,22 +847,22 @@
     "text": "Case 2 - graphs"
   },
   {
-    "objectID": "slides/202604_GISRUK_gwlearn.html#section",
-    "href": "slides/202604_GISRUK_gwlearn.html#section",
+    "objectID": "slides/202604_GISRUK_gwlearn.html#section-1",
+    "href": "slides/202604_GISRUK_gwlearn.html#section-1",
     "title": "gwlearn",
     "section": "",
     "text": "Euclidean KNN graph at 150 neighbours"
   },
   {
-    "objectID": "slides/202604_GISRUK_gwlearn.html#section-1",
-    "href": "slides/202604_GISRUK_gwlearn.html#section-1",
+    "objectID": "slides/202604_GISRUK_gwlearn.html#section-2",
+    "href": "slides/202604_GISRUK_gwlearn.html#section-2",
     "title": "gwlearn",
     "section": "",
     "text": "Street network KNN graph at 150 neighbours"
   },
   {
-    "objectID": "slides/202604_GISRUK_gwlearn.html#section-2",
-    "href": "slides/202604_GISRUK_gwlearn.html#section-2",
+    "objectID": "slides/202604_GISRUK_gwlearn.html#section-3",
+    "href": "slides/202604_GISRUK_gwlearn.html#section-3",
     "title": "gwlearn",
     "section": "",
     "text": "Overlap of both KNN graphs"
