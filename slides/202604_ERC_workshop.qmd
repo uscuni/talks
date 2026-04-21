@@ -1,0 +1,138 @@
+---
+title: "The Social Elasticity of Cities"
+subtitle: "How Urban Form Shapes Capacity for Change<br><br>ELASTI-CITY"
+author: "Martin Fleischmann"
+institute: "Charles University"
+format:
+    revealjs:
+        theme: [default, ../assets/reveal.scss]
+        logo: ../assets/icon.svg
+        menu: false
+        transition: fade
+        navigation-mode: linear
+        controls-layout: edges
+        progress: true
+        include-in-header:
+            - ../assets/font.html
+            - text: |
+                <style>
+                #title-slide .title {
+                    font-size: 50px;
+                }
+                </style>
+        title-slide-attributes:
+            data-background-image: ../assets/full_logo.svg
+            data-background-size: 20%
+            data-background-position: 50% 90%
+        max-scale: 10
+---
+
+## Which city is the most sustainable {.question}
+
+[The one that adapts.]{.fragment}
+
+---
+
+::: {.r-fit-text .absolute top=30%}
+Cities can absorb social change<br>
+[without changing their structure.]{.fragment}
+:::
+
+---
+
+::: {.r-fit-text .absolute top=30%}
+no empirical theory of why<br>some physical forms enable this and others do not
+:::
+
+---
+
+::: {.r-fit-text .absolute top=30%}
+it is treated as a socio-economic problem
+:::
+
+---
+
+::: {.r-fit-text .absolute top=30%}
+environment defines the boundaries
+:::
+
+---
+
+::: {.r-fit-text .absolute top=30%}
+in cities, that environment is urban form
+:::
+
+
+
+# ELASTI-CITY will shift this paradigm
+
+---
+
+::: {.r-fit-text .absolute top=30%}
+environment as the modulating condition
+:::
+
+
+## Social Elasticity of Urban Form
+
+[Inherent capacity to accommodate diverse socio-economic groups]{.fragment} [simultaneously or sequentially]{.fragment}[, without altering its fundamental morphological structure.]{.fragment}
+
+---
+
+::: {.r-fit-text .absolute top=30%}
+elasticity is neutral
+:::
+
+---
+
+::: {.r-fit-text .absolute top=30%}
+its management determines the outcome
+:::
+
+---
+
+::: {.r-fit-text .absolute top=30%}
+it can facilitate equitable integration<br>[or accelerate displacement]{.fragment}
+:::
+
+# Why me{.question}
+
+---
+
+::: {.r-fit-text .absolute top=30%}
+urban morphology
+:::
+
+---
+
+::: {.r-fit-text .absolute top=5%}
+foundational tools
+:::
+::: {.r-fit-text .absolute top=30% .fragment}
+scalable methods
+:::
+::: {.r-fit-text .absolute top=50% .fragment}
+open data
+:::
+
+---
+
+::: {.r-fit-text .absolute top=30%}
+spatial modelling
+:::
+
+---
+
+::: {.r-fit-text .absolute top=30%}
+geodemographics
+:::
+
+---
+
+::: {.r-fit-text .absolute top=30%}
+open science
+:::
+
+## Which city is the most sustainable {.question}
+
+[The one that is socially elastic.]{.fragment}
