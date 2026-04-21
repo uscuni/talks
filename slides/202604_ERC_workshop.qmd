@@ -41,7 +41,7 @@ Cities can absorb social change<br>
 ---
 
 ::: {.r-fit-text .absolute top=30%}
-no empirical theory of why<br>some physical forms enable this and others do not
+no empirical theory [of why<br>some physical forms enable this]{.fragment} [and others do not]{.fragment}
 :::
 
 ---
@@ -53,7 +53,7 @@ it is treated as a socio-economic problem
 ---
 
 ::: {.r-fit-text .absolute top=30%}
-environment defines the boundaries
+the environment defines the boundaries
 :::
 
 ---
@@ -75,7 +75,7 @@ environment as the modulating condition
 
 ## Social Elasticity of Urban Form
 
-[Inherent capacity to accommodate diverse socio-economic groups]{.fragment} [simultaneously or sequentially]{.fragment}[, without altering its fundamental morphological structure.]{.fragment}
+[The inherent capacity to accommodate diverse socio-economic groups]{.fragment} [simultaneously or sequentially]{.fragment}[, without altering its fundamental morphological structure.]{.fragment}
 
 ---
 
