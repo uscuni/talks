@@ -1,0 +1,197 @@
+---
+title: "Topological Graph Simplification Solutions to the Street Intersection Miscount Problem"
+author: "Geoff Boeing"
+format:
+    revealjs:
+        theme: [default, ../assets/reveal.scss]
+        logo: ../assets/icon.svg
+        menu: false
+        transition: fade
+        navigation-mode: linear
+        controls-layout: edges
+        progress: true
+        include-in-header:
+            - ../assets/font.html
+            - text: |
+                <style>
+                #title-slide .title {
+                    font-size: 50px;
+                }
+                </style>
+        title-slide-attributes:
+            data-background-image: ../assets/full_logo.svg
+            data-background-size: 20%
+            data-background-position: 50% 90%
+        max-scale: 10
+---
+
+Counting is hard
+
+::: {.fragment}
+
+> Most real-­ world objects belong to fuzzy categories, resulting in subjective decisions about what to include or exclude from counts.
+
+:::
+
+
+::: {.fragment}
+
+> challenges from sampling biases to arbitrary filtering to simple counting errors
+
+:::
+
+
+
+---
+
+> counting street intersections can be nuanced and challenging in practice
+
+---
+
+## 3 challenges
+
+- nonplanarity
+- intersection complexity
+- curve digitization
+
+---
+
+> Can we
+> algorithmically simplify a street network graph's topology to
+> produce a more accurate and performant model?
+
+## Three Causes of Intersection Miscounts
+
+---
+
+![](../figures/reading/Screenshot%202026-05-26%20at%2014.12.19.png)
+
+## The Problem of Miscounts
+
+---
+
+> intersection density
+> (i.e., count normalized by area) is the most common measure
+> of compact and sustainable street network design in practice
+
+---
+
+> too often, intersections are miscounted
+
+---
+
+> To correctly measure [...] we need accurate models.
+
+# Algorithms and Analysis
+
+## Edge Simplification Algorithm
+
+---
+
+![](../figures/reading/Screenshot%202026-05-26%20at%2014.19.02.png)
+
+---
+
+![](../figures/reading/Screenshot%202026-05-26%20at%2014.19.37.png)
+
+## Node Consolidation Algorithms
+
+---
+
+### Geometric Node Consolidation
+
+---
+
+![](../figures/reading/Screenshot%202026-05-26%20at%2014.22.30.png)
+
+---
+
+### Topological Node Consolidation
+
+
+::: {.fragment}
+
+> things that lie near each other
+> in two dimensions may be topologically distant from each other
+> when constrained to a spatial graph embedded in three dimensions.
+
+:::
+
+
+---
+
+![](../figures/reading/Screenshot%202026-05-26%20at%2014.24.01.png)
+
+# Assessment and Validation
+
+---
+
+> We use OSMnx to model the drivable street network
+> within each of these 8910 boundaries, then perform edge simplification in standard strict mode, and then perform topological
+> node consolidation
+
+---
+
+> we count the intersections (nodes with degree > 1) before and after graph simplification.
+
+---
+
+> manual qualitative case study process across a random sample of 32 world urban
+> areas
+
+---
+
+> compare these urban areas' graphs, by hand, to
+> the original OpenStreetMap raw data and satellite imagery to
+> verify that all graph nodes correspond to true intersections or
+> dead ends
+
+---
+
+160 million nodes and 320 million edges -> 37 million nodes and 53
+million edges
+
+---
+
+> 77% of the original nodes were interstitial
+
+---
+
+> The manual validation reveals that the edge
+> simplification algorithm performs with 100% accuracy.
+
+---
+
+> reduces the median urban area
+> intersection count by a further 12%, from 978 to 857 intersections
+
+> traditional methods would
+> overestimate the median urban area intersection count by 14%.
+
+---
+
+> Among nodes that were consolidated (i.e., the “positives”), the
+> validation reveals a 98% true positive rate and a 2% false positive
+> rate.
+
+# Questions
+
+---
+
+Do you think that the chosen terminology is precise?
+
+---
+
+Is the analysis robust enough?
+
+---
+
+What are the limitations of these algorithms?
+
+---
+
+What is the threshold where one intersection ends?
+
+---
+
+What do you think about the structure of the paper?

@@ -75,12 +75,15 @@ Discuss the differences and commonalities
 Find ways to discuss, cooperate,<br>
 and synchronise the efforts
 :::
+
 ---
 
 ### Primarily developer-oriented audience
+
 ### In-person discussion as the main goal {.fragment}
 
 ---
+
 ::: {.r-fit-text}
 Recommendations
 :::
