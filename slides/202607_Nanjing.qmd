@@ -1,0 +1,513 @@
+---
+title: "Urban Taxonomy"
+author: "Martin Fleischmann"
+institute: "Charles University"
+format:
+    revealjs:
+        theme: [default, ../assets/reveal.scss]
+        logo: ../assets/icon.svg
+        menu: false
+        transition: fade
+        navigation-mode: linear
+        controls-layout: edges
+        progress: true
+        include-in-header:
+            - ../assets/font.html
+            - text: |
+                <style>
+                #title-slide .title {
+                    font-size: 50px;
+                }
+                </style>
+        title-slide-attributes:
+            data-background-image: ../assets/full_logo.svg
+            data-background-size: 20%
+            data-background-position: 50% 90%
+        max-scale: 10
+---
+
+
+# We have built something
+
+---
+
+## {background-image="../figures/202511_ILUS/taxonomy.png" background-size="contain" .no-text}
+
+## {background-image="../figures/202511_ILUS/taxonomy_tree.png" background-size="contain" .no-text}
+
+## {background-image="../figures/202511_ILUS/taxonomy_chars.png" background-size="contain" .no-text}
+
+## {background-image="../figures/202511_ILUS/taxonomy_abundance.png" background-size="contain" .no-text}
+
+## {background-image="../figures/202511_ILUS/taxonomy_mtopes.png" background-size="contain" .no-text}
+
+## {background-image="../figures/202511_ILUS/taxonomy.png" background-size="contain" .no-text}
+
+---
+
+
+![](../figures/202511_ILUS/tree_nocut.png){fig-align="center" width=60%}
+
+::: aside
+Taxonomic tree (up to 256 branches)
+:::
+
+---
+
+![](../figures/202511_ILUS/tree_cut0.png){fig-align="center" width=60%}
+
+::: aside
+Taxonomic tree with a cut marking 2 branches (level 1)
+:::
+
+
+## {background-image="../figures/202511_ILUS/examples_1.png" background-size="contain" .no-text}
+
+::: aside
+Illustration of different levels of the hierarchy.
+:::
+
+---
+
+![](../figures/202511_ILUS/tree_cut1.png){fig-align="center" width=60%}
+
+::: aside
+Taxonomic tree with a cut marking 4 branches (level 2)
+:::
+
+## {background-image="../figures/202511_ILUS/examples_2.png" background-size="contain" .no-text}
+
+::: aside
+Illustration of different levels of the hierarchy.
+:::
+
+---
+
+
+![](../figures/202511_ILUS/tree_cut2.png){fig-align="center" width=60%}
+
+::: aside
+Taxonomic tree with a cut marking 8 branches (level 3)
+:::
+
+## {background-image="../figures/202506_ISUF/examples.png" background-size="contain" .no-text}
+
+::: aside
+Illustration of different levels of the hierarchy.
+:::
+
+# Urban Taxonomy
+
+## {background-iframe="https://uscuni.org/himoc/" background-size="contain" .no-text}
+
+::: aside
+[urbantaxonomy.org](https://urbantaxonomy.org)
+:::
+
+# What now? {.question}
+
+# Geography and urban structure
+
+---
+
+![](../figures/202603_BEGIN/abundance_l1.png){fig-align="center" width=50%}
+
+::: aside
+Abundance of built fabric types derived from level 1
+:::
+
+---
+
+![](../figures/202603_BEGIN/abundance_l2.png){fig-align="center"}
+
+::: aside
+Abundance of built fabric types derived from level 2
+:::
+
+---
+
+![](../figures/202603_BEGIN/abundance_l3.png){fig-align="center"}
+
+::: aside
+Abundance of built fabric types derived from level 3
+:::
+
+---
+
+## {background-image="../figures/202511_ILUS/europe.png" background-size="fill" .no-text}
+
+---
+
+![](../figures/202511_ILUS/tree_cut3.png){fig-align="center" width=60%}
+
+::: aside
+Taxonomic tree with a cut marking 107 branches (level 7)
+:::
+
+## {background-image="../figures/202511_ILUS/branch_proportions.png" background-size="contain" .no-text}
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+Compression to 2 dimensions using UMAP
+:::
+
+---
+
+## {background-image="../figures/202511_ILUS/umap_components.png" background-size="contain" .no-text data-transition="none"}
+
+::: aside
+UMAP components reflecting the composition within 50km grid.
+:::
+
+---
+
+## {background-image="../figures/202511_ILUS/umap.png" background-size="contain" .no-text data-transition="none"}
+
+::: aside
+Projection of UMAP components
+:::
+
+---
+
+## {background-image="../figures/202511_ILUS/umap_eastern_germany.png" background-size="contain" .no-text data-transition="none"}
+
+::: aside
+Projection of UMAP components
+:::
+
+---
+
+## {background-image="../figures/202511_ILUS/umap_eastern-poland.png" background-size="contain" .no-text data-transition="none"}
+
+::: aside
+Projection of UMAP components
+:::
+
+---
+
+## {background-image="../figures/202511_ILUS/umap_pl_outliers.png" background-size="contain" .no-text data-transition="none"}
+
+::: aside
+Projection of UMAP components
+:::
+
+---
+
+## {background-image="../figures/202511_ILUS/umap_cz-pl.png" background-size="contain" .no-text data-transition="none"}
+
+::: aside
+Projection of UMAP components
+:::
+
+---
+
+## {background-image="../figures/202511_ILUS/umap_galicia.png" background-size="contain" .no-text data-transition="none"}
+
+::: aside
+Projection of UMAP components
+:::
+
+---
+
+## {background-image="../figures/202511_ILUS/umap_be.png" background-size="contain" .no-text data-transition="none"}
+
+::: aside
+Projection of UMAP components
+:::
+
+---
+
+## {background-image="../figures/202511_ILUS/umap_be_top.png" background-size="contain" .no-text data-transition="none"}
+
+::: aside
+Projection of UMAP components
+:::
+
+---
+
+## {background-image="../figures/202511_ILUS/umap_be_mid.png" background-size="contain" .no-text data-transition="none"}
+
+::: aside
+Projection of UMAP components
+:::
+
+---
+
+## {background-image="../figures/202511_ILUS/umap_be_nl.png" background-size="contain" .no-text data-transition="none"}
+
+::: aside
+Projection of UMAP components
+:::
+
+## {background-image="../figures/202511_ILUS/belgium.png" background-size="fill" .no-text}
+
+
+# Cities in time
+
+---
+
+![Amsterdam](../figures/202607_Nanjing/amsterdam.png){fig-align="center"}
+
+
+
+---
+
+![Madrid](../figures/202607_Nanjing/madrid.png){fig-align="center"}
+
+---
+
+![Paris](../figures/202607_Nanjing/paris.png){fig-align="center"}
+
+---
+
+![Sevilla](../figures/202607_Nanjing/sevilla.png){fig-align="center"}
+
+---
+
+![Zaragoza](../figures/202607_Nanjing/zaragoza.png){fig-align="center"}
+
+---
+
+![Spain, level 1](../figures/202607_Nanjing/es1.png){fig-align="center"}
+
+---
+
+![Spain, level 2](../figures/202607_Nanjing/es2.png){fig-align="center"}
+
+---
+
+![Spain, level 3](../figures/202607_Nanjing/es3.png){fig-align="center"}
+
+---
+
+![Spain, level 4](../figures/202607_Nanjing/es4.png){fig-align="center"}
+
+---
+
+![France, level 1](../figures/202607_Nanjing/fr1.png){fig-align="center"}
+
+---
+
+![France, level 2](../figures/202607_Nanjing/fr2.png){fig-align="center"}
+
+---
+
+![France, level 3](../figures/202607_Nanjing/fr3.png){fig-align="center"}
+
+---
+
+![France, level 4](../figures/202607_Nanjing/fr4.png){fig-align="center"}
+
+---
+
+![building alignment](../figures/202607_Nanjing/building_alignment.png){fig-align="center"}
+
+---
+
+![mean distance to neighbouring buildings](../figures/202607_Nanjing/neighbor_distance.png){fig-align="center"}
+
+---
+
+![joined perimeter wall length](../figures/202607_Nanjing/perimeter_wall.png){fig-align="center"}
+
+---
+
+![street width](../figures/202607_Nanjing/street_width.png){fig-align="center"}
+
+---
+
+![building squareness [FR]](../figures/202607_Nanjing/squareness.png){fig-align="center"}
+
+---
+
+![building squareness [ES]](../figures/202607_Nanjing/squareness_es.png){fig-align="center"}
+
+
+# Environmental effects
+
+---
+
+![](../figures/202607_Hangzhou/tmin.png){fig-align="center"}
+
+---
+
+![](../figures/202607_Hangzhou/tmin_delta_l1.png){fig-align="center"}
+
+---
+
+![](../figures/202607_Hangzhou/tmin_delta_l2.png){fig-align="center"}
+
+---
+
+![](../figures/202607_Hangzhou/tmin_delta_l3.png){fig-align="center"}
+
+---
+
+![](../figures/202607_Nanjing/eta2.png){fig-align="center"}
+
+# Population effects
+
+---
+
+## Scale {background-image="../figures/202602_urrlab_Anna/detail.png".no-text}
+
+::: aside
+Basic Settlement Units 
+
+20 000 BSU in Czechia
+
+Delineated based on urban fabric
+:::
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+Census characterstics as the independent variables
+:::
+
+---
+
+## Census variables
+
+::: {.column width="50%"}
+
+
+Population density
+
+Age structure
+
+Employment sector
+
+Employment status
+
+Dwelling ownership
+
+
+:::
+
+::: {.column width="50%"}
+
+Education level
+
+Household size
+
+Citizenship
+
+Religion
+
+Marital status
+
+
+:::
+
+
+---
+
+
+## Census processing
+
+
+![](../figures/202602_urrlab_Anna/diagram.png){fig-align="center"}
+
+
+## Results {data-transition="none"}
+
+![](../figures/202602_urrlab_Anna/acc.png){fig-align="center"}
+
+::: aside
+Averaged F1-macro score.
+:::
+
+---
+
+
+## Results {data-transition="none"}
+
+![](../figures/202602_urrlab_Anna/acc_linear.png){fig-align="center"}
+
+::: aside
+Averaged F1-macro score.
+:::
+
+---
+
+
+## Results {data-transition="none"}
+
+![](../figures/202602_urrlab_Anna/acc_strong.png){fig-align="center"}
+
+::: aside
+Averaged F1-macro score.
+:::
+
+---
+
+![](../figures/202607_Nanjing/boxplot.png){fig-align="center"}
+
+::: aside
+Distribution of local coefficients/importances ordered by their magnitude
+:::
+
+---
+
+
+![](../figures/202607_Nanjing/boxplot-form.png){fig-align="center"}
+
+::: aside
+Distribution of standard deviations of local coefficients/importances by fabric type
+:::
+
+---
+
+![](../figures/202607_Nanjing/side_by_side.png){fig-align="center"}
+
+::: aside
+
+:::
+
+
+# Take home points
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+Urban morphometrics can support<br>quantitative studies done at scale.
+:::
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+Structure of cities is deeply affected<br>by culture and politics.
+:::
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+We can read the story of urban development.
+:::
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+And learn how it affects the present.
+:::
+
+
+---
+
+## Do you want to follow up {.question}
+
+[{{< fa solid person-chalkboard >}}](https://uscuni.org/talks/slides/202607_Nanjing.html) uscuni.org/talks
+
+[{{< fa solid map >}}](https://urbantaxonomy.org) urbantaxonomy.org
+
+[{{< fa solid code >}}](https://github.com/uscuni/urban_taxonomy) github.com/uscuni/urban_taxonomy
+
+[{{< fa regular envelope >}}](mailto:martin.fleischmann@natur.cuni.cz) martin.fleischmann@natur.cuni.cz
+
+[{{< fa regular user >}}](https://martinfleischmann.net) martinfleischmann.net
+
+::: aside
+The authors kindly acknowledge funding by the Charles University’s Primus programme through the project "Influence of Socioeconomic and Cultural Factors on Urban Structure in Central Europe", project reference `PRIMUS/24/SCI/023`.
+:::
