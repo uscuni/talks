@@ -1351,858 +1351,711 @@
     "text": "Do you want to follow up\n pysal.org/gwlearn\n github.com/pysal/gwlearn\n uscuni.org/talks\n martin.fleischmann@natur.cuni.cz\n martinfleischmann.net\n\n\n\n\nThe author kindly acknowledges funding by the Charles University’s Primus programme through the project “Influence of Socioeconomic and Cultural Factors on Urban Structure in Central Europe”, project reference PRIMUS/24/SCI/023."
   },
   {
-    "objectID": "slides/202610_CENUM.html#section-2",
-    "href": "slides/202610_CENUM.html#section-2",
-    "title": "Cities through the lens of spatial data science",
-    "section": "",
-    "text": "urbantaxonomy.org"
+    "objectID": "slides/202511_ILUS_Anna.html#interplay-between-population-and-built-form",
+    "href": "slides/202511_ILUS_Anna.html#interplay-between-population-and-built-form",
+    "title": "Interaction of Spatial and Social Structure",
+    "section": "Interplay between population and built form",
+    "text": "Interplay between population and built form\nUnderstand built-up patterns of housing types and the ability of different population to inhabit them."
   },
   {
-    "objectID": "slides/202610_CENUM.html#section-9",
-    "href": "slides/202610_CENUM.html#section-9",
-    "title": "Cities through the lens of spatial data science",
-    "section": "",
-    "text": "Illustration of different levels of the hierarchy."
+    "objectID": "slides/202511_ILUS_Anna.html#relationship-between-social-structure-and-built-form",
+    "href": "slides/202511_ILUS_Anna.html#relationship-between-social-structure-and-built-form",
+    "title": "Interaction of Spatial and Social Structure",
+    "section": "Relationship between social structure and built form",
+    "text": "Relationship between social structure and built form\nSpatial configuration, urban design, and morphology actively shape social interactions, mobility, and segregation\nQualitative methods and quantitative methods\nUrban morphometrics - deprivation prediction\nRarely been empirically measured"
   },
   {
-    "objectID": "slides/202610_CENUM.html#section-10",
-    "href": "slides/202610_CENUM.html#section-10",
-    "title": "Cities through the lens of spatial data science",
-    "section": "",
-    "text": "Illustration of different levels of the hierarchy."
+    "objectID": "slides/202511_ILUS_Anna.html#how-strong-are-the-associations-between-built-form-and-population",
+    "href": "slides/202511_ILUS_Anna.html#how-strong-are-the-associations-between-built-form-and-population",
+    "title": "Interaction of Spatial and Social Structure",
+    "section": "How strong are the associations between built form and population",
+    "text": "How strong are the associations between built form and population"
   },
   {
-    "objectID": "slides/202610_CENUM.html#section-11",
-    "href": "slides/202610_CENUM.html#section-11",
-    "title": "Cities through the lens of spatial data science",
-    "section": "",
-    "text": "Illustration of different levels of the hierarchy."
+    "objectID": "slides/202511_ILUS_Anna.html#systematic-exploration-of-the-associations",
+    "href": "slides/202511_ILUS_Anna.html#systematic-exploration-of-the-associations",
+    "title": "Interaction of Spatial and Social Structure",
+    "section": "Systematic exploration of the associations",
+    "text": "Systematic exploration of the associations\nHow to measure the relationship between social structure and the built form?\nDoes the relationship differ across different built form types?\nIs the relationship consistent or spatially variable?"
   },
   {
-    "objectID": "slides/202610_CENUM.html#section-14",
-    "href": "slides/202610_CENUM.html#section-14",
-    "title": "Cities through the lens of spatial data science",
-    "section": "",
-    "text": "UMAP components reflecting the composition within 50km grid."
+    "objectID": "slides/202511_ILUS_Anna.html#morphometric-classification",
+    "href": "slides/202511_ILUS_Anna.html#morphometric-classification",
+    "title": "Interaction of Spatial and Social Structure",
+    "section": "Morphometric classification",
+    "text": "Morphometric classification\nQuantitative identification of built form types.\nBased on similar morphological characteristics shared by street segments and building footprints.\nFocuses on geometry and spatial configuration within the built fabric."
   },
   {
-    "objectID": "slides/202610_CENUM.html#section-15",
-    "href": "slides/202610_CENUM.html#section-15",
-    "title": "Cities through the lens of spatial data science",
+    "objectID": "slides/202511_ILUS_Anna.html#section",
+    "href": "slides/202511_ILUS_Anna.html#section",
+    "title": "Interaction of Spatial and Social Structure",
     "section": "",
-    "text": "Projection of UMAP components"
+    "text": "https://urbantaxonomy.org/map.html"
   },
   {
-    "objectID": "slides/202610_CENUM.html#section-16",
-    "href": "slides/202610_CENUM.html#section-16",
-    "title": "Cities through the lens of spatial data science",
-    "section": "",
-    "text": "Projection of UMAP components"
-  },
-  {
-    "objectID": "slides/202610_CENUM.html#section-17",
-    "href": "slides/202610_CENUM.html#section-17",
-    "title": "Cities through the lens of spatial data science",
-    "section": "",
-    "text": "Projection of UMAP components"
-  },
-  {
-    "objectID": "slides/202610_CENUM.html#section-18",
-    "href": "slides/202610_CENUM.html#section-18",
-    "title": "Cities through the lens of spatial data science",
-    "section": "",
-    "text": "Projection of UMAP components"
-  },
-  {
-    "objectID": "slides/202610_CENUM.html#section-19",
-    "href": "slides/202610_CENUM.html#section-19",
-    "title": "Cities through the lens of spatial data science",
-    "section": "",
-    "text": "Projection of UMAP components"
-  },
-  {
-    "objectID": "slides/202610_CENUM.html#section-20",
-    "href": "slides/202610_CENUM.html#section-20",
-    "title": "Cities through the lens of spatial data science",
-    "section": "",
-    "text": "Projection of UMAP components"
-  },
-  {
-    "objectID": "slides/202610_CENUM.html#section-21",
-    "href": "slides/202610_CENUM.html#section-21",
-    "title": "Cities through the lens of spatial data science",
-    "section": "",
-    "text": "Projection of UMAP components"
-  },
-  {
-    "objectID": "slides/202610_CENUM.html#section-22",
-    "href": "slides/202610_CENUM.html#section-22",
-    "title": "Cities through the lens of spatial data science",
-    "section": "",
-    "text": "Projection of UMAP components"
-  },
-  {
-    "objectID": "slides/202610_CENUM.html#section-23",
-    "href": "slides/202610_CENUM.html#section-23",
-    "title": "Cities through the lens of spatial data science",
-    "section": "",
-    "text": "Projection of UMAP components"
-  },
-  {
-    "objectID": "slides/202610_CENUM.html#section-24",
-    "href": "slides/202610_CENUM.html#section-24",
-    "title": "Cities through the lens of spatial data science",
-    "section": "",
-    "text": "Projection of UMAP components"
-  },
-  {
-    "objectID": "slides/202610_CENUM.html#scale",
-    "href": "slides/202610_CENUM.html#scale",
-    "title": "Cities through the lens of spatial data science",
+    "objectID": "slides/202511_ILUS_Anna.html#scale",
+    "href": "slides/202511_ILUS_Anna.html#scale",
+    "title": "Interaction of Spatial and Social Structure",
     "section": "Scale",
     "text": "Scale\n\n\nBasic Settlement Units\n20 000 BSU in Czechia\nDelineated based on urban fabric"
   },
   {
-    "objectID": "slides/202610_CENUM.html#census-variables",
-    "href": "slides/202610_CENUM.html#census-variables",
-    "title": "Cities through the lens of spatial data science",
+    "objectID": "slides/202511_ILUS_Anna.html#census-variables",
+    "href": "slides/202511_ILUS_Anna.html#census-variables",
+    "title": "Interaction of Spatial and Social Structure",
     "section": "Census variables",
     "text": "Census variables\n\nPopulation density\nAge structure\nEmployment sector\nEmployment status\nDwelling ownership\n\nEducation level\nHousehold size\nCitizenship\nReligion\nMarital status"
   },
   {
-    "objectID": "slides/202610_CENUM.html#census-processing",
-    "href": "slides/202610_CENUM.html#census-processing",
-    "title": "Cities through the lens of spatial data science",
+    "objectID": "slides/202511_ILUS_Anna.html#census-processing",
+    "href": "slides/202511_ILUS_Anna.html#census-processing",
+    "title": "Interaction of Spatial and Social Structure",
     "section": "Census processing",
     "text": "Census processing"
   },
   {
-    "objectID": "slides/202610_CENUM.html#results",
-    "href": "slides/202610_CENUM.html#results",
-    "title": "Cities through the lens of spatial data science",
+    "objectID": "slides/202511_ILUS_Anna.html#global-modelling",
+    "href": "slides/202511_ILUS_Anna.html#global-modelling",
+    "title": "Interaction of Spatial and Social Structure",
+    "section": "Global modelling",
+    "text": "Global modelling\nLogistic Regression - 0.098\nRandom Forest Classification - 0.377"
+  },
+  {
+    "objectID": "slides/202511_ILUS_Anna.html#geographically-weighted-modelling",
+    "href": "slides/202511_ILUS_Anna.html#geographically-weighted-modelling",
+    "title": "Interaction of Spatial and Social Structure",
+    "section": "Geographically weighted modelling",
+    "text": "Geographically weighted modelling\nGlobal models do not account for the geographic variation in the relationship.\nGeographically weighted models capture this by applying local models rather than a single global model."
+  },
+  {
+    "objectID": "slides/202511_ILUS_Anna.html#geographically-weighted-classification",
+    "href": "slides/202511_ILUS_Anna.html#geographically-weighted-classification",
+    "title": "Interaction of Spatial and Social Structure",
+    "section": "Geographically weighted classification",
+    "text": "Geographically weighted classification\nSimilar in concept to Geographically Weighted Regression (GWR).\nCategorical or class-based outcomes.\nSeparate classifier for each location using data weighted by geographic proximity."
+  },
+  {
+    "objectID": "slides/202511_ILUS_Anna.html#results",
+    "href": "slides/202511_ILUS_Anna.html#results",
+    "title": "Interaction of Spatial and Social Structure",
     "section": "Results",
-    "text": "Results\n\n\n\n\n\n\n\nAveraged F1-macro score."
+    "text": "Results\n\n\n\nAveraged F1 macro score"
   },
   {
-    "objectID": "slides/202610_CENUM.html#results-1",
-    "href": "slides/202610_CENUM.html#results-1",
-    "title": "Cities through the lens of spatial data science",
+    "objectID": "slides/202511_ILUS_Anna.html#results-1",
+    "href": "slides/202511_ILUS_Anna.html#results-1",
+    "title": "Interaction of Spatial and Social Structure",
     "section": "Results",
-    "text": "Results\n\n\n\n\n\n\n\nAveraged F1-macro score."
+    "text": "Results\n\n\n\nAveraged F1 macro score"
   },
   {
-    "objectID": "slides/202610_CENUM.html#results-2",
-    "href": "slides/202610_CENUM.html#results-2",
-    "title": "Cities through the lens of spatial data science",
+    "objectID": "slides/202511_ILUS_Anna.html#results-2",
+    "href": "slides/202511_ILUS_Anna.html#results-2",
+    "title": "Interaction of Spatial and Social Structure",
     "section": "Results",
-    "text": "Results\n\n\n\n\n\n\n\nAveraged F1-macro score."
+    "text": "Results\n\n\n\nAveraged F1 macro score"
   },
   {
-    "objectID": "slides/202610_CENUM.html#do-you-want-to-follow-up",
-    "href": "slides/202610_CENUM.html#do-you-want-to-follow-up",
-    "title": "Cities through the lens of spatial data science",
-    "section": "Do you want to follow up",
-    "text": "Do you want to follow up\n uscuni.org\n urbantaxonomy.org\n github.com/uscuni\n martin.fleischmann@natur.cuni.cz\n martinfleischmann.net\n\n\n\n\nThe authors kindly acknowledge funding by the Charles University’s Primus programme through the project “Influence of Socioeconomic and Cultural Factors on Urban Structure in Central Europe”, project reference PRIMUS/24/SCI/023."
+    "objectID": "slides/202511_ILUS_Anna.html#conclusion",
+    "href": "slides/202511_ILUS_Anna.html#conclusion",
+    "title": "Interaction of Spatial and Social Structure",
+    "section": "Conclusion",
+    "text": "Conclusion\nLocally linear but globally heterogeneous.\nSpecific relationship between social structure and different built form types.\nIn some locations, education, ownership regime and employment status strongly increase the probability of belonging to specific built forms.\nPreliminary results, would appreciate some feedback!"
   },
   {
-    "objectID": "slides/202409_SDSL.html#section",
-    "href": "slides/202409_SDSL.html#section",
-    "title": "Spatial Data Science across Languages",
-    "section": "",
-    "text": "Vinohrady Brewery"
-  },
-  {
-    "objectID": "slides/202409_SDSL.html#personal-reflections",
-    "href": "slides/202409_SDSL.html#personal-reflections",
-    "title": "Spatial Data Science across Languages",
-    "section": "Personal reflections",
-    "text": "Personal reflections"
-  },
-  {
-    "objectID": "slides/202409_SDSL.html#working-paper",
-    "href": "slides/202409_SDSL.html#working-paper",
-    "title": "Spatial Data Science across Languages",
-    "section": "Working paper",
-    "text": "Working paper"
-  },
-  {
-    "objectID": "slides/202506_ISUF.html#what-is-urban-morphometrics",
-    "href": "slides/202506_ISUF.html#what-is-urban-morphometrics",
-    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "objectID": "slides/202607_Hangzhou.html#what-is-urban-morphometrics",
+    "href": "slides/202607_Hangzhou.html#what-is-urban-morphometrics",
+    "title": "Understanding the structure of space through data",
     "section": "What is urban morphometrics",
     "text": "What is urban morphometrics"
   },
   {
-    "objectID": "slides/202506_ISUF.html#what-is-urban-morphometrics-1",
-    "href": "slides/202506_ISUF.html#what-is-urban-morphometrics-1",
-    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
-    "section": "What is urban morphometrics",
-    "text": "What is urban morphometrics\n\n\nA study of urban form through the means of quantitative assessment of its constituent elements.\n\n\nConceptually similar to historico-geographical approach.\nMethodologically embedded in spatial data science and geography."
-  },
-  {
-    "objectID": "slides/202506_ISUF.html#morphometrics-in-2025",
-    "href": "slides/202506_ISUF.html#morphometrics-in-2025",
-    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
-    "section": "Morphometrics in 2025",
-    "text": "Morphometrics in 2025"
-  },
-  {
-    "objectID": "slides/202506_ISUF.html#idea-of-a-morphotope",
-    "href": "slides/202506_ISUF.html#idea-of-a-morphotope",
-    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
-    "section": "Idea of a morphotope",
-    "text": "Idea of a morphotope\n\n\n\nexcerpt from Larkham and Jones, 1991"
-  },
-  {
-    "objectID": "slides/202506_ISUF.html#how-to-capture-it",
-    "href": "slides/202506_ISUF.html#how-to-capture-it",
-    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
-    "section": "How to capture it",
-    "text": "How to capture it"
-  },
-  {
-    "objectID": "slides/202506_ISUF.html#flexible-definition-of-built-up-fabric",
-    "href": "slides/202506_ISUF.html#flexible-definition-of-built-up-fabric",
-    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
-    "section": "Flexible definition of built-up fabric",
-    "text": "Flexible definition of built-up fabric"
-  },
-  {
-    "objectID": "slides/202506_ISUF.html#section-1",
-    "href": "slides/202506_ISUF.html#section-1",
-    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
-    "section": "",
-    "text": "Illustration of different levels of the hierarchy."
-  },
-  {
-    "objectID": "slides/202506_ISUF.html#geography-and-urban-structure",
-    "href": "slides/202506_ISUF.html#geography-and-urban-structure",
-    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
-    "section": "Geography and urban structure",
-    "text": "Geography and urban structure"
-  },
-  {
-    "objectID": "slides/202506_ISUF.html#spatial-clustering",
-    "href": "slides/202506_ISUF.html#spatial-clustering",
-    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
-    "section": "Spatial clustering",
-    "text": "Spatial clustering"
-  },
-  {
-    "objectID": "slides/202506_ISUF.html#boundaries-of-impact",
-    "href": "slides/202506_ISUF.html#boundaries-of-impact",
-    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
-    "section": "Boundaries of impact",
-    "text": "Boundaries of impact"
-  },
-  {
-    "objectID": "slides/202506_ISUF.html#times-have-changed.-methods-have-changed.-concepts-those-only-evolved",
-    "href": "slides/202506_ISUF.html#times-have-changed.-methods-have-changed.-concepts-those-only-evolved",
-    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
-    "section": "Times have changed. Methods have changed. Concepts? Those only evolved",
-    "text": "Times have changed. Methods have changed. Concepts? Those only evolved"
-  },
-  {
-    "objectID": "slides/202506_ISUF.html#urban-morphology-can-be-deeply-embedded-in-spatial-data-science",
-    "href": "slides/202506_ISUF.html#urban-morphology-can-be-deeply-embedded-in-spatial-data-science",
-    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
-    "section": "Urban morphology can be deeply embedded in spatial data science",
-    "text": "Urban morphology can be deeply embedded in spatial data science"
-  },
-  {
-    "objectID": "slides/202506_ISUF.html#urban-morphometrics-can-support-quantitative-studies-done-at-scale",
-    "href": "slides/202506_ISUF.html#urban-morphometrics-can-support-quantitative-studies-done-at-scale",
-    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
-    "section": "Urban morphometrics can support quantitative studies done at scale",
-    "text": "Urban morphometrics can support quantitative studies done at scale"
-  },
-  {
-    "objectID": "slides/202506_ISUF.html#we-can-ask-questions-like-never-before",
-    "href": "slides/202506_ISUF.html#we-can-ask-questions-like-never-before",
-    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
-    "section": "We can ask questions like never before",
-    "text": "We can ask questions like never before"
-  },
-  {
-    "objectID": "slides/202506_ISUF.html#do-you-want-to-follow-up",
-    "href": "slides/202506_ISUF.html#do-you-want-to-follow-up",
-    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
-    "section": "Do you want to follow up",
-    "text": "Do you want to follow up\n uscuni.org/talks\n uscuni.org/himoc\n github.com/uscuni/urban_taxonomy\n martin.fleischmann@natur.cuni.cz\n martinfleischmann.net\n\n\n\n\nThe authors kindly acknowledge funding by the Charles University’s Primus programme through the project “Influence of Socioeconomic and Cultural Factors on Urban Structure in Central Europe”, project reference PRIMUS/24/SCI/023."
-  },
-  {
-    "objectID": "slides/202603_StAndrews.html#what-is-urban-morphometrics",
-    "href": "slides/202603_StAndrews.html#what-is-urban-morphometrics",
-    "title": "Understanding the structure of space",
-    "section": "What is urban morphometrics",
-    "text": "What is urban morphometrics"
-  },
-  {
-    "objectID": "slides/202603_StAndrews.html#what-is-urban-morphometrics-1",
-    "href": "slides/202603_StAndrews.html#what-is-urban-morphometrics-1",
-    "title": "Understanding the structure of space",
+    "objectID": "slides/202607_Hangzhou.html#what-is-urban-morphometrics-1",
+    "href": "slides/202607_Hangzhou.html#what-is-urban-morphometrics-1",
+    "title": "Understanding the structure of space through data",
     "section": "What is urban morphometrics",
     "text": "What is urban morphometrics\n\n\nA study of urban form through the means of quantitative assessment of its constituent elements.\n\n\nConceptually similar to historico-geographical approach in urban morphology.\nMethodologically embedded in spatial data science and geography."
   },
   {
-    "objectID": "slides/202603_StAndrews.html#morphometrics-in-2025",
-    "href": "slides/202603_StAndrews.html#morphometrics-in-2025",
-    "title": "Understanding the structure of space",
+    "objectID": "slides/202607_Hangzhou.html#morphometrics-in-2025",
+    "href": "slides/202607_Hangzhou.html#morphometrics-in-2025",
+    "title": "Understanding the structure of space through data",
     "section": "Morphometrics in 2025",
     "text": "Morphometrics in 2025"
   },
   {
-    "objectID": "slides/202603_StAndrews.html#data-pain-points",
-    "href": "slides/202603_StAndrews.html#data-pain-points",
-    "title": "Understanding the structure of space",
+    "objectID": "slides/202607_Hangzhou.html#data-pain-points",
+    "href": "slides/202607_Hangzhou.html#data-pain-points",
+    "title": "Understanding the structure of space through data",
     "section": "Data pain points",
     "text": "Data pain points"
   },
   {
-    "objectID": "slides/202603_StAndrews.html#section",
-    "href": "slides/202603_StAndrews.html#section",
-    "title": "Understanding the structure of space",
+    "objectID": "slides/202607_Hangzhou.html#section",
+    "href": "slides/202607_Hangzhou.html#section",
+    "title": "Understanding the structure of space through data",
     "section": "",
     "text": "Transportation vs manually-derived morphological representation of a street network"
   },
   {
-    "objectID": "slides/202603_StAndrews.html#what-to-do",
-    "href": "slides/202603_StAndrews.html#what-to-do",
-    "title": "Understanding the structure of space",
+    "objectID": "slides/202607_Hangzhou.html#what-to-do",
+    "href": "slides/202607_Hangzhou.html#what-to-do",
+    "title": "Understanding the structure of space through data",
     "section": "What to do",
     "text": "What to do"
   },
   {
-    "objectID": "slides/202603_StAndrews.html#adaptive-continuity-preserving-simplification-of-street-networks",
-    "href": "slides/202603_StAndrews.html#adaptive-continuity-preserving-simplification-of-street-networks",
-    "title": "Understanding the structure of space",
+    "objectID": "slides/202607_Hangzhou.html#adaptive-continuity-preserving-simplification-of-street-networks",
+    "href": "slides/202607_Hangzhou.html#adaptive-continuity-preserving-simplification-of-street-networks",
+    "title": "Understanding the structure of space through data",
     "section": "Adaptive continuity-preserving simplification of street networks",
     "text": "Adaptive continuity-preserving simplification of street networks\n\n\nFleischmann, M., Vybornova, A., Gaboardi, J.D., Brázdová, A., Dančejová, D., 2026. Adaptive continuity-preserving simplification of street networks. Computers, Environment and Urban Systems 123, 102354. https://doi.org/10.1016/j.compenvurbsys.2025.102354"
   },
   {
-    "objectID": "slides/202603_StAndrews.html#section-1",
-    "href": "slides/202603_StAndrews.html#section-1",
-    "title": "Understanding the structure of space",
+    "objectID": "slides/202607_Hangzhou.html#section-1",
+    "href": "slides/202607_Hangzhou.html#section-1",
+    "title": "Understanding the structure of space through data",
     "section": "",
     "text": "Output of different simplification methods for a street network fragment in Seraing, Liège (Belgium)."
   },
   {
-    "objectID": "slides/202603_StAndrews.html#section-3",
-    "href": "slides/202603_StAndrews.html#section-3",
-    "title": "Understanding the structure of space",
+    "objectID": "slides/202607_Hangzhou.html#section-3",
+    "href": "slides/202607_Hangzhou.html#section-3",
+    "title": "Understanding the structure of space through data",
     "section": "",
     "text": "Morphological tessellation"
   },
   {
-    "objectID": "slides/202603_StAndrews.html#section-4",
-    "href": "slides/202603_StAndrews.html#section-4",
-    "title": "Understanding the structure of space",
+    "objectID": "slides/202607_Hangzhou.html#section-4",
+    "href": "slides/202607_Hangzhou.html#section-4",
+    "title": "Understanding the structure of space through data",
     "section": "",
     "text": "Enclosed tessellation"
   },
   {
-    "objectID": "slides/202603_StAndrews.html#idea-of-a-morphotope",
-    "href": "slides/202603_StAndrews.html#idea-of-a-morphotope",
-    "title": "Understanding the structure of space",
+    "objectID": "slides/202607_Hangzhou.html#idea-of-a-morphotope",
+    "href": "slides/202607_Hangzhou.html#idea-of-a-morphotope",
+    "title": "Understanding the structure of space through data",
     "section": "Idea of a morphotope",
     "text": "Idea of a morphotope\n\n\n\nexcerpt from Larkham and Jones, 1991"
   },
   {
-    "objectID": "slides/202603_StAndrews.html#how-to-capture-it",
-    "href": "slides/202603_StAndrews.html#how-to-capture-it",
-    "title": "Understanding the structure of space",
+    "objectID": "slides/202607_Hangzhou.html#how-to-capture-it",
+    "href": "slides/202607_Hangzhou.html#how-to-capture-it",
+    "title": "Understanding the structure of space through data",
     "section": "How to capture it",
     "text": "How to capture it"
   },
   {
-    "objectID": "slides/202603_StAndrews.html#section-11",
-    "href": "slides/202603_StAndrews.html#section-11",
-    "title": "Understanding the structure of space",
+    "objectID": "slides/202607_Hangzhou.html#section-11",
+    "href": "slides/202607_Hangzhou.html#section-11",
+    "title": "Understanding the structure of space through data",
     "section": "",
     "text": "Illustration of different levels of the hierarchy."
   },
   {
-    "objectID": "slides/202603_StAndrews.html#section-12",
-    "href": "slides/202603_StAndrews.html#section-12",
-    "title": "Understanding the structure of space",
+    "objectID": "slides/202607_Hangzhou.html#section-12",
+    "href": "slides/202607_Hangzhou.html#section-12",
+    "title": "Understanding the structure of space through data",
     "section": "",
     "text": "Illustration of different levels of the hierarchy."
   },
   {
-    "objectID": "slides/202603_StAndrews.html#section-13",
-    "href": "slides/202603_StAndrews.html#section-13",
-    "title": "Understanding the structure of space",
+    "objectID": "slides/202607_Hangzhou.html#section-13",
+    "href": "slides/202607_Hangzhou.html#section-13",
+    "title": "Understanding the structure of space through data",
     "section": "",
     "text": "Illustration of different levels of the hierarchy."
   },
   {
-    "objectID": "slides/202603_StAndrews.html#section-14",
-    "href": "slides/202603_StAndrews.html#section-14",
-    "title": "Understanding the structure of space",
+    "objectID": "slides/202607_Hangzhou.html#section-14",
+    "href": "slides/202607_Hangzhou.html#section-14",
+    "title": "Understanding the structure of space through data",
     "section": "",
     "text": "urbantaxonomy.org"
   },
   {
-    "objectID": "slides/202603_StAndrews.html#section-17",
-    "href": "slides/202603_StAndrews.html#section-17",
-    "title": "Understanding the structure of space",
+    "objectID": "slides/202607_Hangzhou.html#section-17",
+    "href": "slides/202607_Hangzhou.html#section-17",
+    "title": "Understanding the structure of space through data",
     "section": "",
     "text": "UMAP components reflecting the composition within 50km grid."
   },
   {
-    "objectID": "slides/202603_StAndrews.html#section-18",
-    "href": "slides/202603_StAndrews.html#section-18",
-    "title": "Understanding the structure of space",
+    "objectID": "slides/202607_Hangzhou.html#section-18",
+    "href": "slides/202607_Hangzhou.html#section-18",
+    "title": "Understanding the structure of space through data",
     "section": "",
     "text": "Projection of UMAP components"
   },
   {
-    "objectID": "slides/202603_StAndrews.html#section-19",
-    "href": "slides/202603_StAndrews.html#section-19",
-    "title": "Understanding the structure of space",
+    "objectID": "slides/202607_Hangzhou.html#section-19",
+    "href": "slides/202607_Hangzhou.html#section-19",
+    "title": "Understanding the structure of space through data",
     "section": "",
     "text": "Projection of UMAP components"
   },
   {
-    "objectID": "slides/202603_StAndrews.html#section-20",
-    "href": "slides/202603_StAndrews.html#section-20",
-    "title": "Understanding the structure of space",
+    "objectID": "slides/202607_Hangzhou.html#section-20",
+    "href": "slides/202607_Hangzhou.html#section-20",
+    "title": "Understanding the structure of space through data",
     "section": "",
     "text": "Projection of UMAP components"
   },
   {
-    "objectID": "slides/202603_StAndrews.html#section-21",
-    "href": "slides/202603_StAndrews.html#section-21",
-    "title": "Understanding the structure of space",
+    "objectID": "slides/202607_Hangzhou.html#section-21",
+    "href": "slides/202607_Hangzhou.html#section-21",
+    "title": "Understanding the structure of space through data",
     "section": "",
     "text": "Projection of UMAP components"
   },
   {
-    "objectID": "slides/202603_StAndrews.html#section-22",
-    "href": "slides/202603_StAndrews.html#section-22",
-    "title": "Understanding the structure of space",
+    "objectID": "slides/202607_Hangzhou.html#section-22",
+    "href": "slides/202607_Hangzhou.html#section-22",
+    "title": "Understanding the structure of space through data",
     "section": "",
     "text": "Projection of UMAP components"
   },
   {
-    "objectID": "slides/202603_StAndrews.html#section-23",
-    "href": "slides/202603_StAndrews.html#section-23",
-    "title": "Understanding the structure of space",
+    "objectID": "slides/202607_Hangzhou.html#section-23",
+    "href": "slides/202607_Hangzhou.html#section-23",
+    "title": "Understanding the structure of space through data",
     "section": "",
     "text": "Projection of UMAP components"
   },
   {
-    "objectID": "slides/202603_StAndrews.html#section-24",
-    "href": "slides/202603_StAndrews.html#section-24",
-    "title": "Understanding the structure of space",
+    "objectID": "slides/202607_Hangzhou.html#section-24",
+    "href": "slides/202607_Hangzhou.html#section-24",
+    "title": "Understanding the structure of space through data",
     "section": "",
     "text": "Projection of UMAP components"
   },
   {
-    "objectID": "slides/202603_StAndrews.html#section-25",
-    "href": "slides/202603_StAndrews.html#section-25",
-    "title": "Understanding the structure of space",
+    "objectID": "slides/202607_Hangzhou.html#section-25",
+    "href": "slides/202607_Hangzhou.html#section-25",
+    "title": "Understanding the structure of space through data",
     "section": "",
     "text": "Projection of UMAP components"
   },
   {
-    "objectID": "slides/202603_StAndrews.html#section-26",
-    "href": "slides/202603_StAndrews.html#section-26",
-    "title": "Understanding the structure of space",
+    "objectID": "slides/202607_Hangzhou.html#section-26",
+    "href": "slides/202607_Hangzhou.html#section-26",
+    "title": "Understanding the structure of space through data",
     "section": "",
     "text": "Projection of UMAP components"
   },
   {
-    "objectID": "slides/202603_StAndrews.html#section-27",
-    "href": "slides/202603_StAndrews.html#section-27",
-    "title": "Understanding the structure of space",
+    "objectID": "slides/202607_Hangzhou.html#section-27",
+    "href": "slides/202607_Hangzhou.html#section-27",
+    "title": "Understanding the structure of space through data",
     "section": "",
     "text": "Projection of UMAP components"
   },
   {
-    "objectID": "slides/202603_StAndrews.html#do-you-want-to-follow-up",
-    "href": "slides/202603_StAndrews.html#do-you-want-to-follow-up",
-    "title": "Understanding the structure of space",
+    "objectID": "slides/202607_Hangzhou.html#do-you-want-to-follow-up",
+    "href": "slides/202607_Hangzhou.html#do-you-want-to-follow-up",
+    "title": "Understanding the structure of space through data",
     "section": "Do you want to follow up",
     "text": "Do you want to follow up\n uscuni.org/talks\n urbantaxonomy.org\n github.com/uscuni/urban_taxonomy\n martin.fleischmann@natur.cuni.cz\n martinfleischmann.net\n\n\n\n\nThe authors kindly acknowledge funding by the Charles University’s Primus programme through the project “Influence of Socioeconomic and Cultural Factors on Urban Structure in Central Europe”, project reference PRIMUS/24/SCI/023."
   },
   {
-    "objectID": "slides/202504_GISRUK_simplification.html#manual-simplification",
-    "href": "slides/202504_GISRUK_simplification.html#manual-simplification",
-    "title": "Adaptive continuity-preserving simplification of street networks",
-    "section": "Manual simplification",
-    "text": "Manual simplification"
-  },
-  {
-    "objectID": "slides/202504_GISRUK_simplification.html#five-requirements",
-    "href": "slides/202504_GISRUK_simplification.html#five-requirements",
-    "title": "Adaptive continuity-preserving simplification of street networks",
-    "section": "Five requirements",
-    "text": "Five requirements\n\nopen-source\nfully automated\nattribute-agnostic\ncase-agnostic\nfully packaged"
-  },
-  {
-    "objectID": "slides/202504_GISRUK_simplification.html#what-do-you-mean-by-continuity-preserving",
-    "href": "slides/202504_GISRUK_simplification.html#what-do-you-mean-by-continuity-preserving",
-    "title": "Adaptive continuity-preserving simplification of street networks",
-    "section": "What do you mean by “continuity-preserving”",
-    "text": "What do you mean by “continuity-preserving”"
-  },
-  {
-    "objectID": "slides/202504_GISRUK_simplification.html#face-artifact-detection",
-    "href": "slides/202504_GISRUK_simplification.html#face-artifact-detection",
-    "title": "Adaptive continuity-preserving simplification of street networks",
-    "section": "Face artifact detection",
-    "text": "Face artifact detection"
-  },
-  {
-    "objectID": "slides/202504_GISRUK_simplification.html#artifact-classification",
-    "href": "slides/202504_GISRUK_simplification.html#artifact-classification",
-    "title": "Adaptive continuity-preserving simplification of street networks",
-    "section": "Artifact classification",
-    "text": "Artifact classification\n\nartifact polygon contiguity\n\nisolates\npairs\nclusters\n\nnetwork continuity"
-  },
-  {
-    "objectID": "slides/202504_GISRUK_simplification.html#how-close-are-we-to-the-manually-simplified-network",
-    "href": "slides/202504_GISRUK_simplification.html#how-close-are-we-to-the-manually-simplified-network",
-    "title": "Adaptive continuity-preserving simplification of street networks",
-    "section": "How close are we to the manually simplified network",
-    "text": "How close are we to the manually simplified network"
-  },
-  {
-    "objectID": "slides/202510_ITU.html#free",
-    "href": "slides/202510_ITU.html#free",
-    "title": "Open source inside out",
-    "section": "Free",
-    "text": "Free\n\nThink free as in free speech, not free beer.\n\nRichard Stallman"
-  },
-  {
-    "objectID": "slides/202510_ITU.html#section",
-    "href": "slides/202510_ITU.html#section",
-    "title": "Open source inside out",
-    "section": "2011",
-    "text": "2011"
-  },
-  {
-    "objectID": "slides/202510_ITU.html#section-1",
-    "href": "slides/202510_ITU.html#section-1",
-    "title": "Open source inside out",
-    "section": "2016",
-    "text": "2016"
-  },
-  {
-    "objectID": "slides/202510_ITU.html#momepy",
-    "href": "slides/202510_ITU.html#momepy",
-    "title": "Open source inside out",
-    "section": "momepy",
-    "text": "momepy"
-  },
-  {
-    "objectID": "slides/202510_ITU.html#pysal",
-    "href": "slides/202510_ITU.html#pysal",
-    "title": "Open source inside out",
-    "section": "PySAL",
-    "text": "PySAL"
-  },
-  {
-    "objectID": "slides/202510_ITU.html#splot",
-    "href": "slides/202510_ITU.html#splot",
-    "title": "Open source inside out",
-    "section": "splot",
-    "text": "splot"
-  },
-  {
-    "objectID": "slides/202510_ITU.html#pygeos",
-    "href": "slides/202510_ITU.html#pygeos",
-    "title": "Open source inside out",
-    "section": "pygeos",
-    "text": "pygeos"
-  },
-  {
-    "objectID": "slides/202510_ITU.html#geoplot",
-    "href": "slides/202510_ITU.html#geoplot",
-    "title": "Open source inside out",
-    "section": "geoplot",
-    "text": "geoplot"
-  },
-  {
-    "objectID": "slides/202510_ITU.html#a-contributor-1",
-    "href": "slides/202510_ITU.html#a-contributor-1",
-    "title": "Open source inside out",
-    "section": "A contributor",
-    "text": "A contributor\n\n\nDevelopment\nMaintenance\nDocumentation\nDiscussion\nQ&A\nProposals and ideas\n\nTriage\nTeaching\nBug reports\nCommunity management\nBlog posts\n…"
-  },
-  {
-    "objectID": "slides/202512_Wurzburg.html#what-is-urban-morphometrics",
-    "href": "slides/202512_Wurzburg.html#what-is-urban-morphometrics",
-    "title": "Understanding the structure of space",
-    "section": "What is urban morphometrics",
-    "text": "What is urban morphometrics"
-  },
-  {
-    "objectID": "slides/202512_Wurzburg.html#what-is-urban-morphometrics-1",
-    "href": "slides/202512_Wurzburg.html#what-is-urban-morphometrics-1",
-    "title": "Understanding the structure of space",
-    "section": "What is urban morphometrics",
-    "text": "What is urban morphometrics\n\n\nA study of urban form through the means of quantitative assessment of its constituent elements.\n\n\nConceptually similar to historico-geographical approach in urban morphology.\nMethodologically embedded in spatial data science and geography."
-  },
-  {
-    "objectID": "slides/202512_Wurzburg.html#morphometrics-in-2025",
-    "href": "slides/202512_Wurzburg.html#morphometrics-in-2025",
-    "title": "Understanding the structure of space",
-    "section": "Morphometrics in 2025",
-    "text": "Morphometrics in 2025"
-  },
-  {
-    "objectID": "slides/202512_Wurzburg.html#data-pain-points",
-    "href": "slides/202512_Wurzburg.html#data-pain-points",
-    "title": "Understanding the structure of space",
-    "section": "Data pain points",
-    "text": "Data pain points"
-  },
-  {
-    "objectID": "slides/202512_Wurzburg.html#section",
-    "href": "slides/202512_Wurzburg.html#section",
-    "title": "Understanding the structure of space",
-    "section": "",
-    "text": "Transportation vs manually-derived morphological representation of a street network"
-  },
-  {
-    "objectID": "slides/202512_Wurzburg.html#what-to-do",
-    "href": "slides/202512_Wurzburg.html#what-to-do",
-    "title": "Understanding the structure of space",
-    "section": "What to do",
-    "text": "What to do"
-  },
-  {
-    "objectID": "slides/202512_Wurzburg.html#adaptive-continuity-preserving-simplification-of-street-networks",
-    "href": "slides/202512_Wurzburg.html#adaptive-continuity-preserving-simplification-of-street-networks",
-    "title": "Understanding the structure of space",
-    "section": "Adaptive continuity-preserving simplification of street networks",
-    "text": "Adaptive continuity-preserving simplification of street networks\n\n\nFleischmann, M., Vybornova, A., Gaboardi, J.D., Brázdová, A., Dančejová, D., 2026. Adaptive continuity-preserving simplification of street networks. Computers, Environment and Urban Systems 123, 102354. https://doi.org/10.1016/j.compenvurbsys.2025.102354"
-  },
-  {
-    "objectID": "slides/202512_Wurzburg.html#what-do-you-mean-by-continuity-preserving",
-    "href": "slides/202512_Wurzburg.html#what-do-you-mean-by-continuity-preserving",
-    "title": "Understanding the structure of space",
-    "section": "What do you mean by “continuity-preserving”",
-    "text": "What do you mean by “continuity-preserving”"
-  },
-  {
-    "objectID": "slides/202512_Wurzburg.html#face-artifact-detection",
-    "href": "slides/202512_Wurzburg.html#face-artifact-detection",
-    "title": "Understanding the structure of space",
-    "section": "Face artifact detection",
-    "text": "Face artifact detection"
-  },
-  {
-    "objectID": "slides/202512_Wurzburg.html#artifact-classification",
-    "href": "slides/202512_Wurzburg.html#artifact-classification",
-    "title": "Understanding the structure of space",
-    "section": "Artifact classification",
-    "text": "Artifact classification\n\nartifact polygon contiguity\n\nisolates\npairs\nclusters\n\nnetwork continuity"
-  },
-  {
-    "objectID": "slides/202512_Wurzburg.html#section-1",
-    "href": "slides/202512_Wurzburg.html#section-1",
-    "title": "Understanding the structure of space",
-    "section": "",
-    "text": "Output of different simplification methods for a street network fragment in Seraing, Liège (Belgium)."
-  },
-  {
-    "objectID": "slides/202512_Wurzburg.html#section-3",
-    "href": "slides/202512_Wurzburg.html#section-3",
-    "title": "Understanding the structure of space",
-    "section": "",
-    "text": "Morphological tessellation"
-  },
-  {
-    "objectID": "slides/202512_Wurzburg.html#section-4",
-    "href": "slides/202512_Wurzburg.html#section-4",
-    "title": "Understanding the structure of space",
-    "section": "",
-    "text": "Enclosed tessellation"
-  },
-  {
-    "objectID": "slides/202512_Wurzburg.html#idea-of-a-morphotope",
-    "href": "slides/202512_Wurzburg.html#idea-of-a-morphotope",
-    "title": "Understanding the structure of space",
-    "section": "Idea of a morphotope",
-    "text": "Idea of a morphotope\n\n\n\nexcerpt from Larkham and Jones, 1991"
-  },
-  {
-    "objectID": "slides/202512_Wurzburg.html#how-to-capture-it",
-    "href": "slides/202512_Wurzburg.html#how-to-capture-it",
-    "title": "Understanding the structure of space",
-    "section": "How to capture it",
-    "text": "How to capture it"
-  },
-  {
-    "objectID": "slides/202512_Wurzburg.html#section-11",
-    "href": "slides/202512_Wurzburg.html#section-11",
-    "title": "Understanding the structure of space",
+    "objectID": "slides/202607_Nanjing.html#section-6",
+    "href": "slides/202607_Nanjing.html#section-6",
+    "title": "Urban Taxonomy",
     "section": "",
     "text": "Illustration of different levels of the hierarchy."
   },
   {
-    "objectID": "slides/202512_Wurzburg.html#section-12",
-    "href": "slides/202512_Wurzburg.html#section-12",
-    "title": "Understanding the structure of space",
+    "objectID": "slides/202607_Nanjing.html#section-7",
+    "href": "slides/202607_Nanjing.html#section-7",
+    "title": "Urban Taxonomy",
     "section": "",
     "text": "Illustration of different levels of the hierarchy."
   },
   {
-    "objectID": "slides/202512_Wurzburg.html#section-13",
-    "href": "slides/202512_Wurzburg.html#section-13",
-    "title": "Understanding the structure of space",
+    "objectID": "slides/202607_Nanjing.html#section-8",
+    "href": "slides/202607_Nanjing.html#section-8",
+    "title": "Urban Taxonomy",
     "section": "",
     "text": "Illustration of different levels of the hierarchy."
   },
   {
-    "objectID": "slides/202512_Wurzburg.html#section-14",
-    "href": "slides/202512_Wurzburg.html#section-14",
-    "title": "Understanding the structure of space",
+    "objectID": "slides/202607_Nanjing.html#section-9",
+    "href": "slides/202607_Nanjing.html#section-9",
+    "title": "Urban Taxonomy",
     "section": "",
     "text": "urbantaxonomy.org"
   },
   {
-    "objectID": "slides/202512_Wurzburg.html#section-17",
-    "href": "slides/202512_Wurzburg.html#section-17",
-    "title": "Understanding the structure of space",
+    "objectID": "slides/202607_Nanjing.html#section-12",
+    "href": "slides/202607_Nanjing.html#section-12",
+    "title": "Urban Taxonomy",
     "section": "",
     "text": "UMAP components reflecting the composition within 50km grid."
   },
   {
-    "objectID": "slides/202512_Wurzburg.html#section-18",
-    "href": "slides/202512_Wurzburg.html#section-18",
-    "title": "Understanding the structure of space",
+    "objectID": "slides/202607_Nanjing.html#section-13",
+    "href": "slides/202607_Nanjing.html#section-13",
+    "title": "Urban Taxonomy",
     "section": "",
     "text": "Projection of UMAP components"
   },
   {
-    "objectID": "slides/202512_Wurzburg.html#section-19",
-    "href": "slides/202512_Wurzburg.html#section-19",
-    "title": "Understanding the structure of space",
+    "objectID": "slides/202607_Nanjing.html#section-14",
+    "href": "slides/202607_Nanjing.html#section-14",
+    "title": "Urban Taxonomy",
     "section": "",
     "text": "Projection of UMAP components"
   },
   {
-    "objectID": "slides/202512_Wurzburg.html#section-20",
-    "href": "slides/202512_Wurzburg.html#section-20",
-    "title": "Understanding the structure of space",
+    "objectID": "slides/202607_Nanjing.html#section-15",
+    "href": "slides/202607_Nanjing.html#section-15",
+    "title": "Urban Taxonomy",
     "section": "",
     "text": "Projection of UMAP components"
   },
   {
-    "objectID": "slides/202512_Wurzburg.html#section-21",
-    "href": "slides/202512_Wurzburg.html#section-21",
-    "title": "Understanding the structure of space",
+    "objectID": "slides/202607_Nanjing.html#section-16",
+    "href": "slides/202607_Nanjing.html#section-16",
+    "title": "Urban Taxonomy",
     "section": "",
     "text": "Projection of UMAP components"
   },
   {
-    "objectID": "slides/202512_Wurzburg.html#section-22",
-    "href": "slides/202512_Wurzburg.html#section-22",
-    "title": "Understanding the structure of space",
+    "objectID": "slides/202607_Nanjing.html#section-17",
+    "href": "slides/202607_Nanjing.html#section-17",
+    "title": "Urban Taxonomy",
     "section": "",
     "text": "Projection of UMAP components"
   },
   {
-    "objectID": "slides/202512_Wurzburg.html#section-23",
-    "href": "slides/202512_Wurzburg.html#section-23",
-    "title": "Understanding the structure of space",
+    "objectID": "slides/202607_Nanjing.html#section-18",
+    "href": "slides/202607_Nanjing.html#section-18",
+    "title": "Urban Taxonomy",
     "section": "",
     "text": "Projection of UMAP components"
   },
   {
-    "objectID": "slides/202512_Wurzburg.html#section-24",
-    "href": "slides/202512_Wurzburg.html#section-24",
-    "title": "Understanding the structure of space",
+    "objectID": "slides/202607_Nanjing.html#section-19",
+    "href": "slides/202607_Nanjing.html#section-19",
+    "title": "Urban Taxonomy",
     "section": "",
     "text": "Projection of UMAP components"
   },
   {
-    "objectID": "slides/202512_Wurzburg.html#section-25",
-    "href": "slides/202512_Wurzburg.html#section-25",
-    "title": "Understanding the structure of space",
+    "objectID": "slides/202607_Nanjing.html#section-20",
+    "href": "slides/202607_Nanjing.html#section-20",
+    "title": "Urban Taxonomy",
     "section": "",
     "text": "Projection of UMAP components"
   },
   {
-    "objectID": "slides/202512_Wurzburg.html#section-26",
-    "href": "slides/202512_Wurzburg.html#section-26",
-    "title": "Understanding the structure of space",
+    "objectID": "slides/202607_Nanjing.html#section-21",
+    "href": "slides/202607_Nanjing.html#section-21",
+    "title": "Urban Taxonomy",
     "section": "",
     "text": "Projection of UMAP components"
   },
   {
-    "objectID": "slides/202512_Wurzburg.html#section-27",
-    "href": "slides/202512_Wurzburg.html#section-27",
-    "title": "Understanding the structure of space",
+    "objectID": "slides/202607_Nanjing.html#section-22",
+    "href": "slides/202607_Nanjing.html#section-22",
+    "title": "Urban Taxonomy",
     "section": "",
     "text": "Projection of UMAP components"
   },
   {
-    "objectID": "slides/202512_Wurzburg.html#do-you-want-to-follow-up",
-    "href": "slides/202512_Wurzburg.html#do-you-want-to-follow-up",
-    "title": "Understanding the structure of space",
+    "objectID": "slides/202607_Nanjing.html#scale",
+    "href": "slides/202607_Nanjing.html#scale",
+    "title": "Urban Taxonomy",
+    "section": "Scale",
+    "text": "Scale\n\n\nBasic Settlement Units\n20 000 BSU in Czechia\nDelineated based on urban fabric"
+  },
+  {
+    "objectID": "slides/202607_Nanjing.html#census-variables",
+    "href": "slides/202607_Nanjing.html#census-variables",
+    "title": "Urban Taxonomy",
+    "section": "Census variables",
+    "text": "Census variables\n\nPopulation density\nAge structure\nEmployment sector\nEmployment status\nDwelling ownership\n\nEducation level\nHousehold size\nCitizenship\nReligion\nMarital status"
+  },
+  {
+    "objectID": "slides/202607_Nanjing.html#census-processing",
+    "href": "slides/202607_Nanjing.html#census-processing",
+    "title": "Urban Taxonomy",
+    "section": "Census processing",
+    "text": "Census processing"
+  },
+  {
+    "objectID": "slides/202607_Nanjing.html#results",
+    "href": "slides/202607_Nanjing.html#results",
+    "title": "Urban Taxonomy",
+    "section": "Results",
+    "text": "Results\n\n\n\n\n\n\n\nAveraged F1-macro score."
+  },
+  {
+    "objectID": "slides/202607_Nanjing.html#results-1",
+    "href": "slides/202607_Nanjing.html#results-1",
+    "title": "Urban Taxonomy",
+    "section": "Results",
+    "text": "Results\n\n\n\n\n\n\n\nAveraged F1-macro score."
+  },
+  {
+    "objectID": "slides/202607_Nanjing.html#results-2",
+    "href": "slides/202607_Nanjing.html#results-2",
+    "title": "Urban Taxonomy",
+    "section": "Results",
+    "text": "Results\n\n\n\n\n\n\n\nAveraged F1-macro score."
+  },
+  {
+    "objectID": "slides/202607_Nanjing.html#do-you-want-to-follow-up",
+    "href": "slides/202607_Nanjing.html#do-you-want-to-follow-up",
+    "title": "Urban Taxonomy",
     "section": "Do you want to follow up",
-    "text": "Do you want to follow up\n uscuni.org/talks\n urbantaxonomy.org\n uscuni.org/neatnet\n github.com/uscuni\n martin.fleischmann@natur.cuni.cz\n martinfleischmann.net\n\n\n\n\nThe authors kindly acknowledge funding by the Charles University’s Primus programme through the project “Influence of Socioeconomic and Cultural Factors on Urban Structure in Central Europe”, project reference PRIMUS/24/SCI/023."
+    "text": "Do you want to follow up\n uscuni.org/talks\n urbantaxonomy.org\n github.com/uscuni/urban_taxonomy\n martin.fleischmann@natur.cuni.cz\n martinfleischmann.net\n\n\n\n\nThe authors kindly acknowledge funding by the Charles University’s Primus programme through the project “Influence of Socioeconomic and Cultural Factors on Urban Structure in Central Europe”, project reference PRIMUS/24/SCI/023."
   },
   {
-    "objectID": "slides/template.html#heading-level-2",
-    "href": "slides/template.html#heading-level-2",
-    "title": "Spatial Autocorrelation",
-    "section": "Heading level 2",
-    "text": "Heading level 2\nAnother text\nFragment"
+    "objectID": "slides/202602_urrlab_Anna.html#interplay-between-population-and-built-form",
+    "href": "slides/202602_urrlab_Anna.html#interplay-between-population-and-built-form",
+    "title": "Spatially conditioned dynamics between population and built form",
+    "section": "Interplay between population and built form",
+    "text": "Interplay between population and built form\nUnderstand built-up patterns of housing types and the ability of different population to inhabit them."
   },
   {
-    "objectID": "slides/template.html#this-will-be-vertically-centered",
-    "href": "slides/template.html#this-will-be-vertically-centered",
-    "title": "Spatial Autocorrelation",
-    "section": "This will be vertically centered",
-    "text": "This will be vertically centered\nThis text is moved as well"
+    "objectID": "slides/202602_urrlab_Anna.html#relationship-between-social-structure-and-built-form",
+    "href": "slides/202602_urrlab_Anna.html#relationship-between-social-structure-and-built-form",
+    "title": "Spatially conditioned dynamics between population and built form",
+    "section": "Relationship between social structure and built form",
+    "text": "Relationship between social structure and built form\nSpatial configuration, urban design, and morphology actively shape everyday life, social interactions, mobility, etc.\nQualitative methods (Jacobs, 1961; Gehl, 2006)\nQuantitative methods (Hillier, 1996; Vaughan, 2005; Sapena, 2021; Venerandi 2024)"
   },
   {
-    "objectID": "slides/template.html#heading-that-is-a-question",
-    "href": "slides/template.html#heading-that-is-a-question",
-    "title": "Spatial Autocorrelation",
-    "section": "Heading that is a question",
-    "text": "Heading that is a question\nAnother text with footnote1\n\nFragment block\n\nMy footnote."
+    "objectID": "slides/202602_urrlab_Anna.html#morphometric-classification",
+    "href": "slides/202602_urrlab_Anna.html#morphometric-classification",
+    "title": "Spatially conditioned dynamics between population and built form",
+    "section": "Morphometric classification",
+    "text": "Morphometric classification\nQuantitative identification of built form types.\nBased on similar morphological characteristics shared by street segments and building footprints.\nFocuses on geometry and spatial configuration within the urban fabric."
   },
   {
-    "objectID": "slides/template.html#inline-code",
-    "href": "slides/template.html#inline-code",
-    "title": "Spatial Autocorrelation",
-    "section": "Inline code",
-    "text": "Inline code\nText with libpysal.graph.Graph inline."
+    "objectID": "slides/202602_urrlab_Anna.html#section",
+    "href": "slides/202602_urrlab_Anna.html#section",
+    "title": "Spatially conditioned dynamics between population and built form",
+    "section": "",
+    "text": "https://urbantaxonomy.org/map.html"
   },
   {
-    "objectID": "slides/template.html#slide-with-an-image",
-    "href": "slides/template.html#slide-with-an-image",
-    "title": "Spatial Autocorrelation",
-    "section": "Slide with an image",
-    "text": "Slide with an image\nSet height"
+    "objectID": "slides/202602_urrlab_Anna.html#how-strong-are-the-associations-between-population-and-built-form",
+    "href": "slides/202602_urrlab_Anna.html#how-strong-are-the-associations-between-population-and-built-form",
+    "title": "Spatially conditioned dynamics between population and built form",
+    "section": "How strong are the associations between population and built form",
+    "text": "How strong are the associations between population and built form"
   },
   {
-    "objectID": "slides/template.html#slide-with-an-image-1",
-    "href": "slides/template.html#slide-with-an-image-1",
-    "title": "Spatial Autocorrelation",
-    "section": "Slide with an image",
-    "text": "Slide with an image\n\nAutomatically stretched to fill remaining space"
+    "objectID": "slides/202602_urrlab_Anna.html#systematic-exploration-of-the-associations",
+    "href": "slides/202602_urrlab_Anna.html#systematic-exploration-of-the-associations",
+    "title": "Spatially conditioned dynamics between population and built form",
+    "section": "Systematic exploration of the associations",
+    "text": "Systematic exploration of the associations\nHow to measure the relationship between social structure and the built form?\nHow does the relationship differ across different built form types?\nIs the relationship consistent or spatially variable?"
   },
   {
-    "objectID": "slides/template.html#slide-with-image-as-background",
-    "href": "slides/template.html#slide-with-image-as-background",
-    "title": "Spatial Autocorrelation",
-    "section": "Slide with image as background",
-    "text": "Slide with image as background"
+    "objectID": "slides/202602_urrlab_Anna.html#scale",
+    "href": "slides/202602_urrlab_Anna.html#scale",
+    "title": "Spatially conditioned dynamics between population and built form",
+    "section": "Scale",
+    "text": "Scale\n\n\nBasic Settlement Units\n20 000 BSU in Czechia\nDelineated based on urban fabric"
   },
   {
-    "objectID": "slides/template.html#slide-with-iframe-background",
-    "href": "slides/template.html#slide-with-iframe-background",
-    "title": "Spatial Autocorrelation",
-    "section": "Slide with iframe background",
-    "text": "Slide with iframe background"
+    "objectID": "slides/202602_urrlab_Anna.html#census-variables",
+    "href": "slides/202602_urrlab_Anna.html#census-variables",
+    "title": "Spatially conditioned dynamics between population and built form",
+    "section": "Census variables",
+    "text": "Census variables\n\nPopulation density\nAge structure\nEmployment sector\nEmployment status\nDwelling ownership\n\nEducation level\nHousehold size\nCitizenship\nReligion\nMarital status"
+  },
+  {
+    "objectID": "slides/202602_urrlab_Anna.html#census-processing",
+    "href": "slides/202602_urrlab_Anna.html#census-processing",
+    "title": "Spatially conditioned dynamics between population and built form",
+    "section": "Census processing",
+    "text": "Census processing"
+  },
+  {
+    "objectID": "slides/202602_urrlab_Anna.html#global-modelling-with-spatial-crossvalidation",
+    "href": "slides/202602_urrlab_Anna.html#global-modelling-with-spatial-crossvalidation",
+    "title": "Spatially conditioned dynamics between population and built form",
+    "section": "Global modelling with spatial crossvalidation",
+    "text": "Global modelling with spatial crossvalidation\nLogistic Regression - 0.26\nRandom Forest Classification - 0.33"
+  },
+  {
+    "objectID": "slides/202602_urrlab_Anna.html#geographically-weighted-modelling",
+    "href": "slides/202602_urrlab_Anna.html#geographically-weighted-modelling",
+    "title": "Spatially conditioned dynamics between population and built form",
+    "section": "Geographically weighted modelling",
+    "text": "Geographically weighted modelling\nGlobal models assume the same relationship between predictors and target classes across the entire dataset\nThey do not account for the geographic variation in the relationship\nGeographically weighted models capture this by applying local models rather than a single global model."
+  },
+  {
+    "objectID": "slides/202602_urrlab_Anna.html#geographically-weighted-classification",
+    "href": "slides/202602_urrlab_Anna.html#geographically-weighted-classification",
+    "title": "Spatially conditioned dynamics between population and built form",
+    "section": "Geographically weighted classification",
+    "text": "Geographically weighted classification\nSimilar in concept to Geographically Weighted Regression (GWR).\nCategorical or class-based outcomes.\nSeparate classifier for each location using data weighted by geographic proximity."
+  },
+  {
+    "objectID": "slides/202602_urrlab_Anna.html#results",
+    "href": "slides/202602_urrlab_Anna.html#results",
+    "title": "Spatially conditioned dynamics between population and built form",
+    "section": "Results",
+    "text": "Results\n\n\n\nAveraged F1-macro score."
+  },
+  {
+    "objectID": "slides/202602_urrlab_Anna.html#results-1",
+    "href": "slides/202602_urrlab_Anna.html#results-1",
+    "title": "Spatially conditioned dynamics between population and built form",
+    "section": "Results",
+    "text": "Results\n\n\n\nAveraged F1-macro score."
+  },
+  {
+    "objectID": "slides/202602_urrlab_Anna.html#results-2",
+    "href": "slides/202602_urrlab_Anna.html#results-2",
+    "title": "Spatially conditioned dynamics between population and built form",
+    "section": "Results",
+    "text": "Results\n\n\n\nAveraged F1-macro score."
+  },
+  {
+    "objectID": "slides/202602_urrlab_Anna.html#conclusion",
+    "href": "slides/202602_urrlab_Anna.html#conclusion",
+    "title": "Spatially conditioned dynamics between population and built form",
+    "section": "Conclusion",
+    "text": "Conclusion\nRelationship is influenced by spatial context by also by the typology of built form.\nRelationship is not uniform and differs geographically – locally linear\nCertain built form types are more socially selective than others and attract populations with specific profiles.\nHousing tenure among the most important variables."
+  },
+  {
+    "objectID": "slides/202504_GISRUK_Anna.html#interplay-between-population-and-urban-form",
+    "href": "slides/202504_GISRUK_Anna.html#interplay-between-population-and-urban-form",
+    "title": "Spatial modelling of the relationship between the urban form and population data",
+    "section": "Interplay between population and urban form",
+    "text": "Interplay between population and urban form\nUnderstand built-up patterns of housing types and the ability of different population groups to inhabit them."
+  },
+  {
+    "objectID": "slides/202504_GISRUK_Anna.html#methods",
+    "href": "slides/202504_GISRUK_Anna.html#methods",
+    "title": "Spatial modelling of the relationship between the urban form and population data",
+    "section": "Methods",
+    "text": "Methods\nDimensinality reduction of census data\nGeographicaly weighted prediction models"
+  },
+  {
+    "objectID": "slides/202504_GISRUK_Anna.html#morphometric-classification",
+    "href": "slides/202504_GISRUK_Anna.html#morphometric-classification",
+    "title": "Spatial modelling of the relationship between the urban form and population data",
+    "section": "Morphometric classification",
+    "text": "Morphometric classification\nQuantitative identification of urban form types.\nBased on similar morphological characteristics shared by street segments and building footprints.\nFocuses on geometry and spatial configuration within the urban fabric."
+  },
+  {
+    "objectID": "slides/202504_GISRUK_Anna.html#section",
+    "href": "slides/202504_GISRUK_Anna.html#section",
+    "title": "Spatial modelling of the relationship between the urban form and population data",
+    "section": "",
+    "text": "https://uscuni.org/himoc/"
+  },
+  {
+    "objectID": "slides/202504_GISRUK_Anna.html#scale",
+    "href": "slides/202504_GISRUK_Anna.html#scale",
+    "title": "Spatial modelling of the relationship between the urban form and population data",
+    "section": "Scale",
+    "text": "Scale\n\n\nBasic Settlement Units ~ Output Areas\n20 000 BSU in Czechia\nDelineated based on urban fabric"
+  },
+  {
+    "objectID": "slides/202504_GISRUK_Anna.html#census-variables",
+    "href": "slides/202504_GISRUK_Anna.html#census-variables",
+    "title": "Spatial modelling of the relationship between the urban form and population data",
+    "section": "Census variables",
+    "text": "Census variables\n\nAge structure\nEducation\nEconomic activity\nEmployment type\nMarital status\n\nHouseholds\nReligion\nNationality\nResidence\nProperty ownership"
+  },
+  {
+    "objectID": "slides/202504_GISRUK_Anna.html#spatial-relationship",
+    "href": "slides/202504_GISRUK_Anna.html#spatial-relationship",
+    "title": "Spatial modelling of the relationship between the urban form and population data",
+    "section": "Spatial relationship",
+    "text": "Spatial relationship\nWho lives in different types of the urban form?\nIs there a specific relationship between a group of people and an urban form type?\nDoes it differ across the country?\nHow to asses this relationship?"
+  },
+  {
+    "objectID": "slides/202504_GISRUK_Anna.html#census-processing",
+    "href": "slides/202504_GISRUK_Anna.html#census-processing",
+    "title": "Spatial modelling of the relationship between the urban form and population data",
+    "section": "Census processing",
+    "text": "Census processing\n800+ variables\nVariable selection - no leakage, no nested variables, repetition etc.\nData normalization and standardization\nDimensionality reduction"
+  },
+  {
+    "objectID": "slides/202504_GISRUK_Anna.html#dimesionality-reduction",
+    "href": "slides/202504_GISRUK_Anna.html#dimesionality-reduction",
+    "title": "Spatial modelling of the relationship between the urban form and population data",
+    "section": "Dimesionality reduction",
+    "text": "Dimesionality reduction\nPrincipal Component Analysis\nFactor Analysis\nUniform Manifold Approximation and Projection"
+  },
+  {
+    "objectID": "slides/202504_GISRUK_Anna.html#geographically-weighted-modelling",
+    "href": "slides/202504_GISRUK_Anna.html#geographically-weighted-modelling",
+    "title": "Spatial modelling of the relationship between the urban form and population data",
+    "section": "Geographically weighted modelling",
+    "text": "Geographically weighted modelling\nGlobal models assume the same relationship between predictors and target classes across the entire dataset\nThey do not account for the geographic variation in the relationship\nGeographically weighted models capture this by applying local models rather than a single global model."
+  },
+  {
+    "objectID": "slides/202504_GISRUK_Anna.html#geographically-weighted-classification",
+    "href": "slides/202504_GISRUK_Anna.html#geographically-weighted-classification",
+    "title": "Spatial modelling of the relationship between the urban form and population data",
+    "section": "Geographically weighted classification",
+    "text": "Geographically weighted classification\nSimilar in concept to Geographically Weighted Regression (GWR).\nCategorical or class-based outcomes.\nSeparate classifier for each location using data weighted by geographic proximity."
+  },
+  {
+    "objectID": "slides/202504_GISRUK_Anna.html#modelling",
+    "href": "slides/202504_GISRUK_Anna.html#modelling",
+    "title": "Spatial modelling of the relationship between the urban form and population data",
+    "section": "Modelling",
+    "text": "Modelling\nOutputs from dimensionality reduction → Geographically weighted models\nLogistic Regression & Random Forest Classification"
+  },
+  {
+    "objectID": "slides/202504_GISRUK_Anna.html#results",
+    "href": "slides/202504_GISRUK_Anna.html#results",
+    "title": "Spatial modelling of the relationship between the urban form and population data",
+    "section": "Results",
+    "text": "Results\n\n\n\nAveraged f1-macro score"
+  },
+  {
+    "objectID": "slides/202504_GISRUK_Anna.html#conclusion",
+    "href": "slides/202504_GISRUK_Anna.html#conclusion",
+    "title": "Spatial modelling of the relationship between the urban form and population data",
+    "section": "Conclusion",
+    "text": "Conclusion\nRelationship does differ geographically.\nSpecific relationship between population characteristics and urban form types.\nDimensionality reduction or cluster analysis?\nWork still in progress, would appreciate some feedback!"
+  },
+  {
+    "objectID": "slides/boeing_intersection_miscount_presentation.html#challenges",
+    "href": "slides/boeing_intersection_miscount_presentation.html#challenges",
+    "title": "Topological Graph Simplification Solutions to the Street Intersection Miscount Problem",
+    "section": "3 challenges",
+    "text": "3 challenges\n\nnonplanarity\nintersection complexity\ncurve digitization"
+  },
+  {
+    "objectID": "slides/boeing_intersection_miscount_presentation.html#three-causes-of-intersection-miscounts",
+    "href": "slides/boeing_intersection_miscount_presentation.html#three-causes-of-intersection-miscounts",
+    "title": "Topological Graph Simplification Solutions to the Street Intersection Miscount Problem",
+    "section": "Three Causes of Intersection Miscounts",
+    "text": "Three Causes of Intersection Miscounts"
+  },
+  {
+    "objectID": "slides/boeing_intersection_miscount_presentation.html#the-problem-of-miscounts",
+    "href": "slides/boeing_intersection_miscount_presentation.html#the-problem-of-miscounts",
+    "title": "Topological Graph Simplification Solutions to the Street Intersection Miscount Problem",
+    "section": "The Problem of Miscounts",
+    "text": "The Problem of Miscounts"
+  },
+  {
+    "objectID": "slides/boeing_intersection_miscount_presentation.html#edge-simplification-algorithm",
+    "href": "slides/boeing_intersection_miscount_presentation.html#edge-simplification-algorithm",
+    "title": "Topological Graph Simplification Solutions to the Street Intersection Miscount Problem",
+    "section": "Edge Simplification Algorithm",
+    "text": "Edge Simplification Algorithm"
+  },
+  {
+    "objectID": "slides/boeing_intersection_miscount_presentation.html#node-consolidation-algorithms",
+    "href": "slides/boeing_intersection_miscount_presentation.html#node-consolidation-algorithms",
+    "title": "Topological Graph Simplification Solutions to the Street Intersection Miscount Problem",
+    "section": "Node Consolidation Algorithms",
+    "text": "Node Consolidation Algorithms"
   },
   {
     "objectID": "slides/202510_Evo_devo.html#what-is-urban-morphometrics",
@@ -2485,711 +2338,942 @@
     "text": "Do you want to follow up\n uscuni.org/talks\n urbantaxonomy.org\n github.com/uscuni/urban_taxonomy\n martin.fleischmann@natur.cuni.cz\n martinfleischmann.net\n\n\n\n\nThe authors kindly acknowledge funding by the Charles University’s Primus programme through the project “Influence of Socioeconomic and Cultural Factors on Urban Structure in Central Europe”, project reference PRIMUS/24/SCI/023."
   },
   {
-    "objectID": "slides/boeing_intersection_miscount_presentation.html#challenges",
-    "href": "slides/boeing_intersection_miscount_presentation.html#challenges",
-    "title": "Topological Graph Simplification Solutions to the Street Intersection Miscount Problem",
-    "section": "3 challenges",
-    "text": "3 challenges\n\nnonplanarity\nintersection complexity\ncurve digitization"
+    "objectID": "slides/template.html#heading-level-2",
+    "href": "slides/template.html#heading-level-2",
+    "title": "Spatial Autocorrelation",
+    "section": "Heading level 2",
+    "text": "Heading level 2\nAnother text\nFragment"
   },
   {
-    "objectID": "slides/boeing_intersection_miscount_presentation.html#three-causes-of-intersection-miscounts",
-    "href": "slides/boeing_intersection_miscount_presentation.html#three-causes-of-intersection-miscounts",
-    "title": "Topological Graph Simplification Solutions to the Street Intersection Miscount Problem",
-    "section": "Three Causes of Intersection Miscounts",
-    "text": "Three Causes of Intersection Miscounts"
+    "objectID": "slides/template.html#this-will-be-vertically-centered",
+    "href": "slides/template.html#this-will-be-vertically-centered",
+    "title": "Spatial Autocorrelation",
+    "section": "This will be vertically centered",
+    "text": "This will be vertically centered\nThis text is moved as well"
   },
   {
-    "objectID": "slides/boeing_intersection_miscount_presentation.html#the-problem-of-miscounts",
-    "href": "slides/boeing_intersection_miscount_presentation.html#the-problem-of-miscounts",
-    "title": "Topological Graph Simplification Solutions to the Street Intersection Miscount Problem",
-    "section": "The Problem of Miscounts",
-    "text": "The Problem of Miscounts"
+    "objectID": "slides/template.html#heading-that-is-a-question",
+    "href": "slides/template.html#heading-that-is-a-question",
+    "title": "Spatial Autocorrelation",
+    "section": "Heading that is a question",
+    "text": "Heading that is a question\nAnother text with footnote1\n\nFragment block\n\nMy footnote."
   },
   {
-    "objectID": "slides/boeing_intersection_miscount_presentation.html#edge-simplification-algorithm",
-    "href": "slides/boeing_intersection_miscount_presentation.html#edge-simplification-algorithm",
-    "title": "Topological Graph Simplification Solutions to the Street Intersection Miscount Problem",
-    "section": "Edge Simplification Algorithm",
-    "text": "Edge Simplification Algorithm"
+    "objectID": "slides/template.html#inline-code",
+    "href": "slides/template.html#inline-code",
+    "title": "Spatial Autocorrelation",
+    "section": "Inline code",
+    "text": "Inline code\nText with libpysal.graph.Graph inline."
   },
   {
-    "objectID": "slides/boeing_intersection_miscount_presentation.html#node-consolidation-algorithms",
-    "href": "slides/boeing_intersection_miscount_presentation.html#node-consolidation-algorithms",
-    "title": "Topological Graph Simplification Solutions to the Street Intersection Miscount Problem",
-    "section": "Node Consolidation Algorithms",
-    "text": "Node Consolidation Algorithms"
+    "objectID": "slides/template.html#slide-with-an-image",
+    "href": "slides/template.html#slide-with-an-image",
+    "title": "Spatial Autocorrelation",
+    "section": "Slide with an image",
+    "text": "Slide with an image\nSet height"
   },
   {
-    "objectID": "slides/202504_GISRUK_Anna.html#interplay-between-population-and-urban-form",
-    "href": "slides/202504_GISRUK_Anna.html#interplay-between-population-and-urban-form",
-    "title": "Spatial modelling of the relationship between the urban form and population data",
-    "section": "Interplay between population and urban form",
-    "text": "Interplay between population and urban form\nUnderstand built-up patterns of housing types and the ability of different population groups to inhabit them."
+    "objectID": "slides/template.html#slide-with-an-image-1",
+    "href": "slides/template.html#slide-with-an-image-1",
+    "title": "Spatial Autocorrelation",
+    "section": "Slide with an image",
+    "text": "Slide with an image\n\nAutomatically stretched to fill remaining space"
   },
   {
-    "objectID": "slides/202504_GISRUK_Anna.html#methods",
-    "href": "slides/202504_GISRUK_Anna.html#methods",
-    "title": "Spatial modelling of the relationship between the urban form and population data",
-    "section": "Methods",
-    "text": "Methods\nDimensinality reduction of census data\nGeographicaly weighted prediction models"
+    "objectID": "slides/template.html#slide-with-image-as-background",
+    "href": "slides/template.html#slide-with-image-as-background",
+    "title": "Spatial Autocorrelation",
+    "section": "Slide with image as background",
+    "text": "Slide with image as background"
   },
   {
-    "objectID": "slides/202504_GISRUK_Anna.html#morphometric-classification",
-    "href": "slides/202504_GISRUK_Anna.html#morphometric-classification",
-    "title": "Spatial modelling of the relationship between the urban form and population data",
-    "section": "Morphometric classification",
-    "text": "Morphometric classification\nQuantitative identification of urban form types.\nBased on similar morphological characteristics shared by street segments and building footprints.\nFocuses on geometry and spatial configuration within the urban fabric."
+    "objectID": "slides/template.html#slide-with-iframe-background",
+    "href": "slides/template.html#slide-with-iframe-background",
+    "title": "Spatial Autocorrelation",
+    "section": "Slide with iframe background",
+    "text": "Slide with iframe background"
   },
   {
-    "objectID": "slides/202504_GISRUK_Anna.html#section",
-    "href": "slides/202504_GISRUK_Anna.html#section",
-    "title": "Spatial modelling of the relationship between the urban form and population data",
-    "section": "",
-    "text": "https://uscuni.org/himoc/"
-  },
-  {
-    "objectID": "slides/202504_GISRUK_Anna.html#scale",
-    "href": "slides/202504_GISRUK_Anna.html#scale",
-    "title": "Spatial modelling of the relationship between the urban form and population data",
-    "section": "Scale",
-    "text": "Scale\n\n\nBasic Settlement Units ~ Output Areas\n20 000 BSU in Czechia\nDelineated based on urban fabric"
-  },
-  {
-    "objectID": "slides/202504_GISRUK_Anna.html#census-variables",
-    "href": "slides/202504_GISRUK_Anna.html#census-variables",
-    "title": "Spatial modelling of the relationship between the urban form and population data",
-    "section": "Census variables",
-    "text": "Census variables\n\nAge structure\nEducation\nEconomic activity\nEmployment type\nMarital status\n\nHouseholds\nReligion\nNationality\nResidence\nProperty ownership"
-  },
-  {
-    "objectID": "slides/202504_GISRUK_Anna.html#spatial-relationship",
-    "href": "slides/202504_GISRUK_Anna.html#spatial-relationship",
-    "title": "Spatial modelling of the relationship between the urban form and population data",
-    "section": "Spatial relationship",
-    "text": "Spatial relationship\nWho lives in different types of the urban form?\nIs there a specific relationship between a group of people and an urban form type?\nDoes it differ across the country?\nHow to asses this relationship?"
-  },
-  {
-    "objectID": "slides/202504_GISRUK_Anna.html#census-processing",
-    "href": "slides/202504_GISRUK_Anna.html#census-processing",
-    "title": "Spatial modelling of the relationship between the urban form and population data",
-    "section": "Census processing",
-    "text": "Census processing\n800+ variables\nVariable selection - no leakage, no nested variables, repetition etc.\nData normalization and standardization\nDimensionality reduction"
-  },
-  {
-    "objectID": "slides/202504_GISRUK_Anna.html#dimesionality-reduction",
-    "href": "slides/202504_GISRUK_Anna.html#dimesionality-reduction",
-    "title": "Spatial modelling of the relationship between the urban form and population data",
-    "section": "Dimesionality reduction",
-    "text": "Dimesionality reduction\nPrincipal Component Analysis\nFactor Analysis\nUniform Manifold Approximation and Projection"
-  },
-  {
-    "objectID": "slides/202504_GISRUK_Anna.html#geographically-weighted-modelling",
-    "href": "slides/202504_GISRUK_Anna.html#geographically-weighted-modelling",
-    "title": "Spatial modelling of the relationship between the urban form and population data",
-    "section": "Geographically weighted modelling",
-    "text": "Geographically weighted modelling\nGlobal models assume the same relationship between predictors and target classes across the entire dataset\nThey do not account for the geographic variation in the relationship\nGeographically weighted models capture this by applying local models rather than a single global model."
-  },
-  {
-    "objectID": "slides/202504_GISRUK_Anna.html#geographically-weighted-classification",
-    "href": "slides/202504_GISRUK_Anna.html#geographically-weighted-classification",
-    "title": "Spatial modelling of the relationship between the urban form and population data",
-    "section": "Geographically weighted classification",
-    "text": "Geographically weighted classification\nSimilar in concept to Geographically Weighted Regression (GWR).\nCategorical or class-based outcomes.\nSeparate classifier for each location using data weighted by geographic proximity."
-  },
-  {
-    "objectID": "slides/202504_GISRUK_Anna.html#modelling",
-    "href": "slides/202504_GISRUK_Anna.html#modelling",
-    "title": "Spatial modelling of the relationship between the urban form and population data",
-    "section": "Modelling",
-    "text": "Modelling\nOutputs from dimensionality reduction → Geographically weighted models\nLogistic Regression & Random Forest Classification"
-  },
-  {
-    "objectID": "slides/202504_GISRUK_Anna.html#results",
-    "href": "slides/202504_GISRUK_Anna.html#results",
-    "title": "Spatial modelling of the relationship between the urban form and population data",
-    "section": "Results",
-    "text": "Results\n\n\n\nAveraged f1-macro score"
-  },
-  {
-    "objectID": "slides/202504_GISRUK_Anna.html#conclusion",
-    "href": "slides/202504_GISRUK_Anna.html#conclusion",
-    "title": "Spatial modelling of the relationship between the urban form and population data",
-    "section": "Conclusion",
-    "text": "Conclusion\nRelationship does differ geographically.\nSpecific relationship between population characteristics and urban form types.\nDimensionality reduction or cluster analysis?\nWork still in progress, would appreciate some feedback!"
-  },
-  {
-    "objectID": "slides/202602_urrlab_Anna.html#interplay-between-population-and-built-form",
-    "href": "slides/202602_urrlab_Anna.html#interplay-between-population-and-built-form",
-    "title": "Spatially conditioned dynamics between population and built form",
-    "section": "Interplay between population and built form",
-    "text": "Interplay between population and built form\nUnderstand built-up patterns of housing types and the ability of different population to inhabit them."
-  },
-  {
-    "objectID": "slides/202602_urrlab_Anna.html#relationship-between-social-structure-and-built-form",
-    "href": "slides/202602_urrlab_Anna.html#relationship-between-social-structure-and-built-form",
-    "title": "Spatially conditioned dynamics between population and built form",
-    "section": "Relationship between social structure and built form",
-    "text": "Relationship between social structure and built form\nSpatial configuration, urban design, and morphology actively shape everyday life, social interactions, mobility, etc.\nQualitative methods (Jacobs, 1961; Gehl, 2006)\nQuantitative methods (Hillier, 1996; Vaughan, 2005; Sapena, 2021; Venerandi 2024)"
-  },
-  {
-    "objectID": "slides/202602_urrlab_Anna.html#morphometric-classification",
-    "href": "slides/202602_urrlab_Anna.html#morphometric-classification",
-    "title": "Spatially conditioned dynamics between population and built form",
-    "section": "Morphometric classification",
-    "text": "Morphometric classification\nQuantitative identification of built form types.\nBased on similar morphological characteristics shared by street segments and building footprints.\nFocuses on geometry and spatial configuration within the urban fabric."
-  },
-  {
-    "objectID": "slides/202602_urrlab_Anna.html#section",
-    "href": "slides/202602_urrlab_Anna.html#section",
-    "title": "Spatially conditioned dynamics between population and built form",
-    "section": "",
-    "text": "https://urbantaxonomy.org/map.html"
-  },
-  {
-    "objectID": "slides/202602_urrlab_Anna.html#how-strong-are-the-associations-between-population-and-built-form",
-    "href": "slides/202602_urrlab_Anna.html#how-strong-are-the-associations-between-population-and-built-form",
-    "title": "Spatially conditioned dynamics between population and built form",
-    "section": "How strong are the associations between population and built form",
-    "text": "How strong are the associations between population and built form"
-  },
-  {
-    "objectID": "slides/202602_urrlab_Anna.html#systematic-exploration-of-the-associations",
-    "href": "slides/202602_urrlab_Anna.html#systematic-exploration-of-the-associations",
-    "title": "Spatially conditioned dynamics between population and built form",
-    "section": "Systematic exploration of the associations",
-    "text": "Systematic exploration of the associations\nHow to measure the relationship between social structure and the built form?\nHow does the relationship differ across different built form types?\nIs the relationship consistent or spatially variable?"
-  },
-  {
-    "objectID": "slides/202602_urrlab_Anna.html#scale",
-    "href": "slides/202602_urrlab_Anna.html#scale",
-    "title": "Spatially conditioned dynamics between population and built form",
-    "section": "Scale",
-    "text": "Scale\n\n\nBasic Settlement Units\n20 000 BSU in Czechia\nDelineated based on urban fabric"
-  },
-  {
-    "objectID": "slides/202602_urrlab_Anna.html#census-variables",
-    "href": "slides/202602_urrlab_Anna.html#census-variables",
-    "title": "Spatially conditioned dynamics between population and built form",
-    "section": "Census variables",
-    "text": "Census variables\n\nPopulation density\nAge structure\nEmployment sector\nEmployment status\nDwelling ownership\n\nEducation level\nHousehold size\nCitizenship\nReligion\nMarital status"
-  },
-  {
-    "objectID": "slides/202602_urrlab_Anna.html#census-processing",
-    "href": "slides/202602_urrlab_Anna.html#census-processing",
-    "title": "Spatially conditioned dynamics between population and built form",
-    "section": "Census processing",
-    "text": "Census processing"
-  },
-  {
-    "objectID": "slides/202602_urrlab_Anna.html#global-modelling-with-spatial-crossvalidation",
-    "href": "slides/202602_urrlab_Anna.html#global-modelling-with-spatial-crossvalidation",
-    "title": "Spatially conditioned dynamics between population and built form",
-    "section": "Global modelling with spatial crossvalidation",
-    "text": "Global modelling with spatial crossvalidation\nLogistic Regression - 0.26\nRandom Forest Classification - 0.33"
-  },
-  {
-    "objectID": "slides/202602_urrlab_Anna.html#geographically-weighted-modelling",
-    "href": "slides/202602_urrlab_Anna.html#geographically-weighted-modelling",
-    "title": "Spatially conditioned dynamics between population and built form",
-    "section": "Geographically weighted modelling",
-    "text": "Geographically weighted modelling\nGlobal models assume the same relationship between predictors and target classes across the entire dataset\nThey do not account for the geographic variation in the relationship\nGeographically weighted models capture this by applying local models rather than a single global model."
-  },
-  {
-    "objectID": "slides/202602_urrlab_Anna.html#geographically-weighted-classification",
-    "href": "slides/202602_urrlab_Anna.html#geographically-weighted-classification",
-    "title": "Spatially conditioned dynamics between population and built form",
-    "section": "Geographically weighted classification",
-    "text": "Geographically weighted classification\nSimilar in concept to Geographically Weighted Regression (GWR).\nCategorical or class-based outcomes.\nSeparate classifier for each location using data weighted by geographic proximity."
-  },
-  {
-    "objectID": "slides/202602_urrlab_Anna.html#results",
-    "href": "slides/202602_urrlab_Anna.html#results",
-    "title": "Spatially conditioned dynamics between population and built form",
-    "section": "Results",
-    "text": "Results\n\n\n\nAveraged F1-macro score."
-  },
-  {
-    "objectID": "slides/202602_urrlab_Anna.html#results-1",
-    "href": "slides/202602_urrlab_Anna.html#results-1",
-    "title": "Spatially conditioned dynamics between population and built form",
-    "section": "Results",
-    "text": "Results\n\n\n\nAveraged F1-macro score."
-  },
-  {
-    "objectID": "slides/202602_urrlab_Anna.html#results-2",
-    "href": "slides/202602_urrlab_Anna.html#results-2",
-    "title": "Spatially conditioned dynamics between population and built form",
-    "section": "Results",
-    "text": "Results\n\n\n\nAveraged F1-macro score."
-  },
-  {
-    "objectID": "slides/202602_urrlab_Anna.html#conclusion",
-    "href": "slides/202602_urrlab_Anna.html#conclusion",
-    "title": "Spatially conditioned dynamics between population and built form",
-    "section": "Conclusion",
-    "text": "Conclusion\nRelationship is influenced by spatial context by also by the typology of built form.\nRelationship is not uniform and differs geographically – locally linear\nCertain built form types are more socially selective than others and attract populations with specific profiles.\nHousing tenure among the most important variables."
-  },
-  {
-    "objectID": "slides/202607_Nanjing.html#section-6",
-    "href": "slides/202607_Nanjing.html#section-6",
-    "title": "Urban Taxonomy",
-    "section": "",
-    "text": "Illustration of different levels of the hierarchy."
-  },
-  {
-    "objectID": "slides/202607_Nanjing.html#section-7",
-    "href": "slides/202607_Nanjing.html#section-7",
-    "title": "Urban Taxonomy",
-    "section": "",
-    "text": "Illustration of different levels of the hierarchy."
-  },
-  {
-    "objectID": "slides/202607_Nanjing.html#section-8",
-    "href": "slides/202607_Nanjing.html#section-8",
-    "title": "Urban Taxonomy",
-    "section": "",
-    "text": "Illustration of different levels of the hierarchy."
-  },
-  {
-    "objectID": "slides/202607_Nanjing.html#section-9",
-    "href": "slides/202607_Nanjing.html#section-9",
-    "title": "Urban Taxonomy",
-    "section": "",
-    "text": "urbantaxonomy.org"
-  },
-  {
-    "objectID": "slides/202607_Nanjing.html#section-12",
-    "href": "slides/202607_Nanjing.html#section-12",
-    "title": "Urban Taxonomy",
-    "section": "",
-    "text": "UMAP components reflecting the composition within 50km grid."
-  },
-  {
-    "objectID": "slides/202607_Nanjing.html#section-13",
-    "href": "slides/202607_Nanjing.html#section-13",
-    "title": "Urban Taxonomy",
-    "section": "",
-    "text": "Projection of UMAP components"
-  },
-  {
-    "objectID": "slides/202607_Nanjing.html#section-14",
-    "href": "slides/202607_Nanjing.html#section-14",
-    "title": "Urban Taxonomy",
-    "section": "",
-    "text": "Projection of UMAP components"
-  },
-  {
-    "objectID": "slides/202607_Nanjing.html#section-15",
-    "href": "slides/202607_Nanjing.html#section-15",
-    "title": "Urban Taxonomy",
-    "section": "",
-    "text": "Projection of UMAP components"
-  },
-  {
-    "objectID": "slides/202607_Nanjing.html#section-16",
-    "href": "slides/202607_Nanjing.html#section-16",
-    "title": "Urban Taxonomy",
-    "section": "",
-    "text": "Projection of UMAP components"
-  },
-  {
-    "objectID": "slides/202607_Nanjing.html#section-17",
-    "href": "slides/202607_Nanjing.html#section-17",
-    "title": "Urban Taxonomy",
-    "section": "",
-    "text": "Projection of UMAP components"
-  },
-  {
-    "objectID": "slides/202607_Nanjing.html#section-18",
-    "href": "slides/202607_Nanjing.html#section-18",
-    "title": "Urban Taxonomy",
-    "section": "",
-    "text": "Projection of UMAP components"
-  },
-  {
-    "objectID": "slides/202607_Nanjing.html#section-19",
-    "href": "slides/202607_Nanjing.html#section-19",
-    "title": "Urban Taxonomy",
-    "section": "",
-    "text": "Projection of UMAP components"
-  },
-  {
-    "objectID": "slides/202607_Nanjing.html#section-20",
-    "href": "slides/202607_Nanjing.html#section-20",
-    "title": "Urban Taxonomy",
-    "section": "",
-    "text": "Projection of UMAP components"
-  },
-  {
-    "objectID": "slides/202607_Nanjing.html#section-21",
-    "href": "slides/202607_Nanjing.html#section-21",
-    "title": "Urban Taxonomy",
-    "section": "",
-    "text": "Projection of UMAP components"
-  },
-  {
-    "objectID": "slides/202607_Nanjing.html#section-22",
-    "href": "slides/202607_Nanjing.html#section-22",
-    "title": "Urban Taxonomy",
-    "section": "",
-    "text": "Projection of UMAP components"
-  },
-  {
-    "objectID": "slides/202607_Nanjing.html#scale",
-    "href": "slides/202607_Nanjing.html#scale",
-    "title": "Urban Taxonomy",
-    "section": "Scale",
-    "text": "Scale\n\n\nBasic Settlement Units\n20 000 BSU in Czechia\nDelineated based on urban fabric"
-  },
-  {
-    "objectID": "slides/202607_Nanjing.html#census-variables",
-    "href": "slides/202607_Nanjing.html#census-variables",
-    "title": "Urban Taxonomy",
-    "section": "Census variables",
-    "text": "Census variables\n\nPopulation density\nAge structure\nEmployment sector\nEmployment status\nDwelling ownership\n\nEducation level\nHousehold size\nCitizenship\nReligion\nMarital status"
-  },
-  {
-    "objectID": "slides/202607_Nanjing.html#census-processing",
-    "href": "slides/202607_Nanjing.html#census-processing",
-    "title": "Urban Taxonomy",
-    "section": "Census processing",
-    "text": "Census processing"
-  },
-  {
-    "objectID": "slides/202607_Nanjing.html#results",
-    "href": "slides/202607_Nanjing.html#results",
-    "title": "Urban Taxonomy",
-    "section": "Results",
-    "text": "Results\n\n\n\n\n\n\n\nAveraged F1-macro score."
-  },
-  {
-    "objectID": "slides/202607_Nanjing.html#results-1",
-    "href": "slides/202607_Nanjing.html#results-1",
-    "title": "Urban Taxonomy",
-    "section": "Results",
-    "text": "Results\n\n\n\n\n\n\n\nAveraged F1-macro score."
-  },
-  {
-    "objectID": "slides/202607_Nanjing.html#results-2",
-    "href": "slides/202607_Nanjing.html#results-2",
-    "title": "Urban Taxonomy",
-    "section": "Results",
-    "text": "Results\n\n\n\n\n\n\n\nAveraged F1-macro score."
-  },
-  {
-    "objectID": "slides/202607_Nanjing.html#do-you-want-to-follow-up",
-    "href": "slides/202607_Nanjing.html#do-you-want-to-follow-up",
-    "title": "Urban Taxonomy",
-    "section": "Do you want to follow up",
-    "text": "Do you want to follow up\n uscuni.org/talks\n urbantaxonomy.org\n github.com/uscuni/urban_taxonomy\n martin.fleischmann@natur.cuni.cz\n martinfleischmann.net\n\n\n\n\nThe authors kindly acknowledge funding by the Charles University’s Primus programme through the project “Influence of Socioeconomic and Cultural Factors on Urban Structure in Central Europe”, project reference PRIMUS/24/SCI/023."
-  },
-  {
-    "objectID": "slides/202607_Hangzhou.html#what-is-urban-morphometrics",
-    "href": "slides/202607_Hangzhou.html#what-is-urban-morphometrics",
-    "title": "Understanding the structure of space through data",
+    "objectID": "slides/202512_Wurzburg.html#what-is-urban-morphometrics",
+    "href": "slides/202512_Wurzburg.html#what-is-urban-morphometrics",
+    "title": "Understanding the structure of space",
     "section": "What is urban morphometrics",
     "text": "What is urban morphometrics"
   },
   {
-    "objectID": "slides/202607_Hangzhou.html#what-is-urban-morphometrics-1",
-    "href": "slides/202607_Hangzhou.html#what-is-urban-morphometrics-1",
-    "title": "Understanding the structure of space through data",
+    "objectID": "slides/202512_Wurzburg.html#what-is-urban-morphometrics-1",
+    "href": "slides/202512_Wurzburg.html#what-is-urban-morphometrics-1",
+    "title": "Understanding the structure of space",
     "section": "What is urban morphometrics",
     "text": "What is urban morphometrics\n\n\nA study of urban form through the means of quantitative assessment of its constituent elements.\n\n\nConceptually similar to historico-geographical approach in urban morphology.\nMethodologically embedded in spatial data science and geography."
   },
   {
-    "objectID": "slides/202607_Hangzhou.html#morphometrics-in-2025",
-    "href": "slides/202607_Hangzhou.html#morphometrics-in-2025",
-    "title": "Understanding the structure of space through data",
+    "objectID": "slides/202512_Wurzburg.html#morphometrics-in-2025",
+    "href": "slides/202512_Wurzburg.html#morphometrics-in-2025",
+    "title": "Understanding the structure of space",
     "section": "Morphometrics in 2025",
     "text": "Morphometrics in 2025"
   },
   {
-    "objectID": "slides/202607_Hangzhou.html#data-pain-points",
-    "href": "slides/202607_Hangzhou.html#data-pain-points",
-    "title": "Understanding the structure of space through data",
+    "objectID": "slides/202512_Wurzburg.html#data-pain-points",
+    "href": "slides/202512_Wurzburg.html#data-pain-points",
+    "title": "Understanding the structure of space",
     "section": "Data pain points",
     "text": "Data pain points"
   },
   {
-    "objectID": "slides/202607_Hangzhou.html#section",
-    "href": "slides/202607_Hangzhou.html#section",
-    "title": "Understanding the structure of space through data",
+    "objectID": "slides/202512_Wurzburg.html#section",
+    "href": "slides/202512_Wurzburg.html#section",
+    "title": "Understanding the structure of space",
     "section": "",
     "text": "Transportation vs manually-derived morphological representation of a street network"
   },
   {
-    "objectID": "slides/202607_Hangzhou.html#what-to-do",
-    "href": "slides/202607_Hangzhou.html#what-to-do",
-    "title": "Understanding the structure of space through data",
+    "objectID": "slides/202512_Wurzburg.html#what-to-do",
+    "href": "slides/202512_Wurzburg.html#what-to-do",
+    "title": "Understanding the structure of space",
     "section": "What to do",
     "text": "What to do"
   },
   {
-    "objectID": "slides/202607_Hangzhou.html#adaptive-continuity-preserving-simplification-of-street-networks",
-    "href": "slides/202607_Hangzhou.html#adaptive-continuity-preserving-simplification-of-street-networks",
-    "title": "Understanding the structure of space through data",
+    "objectID": "slides/202512_Wurzburg.html#adaptive-continuity-preserving-simplification-of-street-networks",
+    "href": "slides/202512_Wurzburg.html#adaptive-continuity-preserving-simplification-of-street-networks",
+    "title": "Understanding the structure of space",
     "section": "Adaptive continuity-preserving simplification of street networks",
     "text": "Adaptive continuity-preserving simplification of street networks\n\n\nFleischmann, M., Vybornova, A., Gaboardi, J.D., Brázdová, A., Dančejová, D., 2026. Adaptive continuity-preserving simplification of street networks. Computers, Environment and Urban Systems 123, 102354. https://doi.org/10.1016/j.compenvurbsys.2025.102354"
   },
   {
-    "objectID": "slides/202607_Hangzhou.html#section-1",
-    "href": "slides/202607_Hangzhou.html#section-1",
-    "title": "Understanding the structure of space through data",
+    "objectID": "slides/202512_Wurzburg.html#what-do-you-mean-by-continuity-preserving",
+    "href": "slides/202512_Wurzburg.html#what-do-you-mean-by-continuity-preserving",
+    "title": "Understanding the structure of space",
+    "section": "What do you mean by “continuity-preserving”",
+    "text": "What do you mean by “continuity-preserving”"
+  },
+  {
+    "objectID": "slides/202512_Wurzburg.html#face-artifact-detection",
+    "href": "slides/202512_Wurzburg.html#face-artifact-detection",
+    "title": "Understanding the structure of space",
+    "section": "Face artifact detection",
+    "text": "Face artifact detection"
+  },
+  {
+    "objectID": "slides/202512_Wurzburg.html#artifact-classification",
+    "href": "slides/202512_Wurzburg.html#artifact-classification",
+    "title": "Understanding the structure of space",
+    "section": "Artifact classification",
+    "text": "Artifact classification\n\nartifact polygon contiguity\n\nisolates\npairs\nclusters\n\nnetwork continuity"
+  },
+  {
+    "objectID": "slides/202512_Wurzburg.html#section-1",
+    "href": "slides/202512_Wurzburg.html#section-1",
+    "title": "Understanding the structure of space",
     "section": "",
     "text": "Output of different simplification methods for a street network fragment in Seraing, Liège (Belgium)."
   },
   {
-    "objectID": "slides/202607_Hangzhou.html#section-3",
-    "href": "slides/202607_Hangzhou.html#section-3",
-    "title": "Understanding the structure of space through data",
+    "objectID": "slides/202512_Wurzburg.html#section-3",
+    "href": "slides/202512_Wurzburg.html#section-3",
+    "title": "Understanding the structure of space",
     "section": "",
     "text": "Morphological tessellation"
   },
   {
-    "objectID": "slides/202607_Hangzhou.html#section-4",
-    "href": "slides/202607_Hangzhou.html#section-4",
-    "title": "Understanding the structure of space through data",
+    "objectID": "slides/202512_Wurzburg.html#section-4",
+    "href": "slides/202512_Wurzburg.html#section-4",
+    "title": "Understanding the structure of space",
     "section": "",
     "text": "Enclosed tessellation"
   },
   {
-    "objectID": "slides/202607_Hangzhou.html#idea-of-a-morphotope",
-    "href": "slides/202607_Hangzhou.html#idea-of-a-morphotope",
-    "title": "Understanding the structure of space through data",
+    "objectID": "slides/202512_Wurzburg.html#idea-of-a-morphotope",
+    "href": "slides/202512_Wurzburg.html#idea-of-a-morphotope",
+    "title": "Understanding the structure of space",
     "section": "Idea of a morphotope",
     "text": "Idea of a morphotope\n\n\n\nexcerpt from Larkham and Jones, 1991"
   },
   {
-    "objectID": "slides/202607_Hangzhou.html#how-to-capture-it",
-    "href": "slides/202607_Hangzhou.html#how-to-capture-it",
-    "title": "Understanding the structure of space through data",
+    "objectID": "slides/202512_Wurzburg.html#how-to-capture-it",
+    "href": "slides/202512_Wurzburg.html#how-to-capture-it",
+    "title": "Understanding the structure of space",
     "section": "How to capture it",
     "text": "How to capture it"
   },
   {
-    "objectID": "slides/202607_Hangzhou.html#section-11",
-    "href": "slides/202607_Hangzhou.html#section-11",
-    "title": "Understanding the structure of space through data",
+    "objectID": "slides/202512_Wurzburg.html#section-11",
+    "href": "slides/202512_Wurzburg.html#section-11",
+    "title": "Understanding the structure of space",
     "section": "",
     "text": "Illustration of different levels of the hierarchy."
   },
   {
-    "objectID": "slides/202607_Hangzhou.html#section-12",
-    "href": "slides/202607_Hangzhou.html#section-12",
-    "title": "Understanding the structure of space through data",
+    "objectID": "slides/202512_Wurzburg.html#section-12",
+    "href": "slides/202512_Wurzburg.html#section-12",
+    "title": "Understanding the structure of space",
     "section": "",
     "text": "Illustration of different levels of the hierarchy."
   },
   {
-    "objectID": "slides/202607_Hangzhou.html#section-13",
-    "href": "slides/202607_Hangzhou.html#section-13",
-    "title": "Understanding the structure of space through data",
+    "objectID": "slides/202512_Wurzburg.html#section-13",
+    "href": "slides/202512_Wurzburg.html#section-13",
+    "title": "Understanding the structure of space",
     "section": "",
     "text": "Illustration of different levels of the hierarchy."
   },
   {
-    "objectID": "slides/202607_Hangzhou.html#section-14",
-    "href": "slides/202607_Hangzhou.html#section-14",
-    "title": "Understanding the structure of space through data",
+    "objectID": "slides/202512_Wurzburg.html#section-14",
+    "href": "slides/202512_Wurzburg.html#section-14",
+    "title": "Understanding the structure of space",
     "section": "",
     "text": "urbantaxonomy.org"
   },
   {
-    "objectID": "slides/202607_Hangzhou.html#section-17",
-    "href": "slides/202607_Hangzhou.html#section-17",
-    "title": "Understanding the structure of space through data",
+    "objectID": "slides/202512_Wurzburg.html#section-17",
+    "href": "slides/202512_Wurzburg.html#section-17",
+    "title": "Understanding the structure of space",
     "section": "",
     "text": "UMAP components reflecting the composition within 50km grid."
   },
   {
-    "objectID": "slides/202607_Hangzhou.html#section-18",
-    "href": "slides/202607_Hangzhou.html#section-18",
-    "title": "Understanding the structure of space through data",
+    "objectID": "slides/202512_Wurzburg.html#section-18",
+    "href": "slides/202512_Wurzburg.html#section-18",
+    "title": "Understanding the structure of space",
     "section": "",
     "text": "Projection of UMAP components"
   },
   {
-    "objectID": "slides/202607_Hangzhou.html#section-19",
-    "href": "slides/202607_Hangzhou.html#section-19",
-    "title": "Understanding the structure of space through data",
+    "objectID": "slides/202512_Wurzburg.html#section-19",
+    "href": "slides/202512_Wurzburg.html#section-19",
+    "title": "Understanding the structure of space",
     "section": "",
     "text": "Projection of UMAP components"
   },
   {
-    "objectID": "slides/202607_Hangzhou.html#section-20",
-    "href": "slides/202607_Hangzhou.html#section-20",
-    "title": "Understanding the structure of space through data",
+    "objectID": "slides/202512_Wurzburg.html#section-20",
+    "href": "slides/202512_Wurzburg.html#section-20",
+    "title": "Understanding the structure of space",
     "section": "",
     "text": "Projection of UMAP components"
   },
   {
-    "objectID": "slides/202607_Hangzhou.html#section-21",
-    "href": "slides/202607_Hangzhou.html#section-21",
-    "title": "Understanding the structure of space through data",
+    "objectID": "slides/202512_Wurzburg.html#section-21",
+    "href": "slides/202512_Wurzburg.html#section-21",
+    "title": "Understanding the structure of space",
     "section": "",
     "text": "Projection of UMAP components"
   },
   {
-    "objectID": "slides/202607_Hangzhou.html#section-22",
-    "href": "slides/202607_Hangzhou.html#section-22",
-    "title": "Understanding the structure of space through data",
+    "objectID": "slides/202512_Wurzburg.html#section-22",
+    "href": "slides/202512_Wurzburg.html#section-22",
+    "title": "Understanding the structure of space",
     "section": "",
     "text": "Projection of UMAP components"
   },
   {
-    "objectID": "slides/202607_Hangzhou.html#section-23",
-    "href": "slides/202607_Hangzhou.html#section-23",
-    "title": "Understanding the structure of space through data",
+    "objectID": "slides/202512_Wurzburg.html#section-23",
+    "href": "slides/202512_Wurzburg.html#section-23",
+    "title": "Understanding the structure of space",
     "section": "",
     "text": "Projection of UMAP components"
   },
   {
-    "objectID": "slides/202607_Hangzhou.html#section-24",
-    "href": "slides/202607_Hangzhou.html#section-24",
-    "title": "Understanding the structure of space through data",
+    "objectID": "slides/202512_Wurzburg.html#section-24",
+    "href": "slides/202512_Wurzburg.html#section-24",
+    "title": "Understanding the structure of space",
     "section": "",
     "text": "Projection of UMAP components"
   },
   {
-    "objectID": "slides/202607_Hangzhou.html#section-25",
-    "href": "slides/202607_Hangzhou.html#section-25",
-    "title": "Understanding the structure of space through data",
+    "objectID": "slides/202512_Wurzburg.html#section-25",
+    "href": "slides/202512_Wurzburg.html#section-25",
+    "title": "Understanding the structure of space",
     "section": "",
     "text": "Projection of UMAP components"
   },
   {
-    "objectID": "slides/202607_Hangzhou.html#section-26",
-    "href": "slides/202607_Hangzhou.html#section-26",
-    "title": "Understanding the structure of space through data",
+    "objectID": "slides/202512_Wurzburg.html#section-26",
+    "href": "slides/202512_Wurzburg.html#section-26",
+    "title": "Understanding the structure of space",
     "section": "",
     "text": "Projection of UMAP components"
   },
   {
-    "objectID": "slides/202607_Hangzhou.html#section-27",
-    "href": "slides/202607_Hangzhou.html#section-27",
-    "title": "Understanding the structure of space through data",
+    "objectID": "slides/202512_Wurzburg.html#section-27",
+    "href": "slides/202512_Wurzburg.html#section-27",
+    "title": "Understanding the structure of space",
     "section": "",
     "text": "Projection of UMAP components"
   },
   {
-    "objectID": "slides/202607_Hangzhou.html#do-you-want-to-follow-up",
-    "href": "slides/202607_Hangzhou.html#do-you-want-to-follow-up",
-    "title": "Understanding the structure of space through data",
+    "objectID": "slides/202512_Wurzburg.html#do-you-want-to-follow-up",
+    "href": "slides/202512_Wurzburg.html#do-you-want-to-follow-up",
+    "title": "Understanding the structure of space",
+    "section": "Do you want to follow up",
+    "text": "Do you want to follow up\n uscuni.org/talks\n urbantaxonomy.org\n uscuni.org/neatnet\n github.com/uscuni\n martin.fleischmann@natur.cuni.cz\n martinfleischmann.net\n\n\n\n\nThe authors kindly acknowledge funding by the Charles University’s Primus programme through the project “Influence of Socioeconomic and Cultural Factors on Urban Structure in Central Europe”, project reference PRIMUS/24/SCI/023."
+  },
+  {
+    "objectID": "slides/202510_ITU.html#free",
+    "href": "slides/202510_ITU.html#free",
+    "title": "Open source inside out",
+    "section": "Free",
+    "text": "Free\n\nThink free as in free speech, not free beer.\n\nRichard Stallman"
+  },
+  {
+    "objectID": "slides/202510_ITU.html#section",
+    "href": "slides/202510_ITU.html#section",
+    "title": "Open source inside out",
+    "section": "2011",
+    "text": "2011"
+  },
+  {
+    "objectID": "slides/202510_ITU.html#section-1",
+    "href": "slides/202510_ITU.html#section-1",
+    "title": "Open source inside out",
+    "section": "2016",
+    "text": "2016"
+  },
+  {
+    "objectID": "slides/202510_ITU.html#momepy",
+    "href": "slides/202510_ITU.html#momepy",
+    "title": "Open source inside out",
+    "section": "momepy",
+    "text": "momepy"
+  },
+  {
+    "objectID": "slides/202510_ITU.html#pysal",
+    "href": "slides/202510_ITU.html#pysal",
+    "title": "Open source inside out",
+    "section": "PySAL",
+    "text": "PySAL"
+  },
+  {
+    "objectID": "slides/202510_ITU.html#splot",
+    "href": "slides/202510_ITU.html#splot",
+    "title": "Open source inside out",
+    "section": "splot",
+    "text": "splot"
+  },
+  {
+    "objectID": "slides/202510_ITU.html#pygeos",
+    "href": "slides/202510_ITU.html#pygeos",
+    "title": "Open source inside out",
+    "section": "pygeos",
+    "text": "pygeos"
+  },
+  {
+    "objectID": "slides/202510_ITU.html#geoplot",
+    "href": "slides/202510_ITU.html#geoplot",
+    "title": "Open source inside out",
+    "section": "geoplot",
+    "text": "geoplot"
+  },
+  {
+    "objectID": "slides/202510_ITU.html#a-contributor-1",
+    "href": "slides/202510_ITU.html#a-contributor-1",
+    "title": "Open source inside out",
+    "section": "A contributor",
+    "text": "A contributor\n\n\nDevelopment\nMaintenance\nDocumentation\nDiscussion\nQ&A\nProposals and ideas\n\nTriage\nTeaching\nBug reports\nCommunity management\nBlog posts\n…"
+  },
+  {
+    "objectID": "slides/202504_GISRUK_simplification.html#manual-simplification",
+    "href": "slides/202504_GISRUK_simplification.html#manual-simplification",
+    "title": "Adaptive continuity-preserving simplification of street networks",
+    "section": "Manual simplification",
+    "text": "Manual simplification"
+  },
+  {
+    "objectID": "slides/202504_GISRUK_simplification.html#five-requirements",
+    "href": "slides/202504_GISRUK_simplification.html#five-requirements",
+    "title": "Adaptive continuity-preserving simplification of street networks",
+    "section": "Five requirements",
+    "text": "Five requirements\n\nopen-source\nfully automated\nattribute-agnostic\ncase-agnostic\nfully packaged"
+  },
+  {
+    "objectID": "slides/202504_GISRUK_simplification.html#what-do-you-mean-by-continuity-preserving",
+    "href": "slides/202504_GISRUK_simplification.html#what-do-you-mean-by-continuity-preserving",
+    "title": "Adaptive continuity-preserving simplification of street networks",
+    "section": "What do you mean by “continuity-preserving”",
+    "text": "What do you mean by “continuity-preserving”"
+  },
+  {
+    "objectID": "slides/202504_GISRUK_simplification.html#face-artifact-detection",
+    "href": "slides/202504_GISRUK_simplification.html#face-artifact-detection",
+    "title": "Adaptive continuity-preserving simplification of street networks",
+    "section": "Face artifact detection",
+    "text": "Face artifact detection"
+  },
+  {
+    "objectID": "slides/202504_GISRUK_simplification.html#artifact-classification",
+    "href": "slides/202504_GISRUK_simplification.html#artifact-classification",
+    "title": "Adaptive continuity-preserving simplification of street networks",
+    "section": "Artifact classification",
+    "text": "Artifact classification\n\nartifact polygon contiguity\n\nisolates\npairs\nclusters\n\nnetwork continuity"
+  },
+  {
+    "objectID": "slides/202504_GISRUK_simplification.html#how-close-are-we-to-the-manually-simplified-network",
+    "href": "slides/202504_GISRUK_simplification.html#how-close-are-we-to-the-manually-simplified-network",
+    "title": "Adaptive continuity-preserving simplification of street networks",
+    "section": "How close are we to the manually simplified network",
+    "text": "How close are we to the manually simplified network"
+  },
+  {
+    "objectID": "slides/202603_StAndrews.html#what-is-urban-morphometrics",
+    "href": "slides/202603_StAndrews.html#what-is-urban-morphometrics",
+    "title": "Understanding the structure of space",
+    "section": "What is urban morphometrics",
+    "text": "What is urban morphometrics"
+  },
+  {
+    "objectID": "slides/202603_StAndrews.html#what-is-urban-morphometrics-1",
+    "href": "slides/202603_StAndrews.html#what-is-urban-morphometrics-1",
+    "title": "Understanding the structure of space",
+    "section": "What is urban morphometrics",
+    "text": "What is urban morphometrics\n\n\nA study of urban form through the means of quantitative assessment of its constituent elements.\n\n\nConceptually similar to historico-geographical approach in urban morphology.\nMethodologically embedded in spatial data science and geography."
+  },
+  {
+    "objectID": "slides/202603_StAndrews.html#morphometrics-in-2025",
+    "href": "slides/202603_StAndrews.html#morphometrics-in-2025",
+    "title": "Understanding the structure of space",
+    "section": "Morphometrics in 2025",
+    "text": "Morphometrics in 2025"
+  },
+  {
+    "objectID": "slides/202603_StAndrews.html#data-pain-points",
+    "href": "slides/202603_StAndrews.html#data-pain-points",
+    "title": "Understanding the structure of space",
+    "section": "Data pain points",
+    "text": "Data pain points"
+  },
+  {
+    "objectID": "slides/202603_StAndrews.html#section",
+    "href": "slides/202603_StAndrews.html#section",
+    "title": "Understanding the structure of space",
+    "section": "",
+    "text": "Transportation vs manually-derived morphological representation of a street network"
+  },
+  {
+    "objectID": "slides/202603_StAndrews.html#what-to-do",
+    "href": "slides/202603_StAndrews.html#what-to-do",
+    "title": "Understanding the structure of space",
+    "section": "What to do",
+    "text": "What to do"
+  },
+  {
+    "objectID": "slides/202603_StAndrews.html#adaptive-continuity-preserving-simplification-of-street-networks",
+    "href": "slides/202603_StAndrews.html#adaptive-continuity-preserving-simplification-of-street-networks",
+    "title": "Understanding the structure of space",
+    "section": "Adaptive continuity-preserving simplification of street networks",
+    "text": "Adaptive continuity-preserving simplification of street networks\n\n\nFleischmann, M., Vybornova, A., Gaboardi, J.D., Brázdová, A., Dančejová, D., 2026. Adaptive continuity-preserving simplification of street networks. Computers, Environment and Urban Systems 123, 102354. https://doi.org/10.1016/j.compenvurbsys.2025.102354"
+  },
+  {
+    "objectID": "slides/202603_StAndrews.html#section-1",
+    "href": "slides/202603_StAndrews.html#section-1",
+    "title": "Understanding the structure of space",
+    "section": "",
+    "text": "Output of different simplification methods for a street network fragment in Seraing, Liège (Belgium)."
+  },
+  {
+    "objectID": "slides/202603_StAndrews.html#section-3",
+    "href": "slides/202603_StAndrews.html#section-3",
+    "title": "Understanding the structure of space",
+    "section": "",
+    "text": "Morphological tessellation"
+  },
+  {
+    "objectID": "slides/202603_StAndrews.html#section-4",
+    "href": "slides/202603_StAndrews.html#section-4",
+    "title": "Understanding the structure of space",
+    "section": "",
+    "text": "Enclosed tessellation"
+  },
+  {
+    "objectID": "slides/202603_StAndrews.html#idea-of-a-morphotope",
+    "href": "slides/202603_StAndrews.html#idea-of-a-morphotope",
+    "title": "Understanding the structure of space",
+    "section": "Idea of a morphotope",
+    "text": "Idea of a morphotope\n\n\n\nexcerpt from Larkham and Jones, 1991"
+  },
+  {
+    "objectID": "slides/202603_StAndrews.html#how-to-capture-it",
+    "href": "slides/202603_StAndrews.html#how-to-capture-it",
+    "title": "Understanding the structure of space",
+    "section": "How to capture it",
+    "text": "How to capture it"
+  },
+  {
+    "objectID": "slides/202603_StAndrews.html#section-11",
+    "href": "slides/202603_StAndrews.html#section-11",
+    "title": "Understanding the structure of space",
+    "section": "",
+    "text": "Illustration of different levels of the hierarchy."
+  },
+  {
+    "objectID": "slides/202603_StAndrews.html#section-12",
+    "href": "slides/202603_StAndrews.html#section-12",
+    "title": "Understanding the structure of space",
+    "section": "",
+    "text": "Illustration of different levels of the hierarchy."
+  },
+  {
+    "objectID": "slides/202603_StAndrews.html#section-13",
+    "href": "slides/202603_StAndrews.html#section-13",
+    "title": "Understanding the structure of space",
+    "section": "",
+    "text": "Illustration of different levels of the hierarchy."
+  },
+  {
+    "objectID": "slides/202603_StAndrews.html#section-14",
+    "href": "slides/202603_StAndrews.html#section-14",
+    "title": "Understanding the structure of space",
+    "section": "",
+    "text": "urbantaxonomy.org"
+  },
+  {
+    "objectID": "slides/202603_StAndrews.html#section-17",
+    "href": "slides/202603_StAndrews.html#section-17",
+    "title": "Understanding the structure of space",
+    "section": "",
+    "text": "UMAP components reflecting the composition within 50km grid."
+  },
+  {
+    "objectID": "slides/202603_StAndrews.html#section-18",
+    "href": "slides/202603_StAndrews.html#section-18",
+    "title": "Understanding the structure of space",
+    "section": "",
+    "text": "Projection of UMAP components"
+  },
+  {
+    "objectID": "slides/202603_StAndrews.html#section-19",
+    "href": "slides/202603_StAndrews.html#section-19",
+    "title": "Understanding the structure of space",
+    "section": "",
+    "text": "Projection of UMAP components"
+  },
+  {
+    "objectID": "slides/202603_StAndrews.html#section-20",
+    "href": "slides/202603_StAndrews.html#section-20",
+    "title": "Understanding the structure of space",
+    "section": "",
+    "text": "Projection of UMAP components"
+  },
+  {
+    "objectID": "slides/202603_StAndrews.html#section-21",
+    "href": "slides/202603_StAndrews.html#section-21",
+    "title": "Understanding the structure of space",
+    "section": "",
+    "text": "Projection of UMAP components"
+  },
+  {
+    "objectID": "slides/202603_StAndrews.html#section-22",
+    "href": "slides/202603_StAndrews.html#section-22",
+    "title": "Understanding the structure of space",
+    "section": "",
+    "text": "Projection of UMAP components"
+  },
+  {
+    "objectID": "slides/202603_StAndrews.html#section-23",
+    "href": "slides/202603_StAndrews.html#section-23",
+    "title": "Understanding the structure of space",
+    "section": "",
+    "text": "Projection of UMAP components"
+  },
+  {
+    "objectID": "slides/202603_StAndrews.html#section-24",
+    "href": "slides/202603_StAndrews.html#section-24",
+    "title": "Understanding the structure of space",
+    "section": "",
+    "text": "Projection of UMAP components"
+  },
+  {
+    "objectID": "slides/202603_StAndrews.html#section-25",
+    "href": "slides/202603_StAndrews.html#section-25",
+    "title": "Understanding the structure of space",
+    "section": "",
+    "text": "Projection of UMAP components"
+  },
+  {
+    "objectID": "slides/202603_StAndrews.html#section-26",
+    "href": "slides/202603_StAndrews.html#section-26",
+    "title": "Understanding the structure of space",
+    "section": "",
+    "text": "Projection of UMAP components"
+  },
+  {
+    "objectID": "slides/202603_StAndrews.html#section-27",
+    "href": "slides/202603_StAndrews.html#section-27",
+    "title": "Understanding the structure of space",
+    "section": "",
+    "text": "Projection of UMAP components"
+  },
+  {
+    "objectID": "slides/202603_StAndrews.html#do-you-want-to-follow-up",
+    "href": "slides/202603_StAndrews.html#do-you-want-to-follow-up",
+    "title": "Understanding the structure of space",
     "section": "Do you want to follow up",
     "text": "Do you want to follow up\n uscuni.org/talks\n urbantaxonomy.org\n github.com/uscuni/urban_taxonomy\n martin.fleischmann@natur.cuni.cz\n martinfleischmann.net\n\n\n\n\nThe authors kindly acknowledge funding by the Charles University’s Primus programme through the project “Influence of Socioeconomic and Cultural Factors on Urban Structure in Central Europe”, project reference PRIMUS/24/SCI/023."
   },
   {
-    "objectID": "slides/202511_ILUS_Anna.html#interplay-between-population-and-built-form",
-    "href": "slides/202511_ILUS_Anna.html#interplay-between-population-and-built-form",
-    "title": "Interaction of Spatial and Social Structure",
-    "section": "Interplay between population and built form",
-    "text": "Interplay between population and built form\nUnderstand built-up patterns of housing types and the ability of different population to inhabit them."
+    "objectID": "slides/202506_ISUF.html#what-is-urban-morphometrics",
+    "href": "slides/202506_ISUF.html#what-is-urban-morphometrics",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "What is urban morphometrics",
+    "text": "What is urban morphometrics"
   },
   {
-    "objectID": "slides/202511_ILUS_Anna.html#relationship-between-social-structure-and-built-form",
-    "href": "slides/202511_ILUS_Anna.html#relationship-between-social-structure-and-built-form",
-    "title": "Interaction of Spatial and Social Structure",
-    "section": "Relationship between social structure and built form",
-    "text": "Relationship between social structure and built form\nSpatial configuration, urban design, and morphology actively shape social interactions, mobility, and segregation\nQualitative methods and quantitative methods\nUrban morphometrics - deprivation prediction\nRarely been empirically measured"
+    "objectID": "slides/202506_ISUF.html#what-is-urban-morphometrics-1",
+    "href": "slides/202506_ISUF.html#what-is-urban-morphometrics-1",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "What is urban morphometrics",
+    "text": "What is urban morphometrics\n\n\nA study of urban form through the means of quantitative assessment of its constituent elements.\n\n\nConceptually similar to historico-geographical approach.\nMethodologically embedded in spatial data science and geography."
   },
   {
-    "objectID": "slides/202511_ILUS_Anna.html#how-strong-are-the-associations-between-built-form-and-population",
-    "href": "slides/202511_ILUS_Anna.html#how-strong-are-the-associations-between-built-form-and-population",
-    "title": "Interaction of Spatial and Social Structure",
-    "section": "How strong are the associations between built form and population",
-    "text": "How strong are the associations between built form and population"
+    "objectID": "slides/202506_ISUF.html#morphometrics-in-2025",
+    "href": "slides/202506_ISUF.html#morphometrics-in-2025",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "Morphometrics in 2025",
+    "text": "Morphometrics in 2025"
   },
   {
-    "objectID": "slides/202511_ILUS_Anna.html#systematic-exploration-of-the-associations",
-    "href": "slides/202511_ILUS_Anna.html#systematic-exploration-of-the-associations",
-    "title": "Interaction of Spatial and Social Structure",
-    "section": "Systematic exploration of the associations",
-    "text": "Systematic exploration of the associations\nHow to measure the relationship between social structure and the built form?\nDoes the relationship differ across different built form types?\nIs the relationship consistent or spatially variable?"
+    "objectID": "slides/202506_ISUF.html#idea-of-a-morphotope",
+    "href": "slides/202506_ISUF.html#idea-of-a-morphotope",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "Idea of a morphotope",
+    "text": "Idea of a morphotope\n\n\n\nexcerpt from Larkham and Jones, 1991"
   },
   {
-    "objectID": "slides/202511_ILUS_Anna.html#morphometric-classification",
-    "href": "slides/202511_ILUS_Anna.html#morphometric-classification",
-    "title": "Interaction of Spatial and Social Structure",
-    "section": "Morphometric classification",
-    "text": "Morphometric classification\nQuantitative identification of built form types.\nBased on similar morphological characteristics shared by street segments and building footprints.\nFocuses on geometry and spatial configuration within the built fabric."
+    "objectID": "slides/202506_ISUF.html#how-to-capture-it",
+    "href": "slides/202506_ISUF.html#how-to-capture-it",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "How to capture it",
+    "text": "How to capture it"
   },
   {
-    "objectID": "slides/202511_ILUS_Anna.html#section",
-    "href": "slides/202511_ILUS_Anna.html#section",
-    "title": "Interaction of Spatial and Social Structure",
+    "objectID": "slides/202506_ISUF.html#flexible-definition-of-built-up-fabric",
+    "href": "slides/202506_ISUF.html#flexible-definition-of-built-up-fabric",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "Flexible definition of built-up fabric",
+    "text": "Flexible definition of built-up fabric"
+  },
+  {
+    "objectID": "slides/202506_ISUF.html#section-1",
+    "href": "slides/202506_ISUF.html#section-1",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
     "section": "",
-    "text": "https://urbantaxonomy.org/map.html"
+    "text": "Illustration of different levels of the hierarchy."
   },
   {
-    "objectID": "slides/202511_ILUS_Anna.html#scale",
-    "href": "slides/202511_ILUS_Anna.html#scale",
-    "title": "Interaction of Spatial and Social Structure",
+    "objectID": "slides/202506_ISUF.html#geography-and-urban-structure",
+    "href": "slides/202506_ISUF.html#geography-and-urban-structure",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "Geography and urban structure",
+    "text": "Geography and urban structure"
+  },
+  {
+    "objectID": "slides/202506_ISUF.html#spatial-clustering",
+    "href": "slides/202506_ISUF.html#spatial-clustering",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "Spatial clustering",
+    "text": "Spatial clustering"
+  },
+  {
+    "objectID": "slides/202506_ISUF.html#boundaries-of-impact",
+    "href": "slides/202506_ISUF.html#boundaries-of-impact",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "Boundaries of impact",
+    "text": "Boundaries of impact"
+  },
+  {
+    "objectID": "slides/202506_ISUF.html#times-have-changed.-methods-have-changed.-concepts-those-only-evolved",
+    "href": "slides/202506_ISUF.html#times-have-changed.-methods-have-changed.-concepts-those-only-evolved",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "Times have changed. Methods have changed. Concepts? Those only evolved",
+    "text": "Times have changed. Methods have changed. Concepts? Those only evolved"
+  },
+  {
+    "objectID": "slides/202506_ISUF.html#urban-morphology-can-be-deeply-embedded-in-spatial-data-science",
+    "href": "slides/202506_ISUF.html#urban-morphology-can-be-deeply-embedded-in-spatial-data-science",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "Urban morphology can be deeply embedded in spatial data science",
+    "text": "Urban morphology can be deeply embedded in spatial data science"
+  },
+  {
+    "objectID": "slides/202506_ISUF.html#urban-morphometrics-can-support-quantitative-studies-done-at-scale",
+    "href": "slides/202506_ISUF.html#urban-morphometrics-can-support-quantitative-studies-done-at-scale",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "Urban morphometrics can support quantitative studies done at scale",
+    "text": "Urban morphometrics can support quantitative studies done at scale"
+  },
+  {
+    "objectID": "slides/202506_ISUF.html#we-can-ask-questions-like-never-before",
+    "href": "slides/202506_ISUF.html#we-can-ask-questions-like-never-before",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "We can ask questions like never before",
+    "text": "We can ask questions like never before"
+  },
+  {
+    "objectID": "slides/202506_ISUF.html#do-you-want-to-follow-up",
+    "href": "slides/202506_ISUF.html#do-you-want-to-follow-up",
+    "title": "Understanding cross-regional patterns of urban form using hierarchical morphotope classification",
+    "section": "Do you want to follow up",
+    "text": "Do you want to follow up\n uscuni.org/talks\n uscuni.org/himoc\n github.com/uscuni/urban_taxonomy\n martin.fleischmann@natur.cuni.cz\n martinfleischmann.net\n\n\n\n\nThe authors kindly acknowledge funding by the Charles University’s Primus programme through the project “Influence of Socioeconomic and Cultural Factors on Urban Structure in Central Europe”, project reference PRIMUS/24/SCI/023."
+  },
+  {
+    "objectID": "slides/202409_SDSL.html#section",
+    "href": "slides/202409_SDSL.html#section",
+    "title": "Spatial Data Science across Languages",
+    "section": "",
+    "text": "Vinohrady Brewery"
+  },
+  {
+    "objectID": "slides/202409_SDSL.html#personal-reflections",
+    "href": "slides/202409_SDSL.html#personal-reflections",
+    "title": "Spatial Data Science across Languages",
+    "section": "Personal reflections",
+    "text": "Personal reflections"
+  },
+  {
+    "objectID": "slides/202409_SDSL.html#working-paper",
+    "href": "slides/202409_SDSL.html#working-paper",
+    "title": "Spatial Data Science across Languages",
+    "section": "Working paper",
+    "text": "Working paper"
+  },
+  {
+    "objectID": "slides/202610_CENUM.html#section-2",
+    "href": "slides/202610_CENUM.html#section-2",
+    "title": "Cities through the lens of spatial data science",
+    "section": "",
+    "text": "urbantaxonomy.org"
+  },
+  {
+    "objectID": "slides/202610_CENUM.html#section-9",
+    "href": "slides/202610_CENUM.html#section-9",
+    "title": "Cities through the lens of spatial data science",
+    "section": "",
+    "text": "Illustration of different levels of the hierarchy."
+  },
+  {
+    "objectID": "slides/202610_CENUM.html#section-10",
+    "href": "slides/202610_CENUM.html#section-10",
+    "title": "Cities through the lens of spatial data science",
+    "section": "",
+    "text": "Illustration of different levels of the hierarchy."
+  },
+  {
+    "objectID": "slides/202610_CENUM.html#section-11",
+    "href": "slides/202610_CENUM.html#section-11",
+    "title": "Cities through the lens of spatial data science",
+    "section": "",
+    "text": "Illustration of different levels of the hierarchy."
+  },
+  {
+    "objectID": "slides/202610_CENUM.html#section-14",
+    "href": "slides/202610_CENUM.html#section-14",
+    "title": "Cities through the lens of spatial data science",
+    "section": "",
+    "text": "UMAP components reflecting the composition within 50km grid."
+  },
+  {
+    "objectID": "slides/202610_CENUM.html#section-15",
+    "href": "slides/202610_CENUM.html#section-15",
+    "title": "Cities through the lens of spatial data science",
+    "section": "",
+    "text": "Projection of UMAP components"
+  },
+  {
+    "objectID": "slides/202610_CENUM.html#section-16",
+    "href": "slides/202610_CENUM.html#section-16",
+    "title": "Cities through the lens of spatial data science",
+    "section": "",
+    "text": "Projection of UMAP components"
+  },
+  {
+    "objectID": "slides/202610_CENUM.html#section-17",
+    "href": "slides/202610_CENUM.html#section-17",
+    "title": "Cities through the lens of spatial data science",
+    "section": "",
+    "text": "Projection of UMAP components"
+  },
+  {
+    "objectID": "slides/202610_CENUM.html#section-18",
+    "href": "slides/202610_CENUM.html#section-18",
+    "title": "Cities through the lens of spatial data science",
+    "section": "",
+    "text": "Projection of UMAP components"
+  },
+  {
+    "objectID": "slides/202610_CENUM.html#section-19",
+    "href": "slides/202610_CENUM.html#section-19",
+    "title": "Cities through the lens of spatial data science",
+    "section": "",
+    "text": "Projection of UMAP components"
+  },
+  {
+    "objectID": "slides/202610_CENUM.html#section-20",
+    "href": "slides/202610_CENUM.html#section-20",
+    "title": "Cities through the lens of spatial data science",
+    "section": "",
+    "text": "Projection of UMAP components"
+  },
+  {
+    "objectID": "slides/202610_CENUM.html#section-21",
+    "href": "slides/202610_CENUM.html#section-21",
+    "title": "Cities through the lens of spatial data science",
+    "section": "",
+    "text": "Projection of UMAP components"
+  },
+  {
+    "objectID": "slides/202610_CENUM.html#section-22",
+    "href": "slides/202610_CENUM.html#section-22",
+    "title": "Cities through the lens of spatial data science",
+    "section": "",
+    "text": "Projection of UMAP components"
+  },
+  {
+    "objectID": "slides/202610_CENUM.html#section-23",
+    "href": "slides/202610_CENUM.html#section-23",
+    "title": "Cities through the lens of spatial data science",
+    "section": "",
+    "text": "Projection of UMAP components"
+  },
+  {
+    "objectID": "slides/202610_CENUM.html#section-24",
+    "href": "slides/202610_CENUM.html#section-24",
+    "title": "Cities through the lens of spatial data science",
+    "section": "",
+    "text": "Projection of UMAP components"
+  },
+  {
+    "objectID": "slides/202610_CENUM.html#scale",
+    "href": "slides/202610_CENUM.html#scale",
+    "title": "Cities through the lens of spatial data science",
     "section": "Scale",
     "text": "Scale\n\n\nBasic Settlement Units\n20 000 BSU in Czechia\nDelineated based on urban fabric"
   },
   {
-    "objectID": "slides/202511_ILUS_Anna.html#census-variables",
-    "href": "slides/202511_ILUS_Anna.html#census-variables",
-    "title": "Interaction of Spatial and Social Structure",
+    "objectID": "slides/202610_CENUM.html#census-variables",
+    "href": "slides/202610_CENUM.html#census-variables",
+    "title": "Cities through the lens of spatial data science",
     "section": "Census variables",
     "text": "Census variables\n\nPopulation density\nAge structure\nEmployment sector\nEmployment status\nDwelling ownership\n\nEducation level\nHousehold size\nCitizenship\nReligion\nMarital status"
   },
   {
-    "objectID": "slides/202511_ILUS_Anna.html#census-processing",
-    "href": "slides/202511_ILUS_Anna.html#census-processing",
-    "title": "Interaction of Spatial and Social Structure",
+    "objectID": "slides/202610_CENUM.html#census-processing",
+    "href": "slides/202610_CENUM.html#census-processing",
+    "title": "Cities through the lens of spatial data science",
     "section": "Census processing",
     "text": "Census processing"
   },
   {
-    "objectID": "slides/202511_ILUS_Anna.html#global-modelling",
-    "href": "slides/202511_ILUS_Anna.html#global-modelling",
-    "title": "Interaction of Spatial and Social Structure",
-    "section": "Global modelling",
-    "text": "Global modelling\nLogistic Regression - 0.098\nRandom Forest Classification - 0.377"
-  },
-  {
-    "objectID": "slides/202511_ILUS_Anna.html#geographically-weighted-modelling",
-    "href": "slides/202511_ILUS_Anna.html#geographically-weighted-modelling",
-    "title": "Interaction of Spatial and Social Structure",
-    "section": "Geographically weighted modelling",
-    "text": "Geographically weighted modelling\nGlobal models do not account for the geographic variation in the relationship.\nGeographically weighted models capture this by applying local models rather than a single global model."
-  },
-  {
-    "objectID": "slides/202511_ILUS_Anna.html#geographically-weighted-classification",
-    "href": "slides/202511_ILUS_Anna.html#geographically-weighted-classification",
-    "title": "Interaction of Spatial and Social Structure",
-    "section": "Geographically weighted classification",
-    "text": "Geographically weighted classification\nSimilar in concept to Geographically Weighted Regression (GWR).\nCategorical or class-based outcomes.\nSeparate classifier for each location using data weighted by geographic proximity."
-  },
-  {
-    "objectID": "slides/202511_ILUS_Anna.html#results",
-    "href": "slides/202511_ILUS_Anna.html#results",
-    "title": "Interaction of Spatial and Social Structure",
+    "objectID": "slides/202610_CENUM.html#results",
+    "href": "slides/202610_CENUM.html#results",
+    "title": "Cities through the lens of spatial data science",
     "section": "Results",
-    "text": "Results\n\n\n\nAveraged F1 macro score"
+    "text": "Results\n\n\n\n\n\n\n\nAveraged F1-macro score."
   },
   {
-    "objectID": "slides/202511_ILUS_Anna.html#results-1",
-    "href": "slides/202511_ILUS_Anna.html#results-1",
-    "title": "Interaction of Spatial and Social Structure",
+    "objectID": "slides/202610_CENUM.html#results-1",
+    "href": "slides/202610_CENUM.html#results-1",
+    "title": "Cities through the lens of spatial data science",
     "section": "Results",
-    "text": "Results\n\n\n\nAveraged F1 macro score"
+    "text": "Results\n\n\n\n\n\n\n\nAveraged F1-macro score."
   },
   {
-    "objectID": "slides/202511_ILUS_Anna.html#results-2",
-    "href": "slides/202511_ILUS_Anna.html#results-2",
-    "title": "Interaction of Spatial and Social Structure",
+    "objectID": "slides/202610_CENUM.html#results-2",
+    "href": "slides/202610_CENUM.html#results-2",
+    "title": "Cities through the lens of spatial data science",
     "section": "Results",
-    "text": "Results\n\n\n\nAveraged F1 macro score"
+    "text": "Results\n\n\n\n\n\n\n\nAveraged F1-macro score."
   },
   {
-    "objectID": "slides/202511_ILUS_Anna.html#conclusion",
-    "href": "slides/202511_ILUS_Anna.html#conclusion",
-    "title": "Interaction of Spatial and Social Structure",
+    "objectID": "slides/202610_CENUM.html#do-you-want-to-follow-up",
+    "href": "slides/202610_CENUM.html#do-you-want-to-follow-up",
+    "title": "Cities through the lens of spatial data science",
+    "section": "Do you want to follow up",
+    "text": "Do you want to follow up\n uscuni.org\n urbantaxonomy.org\n github.com/uscuni\n martin.fleischmann@natur.cuni.cz\n martinfleischmann.net\n\n\n\n\nThe authors kindly acknowledge funding by the Charles University’s Primus programme through the project “Influence of Socioeconomic and Cultural Factors on Urban Structure in Central Europe”, project reference PRIMUS/24/SCI/023."
+  },
+  {
+    "objectID": "slides/tumturk_plot_types.html#introduction-research-gap",
+    "href": "slides/tumturk_plot_types.html#introduction-research-gap",
+    "title": "Measuring the Impact of Plot Types on Physical Change",
+    "section": "Introduction & Research Gap",
+    "text": "Introduction & Research Gap"
+  },
+  {
+    "objectID": "slides/tumturk_plot_types.html#theoretical-background-hypotheses",
+    "href": "slides/tumturk_plot_types.html#theoretical-background-hypotheses",
+    "title": "Measuring the Impact of Plot Types on Physical Change",
+    "section": "Theoretical Background & Hypotheses",
+    "text": "Theoretical Background & Hypotheses"
+  },
+  {
+    "objectID": "slides/tumturk_plot_types.html#case-studies-data-framework",
+    "href": "slides/tumturk_plot_types.html#case-studies-data-framework",
+    "title": "Measuring the Impact of Plot Types on Physical Change",
+    "section": "Case Studies & Data Framework",
+    "text": "Case Studies & Data Framework"
+  },
+  {
+    "objectID": "slides/tumturk_plot_types.html#methodological-workflow",
+    "href": "slides/tumturk_plot_types.html#methodological-workflow",
+    "title": "Measuring the Impact of Plot Types on Physical Change",
+    "section": "Methodological Workflow",
+    "text": "Methodological Workflow\n\nVectorize Historical GIS Data\nCompute Configurational Plot Variables (400m Reach)\n\\(k\\)-means Cluster Analysis\nPearson’s Chi-Square Test"
+  },
+  {
+    "objectID": "slides/tumturk_plot_types.html#configurational-variables-defined",
+    "href": "slides/tumturk_plot_types.html#configurational-variables-defined",
+    "title": "Measuring the Impact of Plot Types on Physical Change",
+    "section": "Configurational Variables Defined",
+    "text": "Configurational Variables Defined\n\n\n\n\n\n\n\n\n\nMetric\nCode\nMorphological Meaning\n\n\n\n\nAccessible Plot Density\n\\(\\text{APD}\\)\nTotal number of accessible plots within 400m reach. Captures urban grain fineness.\n\n\nAccessible Plot Frontage\n\\(\\text{APF}\\)\nCumulative street frontage length divided by cumulative plot perimeter. Captures narrowness vs. broadness.\n\n\nAccessible Plot Compactness\n\\(\\text{APC}\\)\nCumulative plot area divided by cumulative minimum bounding rectangle area. Captures shape regularity.\n\n\n\n\\[\\text{Physical Change} = \\begin{cases} 1 & \\text{Building Demolition or Construction} \\\\ 0 & \\text{Building Persistence} \\end{cases}\\]"
+  },
+  {
+    "objectID": "slides/tumturk_plot_types.html#the-four-plot-typologies",
+    "href": "slides/tumturk_plot_types.html#the-four-plot-typologies",
+    "title": "Measuring the Impact of Plot Types on Physical Change",
+    "section": "The Four Plot Typologies",
+    "text": "The Four Plot Typologies\nClusters derived from \\(k\\)-means analysis across all case studies:\n\n\nPT1 (Medium-Grain / Medium-Front / Medium-Compact):\n\nAverage accessibility, deeper plots, relatively irregular subdivision shapes.\n\nPT2 (Medium-Grain / Medium-Front / Compact):\n\nTransitional type; higher accessibility than PT1, regular and highly compact.\n\nPT3 (Fine-Grain / Narrow-Front / Compact):\n\nHighest plot accessibility, narrow street frontages, small regular plots (Fine-grain par excellence).\n\nPT4 (Coarse-Grain / Broad-Front / Medium-Compact):\n\nLowest plot density, expansive street frontages, often occupying full/half urban blocks."
+  },
+  {
+    "objectID": "slides/tumturk_plot_types.html#evolution-across-time-and-space",
+    "href": "slides/tumturk_plot_types.html#evolution-across-time-and-space",
+    "title": "Measuring the Impact of Plot Types on Physical Change",
+    "section": "Evolution Across Time and Space",
+    "text": "Evolution Across Time and Space"
+  },
+  {
+    "objectID": "slides/tumturk_plot_types.html#key-finding-plot-types-vs.-physical-change",
+    "href": "slides/tumturk_plot_types.html#key-finding-plot-types-vs.-physical-change",
+    "title": "Measuring the Impact of Plot Types on Physical Change",
+    "section": "Key Finding: Plot Types vs. Physical Change",
+    "text": "Key Finding: Plot Types vs. Physical Change\nA Pearson’s chi-square test of independence confirmed a statistically significant relationship (\\(\\chi^2 = 360.57, p &lt; 0.001\\))."
+  },
+  {
+    "objectID": "slides/tumturk_plot_types.html#discussion-theoretical-contributions",
+    "href": "slides/tumturk_plot_types.html#discussion-theoretical-contributions",
+    "title": "Measuring the Impact of Plot Types on Physical Change",
+    "section": "Discussion & Theoretical Contributions",
+    "text": "Discussion & Theoretical Contributions"
+  },
+  {
+    "objectID": "slides/tumturk_plot_types.html#implications-for-design-planning",
+    "href": "slides/tumturk_plot_types.html#implications-for-design-planning",
+    "title": "Measuring the Impact of Plot Types on Physical Change",
+    "section": "Implications for Design & Planning",
+    "text": "Implications for Design & Planning"
+  },
+  {
+    "objectID": "slides/tumturk_plot_types.html#limitations-future-directions",
+    "href": "slides/tumturk_plot_types.html#limitations-future-directions",
+    "title": "Measuring the Impact of Plot Types on Physical Change",
+    "section": "Limitations & Future Directions",
+    "text": "Limitations & Future Directions"
+  },
+  {
+    "objectID": "slides/tumturk_plot_types.html#conclusion",
+    "href": "slides/tumturk_plot_types.html#conclusion",
+    "title": "Measuring the Impact of Plot Types on Physical Change",
     "section": "Conclusion",
-    "text": "Conclusion\nLocally linear but globally heterogeneous.\nSpecific relationship between social structure and different built form types.\nIn some locations, education, ownership regime and employment status strongly increase the probability of belonging to specific built forms.\nPreliminary results, would appreciate some feedback!"
+    "text": "Conclusion\nPlots as Frameworks:\n\nPlot patterns act as active structural frameworks that guide long-term urban evolution."
   },
   {
     "objectID": "slides/202504_Berkeley.html#open-by-default",
