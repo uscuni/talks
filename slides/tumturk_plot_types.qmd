@@ -287,6 +287,10 @@ A Pearson's chi-square test of independence confirmed a **statistically signific
 
 ![](../figures/reading/Screenshot%202026-10-20%20at%2011.15.58.png)
 
+---
+
 ### What do you think about the methods? {.question}
+
+---
 
 ### Can we do that in Prague? What would be the outcome? {.question}
