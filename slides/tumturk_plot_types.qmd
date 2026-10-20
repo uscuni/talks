@@ -1,0 +1,292 @@
+---
+title: "Measuring the Impact of Plot Types on Physical Change"
+subtitle: "A Diachronic Analysis of Urban Form Evolution in New York, Melbourne, and Barcelona"
+author: "Onur Tümtürk, Justyna Karakiewicz, Fjalar J. de Haan"
+institute: "The University of Melbourne"
+# date: "2024"
+format:
+    revealjs:
+        theme: [default, ../assets/reveal.scss]
+        logo: ../assets/icon.svg
+        menu: false
+        transition: fade
+        navigation-mode: linear
+        controls-layout: edges
+        progress: true
+        include-in-header:
+            - ../assets/font.html
+            - text: |
+                <style>
+                #title-slide .title {
+                    font-size: 50px;
+                }
+                </style>
+        # title-slide-attributes:
+        #     data-background-image: ../assets/full_logo.svg
+        #     data-background-size: 20%
+        #     data-background-position: 50% 90%
+        max-scale: 10
+---
+
+## Introduction & Research Gap
+
+---
+
+**Urban Form as Active Determinant:** Urban form constrains or facilitates how cities adapt to environmental and social disturbances.
+
+---
+
+**Understudied Element:** Plots are acknowledged as fundamental morphological units, yet remain the least studied aspect of urban form.
+
+---
+
+### Methodological Gap
+
+* Historical studies are qualitative and rely on isolated geometric measures (size, shape).
+* 95% of recent quantitative studies are **synchronic** (single timeframe).
+
+---
+
+### Research Aim
+
+> Investigate the diachronic relationship between multi-variable plot typologies and patterns of physical building change across nearly two centuries.
+
+
+---
+
+## Theoretical Background & Hypotheses
+
+---
+
+### Geometric vs. Configurational Approaches
+* **Geometric:** Measures individual plot properties in isolation (e.g., plot area, individual frontage).
+* **Configurational:** Measures the relational properties of **plot structures** within an accessible catchment (e.g., 400m walking reach).
+
+---
+
+### Key Morphological Hypothesis
+* **Fine-grained, narrow, compact plot patterns** foster distributed control among diverse actors, increasing transaction costs/efforts for parcel amalgamation and resulting in **higher resistance to physical building replacement**.
+* **Coarse-grained, broad plot patterns** lower transformation friction, accelerating building demolition and replacement.
+
+---
+
+## Case Studies & Data Framework
+
+---
+
+### Comparative Case Studies (2.5 km² central grids + 400m buffer)
+1. **New York (Midtown):** Established grid with intense vertical & horizontal transformation.
+2. **Melbourne (CBD):** Large block structure with rapid coarsening over time.
+3. **Barcelona (Eixample):** Octagonal block structures with chamfered corners.
+
+---
+
+![](../figures/reading/Screenshot%202026-10-20%20at%2011.06.43.png)
+
+---
+
+### Temporal Boundaries (~40–50 year intervals)
+* **Timeframes:** Late 1800s ($T_1$), Early 1900s ($T_2$), Mid-1900s ($T_3$), 2000s ($T_4$).
+* **Data Sources:** Georeferenced historical maps, cadastral plans, and digital databases vectorized in QGIS.
+
+---
+
+## Methodological Workflow
+
+
+1. Vectorize Historical GIS Data
+2. Compute Configurational Plot Variables (400m Reach) 
+3. $k$-means Cluster Analysis
+4. Pearson's Chi-Square Test
+
+
+---
+
+## Configurational Variables Defined
+
+::: {style="font-size: 0.5em;"}
+
+| Metric | Code | Morphological Meaning |
+| :--- | :--- | :--- |
+| **Accessible Plot Density** | $\text{APD}$ | Total number of accessible plots within 400m reach. Captures urban grain fineness. |
+| **Accessible Plot Frontage** | $\text{APF}$ | Cumulative street frontage length divided by cumulative plot perimeter. Captures narrowness vs. broadness. |
+| **Accessible Plot Compactness** | $\text{APC}$ | Cumulative plot area divided by cumulative minimum bounding rectangle area. Captures shape regularity. |
+
+
+$$\text{Physical Change} = \begin{cases} 1 & \text{Building Demolition or Construction} \\ 0 & \text{Building Persistence} \end{cases}$$
+
+:::
+
+---
+
+![](../figures/reading/Screenshot%202026-10-20%20at%2011.08.46.png)
+
+---
+
+![](../figures/reading/Screenshot%202026-10-20%20at%2011.08.57.png)
+
+## The Four Plot Typologies
+
+Clusters derived from $k$-means analysis across all case studies:
+
+::: {style="font-size: 0.5em;"}
+
+1. **PT1 (Medium-Grain / Medium-Front / Medium-Compact):**
+   * Average accessibility, deeper plots, relatively irregular subdivision shapes.
+2. **PT2 (Medium-Grain / Medium-Front / Compact):**
+   * Transitional type; higher accessibility than PT1, regular and highly compact.
+3. **PT3 (Fine-Grain / Narrow-Front / Compact):**
+   * Highest plot accessibility, narrow street frontages, small regular plots (*Fine-grain par excellence*).
+4. **PT4 (Coarse-Grain / Broad-Front / Medium-Compact):**
+   * Lowest plot density, expansive street frontages, often occupying full/half urban blocks.
+:::
+
+---
+
+![](../figures/reading/Screenshot%202026-10-20%20at%2011.09.17.png)
+
+## Evolution Across Time and Space
+
+---
+
+### New York (Midtown)
+* Transitioned from **PT3 dominant** (88.2% in $T_1$) to a mix dominated by PT2 and coarse-grained PT4 (26.2% by $T_4$).
+
+---
+
+![](../figures/reading/Screenshot%202026-10-20%20at%2011.09.53.png)
+
+---
+
+### Melbourne (CBD)
+* Rapid transformation from PT2/PT1 towards coarse-grained PT4 (82.9% by $T_3$).
+* By $T_4$, transformed into a **homogenous coarse-grained plot structure** (100% PT4).
+
+---
+
+![](../figures/reading/Screenshot%202026-10-20%20at%2011.10.03.png)
+
+
+---
+
+### Barcelona (Eixample)
+* **Remarkably persistent:** Maintained over **99% PT1** across all four time periods. Physical changes were accommodated *within existing plot boundaries* without parcel amalgamation.
+
+---
+
+![](../figures/reading/Screenshot%202026-10-20%20at%2011.10.11.png)
+
+
+
+---
+
+## Key Finding: Plot Types vs. Physical Change
+
+A Pearson's chi-square test of independence confirmed a **statistically significant relationship** ($\chi^2 = 360.57, p < 0.001$).
+
+---
+
+![](../figures/reading/Screenshot%202026-10-20%20at%2011.15.38.png)
+
+
+
+---
+
+
+### Core Conclusion:
+
+> Coarse-grained, broad plot configurations (PT4) are **nearly 50% more susceptible** to physical building demolition and replacement compared to fine-grained, narrow configurations (PT3).
+
+
+## Discussion & Theoretical Contributions
+
+---
+
+**Relational Character Matters:**
+
+* Building persistence is governed by the **character of surrounding plot structures**, not just individual plot dimensions in isolation.
+
+---
+
+**Mechanisms of Resistance:**
+
+* Fine-grained subdivisions distribute control among many owners.
+* Amalgamating fine plots requires higher financial, legal, and organizational effort, constraining rapid redevelopment.
+
+---
+
+**Urban Form Resilience:**
+
+* Fine-grained patterns spread risk and support incremental, adaptive evolution, whereas coarse-grained patterns favor large-scale replacement.
+
+## Implications for Design & Planning
+
+---
+
+**Preservation Strategies:**
+
+* To protect urban character and heritage, policies should enforce or preserve fine-grained land subdivisions (PT3).
+
+---
+
+**Targeted Urban Renewal:**
+
+* Where high density or rapid transformation is desired, establishing or facilitating broader/coarser plot subdivisions (PT4) lowers friction for development.
+
+---
+
+**Re-establishing the "Art of Subdivision":**
+
+* Strategic subdivision rules can balance character preservation with dynamic adaptability.
+
+
+## Limitations & Future Directions
+
+
+---
+
+**Spatial Constraints:** 
+
+* Focused on central grid areas; future studies should examine suburban, historical medieval, and informal contexts.
+
+---
+
+**Variable Expansion:** 
+
+* Incorporate metrics measuring plot heterogeneity/diversity within accessible reach.
+
+---
+
+**Multi-scalar Analysis:** 
+
+* Test configurational plot access across multiple catchment radii (e.g., 200m, 800m, 1200m).
+
+
+## Conclusion
+
+**Plots as Frameworks:** 
+
+* Plot patterns act as active structural frameworks that guide long-term urban evolution.
+
+---
+
+**Empirical Validation:** 
+
+* Provided quantitative, multi-city, diachronic evidence linking plot structures to physical change over two centuries.
+
+---
+
+**Evidence-Based Planning:**
+
+* Offers actionable morphometric metrics to inform land subdivision policy and urban resilience planning.
+
+# End
+
+---
+
+
+![](../figures/reading/Screenshot%202026-10-20%20at%2011.15.58.png)
+
+### What do you think about the methods? {.question}
+
+### Can we do that in Prague? What would be the outcome? {.question}
