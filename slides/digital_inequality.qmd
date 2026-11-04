@@ -211,6 +211,8 @@ To give saliency to the emergent clusters, these were provided with labels, writ
 External evaluation: digital differentiation and 2021 UK census online response rates
 :::
 
+---
+
 ![](../figures/reading/Screenshot%202026-11-03%20at%2015.59.15.png){fig-align="center"}
 
 ---
@@ -302,4 +304,5 @@ data products as a part of the publication
 ## Next one
 
 December 2 - Ashfa
+
 Circulate the paper by November 18
