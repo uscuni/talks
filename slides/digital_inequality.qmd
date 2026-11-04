@@ -1,0 +1,305 @@
+---
+title: "Mapping the geodemographics of digital inequality in Great Britain"
+subtitle: "An integration of machine learning into small area estimation"
+author: "Alex Singleton, Alexandros Alexiou, Rahul Savani"
+institute: "University of Liverpool"
+# date: "2024"
+format:
+    revealjs:
+        theme: [default, ../assets/reveal.scss]
+        logo: ../assets/icon.svg
+        menu: false
+        transition: fade
+        navigation-mode: linear
+        controls-layout: edges
+        progress: true
+        include-in-header:
+            - ../assets/font.html
+            - text: |
+                <style>
+                #title-slide .title {
+                    font-size: 50px;
+                }
+                </style>
+        # title-slide-attributes:
+        #     data-background-image: ../assets/full_logo.svg
+        #     data-background-size: 20%
+        #     data-background-position: 50% 90%
+        max-scale: 10
+---
+
+![](../figures/reading/Screenshot%202026-11-03%20at%2015.56.25.png){fig-align="center"}
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+Digital inequality is observable where access to online resources and those opportunities that these create are **non-egalitarian**. 
+:::
+
+<!-- ::: {.aside}
+defining the topic
+::: -->
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+
+\[...\], this leads to **digital differentiation**, which entrenches difference and reciprocates digital inequality over time.
+
+:::
+
+
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+
+Beyond variability in access, for those who do connect, digital inequality **manifests across a range of engagement activities**, for instance in terms of social network use or online shopping
+
+:::
+
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+
+Given such social and economic imperatives of mitigating digital inequality, there is **significant need for better data** that delivers necessary information to enable investments to be targeted or evaluated.
+
+:::
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+
+The interrelated factors that produce digital inequalities are **highly dimensional** and lend themselves to study through **compound and multidimensional indicators**.
+
+:::
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+Within such contexts, **geodemographics** has a legacy of successful application.
+:::
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+In general terms, a geodemographic classification is created by **assembling a wide range of measures** that describe the characteristics of areas and/or those people living within them, and then, through the implementation of unsupervised learning (clustering), **identifies groups of areas that share common characteristics**.
+:::
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+
+The objective of this paper is therefore to develop **a nationwide geodemographic classification** that provides insight into the **geography of digital inequality**.
+:::
+
+---
+
+![](../figures/reading/Screenshot%202026-11-03%20at%2015.56.35.png){fig-align="center"}
+
+---
+
+![](../figures/reading/Screenshot%202026-11-03%20at%2015.56.42.png){fig-align="center"}
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+Direct measures of online consumption (consumer records)
+:::
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+Direct measures of servicing fixed infrastructure (broadband)
+:::
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+Small area estimation of Internet user behaviour using supervised machine learning
+:::
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+The **British Population Survey** (BPS) is a commercial survey with a monthly historical time series that dates back to January 2008. The BPS provides **a representative sample** of responses to a variety of questions concerning the socio-economic, demographic and consumer characteristics
+:::
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+Because the aim was to gather a set of measures with **coverage for all areas** within GB rather than just a sample, simply pooling national survey data alone would **not meet this objective**.
+:::
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+Small Area Estimation
+:::
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+Statistical or regression-based approaches to small-area estimation are **trained on those areas where survey data are available**. The resulting models are then **applied to all small areas** using a set of explanatory variables.
+:::
+
+---
+
+![](../figures/reading/Screenshot%202026-11-03%20at%2015.56.52.png){fig-align="center"}
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+Maps of these attributes might derive insight, but consolidating information from so many different variables and their geographic representation would **challenge human interpretability**.
+:::
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+Geodemographic classification tends to follow a reasonably standard process of applying a **clustering technique** (typically k-means or wards clustering) **to group small areas based on feature similarity**.
+:::
+
+---
+
+![](../figures/reading/Screenshot%202026-11-03%20at%2015.57.06.png){fig-align="center"}
+
+
+---
+
+![](../figures/reading/Screenshot%202026-11-03%20at%2015.57.50.png){fig-align="center"}
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+To better understand the **robustness** of the created cluster assignments, a set of statistics were calculated to **contextualise the fit for each area**.
+:::
+
+---
+
+![](../figures/reading/Screenshot%202026-11-03%20at%2015.57.30.png){fig-align="center"}
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+To give saliency to the emergent clusters, these were provided with labels, written **“pen portraits”** and graphics.
+:::
+
+---
+
+![](../figures/reading/Screenshot%202026-11-03%20at%2015.58.05.png){fig-align="center"}
+
+---
+
+![](../figures/reading/Screenshot%202026-11-03%20at%2015.58.13.png){fig-align="center"}
+
+---
+
+![](../figures/reading/Screenshot%202026-11-03%20at%2015.58.23.png){fig-align="center"}
+
+---
+
+![](../figures/reading/Screenshot%202026-11-03%20at%2015.58.48.png){fig-align="center"}
+
+---
+
+![](../figures/reading/Screenshot%202026-11-03%20at%2015.58.57.png){fig-align="center"}
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+External evaluation: digital differentiation and 2021 UK census online response rates
+:::
+
+![](../figures/reading/Screenshot%202026-11-03%20at%2015.59.15.png){fig-align="center"}
+
+---
+
+![](../figures/reading/Screenshot%202026-11-03%20at%2015.59.25.png){fig-align="center"}
+
+---
+
+![](../figures/reading/Screenshot%202026-11-03%20at%2015.59.33.png){fig-align="center"}
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+For the public sector, where services are increasingly delivered online, such differences can result in variable take-up of opportunities and negative social impact.
+:::
+
+---
+
+![](../figures/reading/Screenshot%202026-11-03%20at%2016.37.08.png){fig-align="center"}
+
+---
+
+![](../figures/reading/Screenshot%202026-11-03%20at%2016.38.36.png){fig-align="center"}
+
+# Discussion
+
+## General thoughts
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+ethics of geodemographics
+:::
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+how quickly does it get outdated?
+:::
+
+
+
+## Structure
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+literature review distributed across the paper
+:::
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+limited synthesis
+:::
+
+
+## Methods
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+data biases
+:::
+
+
+---
+
+
+::: {.r-fit-text .absolute top=39%}
+gap filling using small area estimation
+:::
+
+---
+
+::: {.r-fit-text .absolute top=39%}
+clustering vs index
+:::
+
+## Outputs
+
+---
+
+
+::: {.r-fit-text .absolute top=39%}
+data products as a part of the publication
+:::
+
+## Next one
+
+December 2 - Ashfa
+Circulate the paper by November 18
