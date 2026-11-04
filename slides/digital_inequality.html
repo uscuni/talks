@@ -9,8 +9,8 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-d4d76bf8491c20bad77d141916dc28e1.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.6.43">
 
-  <meta name="author" content="Onur Tümtürk, Justyna Karakiewicz, Fjalar J. de Haan">
-  <title>Talks – Measuring the Impact of Plot Types on Physical Change</title>
+  <meta name="author" content="Alex Singleton, Alexandros Alexiou, Rahul Savani">
+  <title>Talks – Mapping the geodemographics of digital inequality in Great Britain</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -136,334 +136,283 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Measuring the Impact of Plot Types on Physical Change</h1>
-  <p class="subtitle">A Diachronic Analysis of Urban Form Evolution in New York, Melbourne, and Barcelona</p>
+  <h1 class="title">Mapping the geodemographics of digital inequality in Great Britain</h1>
+  <p class="subtitle">An integration of machine learning into small area estimation</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Onur Tümtürk, Justyna Karakiewicz, Fjalar J. de Haan 
+Alex Singleton, Alexandros Alexiou, Rahul Savani 
 </div>
         <p class="quarto-title-affiliation">
-            The University of Melbourne
+            University of Liverpool
           </p>
     </div>
 </div>
 
 </section>
-<section id="introduction-research-gap" class="slide level2">
-<h2>Introduction &amp; Research Gap</h2>
-</section>
-<section class="slide level2">
-
-<p><strong>Urban Form as Active Determinant:</strong> Urban form constrains or facilitates how cities adapt to environmental and social disturbances.</p>
-</section>
-<section class="slide level2">
-
-<p><strong>Understudied Element:</strong> Plots are acknowledged as fundamental morphological units, yet remain the least studied aspect of urban form.</p>
-</section>
-<section class="slide level2">
-
-<h3 id="methodological-gap">Methodological Gap</h3>
-<ul>
-<li>Historical studies are qualitative and rely on isolated geometric measures (size, shape).</li>
-<li>95% of recent quantitative studies are <strong>synchronic</strong> (single timeframe).</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<h3 id="research-aim">Research Aim</h3>
-<blockquote>
-<p>Investigate the diachronic relationship between multi-variable plot typologies and patterns of physical building change across nearly two centuries.</p>
-</blockquote>
-</section>
-<section id="theoretical-background-hypotheses" class="slide level2">
-<h2>Theoretical Background &amp; Hypotheses</h2>
-</section>
-<section class="slide level2">
-
-<h3 id="geometric-vs.-configurational-approaches">Geometric vs.&nbsp;Configurational Approaches</h3>
-<ul>
-<li><strong>Geometric:</strong> Measures individual plot properties in isolation (e.g., plot area, individual frontage).</li>
-<li><strong>Configurational:</strong> Measures the relational properties of <strong>plot structures</strong> within an accessible catchment (e.g., 400m walking reach).</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<h3 id="key-morphological-hypothesis">Key Morphological Hypothesis</h3>
-<ul>
-<li><strong>Fine-grained, narrow, compact plot patterns</strong> foster distributed control among diverse actors, increasing transaction costs/efforts for parcel amalgamation and resulting in <strong>higher resistance to physical building replacement</strong>.</li>
-<li><strong>Coarse-grained, broad plot patterns</strong> lower transformation friction, accelerating building demolition and replacement.</li>
-</ul>
-</section>
-<section id="case-studies-data-framework" class="slide level2">
-<h2>Case Studies &amp; Data Framework</h2>
-</section>
-<section class="slide level2">
-
-<h3 id="comparative-case-studies-2.5-km²-central-grids-400m-buffer">Comparative Case Studies (2.5 km² central grids + 400m buffer)</h3>
-<ol type="1">
-<li><strong>New York (Midtown):</strong> Established grid with intense vertical &amp; horizontal transformation.</li>
-<li><strong>Melbourne (CBD):</strong> Large block structure with rapid coarsening over time.</li>
-<li><strong>Barcelona (Eixample):</strong> Octagonal block structures with chamfered corners.</li>
-</ol>
-</section>
 <section class="slide level2">
 
 
-<img data-src="../figures/reading/Screenshot 2026-10-20 at 11.06.43.png" class="r-stretch"></section>
+<img data-src="../figures/reading/Screenshot 2026-11-03 at 15.56.25.png" class="quarto-figure quarto-figure-center r-stretch"></section>
 <section class="slide level2">
 
-<h3 id="temporal-boundaries-4050-year-intervals">Temporal Boundaries (~40–50 year intervals)</h3>
-<ul>
-<li><strong>Timeframes:</strong> Late 1800s (<span class="math inline">\(T_1\)</span>), Early 1900s (<span class="math inline">\(T_2\)</span>), Mid-1900s (<span class="math inline">\(T_3\)</span>), 2000s (<span class="math inline">\(T_4\)</span>).</li>
-<li><strong>Data Sources:</strong> Georeferenced historical maps, cadastral plans, and digital databases vectorized in QGIS.</li>
-</ul>
+<div class="r-fit-text absolute" style="top: 39%; ">
+<p>Digital inequality is observable where access to online resources and those opportunities that these create are <strong>non-egalitarian</strong>.</p>
+</div>
+<!-- ::: {.aside}
+defining the topic
+::: -->
 </section>
-<section id="methodological-workflow" class="slide level2">
-<h2>Methodological Workflow</h2>
-<ol type="1">
-<li>Vectorize Historical GIS Data</li>
-<li>Compute Configurational Plot Variables (400m Reach)</li>
-<li><span class="math inline">\(k\)</span>-means Cluster Analysis</li>
-<li>Pearson’s Chi-Square Test</li>
-</ol>
+<section class="slide level2">
+
+<div class="r-fit-text absolute" style="top: 39%; ">
+<p>[…], this leads to <strong>digital differentiation</strong>, which entrenches difference and reciprocates digital inequality over time.</p>
+</div>
 </section>
-<section id="configurational-variables-defined" class="slide level2">
-<h2>Configurational Variables Defined</h2>
-<div style="font-size: 0.5em;">
-<table class="caption-top">
-<colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Metric</th>
-<th style="text-align: left;">Code</th>
-<th style="text-align: left;">Morphological Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><strong>Accessible Plot Density</strong></td>
-<td style="text-align: left;"><span class="math inline">\(\text{APD}\)</span></td>
-<td style="text-align: left;">Total number of accessible plots within 400m reach. Captures urban grain fineness.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Accessible Plot Frontage</strong></td>
-<td style="text-align: left;"><span class="math inline">\(\text{APF}\)</span></td>
-<td style="text-align: left;">Cumulative street frontage length divided by cumulative plot perimeter. Captures narrowness vs.&nbsp;broadness.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>Accessible Plot Compactness</strong></td>
-<td style="text-align: left;"><span class="math inline">\(\text{APC}\)</span></td>
-<td style="text-align: left;">Cumulative plot area divided by cumulative minimum bounding rectangle area. Captures shape regularity.</td>
-</tr>
-</tbody>
-</table>
-<p><span class="math display">\[\text{Physical Change} = \begin{cases} 1 &amp; \text{Building Demolition or Construction} \\ 0 &amp; \text{Building Persistence} \end{cases}\]</span></p>
+<section class="slide level2">
+
+<div class="r-fit-text absolute" style="top: 39%; ">
+<p>Beyond variability in access, for those who do connect, digital inequality <strong>manifests across a range of engagement activities</strong>, for instance in terms of social network use or online shopping</p>
+</div>
+</section>
+<section class="slide level2">
+
+<div class="r-fit-text absolute" style="top: 39%; ">
+<p>Given such social and economic imperatives of mitigating digital inequality, there is <strong>significant need for better data</strong> that delivers necessary information to enable investments to be targeted or evaluated.</p>
+</div>
+</section>
+<section class="slide level2">
+
+<div class="r-fit-text absolute" style="top: 39%; ">
+<p>The interrelated factors that produce digital inequalities are <strong>highly dimensional</strong> and lend themselves to study through <strong>compound and multidimensional indicators</strong>.</p>
+</div>
+</section>
+<section class="slide level2">
+
+<div class="r-fit-text absolute" style="top: 39%; ">
+<p>Within such contexts, <strong>geodemographics</strong> has a legacy of successful application.</p>
+</div>
+</section>
+<section class="slide level2">
+
+<div class="r-fit-text absolute" style="top: 39%; ">
+<p>In general terms, a geodemographic classification is created by <strong>assembling a wide range of measures</strong> that describe the characteristics of areas and/or those people living within them, and then, through the implementation of unsupervised learning (clustering), <strong>identifies groups of areas that share common characteristics</strong>.</p>
+</div>
+</section>
+<section class="slide level2">
+
+<div class="r-fit-text absolute" style="top: 39%; ">
+<p>The objective of this paper is therefore to develop <strong>a nationwide geodemographic classification</strong> that provides insight into the <strong>geography of digital inequality</strong>.</p>
 </div>
 </section>
 <section class="slide level2">
 
 
-<img data-src="../figures/reading/Screenshot 2026-10-20 at 11.08.46.png" class="r-stretch"></section>
+<img data-src="../figures/reading/Screenshot 2026-11-03 at 15.56.35.png" class="quarto-figure quarto-figure-center r-stretch"></section>
 <section class="slide level2">
 
 
-<img data-src="../figures/reading/Screenshot 2026-10-20 at 11.08.57.png" class="r-stretch"></section>
-<section id="the-four-plot-typologies" class="slide level2">
-<h2>The Four Plot Typologies</h2>
-<p>Clusters derived from <span class="math inline">\(k\)</span>-means analysis across all case studies:</p>
-<div style="font-size: 0.5em;">
-<ol type="1">
-<li><strong>PT1 (Medium-Grain / Medium-Front / Medium-Compact):</strong>
-<ul>
-<li>Average accessibility, deeper plots, relatively irregular subdivision shapes.</li>
-</ul></li>
-<li><strong>PT2 (Medium-Grain / Medium-Front / Compact):</strong>
-<ul>
-<li>Transitional type; higher accessibility than PT1, regular and highly compact.</li>
-</ul></li>
-<li><strong>PT3 (Fine-Grain / Narrow-Front / Compact):</strong>
-<ul>
-<li>Highest plot accessibility, narrow street frontages, small regular plots (<em>Fine-grain par excellence</em>).</li>
-</ul></li>
-<li><strong>PT4 (Coarse-Grain / Broad-Front / Medium-Compact):</strong>
-<ul>
-<li>Lowest plot density, expansive street frontages, often occupying full/half urban blocks.</li>
-</ul></li>
-</ol>
+<img data-src="../figures/reading/Screenshot 2026-11-03 at 15.56.42.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section class="slide level2">
+
+<div class="r-fit-text absolute" style="top: 39%; ">
+<p>Direct measures of online consumption (consumer records)</p>
+</div>
+</section>
+<section class="slide level2">
+
+<div class="r-fit-text absolute" style="top: 39%; ">
+<p>Direct measures of servicing fixed infrastructure (broadband)</p>
+</div>
+</section>
+<section class="slide level2">
+
+<div class="r-fit-text absolute" style="top: 39%; ">
+<p>Small area estimation of Internet user behaviour using supervised machine learning</p>
+</div>
+</section>
+<section class="slide level2">
+
+<div class="r-fit-text absolute" style="top: 39%; ">
+<p>The <strong>British Population Survey</strong> (BPS) is a commercial survey with a monthly historical time series that dates back to January 2008. The BPS provides <strong>a representative sample</strong> of responses to a variety of questions concerning the socio-economic, demographic and consumer characteristics</p>
+</div>
+</section>
+<section class="slide level2">
+
+<div class="r-fit-text absolute" style="top: 39%; ">
+<p>Because the aim was to gather a set of measures with <strong>coverage for all areas</strong> within GB rather than just a sample, simply pooling national survey data alone would <strong>not meet this objective</strong>.</p>
+</div>
+</section>
+<section class="slide level2">
+
+<div class="r-fit-text absolute" style="top: 39%; ">
+<p>Small Area Estimation</p>
+</div>
+</section>
+<section class="slide level2">
+
+<div class="r-fit-text absolute" style="top: 39%; ">
+<p>Statistical or regression-based approaches to small-area estimation are <strong>trained on those areas where survey data are available</strong>. The resulting models are then <strong>applied to all small areas</strong> using a set of explanatory variables.</p>
 </div>
 </section>
 <section class="slide level2">
 
 
-<img data-src="../figures/reading/Screenshot 2026-10-20 at 11.09.17.png" class="r-stretch"></section>
-<section id="evolution-across-time-and-space" class="slide level2">
-<h2>Evolution Across Time and Space</h2>
+<img data-src="../figures/reading/Screenshot 2026-11-03 at 15.56.52.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section class="slide level2">
+
+<div class="r-fit-text absolute" style="top: 39%; ">
+<p>Maps of these attributes might derive insight, but consolidating information from so many different variables and their geographic representation would <strong>challenge human interpretability</strong>.</p>
+</div>
 </section>
 <section class="slide level2">
 
-<h3 id="new-york-midtown">New York (Midtown)</h3>
-<ul>
-<li>Transitioned from <strong>PT3 dominant</strong> (88.2% in <span class="math inline">\(T_1\)</span>) to a mix dominated by PT2 and coarse-grained PT4 (26.2% by <span class="math inline">\(T_4\)</span>).</li>
-</ul>
-</section>
-<section class="slide level2">
-
-
-<img data-src="../figures/reading/Screenshot 2026-10-20 at 11.09.53.png" class="r-stretch"></section>
-<section class="slide level2">
-
-<h3 id="melbourne-cbd">Melbourne (CBD)</h3>
-<ul>
-<li>Rapid transformation from PT2/PT1 towards coarse-grained PT4 (82.9% by <span class="math inline">\(T_3\)</span>).</li>
-<li>By <span class="math inline">\(T_4\)</span>, transformed into a <strong>homogenous coarse-grained plot structure</strong> (100% PT4).</li>
-</ul>
+<div class="r-fit-text absolute" style="top: 39%; ">
+<p>Geodemographic classification tends to follow a reasonably standard process of applying a <strong>clustering technique</strong> (typically k-means or wards clustering) <strong>to group small areas based on feature similarity</strong>.</p>
+</div>
 </section>
 <section class="slide level2">
 
 
-<img data-src="../figures/reading/Screenshot 2026-10-20 at 11.10.03.png" class="r-stretch"></section>
-<section class="slide level2">
-
-<h3 id="barcelona-eixample">Barcelona (Eixample)</h3>
-<ul>
-<li><strong>Remarkably persistent:</strong> Maintained over <strong>99% PT1</strong> across all four time periods. Physical changes were accommodated <em>within existing plot boundaries</em> without parcel amalgamation.</li>
-</ul>
-</section>
+<img data-src="../figures/reading/Screenshot 2026-11-03 at 15.57.06.png" class="quarto-figure quarto-figure-center r-stretch"></section>
 <section class="slide level2">
 
 
-<img data-src="../figures/reading/Screenshot 2026-10-20 at 11.10.11.png" class="r-stretch"></section>
-<section id="key-finding-plot-types-vs.-physical-change" class="slide level2">
-<h2>Key Finding: Plot Types vs.&nbsp;Physical Change</h2>
-<p>A Pearson’s chi-square test of independence confirmed a <strong>statistically significant relationship</strong> (<span class="math inline">\(\chi^2 = 360.57, p &lt; 0.001\)</span>).</p>
+<img data-src="../figures/reading/Screenshot 2026-11-03 at 15.57.50.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section class="slide level2">
+
+<div class="r-fit-text absolute" style="top: 39%; ">
+<p>To better understand the <strong>robustness</strong> of the created cluster assignments, a set of statistics were calculated to <strong>contextualise the fit for each area</strong>.</p>
+</div>
 </section>
 <section class="slide level2">
 
 
-<img data-src="../figures/reading/Screenshot 2026-10-20 at 11.15.38.png" class="r-stretch"></section>
+<img data-src="../figures/reading/Screenshot 2026-11-03 at 15.57.30.png" class="quarto-figure quarto-figure-center r-stretch"></section>
 <section class="slide level2">
 
-<h3 id="core-conclusion">Core Conclusion:</h3>
-<blockquote>
-<p>Coarse-grained, broad plot configurations (PT4) are <strong>nearly 50% more susceptible</strong> to physical building demolition and replacement compared to fine-grained, narrow configurations (PT3).</p>
-</blockquote>
-</section>
-<section id="discussion-theoretical-contributions" class="slide level2">
-<h2>Discussion &amp; Theoretical Contributions</h2>
+<div class="r-fit-text absolute" style="top: 39%; ">
+<p>To give saliency to the emergent clusters, these were provided with labels, written <strong>“pen portraits”</strong> and graphics.</p>
+</div>
 </section>
 <section class="slide level2">
 
-<p><strong>Relational Character Matters:</strong></p>
-<ul>
-<li>Building persistence is governed by the <strong>character of surrounding plot structures</strong>, not just individual plot dimensions in isolation.</li>
-</ul>
+
+<img data-src="../figures/reading/Screenshot 2026-11-03 at 15.58.05.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section class="slide level2">
+
+
+<img data-src="../figures/reading/Screenshot 2026-11-03 at 15.58.13.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section class="slide level2">
+
+
+<img data-src="../figures/reading/Screenshot 2026-11-03 at 15.58.23.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section class="slide level2">
+
+
+<img data-src="../figures/reading/Screenshot 2026-11-03 at 15.58.48.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section class="slide level2">
+
+
+<img data-src="../figures/reading/Screenshot 2026-11-03 at 15.58.57.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section class="slide level2">
+
+<div class="r-fit-text absolute" style="top: 39%; ">
+<p>External evaluation: digital differentiation and 2021 UK census online response rates</p>
+</div>
+
+<img data-src="../figures/reading/Screenshot 2026-11-03 at 15.59.15.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section class="slide level2">
+
+
+<img data-src="../figures/reading/Screenshot 2026-11-03 at 15.59.25.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section class="slide level2">
+
+
+<img data-src="../figures/reading/Screenshot 2026-11-03 at 15.59.33.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section class="slide level2">
+
+<div class="r-fit-text absolute" style="top: 39%; ">
+<p>For the public sector, where services are increasingly delivered online, such differences can result in variable take-up of opportunities and negative social impact.</p>
+</div>
 </section>
 <section class="slide level2">
 
-<p><strong>Mechanisms of Resistance:</strong></p>
-<ul>
-<li>Fine-grained subdivisions distribute control among many owners.</li>
-<li>Amalgamating fine plots requires higher financial, legal, and organizational effort, constraining rapid redevelopment.</li>
-</ul>
-</section>
+
+<img data-src="../figures/reading/Screenshot 2026-11-03 at 16.37.08.png" class="quarto-figure quarto-figure-center r-stretch"></section>
 <section class="slide level2">
 
-<p><strong>Urban Form Resilience:</strong></p>
-<ul>
-<li>Fine-grained patterns spread risk and support incremental, adaptive evolution, whereas coarse-grained patterns favor large-scale replacement.</li>
-</ul>
-</section>
-<section id="implications-for-design-planning" class="slide level2">
-<h2>Implications for Design &amp; Planning</h2>
-</section>
-<section class="slide level2">
 
-<p><strong>Preservation Strategies:</strong></p>
-<ul>
-<li>To protect urban character and heritage, policies should enforce or preserve fine-grained land subdivisions (PT3).</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<p><strong>Targeted Urban Renewal:</strong></p>
-<ul>
-<li>Where high density or rapid transformation is desired, establishing or facilitating broader/coarser plot subdivisions (PT4) lowers friction for development.</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<p><strong>Re-establishing the “Art of Subdivision”:</strong></p>
-<ul>
-<li>Strategic subdivision rules can balance character preservation with dynamic adaptability.</li>
-</ul>
-</section>
-<section id="limitations-future-directions" class="slide level2">
-<h2>Limitations &amp; Future Directions</h2>
-</section>
-<section class="slide level2">
-
-<p><strong>Spatial Constraints:</strong></p>
-<ul>
-<li>Focused on central grid areas; future studies should examine suburban, historical medieval, and informal contexts.</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<p><strong>Variable Expansion:</strong></p>
-<ul>
-<li>Incorporate metrics measuring plot heterogeneity/diversity within accessible reach.</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<p><strong>Multi-scalar Analysis:</strong></p>
-<ul>
-<li>Test configurational plot access across multiple catchment radii (e.g., 200m, 800m, 1200m).</li>
-</ul>
-</section>
-<section id="conclusion" class="slide level2">
-<h2>Conclusion</h2>
-<p><strong>Plots as Frameworks:</strong></p>
-<ul>
-<li>Plot patterns act as active structural frameworks that guide long-term urban evolution.</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<p><strong>Empirical Validation:</strong></p>
-<ul>
-<li>Provided quantitative, multi-city, diachronic evidence linking plot structures to physical change over two centuries.</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<p><strong>Evidence-Based Planning:</strong></p>
-<ul>
-<li>Offers actionable morphometric metrics to inform land subdivision policy and urban resilience planning.</li>
-</ul>
-</section>
+<img data-src="../figures/reading/Screenshot 2026-11-03 at 16.38.36.png" class="quarto-figure quarto-figure-center r-stretch"></section>
 <section>
-<section id="end" class="title-slide slide level1 center">
-<h1>End</h1>
+<section id="discussion" class="title-slide slide level1 center">
+<h1>Discussion</h1>
 
+</section>
+<section id="general-thoughts" class="slide level2">
+<h2>General thoughts</h2>
 </section>
 <section class="slide level2">
 
-
-<img data-src="../figures/reading/Screenshot 2026-10-20 at 11.15.58.png" class="r-stretch"></section>
-<section class="slide level2">
-
-<h3 class="question" id="what-do-you-think-about-the-methods">What do you think about the methods?</h3>
+<div class="r-fit-text absolute" style="top: 39%; ">
+<p>ethics of geodemographics</p>
+</div>
 </section>
 <section class="slide level2">
 
-<h3 class="question" id="can-we-do-that-in-prague-what-would-be-the-outcome">Can we do that in Prague? What would be the outcome?</h3>
+<div class="r-fit-text absolute" style="top: 39%; ">
+<p>how quickly does it get outdated?</p>
+</div>
+</section>
+<section id="structure" class="slide level2">
+<h2>Structure</h2>
+</section>
+<section class="slide level2">
+
+<div class="r-fit-text absolute" style="top: 39%; ">
+<p>literature review distributed across the paper</p>
+</div>
+</section>
+<section class="slide level2">
+
+<div class="r-fit-text absolute" style="top: 39%; ">
+<p>limited synthesis</p>
+</div>
+</section>
+<section id="methods" class="slide level2">
+<h2>Methods</h2>
+</section>
+<section class="slide level2">
+
+<div class="r-fit-text absolute" style="top: 39%; ">
+<p>data biases</p>
+</div>
+</section>
+<section class="slide level2">
+
+<div class="r-fit-text absolute" style="top: 39%; ">
+<p>gap filling using small area estimation</p>
+</div>
+</section>
+<section class="slide level2">
+
+<div class="r-fit-text absolute" style="top: 39%; ">
+<p>clustering vs index</p>
+</div>
+</section>
+<section id="outputs" class="slide level2">
+<h2>Outputs</h2>
+</section>
+<section class="slide level2">
+
+<div class="r-fit-text absolute" style="top: 39%; ">
+<p>data products as a part of the publication</p>
+</div>
+</section>
+<section id="next-one" class="slide level2">
+<h2>Next one</h2>
+<p>December 2 - Ashfa Circulate the paper by November 18</p>
 
 
 </section></section>
